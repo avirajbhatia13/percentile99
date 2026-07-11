@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Percentile99 · CAT Prep OS</title>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <style>
 :root{
   color-scheme: light;
@@ -393,12 +394,13 @@ textarea.imp{width:100%;min-height:90px;border:1px solid var(--line);border-radi
     <div class="frow"><label>Start date</label><input type="date" id="cfg-start"></div>
     <div class="preview" id="preview"></div>
   </div>
-  <div class="pcard"><h3>🗄️ Data</h3>
+  <div class="pcard" id="authcard"></div>
+<div class="pcard"><h3>🗄️ Data</h3>
     <div class="frow">
       <button class="pill" id="cfg-reset">Reset plan to defaults</button>
       <button class="pill" id="wipe" style="color:var(--bad)">Erase ALL progress on this device</button>
     </div>
-    <div class="hint">Everything is stored locally on this device. Google sign-in & cloud sync arrive when this ships as a hosted website.</div>
+    <div class="hint">Signed-in users sync automatically to the cloud. "Erase" clears this device only — your cloud data survives and returns on next sign-in.</div>
   </div>
 </div>
 </div>
@@ -459,8 +461,69 @@ textarea.imp{width:100%;min-height:90px;border:1px solid var(--line);border-radi
 <div class="toast" id="toast"></div>
 
 <script>
+const SUPA_URL="https://ebbqxinbxxdplpghvqhn.supabase.co";
+const SUPA_KEY="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImViYnF4aW5ieHhkcGxwZ2h2cWhuIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODM3ODE4MzYsImV4cCI6MjA5OTM1NzgzNn0.3fXnyz4U9NPlwNlh5uHYwHFwMg5O7o8Jka-83VmQFEM";
+window.__sb=null;window.__user=null;window.__cloud=null;
+const J=(k,f)=>{try{return JSON.parse(localStorage.getItem(k))||f}catch(e){return f}};
+async function __pullCloud(){
+  const sb=window.__sb,uid=window.__user.id;
+  const [pr,pg,st,nt,at,ip]=await Promise.all([
+    sb.from('profiles').select('*').eq('id',uid).maybeSingle(),
+    sb.from('progress').select('item_id,done_on'),
+    sb.from('stars').select('item_id'),
+    sb.from('notes').select('item_id,body'),
+    sb.from('attempts').select('detail').order('id'),
+    sb.from('imported_pyqs').select('q')
+  ]);
+  // merge: cloud wins for profile/config; union for granular data
+  const done=J('cat26_rodha_v1',{}),stars=J('cat26_rev',{}),notes=J('cat26_notes',{});
+  (pg.data||[]).forEach(r=>done[r.item_id]=r.done_on);
+  (st.data||[]).forEach(r=>stars[r.item_id]=true);
+  (nt.data||[]).forEach(r=>{if(!notes[r.item_id])notes[r.item_id]=r.body});
+  localStorage.setItem('cat26_rodha_v1',JSON.stringify(done));
+  localStorage.setItem('cat26_rev',JSON.stringify(stars));
+  localStorage.setItem('cat26_notes',JSON.stringify(notes));
+  const p=pr.data;
+  const prof=J('cat26_profile',{}),cfg=J('cat26_cfg',{});
+  if(p&&p.name){prof.name=p.name;prof.email=p.email||prof.email;prof.target=p.target||prof.target;
+    prof.hrsWeek=p.hrs_week||prof.hrsWeek;prof.planMode=p.plan_mode||prof.planMode;
+    cfg.slotMin=p.slot_min||cfg.slotMin;cfg.mode=p.slots||cfg.mode;
+    if(p.start_date)cfg.start=p.start_date;
+    localStorage.setItem('cat26_profile',JSON.stringify(prof));
+    localStorage.setItem('cat26_cfg',JSON.stringify(cfg));
+  }else{
+    // first login: seed name/email from Google identity
+    const m=window.__user.user_metadata||{};
+    if(!prof.name&&m.full_name){prof.name=m.full_name;prof.email=window.__user.email||"";
+      localStorage.setItem('cat26_profile',JSON.stringify(prof));}
+  }
+  const hist=J('cat26_tests',[]);
+  const cloudHist=(at.data||[]).map(r=>r.detail).filter(Boolean);
+  const key=h=>[h.date,h.n,h.score,h.secs].join('|');
+  const seen=new Set(hist.map(key));
+  cloudHist.forEach(h=>{if(!seen.has(key(h)))hist.push(h)});
+  hist.sort((a,b)=>(a.date||'').localeCompare(b.date||''));
+  localStorage.setItem('cat26_tests',JSON.stringify(hist));
+  const imp=J('cat26_pyqs',[]);
+  const impIds=new Set(imp.map(q=>q.id));
+  (ip.data||[]).forEach(r=>{if(r.q&&!impIds.has(r.q.id))imp.push(r.q)});
+  localStorage.setItem('cat26_pyqs',JSON.stringify(imp));
+  // snapshot of cloud state for diff pushes
+  window.__cloud={done:Object.fromEntries((pg.data||[]).map(r=>[r.item_id,r.done_on])),
+    stars:Object.fromEntries((st.data||[]).map(r=>[r.item_id,true])),
+    notes:Object.fromEntries((nt.data||[]).map(r=>[r.item_id,r.body])),
+    attempts:cloudHist.length? new Set(cloudHist.map(key)) : new Set(),
+    imported:new Set((ip.data||[]).map(r=>r.q&&r.q.id).filter(Boolean))};
+}
 async function __boot(){
   try{const r=await fetch('mocks.json');if(r.ok)MOCKS=await r.json()}catch(e){}
+  try{
+    if(window.supabase){
+      window.__sb=supabase.createClient(SUPA_URL,SUPA_KEY);
+      const {data}=await window.__sb.auth.getSession();
+      if(data&&data.session){window.__user=data.session.user;await __pullCloud();}
+    }
+  }catch(e){console.warn('auth init',e)}
   __main();
 }
 function __main(){
@@ -475,14 +538,62 @@ const load=(k,f)=>{try{return JSON.parse(localStorage.getItem(k))||f}catch(e){re
 let done=load(KEY,{}), notes=load(NKEY,{}), stars=load(RKEY,{}), cfg={...DEF,...load(CKEY,{})},
     hist=load(HKEY,[]), imported=load(PKEY,[]), prof=load(FKEY,{});
 prof.planMode=prof.planMode||"daily";
+/* ---- cloud sync (diff push, debounced) ---- */
+let __syncT=null,__syncBusy=false;
+function __sync(){if(!window.__user)return;clearTimeout(__syncT);__syncT=setTimeout(__push,1500)}
+async function __push(){
+  if(!window.__user||__syncBusy)return;__syncBusy=true;
+  try{
+    const sb=window.__sb,uid=window.__user.id,cs=window.__cloud||{done:{},stars:{},notes:{},attempts:new Set(),imported:new Set()};
+    const dU=[],dD=[];
+    for(const k in done){const v=typeof done[k]==="string"?done[k]:today();
+      if(cs.done[k]!==v)dU.push({user_id:uid,item_id:k,done_on:v})}
+    for(const k in cs.done)if(!(k in done))dD.push(k);
+    if(dU.length)await sb.from('progress').upsert(dU);
+    if(dD.length)await sb.from('progress').delete().eq('user_id',uid).in('item_id',dD);
+    const sU=[],sD=[];
+    for(const k in stars)if(!cs.stars[k])sU.push({user_id:uid,item_id:k});
+    for(const k in cs.stars)if(!stars[k])sD.push(k);
+    if(sU.length)await sb.from('stars').upsert(sU);
+    if(sD.length)await sb.from('stars').delete().eq('user_id',uid).in('item_id',sD);
+    const nU=[],nD=[];
+    for(const k in notes)if(cs.notes[k]!==notes[k])nU.push({user_id:uid,item_id:k,body:notes[k],updated_at:new Date().toISOString()});
+    for(const k in cs.notes)if(!(k in notes))nD.push(k);
+    if(nU.length)await sb.from('notes').upsert(nU);
+    if(nD.length)await sb.from('notes').delete().eq('user_id',uid).in('item_id',nD);
+    const hkey=h=>[h.date,h.n,h.score,h.secs].join('|');
+    const newA=hist.filter(h=>!cs.attempts.has(hkey(h)));
+    if(newA.length)await sb.from('attempts').insert(newA.map(h=>({user_id:uid,kind:h.kind==="mock"?"mock":"drill",
+      taken_on:h.date,n:h.n,score:h.score,correct:h.correct,wrong:h.wrong,skipped:h.skip,secs:h.secs,label:h.topics||"",detail:h})));
+    const newI=imported.filter(q=>!cs.imported.has(q.id));
+    if(newI.length)await sb.from('imported_pyqs').upsert(newI.map(q=>({user_id:uid,qid:q.id,q})));
+    await sb.from('profiles').upsert({id:uid,name:prof.name||"",email:prof.email||"",target:prof.target||"CAT 2026",
+      hrs_week:+prof.hrsWeek||30,plan_mode:prof.planMode,slot_min:cfg.slotMin,slots:cfg.mode,start_date:cfg.start,
+      theme:localStorage.getItem(TKEY)||"light",updated_at:new Date().toISOString()});
+    window.__cloud={done:Object.fromEntries(Object.entries(done).map(([k,v])=>[k,typeof v==="string"?v:today()])),
+      stars:{...stars},notes:{...notes},
+      attempts:new Set(hist.map(hkey)),imported:new Set(imported.map(q=>q.id))};
+  }catch(e){console.warn('sync',e);toast("Cloud sync failed — changes saved on this device")}
+  __syncBusy=false;
+}
+async function __signIn(){
+  if(!window.__sb)return toast("Auth not available — check connection");
+  const {error}=await window.__sb.auth.signInWithOAuth({provider:'google',options:{redirectTo:location.origin+location.pathname}});
+  if(error)toast("Google sign-in failed: "+error.message);
+}
+async function __signOut(){
+  if(window.__sb)await window.__sb.auth.signOut();
+  window.__user=null;window.__cloud=null;
+  toast("Signed out — data stays on this device");syncProfile();
+}
 let filter="all"; const openNotes=new Set();
-const save=()=>localStorage.setItem(KEY,JSON.stringify(done));
-const saveN=()=>localStorage.setItem(NKEY,JSON.stringify(notes));
-const saveR=()=>localStorage.setItem(RKEY,JSON.stringify(stars));
-const saveC=()=>localStorage.setItem(CKEY,JSON.stringify(cfg));
-const saveH=()=>localStorage.setItem(HKEY,JSON.stringify(hist));
-const saveP=()=>localStorage.setItem(PKEY,JSON.stringify(imported));
-const saveF=()=>localStorage.setItem(FKEY,JSON.stringify(prof));
+const save=()=>{localStorage.setItem(KEY,JSON.stringify(done));__sync()};
+const saveN=()=>{localStorage.setItem(NKEY,JSON.stringify(notes));__sync()};
+const saveR=()=>{localStorage.setItem(RKEY,JSON.stringify(stars));__sync()};
+const saveC=()=>{localStorage.setItem(CKEY,JSON.stringify(cfg));__sync()};
+const saveH=()=>{localStorage.setItem(HKEY,JSON.stringify(hist));__sync()};
+const saveP=()=>{localStorage.setItem(PKEY,JSON.stringify(imported));__sync()};
+const saveF=()=>{localStorage.setItem(FKEY,JSON.stringify(prof));__sync()};
 const fmt=s=>{const h=Math.floor(s/3600),m=Math.round(s%3600/60);return h?h+"h "+m+"m":m+" min"};
 const fmtv=s=>Math.floor(s/60)+":"+String(s%60).padStart(2,"0");
 const today=()=>new Date().toISOString().slice(0,10);
@@ -1082,6 +1193,20 @@ function syncProfile(){
   document.querySelectorAll("#pg-profile [data-mode]").forEach(b=>b.classList.toggle("act",+b.dataset.mode===cfg.mode));
   document.querySelectorAll("#pf-mode .pop").forEach(p=>p.classList.toggle("on",p.dataset.pm===prof.planMode));
   document.querySelectorAll("#pf-pace .pop").forEach(p=>p.classList.toggle("on",+p.dataset.pace===cfg.slotMin));
+  const ac=document.getElementById("authcard");
+  if(ac){
+    if(window.__user){const u=window.__user,m=u.user_metadata||{};
+      ac.innerHTML=`<h3>☁️ Account</h3><div class="frow" style="align-items:center">
+        ${m.avatar_url?`<img src="${m.avatar_url}" style="width:38px;height:38px;border-radius:50%" referrerpolicy="no-referrer">`:""}
+        <div style="flex:1"><b>${m.full_name||prof.name||"Signed in"}</b><div class="hint" style="margin:0">${u.email} · synced to cloud</div></div>
+        <button class="pill" id="signout">Sign out</button></div>`;
+      const so=document.getElementById("signout");if(so)so.onclick=__signOut;
+    }else{
+      ac.innerHTML=`<h3>☁️ Account</h3><div class="hint">You're in local mode — progress lives only on this device.</div>
+        <button class="gbtn" id="signin2" style="max-width:340px">Continue with Google</button>`;
+      const si=document.getElementById("signin2");if(si)si.onclick=__signIn;
+    }
+  }
 }
 ["pf-name","pf-email","pf-target","pf-hrs"].forEach(id=>{
   document.getElementById(id).onchange=e=>{
@@ -1119,7 +1244,7 @@ function onbStep(n){
     <button class="gbtn" id="gsign">${GS} Continue with Google</button>
     <div style="text-align:center;margin:10px 0;color:var(--faint);font-size:11px">or</div>
     <button class="gbtn" id="manual">Set up locally →</button>
-    <div class="onbnote">This preview runs fully on your device. Google sign-in &amp; cloud sync activate when the site is deployed to the web — your setup carries over.</div>`;
+    <div class="onbnote">Sign in with Google to sync your progress across devices — or set up locally and link Google later from Profile.</div>`;
   if(n===2)el.innerHTML=`<h1>About you</h1><div class="sub">Used to personalise your plan — editable anytime in Profile.</div>
     <div class="frow"><label>Name</label><input type="text" id="ob-name" placeholder="Your name" value="${prof.name||""}"></div>
     <div class="frow"><label>Email</label><input type="email" id="ob-email" placeholder="you@gmail.com" value="${prof.email||""}"></div>
@@ -1140,7 +1265,7 @@ function onbStep(n){
     <div class="preview" id="ob-prev"></div>
     <button class="gbtn" id="ob-done" style="margin-top:14px;background:var(--brand);color:#fff;border:none">Build my plan 🚀</button>`;
   // bindings
-  const g=document.getElementById("gsign");if(g)g.onclick=()=>{toast("Google sign-in arrives with the hosted version — setting up locally");onbStep(2)};
+  const g=document.getElementById("gsign");if(g)g.onclick=()=>__signIn();
   const mn=document.getElementById("manual");if(mn)mn.onclick=()=>onbStep(2);
   const nx=document.getElementById("ob-next");if(nx)nx.onclick=()=>{
     prof.name=document.getElementById("ob-name").value.trim()||"Aspirant";
