@@ -285,7 +285,88 @@ textarea.imp{width:100%;min-height:90px;border:1px solid var(--line);border-radi
 #copybox{width:100%;min-height:96px;margin:8px 0;font:12px ui-monospace,monospace;display:none;background:var(--card);color:var(--ink);border:1px solid var(--line);border-radius:11px;padding:10px}
 .toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(80px);background:var(--ink);color:var(--card);padding:10px 20px;border-radius:13px;font:600 13px inherit;transition:transform .3s;z-index:300}
 .toast.show{transform:translateX(-50%) translateY(0)}
-@media(max-width:680px){.hero{grid-template-columns:1fr}.ring{margin:0 auto}.palette{width:150px}.pgrid{grid-template-columns:repeat(3,1fr)}#calc{right:160px}.brand small{display:none}.nav{margin-left:4px}.nav button{padding:7px 9px;font-size:11.5px}}
+/* logout button */
+.pill.logout{display:block;width:100%;text-align:center;margin-top:10px;color:var(--bad);border-color:var(--bad-soft);font-weight:700}
+.pill.logout:hover{background:var(--bad-soft);border-color:var(--bad);color:var(--bad);transform:none}
+/* helpers */
+.mob-only{display:none!important}
+:focus-visible{outline:2px solid var(--b1);outline-offset:2px}
+/* mobile bottom nav */
+.botnav{position:fixed;left:0;right:0;bottom:0;z-index:40;display:none;
+  background:var(--head-bg);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);
+  border-top:1px solid var(--line2);padding:6px 6px calc(6px + env(safe-area-inset-bottom))}
+.botnav button{flex:1;border:0;background:transparent;display:flex;flex-direction:column;align-items:center;gap:3px;
+  padding:6px 2px;border-radius:13px;font:700 10px inherit;color:var(--mut);cursor:pointer;transition:.15s}
+.botnav button .bi{font-size:20px;line-height:1;transition:transform .18s;filter:grayscale(.35);opacity:.7}
+.botnav button.act{color:var(--b1)}
+.botnav button.act .bi{transform:translateY(-1px) scale(1.08);filter:none;opacity:1}
+
+/* ============ RESPONSIVE ============ */
+@media(max-width:900px){
+  .wrap,.topin{padding-left:16px;padding-right:16px}
+}
+@media(max-width:680px){
+  body{padding-bottom:78px}
+  .nav{display:none}
+  .botnav{display:flex}
+  .mob-only{display:inline-flex!important}
+  .topin{padding:9px 14px;gap:9px}
+  .brand{font-size:14px}
+  .wrap{padding:0 14px}
+  h2.ph{font-size:18px;margin:14px 0 3px}
+  /* hero */
+  .hero{grid-template-columns:1fr;padding:18px;gap:14px;border-radius:18px}
+  .ring{margin:0 auto}
+  /* segmented controls scroll instead of crowd */
+  .ctrl{gap:7px}
+  .seg{flex-wrap:nowrap;overflow-x:auto;max-width:100%;-webkit-overflow-scrolling:touch}
+  .seg::-webkit-scrollbar{display:none}
+  .seg button{white-space:nowrap}
+  /* larger tap targets */
+  .abtn{width:32px;height:32px;font-size:15px}
+  .vid{padding:8px 6px}
+  .vid input{width:20px;height:20px}
+  .pill{padding:9px 15px}
+  .dhead{padding:13px 14px}
+  /* profile forms stack vertically */
+  .frow{gap:6px}
+  .frow label{min-width:100%}
+  .frow input[type=text],.frow input[type=email],.frow input[type=number],.frow input[type=date]{min-width:0;width:100%}
+  .planopt{grid-template-columns:1fr}
+  .pcard{padding:16px}
+  /* study */
+  .sec2>.shead{padding:14px 16px;gap:11px}
+  .sico{width:40px;height:40px;font-size:17px}
+  .sname{font-size:14px}
+  /* ===== test overlay: mobile ===== */
+  .tbar{padding:8px 12px;gap:7px}
+  .tbar .ttl{font-size:12px}
+  .qpanel{padding:16px 14px}
+  .palette{position:fixed;left:0;right:0;bottom:0;width:auto;max-height:64vh;
+    border-left:none;border-top:1px solid var(--line);border-radius:20px 20px 0 0;
+    transform:translateY(107%);transition:transform .28s cubic-bezier(.2,.8,.2,1);
+    z-index:130;box-shadow:0 -12px 46px -12px rgba(0,0,0,.36)}
+  .palette.open{transform:translateY(0)}
+  .palette::before{content:"";display:block;width:42px;height:4px;border-radius:3px;
+    background:var(--line);margin:2px auto 12px}
+  .pgrid{grid-template-columns:repeat(6,1fr)}
+  .pbtn{font-size:13px}
+  .tfoot{padding:9px 12px 10px;gap:7px}
+  .tfoot .pill{flex:1 1 auto;text-align:center}
+  .tfoot .sp{display:none}
+  .tfoot #nextbtn{flex:1 1 100%;order:6}
+  /* calculator as centered bottom sheet */
+  #calc{right:auto;left:50%;bottom:88px;transform:translateX(-50%);width:calc(100% - 28px);max-width:320px;border-radius:20px}
+  #calc .cdisp{font-size:24px;min-height:44px}
+  #calc button{padding:15px 0;font-size:16px}
+}
+@media(max-width:680px){
+  .toast{bottom:92px}
+}
+@media(max-width:380px){
+  .botnav button{font-size:9px}
+  .brand small{display:none}
+}
 </style>
 </head>
 <body>
@@ -407,6 +488,14 @@ textarea.imp{width:100%;min-height:90px;border:1px solid var(--line);border-radi
 
 <div class="foot wrap">Built from the official Rodha playlists (469 lectures · 147.9 h) + 5 real CAT papers (391 PYQs).</div>
 
+<!-- mobile bottom nav -->
+<nav class="botnav" id="botnav">
+  <button data-p="home" class="act"><span class="bi">🏠</span>Home</button>
+  <button data-p="study"><span class="bi">📚</span>Study</button>
+  <button data-p="practice"><span class="bi">🎯</span>Practice</button>
+  <button data-p="profile"><span class="bi">👤</span>Profile</button>
+</nav>
+
 <!-- onboarding -->
 <div id="onb"><div class="onbwrap"><div class="onbcard">
   <div class="onblogo">99</div>
@@ -420,6 +509,7 @@ textarea.imp{width:100%;min-height:90px;border:1px solid var(--line);border-radi
     <span class="ttl">🎯 CAT Practice Test</span>
     <span class="timer" id="timer">--:--</span>
     <span style="flex:1"></span>
+    <button class="pill mob-only" id="palbtn">☰ Palette</button>
     <button class="pill" id="calcbtn">🧮 Calculator</button>
     <button class="pill" id="fsbtn">⛶ Fullscreen</button>
     <button class="pill" id="subbtn" style="background:var(--bad);border-color:var(--bad);color:#fff">Submit Test</button>
@@ -615,11 +705,19 @@ document.getElementById("theme").onclick=()=>setTheme(document.documentElement.d
 function go(p){
   document.querySelectorAll(".page").forEach(x=>x.classList.remove("act"));
   document.getElementById("pg-"+p).classList.add("act");
-  document.querySelectorAll("#nav button").forEach(b=>b.classList.toggle("act",b.dataset.p===p));
+  document.querySelectorAll("#nav button,#botnav button").forEach(b=>b.classList.toggle("act",b.dataset.p===p));
   window.scrollTo({top:0});
 }
-document.querySelectorAll("#nav button").forEach(b=>b.onclick=()=>go(b.dataset.p));
+document.querySelectorAll("#nav button,#botnav button").forEach(b=>b.onclick=()=>go(b.dataset.p));
 document.getElementById("avatar").onclick=()=>go("profile");
+/* mobile question-palette drawer */
+(function(){
+  const pal=document.querySelector(".palette"),pb=document.getElementById("palbtn");
+  if(pb&&pal){
+    pb.onclick=()=>pal.classList.toggle("open");
+    pal.addEventListener("click",e=>{if(e.target.closest(".pbtn"))pal.classList.remove("open")});
+  }
+})();
 
 /* scheduler */
 function pack(tr,cap){const arr=V(tr),slots=[];let cur=[],s=0;
@@ -1197,9 +1295,9 @@ function syncProfile(){
   if(ac){
     if(window.__user){const u=window.__user,m=u.user_metadata||{};
       ac.innerHTML=`<h3>☁️ Account</h3><div class="frow" style="align-items:center">
-        ${m.avatar_url?`<img src="${m.avatar_url}" style="width:38px;height:38px;border-radius:50%" referrerpolicy="no-referrer">`:""}
-        <div style="flex:1"><b>${m.full_name||prof.name||"Signed in"}</b><div class="hint" style="margin:0">${u.email} · synced to cloud</div></div>
-        <button class="pill" id="signout">Sign out</button></div>`;
+        ${m.avatar_url?`<img src="${m.avatar_url}" style="width:42px;height:42px;border-radius:50%;flex:none" referrerpolicy="no-referrer">`:""}
+        <div style="flex:1;min-width:0"><b>${m.full_name||prof.name||"Signed in"}</b><div class="hint" style="margin:0;overflow:hidden;text-overflow:ellipsis">${u.email} · ☁️ synced to cloud</div></div></div>
+        <button class="pill logout" id="signout">🚪 Log out</button>`;
       const so=document.getElementById("signout");if(so)so.onclick=__signOut;
     }else{
       ac.innerHTML=`<h3>☁️ Account</h3><div class="hint">You're in local mode — progress lives only on this device.</div>
