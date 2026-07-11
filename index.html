@@ -241,6 +241,9 @@ textarea.imp{width:100%;min-height:90px;border:1px solid var(--line);border-radi
 .qtag{font-size:10.5px;font-weight:700;padding:3px 9px;border-radius:99px;background:var(--qa-soft);color:var(--qa)}
 .qtype{font-size:10.5px;color:var(--mut)}
 .qtext{font-size:15px;line-height:1.65;margin-bottom:18px}
+.qfig{margin:4px 0 16px}
+.qtext img,.ctxbox img,.opt img,.arbody img,.qfig img{max-width:100%;height:auto;display:block;margin:8px 0;border-radius:10px;background:#fff;border:1px solid var(--line2);padding:6px}
+.opt img{margin:0}.qfig img{margin:0}
 .ctxbox{max-height:40vh;overflow-y:auto;background:var(--card2);border:1px solid var(--line);border-radius:14px;padding:14px 16px;font-size:13px;line-height:1.6;margin-bottom:14px}
 .opt{display:flex;gap:10px;align-items:flex-start;border:1.5px solid var(--line);border-radius:12px;padding:11px 14px;margin-bottom:8px;cursor:pointer;transition:.12s;font-size:14px}
 .opt:hover{border-color:var(--qa)}
@@ -1147,7 +1150,7 @@ function bindCustomModal(){
   document.getElementById("ctstart").onclick=()=>{if(!ctStats().pool)return;closeCustomModal();renderPracticeHome();startTest()};
 }
 /* ===== shared analysis view (used by fresh submits + history reopen) ===== */
-function compactRow(r,cx){return{q:{q:r.q.q,type:r.q.type,opts:r.q.opts,ans:r.q.ans,sub:r.q.sub,sol:r.q.sol,src:r.q.src},a:r.a,att:r.att,ok:r.ok,t:r.t,cx:cx||null}}
+function compactRow(r,cx){return{q:{q:r.q.q,type:r.q.type,opts:r.q.opts,ans:r.q.ans,sub:r.q.sub,sol:r.q.sol,src:r.q.src,img:r.q.img},a:r.a,att:r.att,ok:r.ok,t:r.t,cx:cx||null}}
 function viewAnalysis(idx){
   const s=hist[idx];if(!s)return;
   if(s.analysis){renderAnalysisView(s.analysis,true);return}
@@ -1250,6 +1253,7 @@ function showQ(i){
   const cx=PT.kind==="mock"?(q.c!==undefined?PT.mock.ctxs[q.c]:null):ctxOf(q);
   if(cx)inner+=`<div class="ctxbox">${cx}</div>`;
   inner+=`<div class="qtext">${q.q}</div>`;
+  if(q.img)inner+=`<div class="qfig"><img loading="lazy" src="${q.img}" alt="question figure"></div>`;
   if(q.type==="mcq"){
     inner+=q.opts.map((o,k)=>`<div class="opt ${PT.ans[i]===k?'sel':''}" data-opt="${k}"><span class="ol">${"ABCD"[k]})</span><span>${o}</span></div>`).join("");
   }else{
@@ -1304,6 +1308,7 @@ function qrowHtml(r,cx){
     <span class="tt">${r.q.sub?r.q.sub+" — ":""}${r.q.q.replace(/<[^>]+>/g," ").slice(0,70)}…</span>
     <span class="tm">${fmtv(r.t)}</span><span class="caret">▼</span></div>
   <div class="arbody">${cx?`<div class="ctxbox">${cx}</div>`:""}<div>${r.q.q}</div>
+    ${r.q.img?`<div class="qfig"><img loading="lazy" src="${r.q.img}" alt="figure"></div>`:""}
     ${r.q.type==="mcq"?r.q.opts.map((o,k)=>`<div style="padding:3px 0;color:${k===r.q.ans?'var(--ok)':k===r.a?'var(--bad)':'inherit'}">${"ABCD"[k]}) ${o}${k===r.q.ans?" ✓":k===r.a?" (your answer)":""}</div>`).join(""):
     `<div style="margin-top:6px">Your answer: <b>${ua}</b> · Correct: <b class="ok2">${ca}</b></div>`}
     ${r.q.sol?`<div class="sol"><b>Solution:</b> ${r.q.sol}</div>`:`<div class="sol"><b>Official answer:</b> ${ca}</div>`}
