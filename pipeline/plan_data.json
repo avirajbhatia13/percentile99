@@ -1,0 +1,6292 @@
+{
+ "generated": "2026-07-10",
+ "start_date": "2026-07-13",
+ "quant": {
+  "count": 384,
+  "secs": 423434,
+  "days": 108,
+  "map": {
+   "Number System": [
+    {
+     "sub": "Course Intro",
+     "count": 1,
+     "secs": 676,
+     "videos": [
+      {
+       "name": "Course Intro \u2013 Full Course Overview",
+       "secs": 676
+      }
+     ]
+    },
+    {
+     "sub": "Numbers Basics",
+     "count": 3,
+     "secs": 4638,
+     "videos": [
+      {
+       "name": "Numbers 1",
+       "secs": 1690
+      },
+      {
+       "name": "Numbers 2",
+       "secs": 1382
+      },
+      {
+       "name": "Numbers 3",
+       "secs": 1566
+      }
+     ]
+    },
+    {
+     "sub": "Factorials",
+     "count": 6,
+     "secs": 10540,
+     "videos": [
+      {
+       "name": "Factorials 1",
+       "secs": 2059
+      },
+      {
+       "name": "Factorials 2",
+       "secs": 2093
+      },
+      {
+       "name": "Factorials 3",
+       "secs": 2141
+      },
+      {
+       "name": "Factorials 4",
+       "secs": 1408
+      },
+      {
+       "name": "Factorials 5",
+       "secs": 1128
+      },
+      {
+       "name": "Factorials 6",
+       "secs": 1711
+      }
+     ]
+    },
+    {
+     "sub": "Last 2 Digits",
+     "count": 2,
+     "secs": 2810,
+     "videos": [
+      {
+       "name": "Last 2 Digits \u2013 Odd Numbers",
+       "secs": 1374
+      },
+      {
+       "name": "Last 2 Digits \u2013 Even Numbers",
+       "secs": 1436
+      }
+     ]
+    },
+    {
+     "sub": "Divisibility Rules",
+     "count": 4,
+     "secs": 6085,
+     "videos": [
+      {
+       "name": "Divisibility Rules 1",
+       "secs": 1808
+      },
+      {
+       "name": "Divisibility Rules 2",
+       "secs": 1536
+      },
+      {
+       "name": "Divisibility Rules 3",
+       "secs": 1229
+      },
+      {
+       "name": "Divisibility Rules 4",
+       "secs": 1512
+      }
+     ]
+    },
+    {
+     "sub": "Remainders",
+     "count": 9,
+     "secs": 14433,
+     "videos": [
+      {
+       "name": "Remainders 1",
+       "secs": 1803
+      },
+      {
+       "name": "Remainders 2",
+       "secs": 1441
+      },
+      {
+       "name": "Remainders 3",
+       "secs": 2069
+      },
+      {
+       "name": "Remainders 4 Part 1",
+       "secs": 1110
+      },
+      {
+       "name": "Remainders 4 Part 2",
+       "secs": 1657
+      },
+      {
+       "name": "Remainders 5",
+       "secs": 1460
+      },
+      {
+       "name": "Remainders 6",
+       "secs": 1460
+      },
+      {
+       "name": "Remainders 7",
+       "secs": 1667
+      },
+      {
+       "name": "Remainders 8",
+       "secs": 1766
+      }
+     ]
+    },
+    {
+     "sub": "Difference of Perfect Squares",
+     "count": 3,
+     "secs": 3328,
+     "videos": [
+      {
+       "name": "Diff of Perfect Square 1",
+       "secs": 1276
+      },
+      {
+       "name": "Diff of Perfect Square 2",
+       "secs": 1133
+      },
+      {
+       "name": "Diff of Perfect Square 3",
+       "secs": 919
+      }
+     ]
+    },
+    {
+     "sub": "Factors",
+     "count": 12,
+     "secs": 20138,
+     "videos": [
+      {
+       "name": "Factors 1",
+       "secs": 1695
+      },
+      {
+       "name": "Factors 2",
+       "secs": 1648
+      },
+      {
+       "name": "Factors 3",
+       "secs": 1498
+      },
+      {
+       "name": "Factors 4",
+       "secs": 2205
+      },
+      {
+       "name": "Factors 5",
+       "secs": 1527
+      },
+      {
+       "name": "Factors 6",
+       "secs": 2153
+      },
+      {
+       "name": "Factors 7",
+       "secs": 1926
+      },
+      {
+       "name": "Factors 8",
+       "secs": 1626
+      },
+      {
+       "name": "Factors 9",
+       "secs": 1394
+      },
+      {
+       "name": "Factors 10",
+       "secs": 1487
+      },
+      {
+       "name": "Factors 11",
+       "secs": 1315
+      },
+      {
+       "name": "Factors 12",
+       "secs": 1664
+      }
+     ]
+    },
+    {
+     "sub": "HCF & LCM",
+     "count": 5,
+     "secs": 7090,
+     "videos": [
+      {
+       "name": "HCF LCM 1",
+       "secs": 1543
+      },
+      {
+       "name": "HCF LCM 2",
+       "secs": 1181
+      },
+      {
+       "name": "HCF LCM 3",
+       "secs": 1320
+      },
+      {
+       "name": "HCF LCM 4",
+       "secs": 1534
+      },
+      {
+       "name": "HCF LCM 5",
+       "secs": 1512
+      }
+     ]
+    },
+    {
+     "sub": "Base Systems",
+     "count": 5,
+     "secs": 7106,
+     "videos": [
+      {
+       "name": "Base Systems 1",
+       "secs": 2342
+      },
+      {
+       "name": "Base Systems 2",
+       "secs": 1395
+      },
+      {
+       "name": "Base Systems 3",
+       "secs": 1286
+      },
+      {
+       "name": "Base Systems 4",
+       "secs": 1175
+      },
+      {
+       "name": "Base Systems 5",
+       "secs": 908
+      }
+     ]
+    },
+    {
+     "sub": "Recurring Decimals & Cyclicity",
+     "count": 1,
+     "secs": 3467,
+     "videos": [
+      {
+       "name": "Recurring Decimal Cyclicity (marathon)",
+       "secs": 3467
+      }
+     ]
+    }
+   ],
+   "Geometry": [
+    {
+     "sub": "Triangles",
+     "count": 13,
+     "secs": 20492,
+     "videos": [
+      {
+       "name": "Triangles 1",
+       "secs": 1973
+      },
+      {
+       "name": "Triangles 2",
+       "secs": 1423
+      },
+      {
+       "name": "Triangles 3",
+       "secs": 1364
+      },
+      {
+       "name": "Triangles 4",
+       "secs": 1697
+      },
+      {
+       "name": "Triangles 5",
+       "secs": 1218
+      },
+      {
+       "name": "Triangles 6",
+       "secs": 2301
+      },
+      {
+       "name": "Triangles 7",
+       "secs": 1321
+      },
+      {
+       "name": "Triangles 8",
+       "secs": 1656
+      },
+      {
+       "name": "Triangles 9",
+       "secs": 1671
+      },
+      {
+       "name": "Triangles 10",
+       "secs": 1329
+      },
+      {
+       "name": "Triangles 11",
+       "secs": 1630
+      },
+      {
+       "name": "Triangles 12",
+       "secs": 1460
+      },
+      {
+       "name": "Triangles 13",
+       "secs": 1449
+      }
+     ]
+    },
+    {
+     "sub": "Quadrilaterals",
+     "count": 3,
+     "secs": 4440,
+     "videos": [
+      {
+       "name": "Quadrilaterals 1",
+       "secs": 2314
+      },
+      {
+       "name": "Quadrilaterals 2",
+       "secs": 1329
+      },
+      {
+       "name": "Quadrilaterals 3",
+       "secs": 797
+      }
+     ]
+    },
+    {
+     "sub": "Circles",
+     "count": 3,
+     "secs": 4211,
+     "videos": [
+      {
+       "name": "Circles 1",
+       "secs": 1548
+      },
+      {
+       "name": "Circles 2",
+       "secs": 1197
+      },
+      {
+       "name": "Circles 3",
+       "secs": 1466
+      }
+     ]
+    },
+    {
+     "sub": "Mensuration",
+     "count": 5,
+     "secs": 7330,
+     "videos": [
+      {
+       "name": "Mensuration 1",
+       "secs": 1487
+      },
+      {
+       "name": "Mensuration 2",
+       "secs": 1742
+      },
+      {
+       "name": "Mensuration 3",
+       "secs": 1294
+      },
+      {
+       "name": "Mensuration 4",
+       "secs": 1432
+      },
+      {
+       "name": "Mensuration 5",
+       "secs": 1375
+      }
+     ]
+    }
+   ],
+   "Arithmetic": [
+    {
+     "sub": "Speed Maths",
+     "count": 6,
+     "secs": 8555,
+     "videos": [
+      {
+       "name": "Speed Maths 1",
+       "secs": 1882
+      },
+      {
+       "name": "Speed Maths 2",
+       "secs": 1201
+      },
+      {
+       "name": "Speed Maths 3",
+       "secs": 1339
+      },
+      {
+       "name": "Speed Maths 4",
+       "secs": 1232
+      },
+      {
+       "name": "Speed Maths 5",
+       "secs": 1659
+      },
+      {
+       "name": "Speed Maths 6",
+       "secs": 1242
+      }
+     ]
+    },
+    {
+     "sub": "Percentages",
+     "count": 3,
+     "secs": 4161,
+     "videos": [
+      {
+       "name": "Percentages 1",
+       "secs": 1579
+      },
+      {
+       "name": "Percentages 2",
+       "secs": 1366
+      },
+      {
+       "name": "Percentages 3",
+       "secs": 1216
+      }
+     ]
+    },
+    {
+     "sub": "Profit & Loss",
+     "count": 6,
+     "secs": 9727,
+     "videos": [
+      {
+       "name": "Profit and Loss 1",
+       "secs": 1565
+      },
+      {
+       "name": "Profit and Loss 2",
+       "secs": 1464
+      },
+      {
+       "name": "Profit and Loss 3",
+       "secs": 2312
+      },
+      {
+       "name": "Profit and Loss 4",
+       "secs": 1621
+      },
+      {
+       "name": "Profit and Loss 5",
+       "secs": 1466
+      },
+      {
+       "name": "Profit and Loss 6",
+       "secs": 1299
+      }
+     ]
+    },
+    {
+     "sub": "Averages",
+     "count": 4,
+     "secs": 6751,
+     "videos": [
+      {
+       "name": "Averages 1",
+       "secs": 1390
+      },
+      {
+       "name": "Averages 2",
+       "secs": 1837
+      },
+      {
+       "name": "Averages 3",
+       "secs": 1919
+      },
+      {
+       "name": "Averages 4",
+       "secs": 1605
+      }
+     ]
+    },
+    {
+     "sub": "Alligation & Mixture",
+     "count": 6,
+     "secs": 8842,
+     "videos": [
+      {
+       "name": "Alligation & Mixture 1",
+       "secs": 1907
+      },
+      {
+       "name": "Alligation & Mixture 2",
+       "secs": 1040
+      },
+      {
+       "name": "Alligation & Mixture 3",
+       "secs": 1415
+      },
+      {
+       "name": "Alligation & Mixture 4",
+       "secs": 1588
+      },
+      {
+       "name": "Alligation & Mixture 5",
+       "secs": 1604
+      },
+      {
+       "name": "Alligation & Mixture 6",
+       "secs": 1288
+      }
+     ]
+    },
+    {
+     "sub": "Ratio",
+     "count": 6,
+     "secs": 9228,
+     "videos": [
+      {
+       "name": "Ratio 1",
+       "secs": 1438
+      },
+      {
+       "name": "Ratio 2",
+       "secs": 1126
+      },
+      {
+       "name": "Ratio 3",
+       "secs": 2315
+      },
+      {
+       "name": "Ratio 4",
+       "secs": 1438
+      },
+      {
+       "name": "Ratio 5",
+       "secs": 1914
+      },
+      {
+       "name": "Ratio 6",
+       "secs": 997
+      }
+     ]
+    },
+    {
+     "sub": "Proportion & Variation",
+     "count": 2,
+     "secs": 3230,
+     "videos": [
+      {
+       "name": "Proportion Variation 1",
+       "secs": 1555
+      },
+      {
+       "name": "Proportion Variation 2",
+       "secs": 1675
+      }
+     ]
+    },
+    {
+     "sub": "SI & CI",
+     "count": 6,
+     "secs": 7830,
+     "videos": [
+      {
+       "name": "SI & CI 1",
+       "secs": 1297
+      },
+      {
+       "name": "SI & CI 2",
+       "secs": 1574
+      },
+      {
+       "name": "SI & CI 3",
+       "secs": 1425
+      },
+      {
+       "name": "SI & CI 4",
+       "secs": 1122
+      },
+      {
+       "name": "SI & CI 5",
+       "secs": 991
+      },
+      {
+       "name": "SI & CI 6",
+       "secs": 1421
+      }
+     ]
+    },
+    {
+     "sub": "Time & Work",
+     "count": 3,
+     "secs": 4348,
+     "videos": [
+      {
+       "name": "Time and Work 1",
+       "secs": 1318
+      },
+      {
+       "name": "Time and Work 2",
+       "secs": 1465
+      },
+      {
+       "name": "Time and Work 3",
+       "secs": 1565
+      }
+     ]
+    },
+    {
+     "sub": "Time Speed Distance",
+     "count": 8,
+     "secs": 12518,
+     "videos": [
+      {
+       "name": "TSD 1",
+       "secs": 1337
+      },
+      {
+       "name": "TSD 2",
+       "secs": 1418
+      },
+      {
+       "name": "TSD 3",
+       "secs": 1609
+      },
+      {
+       "name": "TSD 4",
+       "secs": 1917
+      },
+      {
+       "name": "TSD 5",
+       "secs": 1516
+      },
+      {
+       "name": "TSD 6",
+       "secs": 1681
+      },
+      {
+       "name": "TSD 7 (Escalators)",
+       "secs": 1587
+      },
+      {
+       "name": "TSD 8 (Escalators contd)",
+       "secs": 1453
+      }
+     ]
+    },
+    {
+     "sub": "TSD \u2013 Boats & Streams",
+     "count": 2,
+     "secs": 3143,
+     "videos": [
+      {
+       "name": "Boat Streams 1",
+       "secs": 1787
+      },
+      {
+       "name": "Boat Streams 2",
+       "secs": 1356
+      }
+     ]
+    },
+    {
+     "sub": "TSD \u2013 Relative Speed",
+     "count": 4,
+     "secs": 5906,
+     "videos": [
+      {
+       "name": "Relative Speed 1",
+       "secs": 1632
+      },
+      {
+       "name": "Relative Speed 2",
+       "secs": 1331
+      },
+      {
+       "name": "Relative Speed 3",
+       "secs": 1641
+      },
+      {
+       "name": "Relative Speed 4",
+       "secs": 1302
+      }
+     ]
+    },
+    {
+     "sub": "TSD \u2013 Linear Tracks",
+     "count": 3,
+     "secs": 4882,
+     "videos": [
+      {
+       "name": "Linear Tracks 1",
+       "secs": 1660
+      },
+      {
+       "name": "Linear Tracks 2",
+       "secs": 1748
+      },
+      {
+       "name": "Linear Tracks 3",
+       "secs": 1474
+      }
+     ]
+    },
+    {
+     "sub": "TSD \u2013 Linear Races",
+     "count": 2,
+     "secs": 2937,
+     "videos": [
+      {
+       "name": "Linear Races 1",
+       "secs": 1344
+      },
+      {
+       "name": "Linear Races 2",
+       "secs": 1593
+      }
+     ]
+    },
+    {
+     "sub": "Clocks",
+     "count": 1,
+     "secs": 1339,
+     "videos": [
+      {
+       "name": "Time & Distance Clocks 1",
+       "secs": 1339
+      }
+     ]
+    },
+    {
+     "sub": "Circular Tracks",
+     "count": 3,
+     "secs": 3892,
+     "videos": [
+      {
+       "name": "Circular Tracks 1",
+       "secs": 1339
+      },
+      {
+       "name": "Circular Tracks 2",
+       "secs": 1412
+      },
+      {
+       "name": "Circular Tracks 3",
+       "secs": 1141
+      }
+     ]
+    }
+   ],
+   "Algebra": [
+    {
+     "sub": "Advance Algebra",
+     "count": 6,
+     "secs": 7636,
+     "videos": [
+      {
+       "name": "Advance Algebra 1",
+       "secs": 2081
+      },
+      {
+       "name": "Advance Algebra 2",
+       "secs": 1688
+      },
+      {
+       "name": "Advance Algebra 3",
+       "secs": 1149
+      },
+      {
+       "name": "Advance Algebra 4",
+       "secs": 1199
+      },
+      {
+       "name": "Advance Algebra 5",
+       "secs": 855
+      },
+      {
+       "name": "Advance Algebra 6",
+       "secs": 664
+      }
+     ]
+    },
+    {
+     "sub": "Sequence & Series",
+     "count": 1,
+     "secs": 1509,
+     "videos": [
+      {
+       "name": "Sequence Series 1",
+       "secs": 1509
+      }
+     ]
+    },
+    {
+     "sub": "Arithmetic Progression",
+     "count": 2,
+     "secs": 2744,
+     "videos": [
+      {
+       "name": "Arithmetic Progression 1",
+       "secs": 1345
+      },
+      {
+       "name": "Arithmetic Progression 2",
+       "secs": 1399
+      }
+     ]
+    },
+    {
+     "sub": "Geometric Progression",
+     "count": 3,
+     "secs": 3063,
+     "videos": [
+      {
+       "name": "Geometric Progression 1",
+       "secs": 1298
+      },
+      {
+       "name": "Geometric Progression 2",
+       "secs": 975
+      },
+      {
+       "name": "Geometric Progression 3",
+       "secs": 790
+      }
+     ]
+    },
+    {
+     "sub": "Simple Equations",
+     "count": 6,
+     "secs": 8844,
+     "videos": [
+      {
+       "name": "Simple Equations 1",
+       "secs": 1569
+      },
+      {
+       "name": "Simple Equations 2",
+       "secs": 1712
+      },
+      {
+       "name": "Simple Equations 3",
+       "secs": 1298
+      },
+      {
+       "name": "Simple Equations 4",
+       "secs": 1368
+      },
+      {
+       "name": "Simple Equations 5",
+       "secs": 1558
+      },
+      {
+       "name": "Simple Equations 6",
+       "secs": 1339
+      }
+     ]
+    },
+    {
+     "sub": "Cubic Equations",
+     "count": 2,
+     "secs": 2559,
+     "videos": [
+      {
+       "name": "Cubic Equation 1",
+       "secs": 1137
+      },
+      {
+       "name": "Cubic Equation 2",
+       "secs": 1422
+      }
+     ]
+    },
+    {
+     "sub": "Quadratic Equations",
+     "count": 4,
+     "secs": 5723,
+     "videos": [
+      {
+       "name": "Quadratic Equation 1",
+       "secs": 1707
+      },
+      {
+       "name": "Quadratic Equation 2",
+       "secs": 1253
+      },
+      {
+       "name": "Quadratic Equation 3",
+       "secs": 1219
+      },
+      {
+       "name": "Quadratic Equation 4",
+       "secs": 1544
+      }
+     ]
+    },
+    {
+     "sub": "Inequalities",
+     "count": 9,
+     "secs": 10369,
+     "videos": [
+      {
+       "name": "Inequalities 1",
+       "secs": 1132
+      },
+      {
+       "name": "Inequalities 2",
+       "secs": 1788
+      },
+      {
+       "name": "Inequalities 3",
+       "secs": 1134
+      },
+      {
+       "name": "Inequalities 4",
+       "secs": 1202
+      },
+      {
+       "name": "Inequalities 5",
+       "secs": 1358
+      },
+      {
+       "name": "Inequalities 6",
+       "secs": 1697
+      },
+      {
+       "name": "Inequalities 7",
+       "secs": 702
+      },
+      {
+       "name": "Inequalities 8",
+       "secs": 444
+      },
+      {
+       "name": "Inequalities 9",
+       "secs": 912
+      }
+     ]
+    },
+    {
+     "sub": "Graphs",
+     "count": 4,
+     "secs": 4919,
+     "videos": [
+      {
+       "name": "Graphs 1",
+       "secs": 826
+      },
+      {
+       "name": "Graphs 2",
+       "secs": 1230
+      },
+      {
+       "name": "Graphs 3",
+       "secs": 1208
+      },
+      {
+       "name": "Graphs 4",
+       "secs": 1655
+      }
+     ]
+    },
+    {
+     "sub": "Indices & Surds",
+     "count": 5,
+     "secs": 5929,
+     "videos": [
+      {
+       "name": "Indices Surds 1",
+       "secs": 1203
+      },
+      {
+       "name": "Indices Surds 2",
+       "secs": 1490
+      },
+      {
+       "name": "Indices Surds 3",
+       "secs": 1298
+      },
+      {
+       "name": "Indices Surds 4",
+       "secs": 1219
+      },
+      {
+       "name": "Indices Surds 5",
+       "secs": 719
+      }
+     ]
+    },
+    {
+     "sub": "Logarithms",
+     "count": 2,
+     "secs": 3289,
+     "videos": [
+      {
+       "name": "Logarithms 1",
+       "secs": 1843
+      },
+      {
+       "name": "Logarithms 2",
+       "secs": 1446
+      }
+     ]
+    },
+    {
+     "sub": "Statistics",
+     "count": 3,
+     "secs": 2911,
+     "videos": [
+      {
+       "name": "Statistics 1",
+       "secs": 989
+      },
+      {
+       "name": "Statistics 2",
+       "secs": 1025
+      },
+      {
+       "name": "Statistics 3",
+       "secs": 897
+      }
+     ]
+    },
+    {
+     "sub": "Functions",
+     "count": 10,
+     "secs": 9751,
+     "videos": [
+      {
+       "name": "Functions 1",
+       "secs": 1276
+      },
+      {
+       "name": "Functions 2",
+       "secs": 1152
+      },
+      {
+       "name": "Functions 3",
+       "secs": 1167
+      },
+      {
+       "name": "Functions 4",
+       "secs": 994
+      },
+      {
+       "name": "Functions 5",
+       "secs": 987
+      },
+      {
+       "name": "Functions 6",
+       "secs": 818
+      },
+      {
+       "name": "Functions 7",
+       "secs": 1045
+      },
+      {
+       "name": "Functions 8",
+       "secs": 939
+      },
+      {
+       "name": "Functions 9",
+       "secs": 590
+      },
+      {
+       "name": "Functions 10",
+       "secs": 783
+      }
+     ]
+    }
+   ],
+   "Modern Math": [
+    {
+     "sub": "Permutations & Combinations",
+     "count": 21,
+     "secs": 31299,
+     "videos": [
+      {
+       "name": "P&C 1",
+       "secs": 1615
+      },
+      {
+       "name": "P&C 2",
+       "secs": 2189
+      },
+      {
+       "name": "P&C 3",
+       "secs": 2087
+      },
+      {
+       "name": "P&C 4",
+       "secs": 1722
+      },
+      {
+       "name": "P&C 5",
+       "secs": 1496
+      },
+      {
+       "name": "P&C 6",
+       "secs": 1510
+      },
+      {
+       "name": "P&C 7",
+       "secs": 1516
+      },
+      {
+       "name": "P&C 8",
+       "secs": 1021
+      },
+      {
+       "name": "P&C 9",
+       "secs": 1666
+      },
+      {
+       "name": "P&C 10",
+       "secs": 1511
+      },
+      {
+       "name": "P&C 11",
+       "secs": 1274
+      },
+      {
+       "name": "P&C 12",
+       "secs": 1937
+      },
+      {
+       "name": "P&C 13",
+       "secs": 1194
+      },
+      {
+       "name": "P&C 14",
+       "secs": 1036
+      },
+      {
+       "name": "P&C 15",
+       "secs": 1619
+      },
+      {
+       "name": "P&C 16",
+       "secs": 1544
+      },
+      {
+       "name": "P&C 17",
+       "secs": 953
+      },
+      {
+       "name": "P&C 18",
+       "secs": 1263
+      },
+      {
+       "name": "P&C 19",
+       "secs": 1485
+      },
+      {
+       "name": "P&C 20",
+       "secs": 1622
+      },
+      {
+       "name": "P&C 21",
+       "secs": 1039
+      }
+     ]
+    },
+    {
+     "sub": "Probability",
+     "count": 2,
+     "secs": 2560,
+     "videos": [
+      {
+       "name": "Probability 1",
+       "secs": 1291
+      },
+      {
+       "name": "Probability 2",
+       "secs": 1269
+      }
+     ]
+    }
+   ],
+   "Practice & Revision": [
+    {
+     "sub": "Numbers \u2013 Advanced Practice",
+     "count": 16,
+     "secs": 13864,
+     "videos": [
+      {
+       "name": "Practice Numbers 1",
+       "secs": 779
+      },
+      {
+       "name": "Practice Numbers 2",
+       "secs": 746
+      },
+      {
+       "name": "Practice Numbers 3",
+       "secs": 1261
+      },
+      {
+       "name": "Practice Numbers 4",
+       "secs": 702
+      },
+      {
+       "name": "Practice Numbers 5",
+       "secs": 960
+      },
+      {
+       "name": "Practice Numbers 6",
+       "secs": 712
+      },
+      {
+       "name": "Practice Numbers 7",
+       "secs": 926
+      },
+      {
+       "name": "Practice Numbers 8",
+       "secs": 700
+      },
+      {
+       "name": "Practice Numbers 9",
+       "secs": 629
+      },
+      {
+       "name": "Practice Numbers 10",
+       "secs": 879
+      },
+      {
+       "name": "Practice Numbers 11",
+       "secs": 880
+      },
+      {
+       "name": "Practice Numbers 12",
+       "secs": 702
+      },
+      {
+       "name": "Practice Numbers 13",
+       "secs": 977
+      },
+      {
+       "name": "Practice Numbers 14",
+       "secs": 920
+      },
+      {
+       "name": "Practice Numbers 15",
+       "secs": 1293
+      },
+      {
+       "name": "Practice Numbers 16",
+       "secs": 798
+      }
+     ]
+    },
+    {
+     "sub": "Geometry \u2013 Advanced Practice",
+     "count": 4,
+     "secs": 4318,
+     "videos": [
+      {
+       "name": "Practice Geometry 1",
+       "secs": 1242
+      },
+      {
+       "name": "Practice Geometry 2",
+       "secs": 1070
+      },
+      {
+       "name": "Practice Geometry 3",
+       "secs": 907
+      },
+      {
+       "name": "10 Must-Know Geometry Concepts",
+       "secs": 1099
+      }
+     ]
+    },
+    {
+     "sub": "Arithmetic \u2013 Advanced Questions",
+     "count": 60,
+     "secs": 45234,
+     "videos": [
+      {
+       "name": "Arithmetic Advance Q1",
+       "secs": 596
+      },
+      {
+       "name": "Arithmetic Advance Q2",
+       "secs": 232
+      },
+      {
+       "name": "Arithmetic Advance Q3",
+       "secs": 746
+      },
+      {
+       "name": "Arithmetic Advance Q4",
+       "secs": 427
+      },
+      {
+       "name": "Arithmetic Advance Q5",
+       "secs": 617
+      },
+      {
+       "name": "Arithmetic Advance Q6",
+       "secs": 305
+      },
+      {
+       "name": "Arithmetic Advance Q7",
+       "secs": 286
+      },
+      {
+       "name": "Arithmetic Advance Q8",
+       "secs": 480
+      },
+      {
+       "name": "Arithmetic Advance Q9",
+       "secs": 445
+      },
+      {
+       "name": "Arithmetic Advance Q10",
+       "secs": 525
+      },
+      {
+       "name": "Arithmetic Advance Q11",
+       "secs": 404
+      },
+      {
+       "name": "Arithmetic Advance Q12",
+       "secs": 708
+      },
+      {
+       "name": "Arithmetic Advance Q13",
+       "secs": 370
+      },
+      {
+       "name": "Arithmetic Advance Q14",
+       "secs": 214
+      },
+      {
+       "name": "Arithmetic Advance Q15",
+       "secs": 551
+      },
+      {
+       "name": "Arithmetic Advance Q16",
+       "secs": 689
+      },
+      {
+       "name": "Arithmetic Advance Q17",
+       "secs": 357
+      },
+      {
+       "name": "Arithmetic Advance Q18",
+       "secs": 647
+      },
+      {
+       "name": "Arithmetic Advance Q19",
+       "secs": 622
+      },
+      {
+       "name": "Arithmetic Advance Q20",
+       "secs": 290
+      },
+      {
+       "name": "Arithmetic Advance Q21",
+       "secs": 315
+      },
+      {
+       "name": "Arithmetic Advance Q22",
+       "secs": 325
+      },
+      {
+       "name": "Arithmetic Advance Q23",
+       "secs": 771
+      },
+      {
+       "name": "Arithmetic Advance Q24",
+       "secs": 444
+      },
+      {
+       "name": "Arithmetic Advance Q25",
+       "secs": 459
+      },
+      {
+       "name": "Arithmetic Advance Q26",
+       "secs": 465
+      },
+      {
+       "name": "Arithmetic Advance Q27",
+       "secs": 621
+      },
+      {
+       "name": "Arithmetic Advance Q28",
+       "secs": 526
+      },
+      {
+       "name": "Arithmetic Advance Q29",
+       "secs": 444
+      },
+      {
+       "name": "Arithmetic Advance Q30",
+       "secs": 456
+      },
+      {
+       "name": "Arithmetic Advance Q31",
+       "secs": 489
+      },
+      {
+       "name": "Arithmetic Advance Q32",
+       "secs": 647
+      },
+      {
+       "name": "Arithmetic Advance Q33",
+       "secs": 541
+      },
+      {
+       "name": "Arithmetic Advance Q34",
+       "secs": 677
+      },
+      {
+       "name": "Arithmetic Advance Q35",
+       "secs": 400
+      },
+      {
+       "name": "Arithmetic Advance Q36",
+       "secs": 917
+      },
+      {
+       "name": "Arithmetic Advance Q37",
+       "secs": 960
+      },
+      {
+       "name": "Arithmetic Advance Q38",
+       "secs": 370
+      },
+      {
+       "name": "Arithmetic Advance Q39",
+       "secs": 661
+      },
+      {
+       "name": "Arithmetic Advance Q40",
+       "secs": 522
+      },
+      {
+       "name": "Arithmetic Advance Q41",
+       "secs": 466
+      },
+      {
+       "name": "Arithmetic Advance Q42",
+       "secs": 1082
+      },
+      {
+       "name": "Arithmetic Advance Q43",
+       "secs": 707
+      },
+      {
+       "name": "Arithmetic Advance Q44",
+       "secs": 875
+      },
+      {
+       "name": "Arithmetic Advance Q45",
+       "secs": 512
+      },
+      {
+       "name": "Arithmetic Advance Q46",
+       "secs": 692
+      },
+      {
+       "name": "Arithmetic Advance Q47",
+       "secs": 604
+      },
+      {
+       "name": "Arithmetic Advance Q48",
+       "secs": 710
+      },
+      {
+       "name": "Arithmetic Advance Q49",
+       "secs": 469
+      },
+      {
+       "name": "Arithmetic Advance Q50",
+       "secs": 414
+      },
+      {
+       "name": "Arithmetic Advance Q51",
+       "secs": 1291
+      },
+      {
+       "name": "Arithmetic Advance Q52",
+       "secs": 741
+      },
+      {
+       "name": "Arithmetic Advance Q53",
+       "secs": 611
+      },
+      {
+       "name": "Arithmetic Advance Q54",
+       "secs": 761
+      },
+      {
+       "name": "Arithmetic Advance Q55",
+       "secs": 743
+      },
+      {
+       "name": "Arithmetic Advance Q56",
+       "secs": 1079
+      },
+      {
+       "name": "Arithmetic Advance Q57",
+       "secs": 601
+      },
+      {
+       "name": "Arithmetic Advance Q58",
+       "secs": 662
+      },
+      {
+       "name": "Arithmetic Advance Q59",
+       "secs": 756
+      },
+      {
+       "name": "Arithmetic Top Questions Marathon",
+       "secs": 10937
+      }
+     ]
+    },
+    {
+     "sub": "Algebra \u2013 Practice Sessions",
+     "count": 18,
+     "secs": 8764,
+     "videos": [
+      {
+       "name": "Algebra Practice 1",
+       "secs": 667
+      },
+      {
+       "name": "Algebra Practice 2",
+       "secs": 428
+      },
+      {
+       "name": "Algebra Practice 3",
+       "secs": 311
+      },
+      {
+       "name": "Algebra Practice 4",
+       "secs": 401
+      },
+      {
+       "name": "Algebra Practice 5",
+       "secs": 469
+      },
+      {
+       "name": "Algebra Practice 6",
+       "secs": 565
+      },
+      {
+       "name": "Algebra Practice 7",
+       "secs": 744
+      },
+      {
+       "name": "Algebra Practice 8",
+       "secs": 563
+      },
+      {
+       "name": "Algebra Practice 9",
+       "secs": 486
+      },
+      {
+       "name": "Algebra Practice 10",
+       "secs": 463
+      },
+      {
+       "name": "Algebra Practice 11",
+       "secs": 441
+      },
+      {
+       "name": "Algebra Practice 12",
+       "secs": 688
+      },
+      {
+       "name": "Algebra Practice 13",
+       "secs": 433
+      },
+      {
+       "name": "Algebra Practice 14",
+       "secs": 596
+      },
+      {
+       "name": "Algebra Practice 15",
+       "secs": 448
+      },
+      {
+       "name": "Algebra Practice 16",
+       "secs": 540
+      },
+      {
+       "name": "Algebra Practice 17",
+       "secs": 227
+      },
+      {
+       "name": "Algebra Practice 18",
+       "secs": 294
+      }
+     ]
+    },
+    {
+     "sub": "Mixed Quant \u2013 Advanced Level",
+     "count": 44,
+     "secs": 21289,
+     "videos": [
+      {
+       "name": "Quant Advance 1",
+       "secs": 533
+      },
+      {
+       "name": "Quant Advance 2",
+       "secs": 363
+      },
+      {
+       "name": "Quant Advance 3",
+       "secs": 332
+      },
+      {
+       "name": "Quant Advance 4",
+       "secs": 287
+      },
+      {
+       "name": "Quant Advance 5",
+       "secs": 449
+      },
+      {
+       "name": "Quant Advance 6",
+       "secs": 287
+      },
+      {
+       "name": "Quant Advance 7",
+       "secs": 361
+      },
+      {
+       "name": "Quant Advance 8",
+       "secs": 364
+      },
+      {
+       "name": "Quant Advance 9",
+       "secs": 488
+      },
+      {
+       "name": "Quant Advance 10",
+       "secs": 384
+      },
+      {
+       "name": "Quant Advance 11",
+       "secs": 510
+      },
+      {
+       "name": "Quant Advance 12",
+       "secs": 745
+      },
+      {
+       "name": "Quant Advance 13",
+       "secs": 516
+      },
+      {
+       "name": "Quant Advance 14",
+       "secs": 357
+      },
+      {
+       "name": "Quant Advance 15",
+       "secs": 747
+      },
+      {
+       "name": "Quant Advance 16",
+       "secs": 360
+      },
+      {
+       "name": "Quant Advance 17",
+       "secs": 507
+      },
+      {
+       "name": "Quant Advance 18",
+       "secs": 436
+      },
+      {
+       "name": "Quant Advance 19",
+       "secs": 550
+      },
+      {
+       "name": "Quant Advance 20",
+       "secs": 678
+      },
+      {
+       "name": "Quant Advance 21",
+       "secs": 511
+      },
+      {
+       "name": "Quant Advance 22",
+       "secs": 427
+      },
+      {
+       "name": "Quant Advance 23",
+       "secs": 523
+      },
+      {
+       "name": "Quant Advance 24",
+       "secs": 315
+      },
+      {
+       "name": "Quant Advance 25",
+       "secs": 591
+      },
+      {
+       "name": "Quant Advance 26",
+       "secs": 417
+      },
+      {
+       "name": "Quant Advance 27",
+       "secs": 734
+      },
+      {
+       "name": "Quant Advance 28",
+       "secs": 507
+      },
+      {
+       "name": "Quant Advance 29",
+       "secs": 596
+      },
+      {
+       "name": "Quant Advance 30",
+       "secs": 378
+      },
+      {
+       "name": "Quant Advance 31",
+       "secs": 634
+      },
+      {
+       "name": "Quant Advance 32",
+       "secs": 472
+      },
+      {
+       "name": "Quant Advance 33",
+       "secs": 442
+      },
+      {
+       "name": "Quant Advance 35",
+       "secs": 522
+      },
+      {
+       "name": "Quant Advance 37",
+       "secs": 960
+      },
+      {
+       "name": "Quant Advance 38",
+       "secs": 522
+      },
+      {
+       "name": "Quant Advance 39",
+       "secs": 688
+      },
+      {
+       "name": "Quant Advance 40",
+       "secs": 192
+      },
+      {
+       "name": "Quant Advance 41",
+       "secs": 574
+      },
+      {
+       "name": "Quant Advance 42",
+       "secs": 406
+      },
+      {
+       "name": "Quant Advance 43",
+       "secs": 512
+      },
+      {
+       "name": "Quant Advance 44",
+       "secs": 349
+      },
+      {
+       "name": "Revision Best Concepts 44",
+       "secs": 416
+      },
+      {
+       "name": "Revision Best Concepts 45",
+       "secs": 347
+      }
+     ]
+    },
+    {
+     "sub": "Algebra \u2013 Advanced Topic Questions",
+     "count": 22,
+     "secs": 12787,
+     "videos": [
+      {
+       "name": "Adv NS Practice",
+       "secs": 700
+      },
+      {
+       "name": "Adv Algebra: Quadratic Eqn",
+       "secs": 447
+      },
+      {
+       "name": "Adv Algebra: Maxima Minima",
+       "secs": 484
+      },
+      {
+       "name": "Adv Algebra: Advance Quadratic",
+       "secs": 398
+      },
+      {
+       "name": "Adv Algebra: Inequality",
+       "secs": 475
+      },
+      {
+       "name": "Adv Algebra: Symmetry",
+       "secs": 558
+      },
+      {
+       "name": "Adv Algebra: Trigo Max Min",
+       "secs": 528
+      },
+      {
+       "name": "Adv Algebra: Series Logarithm",
+       "secs": 718
+      },
+      {
+       "name": "Adv Algebra: Cubic Equation",
+       "secs": 506
+      },
+      {
+       "name": "Adv Algebra: Logarithms Tough I",
+       "secs": 762
+      },
+      {
+       "name": "Adv Algebra: Logarithms Tough II",
+       "secs": 474
+      },
+      {
+       "name": "Adv Algebra: Indices Surds",
+       "secs": 647
+      },
+      {
+       "name": "Adv Algebra: Inequalities",
+       "secs": 573
+      },
+      {
+       "name": "Adv Algebra: Mixed",
+       "secs": 597
+      },
+      {
+       "name": "Adv Algebra: Functions Tough",
+       "secs": 294
+      },
+      {
+       "name": "Adv Algebra: Functions\u2013Inequalities",
+       "secs": 573
+      },
+      {
+       "name": "Adv Algebra: Algebra + Trigo",
+       "secs": 318
+      },
+      {
+       "name": "Adv Algebra: Cubic Tough Max Min",
+       "secs": 1364
+      },
+      {
+       "name": "Adv Algebra: Equations Difficult",
+       "secs": 1038
+      },
+      {
+       "name": "Adv Algebra: Series Tough",
+       "secs": 269
+      },
+      {
+       "name": "Adv Algebra: Difficult GP",
+       "secs": 346
+      },
+      {
+       "name": "Adv Algebra: Logarithms Tough III",
+       "secs": 718
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "dilr": {
+  "count": 85,
+  "secs": 109168,
+  "days": 29,
+  "map": {
+   "LR Foundations": [
+    {
+     "sub": "Introduction",
+     "count": 1,
+     "secs": 488,
+     "videos": [
+      {
+       "name": "LRDI Introduction",
+       "secs": 488
+      }
+     ]
+    },
+    {
+     "sub": "Arrangements (Linear & Circular)",
+     "count": 5,
+     "secs": 4369,
+     "videos": [
+      {
+       "name": "Linear & Circular Arrangement I",
+       "secs": 1211
+      },
+      {
+       "name": "Linear & Circular Arrangement II",
+       "secs": 555
+      },
+      {
+       "name": "Linear Arrangement Set 1",
+       "secs": 657
+      },
+      {
+       "name": "Linear Arrangement Set 2",
+       "secs": 1066
+      },
+      {
+       "name": "Linear Arrangement Set 3",
+       "secs": 880
+      }
+     ]
+    },
+    {
+     "sub": "Cubes",
+     "count": 4,
+     "secs": 6138,
+     "videos": [
+      {
+       "name": "Cubes 1",
+       "secs": 1506
+      },
+      {
+       "name": "Cubes 2",
+       "secs": 1628
+      },
+      {
+       "name": "Cubes 3",
+       "secs": 1117
+      },
+      {
+       "name": "Cubes 4",
+       "secs": 1887
+      }
+     ]
+    },
+    {
+     "sub": "Number Series",
+     "count": 6,
+     "secs": 7424,
+     "videos": [
+      {
+       "name": "Number Series 1",
+       "secs": 1453
+      },
+      {
+       "name": "Number Series 2",
+       "secs": 1047
+      },
+      {
+       "name": "Number Series 3",
+       "secs": 1575
+      },
+      {
+       "name": "Number Series 4",
+       "secs": 1239
+      },
+      {
+       "name": "Number Series 5",
+       "secs": 896
+      },
+      {
+       "name": "Number Series 6",
+       "secs": 1214
+      }
+     ]
+    },
+    {
+     "sub": "Calendars",
+     "count": 3,
+     "secs": 4080,
+     "videos": [
+      {
+       "name": "Calendars 1",
+       "secs": 1868
+      },
+      {
+       "name": "Calendars 2",
+       "secs": 695
+      },
+      {
+       "name": "Calendars 3",
+       "secs": 1517
+      }
+     ]
+    }
+   ],
+   "Puzzles": [
+    {
+     "sub": "Quant-Based Puzzles (Sets 1\u201319)",
+     "count": 22,
+     "secs": 24102,
+     "videos": [
+      {
+       "name": "QB Puzzles Set 1",
+       "secs": 788
+      },
+      {
+       "name": "QB Puzzles Set 2",
+       "secs": 1778
+      },
+      {
+       "name": "QB Puzzles Set 3",
+       "secs": 2213
+      },
+      {
+       "name": "QB Puzzles Set 4",
+       "secs": 1638
+      },
+      {
+       "name": "QB Puzzles Set 5 (Magic Box 3x3)",
+       "secs": 949
+      },
+      {
+       "name": "QB Puzzles Set 6 Pt1 (Ring Cutting)",
+       "secs": 1091
+      },
+      {
+       "name": "QB Puzzles Set 6 Pt2 (Ring Cutting)",
+       "secs": 751
+      },
+      {
+       "name": "QB Puzzles Set 7 Pt1 (Weighing Balls)",
+       "secs": 495
+      },
+      {
+       "name": "QB Puzzles Set 7 Pt2 (Weighing Balls)",
+       "secs": 902
+      },
+      {
+       "name": "QB Puzzles Set 7 Pt3",
+       "secs": 387
+      },
+      {
+       "name": "QB Puzzles Set 8",
+       "secs": 1236
+      },
+      {
+       "name": "QB Puzzles Set 9 (Tough)",
+       "secs": 1600
+      },
+      {
+       "name": "QB Puzzles Set 10",
+       "secs": 641
+      },
+      {
+       "name": "QB Puzzles Set 11 (Magic Box 4x4)",
+       "secs": 630
+      },
+      {
+       "name": "QB Puzzles Set 12",
+       "secs": 928
+      },
+      {
+       "name": "QB Puzzles Set 13",
+       "secs": 1059
+      },
+      {
+       "name": "QB Puzzles Set 14 (CryptArithmetic)",
+       "secs": 1239
+      },
+      {
+       "name": "QB Puzzles Set 15",
+       "secs": 841
+      },
+      {
+       "name": "QB Puzzles Set 16",
+       "secs": 1166
+      },
+      {
+       "name": "QB Puzzles Set 17",
+       "secs": 841
+      },
+      {
+       "name": "QB Puzzles Set 18",
+       "secs": 1295
+      },
+      {
+       "name": "QB Puzzles Set 19",
+       "secs": 1634
+      }
+     ]
+    }
+   ],
+   "Logic Sets": [
+    {
+     "sub": "Venn Diagrams",
+     "count": 9,
+     "secs": 12957,
+     "videos": [
+      {
+       "name": "Venn Diagrams 1 (Intro)",
+       "secs": 579
+      },
+      {
+       "name": "Venn Diagrams 2 (4-param)",
+       "secs": 1782
+      },
+      {
+       "name": "Venn Diagrams 3",
+       "secs": 1849
+      },
+      {
+       "name": "Venn Diagrams 4",
+       "secs": 1381
+      },
+      {
+       "name": "Venn Diagrams 5",
+       "secs": 1411
+      },
+      {
+       "name": "Venn Diagrams 6",
+       "secs": 1244
+      },
+      {
+       "name": "Venn Diagrams 7",
+       "secs": 1399
+      },
+      {
+       "name": "Venn Diagrams 8 (Unconventional)",
+       "secs": 1345
+      },
+      {
+       "name": "Venn Diagrams 9 (Maxima-Minima)",
+       "secs": 1967
+      }
+     ]
+    },
+    {
+     "sub": "Maxima-Minima & Chocolate Distribution",
+     "count": 4,
+     "secs": 4904,
+     "videos": [
+      {
+       "name": "Max-Min 1 (Chocolate Dist)",
+       "secs": 1207
+      },
+      {
+       "name": "Max-Min 2 (Chocolate Dist)",
+       "secs": 1276
+      },
+      {
+       "name": "Chocolate Distribution 1",
+       "secs": 1161
+      },
+      {
+       "name": "Chocolate Distribution 2",
+       "secs": 1260
+      }
+     ]
+    },
+    {
+     "sub": "Games & Tournaments",
+     "count": 7,
+     "secs": 9767,
+     "videos": [
+      {
+       "name": "Games & Tournaments 1",
+       "secs": 1574
+      },
+      {
+       "name": "Games & Tournaments 2",
+       "secs": 1267
+      },
+      {
+       "name": "Games & Tournaments 3",
+       "secs": 1244
+      },
+      {
+       "name": "Games & Tournaments 4",
+       "secs": 1384
+      },
+      {
+       "name": "Games & Tournaments 5",
+       "secs": 1638
+      },
+      {
+       "name": "Games & Tournaments 6",
+       "secs": 1247
+      },
+      {
+       "name": "Games & Tournaments 8 (Knockout Adv)",
+       "secs": 1413
+      }
+     ]
+    },
+    {
+     "sub": "Maxima-Minima (Advanced)",
+     "count": 2,
+     "secs": 2231,
+     "videos": [
+      {
+       "name": "Max-Min 5 (Thinking Cap)",
+       "secs": 1051
+      },
+      {
+       "name": "Max-Min 6 (Logical)",
+       "secs": 1180
+      }
+     ]
+    }
+   ],
+   "Data Interpretation": [
+    {
+     "sub": "Pie Charts",
+     "count": 5,
+     "secs": 7205,
+     "videos": [
+      {
+       "name": "Pie Chart 1",
+       "secs": 1810
+      },
+      {
+       "name": "Pie Chart 2",
+       "secs": 1037
+      },
+      {
+       "name": "Pie Chart 3",
+       "secs": 1092
+      },
+      {
+       "name": "Pie Chart 4",
+       "secs": 1528
+      },
+      {
+       "name": "Pie Chart 5",
+       "secs": 1738
+      }
+     ]
+    },
+    {
+     "sub": "Tables",
+     "count": 1,
+     "secs": 1298,
+     "videos": [
+      {
+       "name": "Tabular Set",
+       "secs": 1298
+      }
+     ]
+    },
+    {
+     "sub": "Routes & Networks",
+     "count": 3,
+     "secs": 4042,
+     "videos": [
+      {
+       "name": "Routes & Networks 1",
+       "secs": 1467
+      },
+      {
+       "name": "Routes & Networks 2",
+       "secs": 1158
+      },
+      {
+       "name": "Routes & Networks 3",
+       "secs": 1417
+      }
+     ]
+    }
+   ],
+   "Advanced Practice": [
+    {
+     "sub": "High-Level Mixed Sets",
+     "count": 13,
+     "secs": 20163,
+     "videos": [
+      {
+       "name": "LRDI Practice Set 3",
+       "secs": 752
+      },
+      {
+       "name": "G&T Difficult Set",
+       "secs": 2240
+      },
+      {
+       "name": "Advance Level Sets Intro",
+       "secs": 201
+      },
+      {
+       "name": "Ranking Puzzle",
+       "secs": 1372
+      },
+      {
+       "name": "Alligation & Averages Set",
+       "secs": 2355
+      },
+      {
+       "name": "Difficult Puzzles Set",
+       "secs": 1492
+      },
+      {
+       "name": "QB Puzzle Set 20 Pt1",
+       "secs": 1360
+      },
+      {
+       "name": "QB Puzzle Set 20 Pt2",
+       "secs": 1838
+      },
+      {
+       "name": "QB Puzzle Set 21",
+       "secs": 1515
+      },
+      {
+       "name": "QB Puzzle Set 22 Pt1",
+       "secs": 1191
+      },
+      {
+       "name": "QB Puzzle Set 22 Pt2",
+       "secs": 1593
+      },
+      {
+       "name": "QB Puzzle Set 23",
+       "secs": 1692
+      },
+      {
+       "name": "Maxima-Minima & Distribution (99+ile)",
+       "secs": 2562
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "calendar": [
+  {
+   "day": 1,
+   "date": "2026-07-13",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Number System",
+      "sub": "Course Intro",
+      "name": "Course Intro \u2013 Full Course Overview",
+      "secs": 676
+     },
+     {
+      "main": "Number System",
+      "sub": "Numbers Basics",
+      "name": "Numbers 1",
+      "secs": 1690
+     },
+     {
+      "main": "Number System",
+      "sub": "Numbers Basics",
+      "name": "Numbers 2",
+      "secs": 1382
+     }
+    ],
+    "secs": 3748
+   },
+   "evening": {
+    "track": "LRDI",
+    "videos": [
+     {
+      "main": "LR Foundations",
+      "sub": "Introduction",
+      "name": "LRDI Introduction",
+      "secs": 488
+     },
+     {
+      "main": "LR Foundations",
+      "sub": "Arrangements (Linear & Circular)",
+      "name": "Linear & Circular Arrangement I",
+      "secs": 1211
+     },
+     {
+      "main": "LR Foundations",
+      "sub": "Arrangements (Linear & Circular)",
+      "name": "Linear & Circular Arrangement II",
+      "secs": 555
+     },
+     {
+      "main": "LR Foundations",
+      "sub": "Arrangements (Linear & Circular)",
+      "name": "Linear Arrangement Set 1",
+      "secs": 657
+     },
+     {
+      "main": "LR Foundations",
+      "sub": "Arrangements (Linear & Circular)",
+      "name": "Linear Arrangement Set 2",
+      "secs": 1066
+     }
+    ],
+    "secs": 3977
+   }
+  },
+  {
+   "day": 2,
+   "date": "2026-07-14",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Number System",
+      "sub": "Numbers Basics",
+      "name": "Numbers 3",
+      "secs": 1566
+     },
+     {
+      "main": "Number System",
+      "sub": "Factorials",
+      "name": "Factorials 1",
+      "secs": 2059
+     }
+    ],
+    "secs": 3625
+   },
+   "evening": {
+    "track": "LRDI",
+    "videos": [
+     {
+      "main": "LR Foundations",
+      "sub": "Arrangements (Linear & Circular)",
+      "name": "Linear Arrangement Set 3",
+      "secs": 880
+     },
+     {
+      "main": "LR Foundations",
+      "sub": "Cubes",
+      "name": "Cubes 1",
+      "secs": 1506
+     },
+     {
+      "main": "LR Foundations",
+      "sub": "Cubes",
+      "name": "Cubes 2",
+      "secs": 1628
+     }
+    ],
+    "secs": 4014
+   }
+  },
+  {
+   "day": 3,
+   "date": "2026-07-15",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Number System",
+      "sub": "Factorials",
+      "name": "Factorials 2",
+      "secs": 2093
+     },
+     {
+      "main": "Number System",
+      "sub": "Factorials",
+      "name": "Factorials 3",
+      "secs": 2141
+     }
+    ],
+    "secs": 4234
+   },
+   "evening": {
+    "track": "LRDI",
+    "videos": [
+     {
+      "main": "LR Foundations",
+      "sub": "Cubes",
+      "name": "Cubes 3",
+      "secs": 1117
+     },
+     {
+      "main": "LR Foundations",
+      "sub": "Cubes",
+      "name": "Cubes 4",
+      "secs": 1887
+     },
+     {
+      "main": "LR Foundations",
+      "sub": "Number Series",
+      "name": "Number Series 1",
+      "secs": 1453
+     }
+    ],
+    "secs": 4457
+   }
+  },
+  {
+   "day": 4,
+   "date": "2026-07-16",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Number System",
+      "sub": "Factorials",
+      "name": "Factorials 4",
+      "secs": 1408
+     },
+     {
+      "main": "Number System",
+      "sub": "Factorials",
+      "name": "Factorials 5",
+      "secs": 1128
+     },
+     {
+      "main": "Number System",
+      "sub": "Factorials",
+      "name": "Factorials 6",
+      "secs": 1711
+     }
+    ],
+    "secs": 4247
+   },
+   "evening": {
+    "track": "LRDI",
+    "videos": [
+     {
+      "main": "LR Foundations",
+      "sub": "Number Series",
+      "name": "Number Series 2",
+      "secs": 1047
+     },
+     {
+      "main": "LR Foundations",
+      "sub": "Number Series",
+      "name": "Number Series 3",
+      "secs": 1575
+     },
+     {
+      "main": "LR Foundations",
+      "sub": "Number Series",
+      "name": "Number Series 4",
+      "secs": 1239
+     }
+    ],
+    "secs": 3861
+   }
+  },
+  {
+   "day": 5,
+   "date": "2026-07-17",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Number System",
+      "sub": "Last 2 Digits",
+      "name": "Last 2 Digits \u2013 Odd Numbers",
+      "secs": 1374
+     },
+     {
+      "main": "Number System",
+      "sub": "Last 2 Digits",
+      "name": "Last 2 Digits \u2013 Even Numbers",
+      "secs": 1436
+     }
+    ],
+    "secs": 2810
+   },
+   "evening": {
+    "track": "LRDI",
+    "videos": [
+     {
+      "main": "LR Foundations",
+      "sub": "Number Series",
+      "name": "Number Series 5",
+      "secs": 896
+     },
+     {
+      "main": "LR Foundations",
+      "sub": "Number Series",
+      "name": "Number Series 6",
+      "secs": 1214
+     },
+     {
+      "main": "Puzzles",
+      "sub": "Quant-Based Puzzles (Sets 1\u201319)",
+      "name": "QB Puzzles Set 1",
+      "secs": 788
+     }
+    ],
+    "secs": 2898
+   }
+  },
+  {
+   "day": 6,
+   "date": "2026-07-18",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Number System",
+      "sub": "Divisibility Rules",
+      "name": "Divisibility Rules 1",
+      "secs": 1808
+     },
+     {
+      "main": "Number System",
+      "sub": "Divisibility Rules",
+      "name": "Divisibility Rules 2",
+      "secs": 1536
+     }
+    ],
+    "secs": 3344
+   },
+   "evening": {
+    "track": "LRDI",
+    "videos": [
+     {
+      "main": "Puzzles",
+      "sub": "Quant-Based Puzzles (Sets 1\u201319)",
+      "name": "QB Puzzles Set 2",
+      "secs": 1778
+     },
+     {
+      "main": "Puzzles",
+      "sub": "Quant-Based Puzzles (Sets 1\u201319)",
+      "name": "QB Puzzles Set 3",
+      "secs": 2213
+     }
+    ],
+    "secs": 3991
+   }
+  },
+  {
+   "day": 7,
+   "date": "2026-07-19",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Number System",
+      "sub": "Divisibility Rules",
+      "name": "Divisibility Rules 3",
+      "secs": 1229
+     },
+     {
+      "main": "Number System",
+      "sub": "Divisibility Rules",
+      "name": "Divisibility Rules 4",
+      "secs": 1512
+     }
+    ],
+    "secs": 2741
+   },
+   "evening": {
+    "track": "LRDI",
+    "videos": [
+     {
+      "main": "Puzzles",
+      "sub": "Quant-Based Puzzles (Sets 1\u201319)",
+      "name": "QB Puzzles Set 4",
+      "secs": 1638
+     },
+     {
+      "main": "Puzzles",
+      "sub": "Quant-Based Puzzles (Sets 1\u201319)",
+      "name": "QB Puzzles Set 5 (Magic Box 3x3)",
+      "secs": 949
+     },
+     {
+      "main": "Puzzles",
+      "sub": "Quant-Based Puzzles (Sets 1\u201319)",
+      "name": "QB Puzzles Set 6 Pt1 (Ring Cutting)",
+      "secs": 1091
+     },
+     {
+      "main": "Puzzles",
+      "sub": "Quant-Based Puzzles (Sets 1\u201319)",
+      "name": "QB Puzzles Set 6 Pt2 (Ring Cutting)",
+      "secs": 751
+     }
+    ],
+    "secs": 4429
+   }
+  },
+  {
+   "day": 8,
+   "date": "2026-07-20",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Number System",
+      "sub": "Remainders",
+      "name": "Remainders 1",
+      "secs": 1803
+     },
+     {
+      "main": "Number System",
+      "sub": "Remainders",
+      "name": "Remainders 2",
+      "secs": 1441
+     }
+    ],
+    "secs": 3244
+   },
+   "evening": {
+    "track": "LRDI",
+    "videos": [
+     {
+      "main": "Puzzles",
+      "sub": "Quant-Based Puzzles (Sets 1\u201319)",
+      "name": "QB Puzzles Set 7 Pt1 (Weighing Balls)",
+      "secs": 495
+     },
+     {
+      "main": "Puzzles",
+      "sub": "Quant-Based Puzzles (Sets 1\u201319)",
+      "name": "QB Puzzles Set 7 Pt2 (Weighing Balls)",
+      "secs": 902
+     },
+     {
+      "main": "Puzzles",
+      "sub": "Quant-Based Puzzles (Sets 1\u201319)",
+      "name": "QB Puzzles Set 7 Pt3",
+      "secs": 387
+     },
+     {
+      "main": "Puzzles",
+      "sub": "Quant-Based Puzzles (Sets 1\u201319)",
+      "name": "QB Puzzles Set 8",
+      "secs": 1236
+     }
+    ],
+    "secs": 3020
+   }
+  },
+  {
+   "day": 9,
+   "date": "2026-07-21",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Number System",
+      "sub": "Remainders",
+      "name": "Remainders 3",
+      "secs": 2069
+     },
+     {
+      "main": "Number System",
+      "sub": "Remainders",
+      "name": "Remainders 4 Part 1",
+      "secs": 1110
+     }
+    ],
+    "secs": 3179
+   },
+   "evening": {
+    "track": "LRDI",
+    "videos": [
+     {
+      "main": "Puzzles",
+      "sub": "Quant-Based Puzzles (Sets 1\u201319)",
+      "name": "QB Puzzles Set 9 (Tough)",
+      "secs": 1600
+     },
+     {
+      "main": "Puzzles",
+      "sub": "Quant-Based Puzzles (Sets 1\u201319)",
+      "name": "QB Puzzles Set 10",
+      "secs": 641
+     },
+     {
+      "main": "Puzzles",
+      "sub": "Quant-Based Puzzles (Sets 1\u201319)",
+      "name": "QB Puzzles Set 11 (Magic Box 4x4)",
+      "secs": 630
+     },
+     {
+      "main": "Puzzles",
+      "sub": "Quant-Based Puzzles (Sets 1\u201319)",
+      "name": "QB Puzzles Set 12",
+      "secs": 928
+     }
+    ],
+    "secs": 3799
+   }
+  },
+  {
+   "day": 10,
+   "date": "2026-07-22",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Number System",
+      "sub": "Remainders",
+      "name": "Remainders 4 Part 2",
+      "secs": 1657
+     },
+     {
+      "main": "Number System",
+      "sub": "Remainders",
+      "name": "Remainders 5",
+      "secs": 1460
+     }
+    ],
+    "secs": 3117
+   },
+   "evening": {
+    "track": "LRDI",
+    "videos": [
+     {
+      "main": "Puzzles",
+      "sub": "Quant-Based Puzzles (Sets 1\u201319)",
+      "name": "QB Puzzles Set 13",
+      "secs": 1059
+     },
+     {
+      "main": "Puzzles",
+      "sub": "Quant-Based Puzzles (Sets 1\u201319)",
+      "name": "QB Puzzles Set 14 (CryptArithmetic)",
+      "secs": 1239
+     },
+     {
+      "main": "Puzzles",
+      "sub": "Quant-Based Puzzles (Sets 1\u201319)",
+      "name": "QB Puzzles Set 15",
+      "secs": 841
+     },
+     {
+      "main": "Puzzles",
+      "sub": "Quant-Based Puzzles (Sets 1\u201319)",
+      "name": "QB Puzzles Set 16",
+      "secs": 1166
+     }
+    ],
+    "secs": 4305
+   }
+  },
+  {
+   "day": 11,
+   "date": "2026-07-23",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Number System",
+      "sub": "Remainders",
+      "name": "Remainders 6",
+      "secs": 1460
+     },
+     {
+      "main": "Number System",
+      "sub": "Remainders",
+      "name": "Remainders 7",
+      "secs": 1667
+     }
+    ],
+    "secs": 3127
+   },
+   "evening": {
+    "track": "LRDI",
+    "videos": [
+     {
+      "main": "Puzzles",
+      "sub": "Quant-Based Puzzles (Sets 1\u201319)",
+      "name": "QB Puzzles Set 17",
+      "secs": 841
+     },
+     {
+      "main": "Puzzles",
+      "sub": "Quant-Based Puzzles (Sets 1\u201319)",
+      "name": "QB Puzzles Set 18",
+      "secs": 1295
+     },
+     {
+      "main": "Puzzles",
+      "sub": "Quant-Based Puzzles (Sets 1\u201319)",
+      "name": "QB Puzzles Set 19",
+      "secs": 1634
+     },
+     {
+      "main": "Logic Sets",
+      "sub": "Venn Diagrams",
+      "name": "Venn Diagrams 1 (Intro)",
+      "secs": 579
+     }
+    ],
+    "secs": 4349
+   }
+  },
+  {
+   "day": 12,
+   "date": "2026-07-24",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Number System",
+      "sub": "Remainders",
+      "name": "Remainders 8",
+      "secs": 1766
+     },
+     {
+      "main": "Number System",
+      "sub": "Difference of Perfect Squares",
+      "name": "Diff of Perfect Square 1",
+      "secs": 1276
+     },
+     {
+      "main": "Number System",
+      "sub": "Difference of Perfect Squares",
+      "name": "Diff of Perfect Square 2",
+      "secs": 1133
+     }
+    ],
+    "secs": 4175
+   },
+   "evening": {
+    "track": "LRDI",
+    "videos": [
+     {
+      "main": "Logic Sets",
+      "sub": "Venn Diagrams",
+      "name": "Venn Diagrams 2 (4-param)",
+      "secs": 1782
+     },
+     {
+      "main": "Logic Sets",
+      "sub": "Venn Diagrams",
+      "name": "Venn Diagrams 3",
+      "secs": 1849
+     }
+    ],
+    "secs": 3631
+   }
+  },
+  {
+   "day": 13,
+   "date": "2026-07-25",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Number System",
+      "sub": "Difference of Perfect Squares",
+      "name": "Diff of Perfect Square 3",
+      "secs": 919
+     },
+     {
+      "main": "Number System",
+      "sub": "Factors",
+      "name": "Factors 1",
+      "secs": 1695
+     },
+     {
+      "main": "Number System",
+      "sub": "Factors",
+      "name": "Factors 2",
+      "secs": 1648
+     }
+    ],
+    "secs": 4262
+   },
+   "evening": {
+    "track": "LRDI",
+    "videos": [
+     {
+      "main": "Logic Sets",
+      "sub": "Venn Diagrams",
+      "name": "Venn Diagrams 4",
+      "secs": 1381
+     },
+     {
+      "main": "Logic Sets",
+      "sub": "Venn Diagrams",
+      "name": "Venn Diagrams 5",
+      "secs": 1411
+     },
+     {
+      "main": "Logic Sets",
+      "sub": "Venn Diagrams",
+      "name": "Venn Diagrams 6",
+      "secs": 1244
+     }
+    ],
+    "secs": 4036
+   }
+  },
+  {
+   "day": 14,
+   "date": "2026-07-26",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Number System",
+      "sub": "Factors",
+      "name": "Factors 3",
+      "secs": 1498
+     },
+     {
+      "main": "Number System",
+      "sub": "Factors",
+      "name": "Factors 4",
+      "secs": 2205
+     }
+    ],
+    "secs": 3703
+   },
+   "evening": {
+    "track": "LRDI",
+    "videos": [
+     {
+      "main": "Logic Sets",
+      "sub": "Venn Diagrams",
+      "name": "Venn Diagrams 7",
+      "secs": 1399
+     },
+     {
+      "main": "Logic Sets",
+      "sub": "Venn Diagrams",
+      "name": "Venn Diagrams 8 (Unconventional)",
+      "secs": 1345
+     }
+    ],
+    "secs": 2744
+   }
+  },
+  {
+   "day": 15,
+   "date": "2026-07-27",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Number System",
+      "sub": "Factors",
+      "name": "Factors 5",
+      "secs": 1527
+     },
+     {
+      "main": "Number System",
+      "sub": "Factors",
+      "name": "Factors 6",
+      "secs": 2153
+     }
+    ],
+    "secs": 3680
+   },
+   "evening": {
+    "track": "LRDI",
+    "videos": [
+     {
+      "main": "Logic Sets",
+      "sub": "Venn Diagrams",
+      "name": "Venn Diagrams 9 (Maxima-Minima)",
+      "secs": 1967
+     },
+     {
+      "main": "Logic Sets",
+      "sub": "Maxima-Minima & Chocolate Distribution",
+      "name": "Max-Min 1 (Chocolate Dist)",
+      "secs": 1207
+     },
+     {
+      "main": "Logic Sets",
+      "sub": "Maxima-Minima & Chocolate Distribution",
+      "name": "Max-Min 2 (Chocolate Dist)",
+      "secs": 1276
+     }
+    ],
+    "secs": 4450
+   }
+  },
+  {
+   "day": 16,
+   "date": "2026-07-28",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Number System",
+      "sub": "Factors",
+      "name": "Factors 7",
+      "secs": 1926
+     },
+     {
+      "main": "Number System",
+      "sub": "Factors",
+      "name": "Factors 8",
+      "secs": 1626
+     }
+    ],
+    "secs": 3552
+   },
+   "evening": {
+    "track": "LRDI",
+    "videos": [
+     {
+      "main": "Logic Sets",
+      "sub": "Maxima-Minima & Chocolate Distribution",
+      "name": "Chocolate Distribution 1",
+      "secs": 1161
+     },
+     {
+      "main": "Logic Sets",
+      "sub": "Maxima-Minima & Chocolate Distribution",
+      "name": "Chocolate Distribution 2",
+      "secs": 1260
+     },
+     {
+      "main": "Logic Sets",
+      "sub": "Games & Tournaments",
+      "name": "Games & Tournaments 1",
+      "secs": 1574
+     }
+    ],
+    "secs": 3995
+   }
+  },
+  {
+   "day": 17,
+   "date": "2026-07-29",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Number System",
+      "sub": "Factors",
+      "name": "Factors 9",
+      "secs": 1394
+     },
+     {
+      "main": "Number System",
+      "sub": "Factors",
+      "name": "Factors 10",
+      "secs": 1487
+     },
+     {
+      "main": "Number System",
+      "sub": "Factors",
+      "name": "Factors 11",
+      "secs": 1315
+     }
+    ],
+    "secs": 4196
+   },
+   "evening": {
+    "track": "LRDI",
+    "videos": [
+     {
+      "main": "Logic Sets",
+      "sub": "Games & Tournaments",
+      "name": "Games & Tournaments 2",
+      "secs": 1267
+     },
+     {
+      "main": "Logic Sets",
+      "sub": "Games & Tournaments",
+      "name": "Games & Tournaments 3",
+      "secs": 1244
+     },
+     {
+      "main": "Logic Sets",
+      "sub": "Games & Tournaments",
+      "name": "Games & Tournaments 4",
+      "secs": 1384
+     }
+    ],
+    "secs": 3895
+   }
+  },
+  {
+   "day": 18,
+   "date": "2026-07-30",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Number System",
+      "sub": "Factors",
+      "name": "Factors 12",
+      "secs": 1664
+     },
+     {
+      "main": "Number System",
+      "sub": "HCF & LCM",
+      "name": "HCF LCM 1",
+      "secs": 1543
+     },
+     {
+      "main": "Number System",
+      "sub": "HCF & LCM",
+      "name": "HCF LCM 2",
+      "secs": 1181
+     }
+    ],
+    "secs": 4388
+   },
+   "evening": {
+    "track": "LRDI",
+    "videos": [
+     {
+      "main": "Logic Sets",
+      "sub": "Games & Tournaments",
+      "name": "Games & Tournaments 5",
+      "secs": 1638
+     },
+     {
+      "main": "Logic Sets",
+      "sub": "Games & Tournaments",
+      "name": "Games & Tournaments 6",
+      "secs": 1247
+     },
+     {
+      "main": "Logic Sets",
+      "sub": "Games & Tournaments",
+      "name": "Games & Tournaments 8 (Knockout Adv)",
+      "secs": 1413
+     }
+    ],
+    "secs": 4298
+   }
+  },
+  {
+   "day": 19,
+   "date": "2026-07-31",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Number System",
+      "sub": "HCF & LCM",
+      "name": "HCF LCM 3",
+      "secs": 1320
+     },
+     {
+      "main": "Number System",
+      "sub": "HCF & LCM",
+      "name": "HCF LCM 4",
+      "secs": 1534
+     },
+     {
+      "main": "Number System",
+      "sub": "HCF & LCM",
+      "name": "HCF LCM 5",
+      "secs": 1512
+     }
+    ],
+    "secs": 4366
+   },
+   "evening": {
+    "track": "LRDI",
+    "videos": [
+     {
+      "main": "Data Interpretation",
+      "sub": "Pie Charts",
+      "name": "Pie Chart 1",
+      "secs": 1810
+     },
+     {
+      "main": "Data Interpretation",
+      "sub": "Pie Charts",
+      "name": "Pie Chart 2",
+      "secs": 1037
+     },
+     {
+      "main": "Data Interpretation",
+      "sub": "Pie Charts",
+      "name": "Pie Chart 3",
+      "secs": 1092
+     }
+    ],
+    "secs": 3939
+   }
+  },
+  {
+   "day": 20,
+   "date": "2026-08-01",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Geometry",
+      "sub": "Triangles",
+      "name": "Triangles 1",
+      "secs": 1973
+     },
+     {
+      "main": "Geometry",
+      "sub": "Triangles",
+      "name": "Triangles 2",
+      "secs": 1423
+     }
+    ],
+    "secs": 3396
+   },
+   "evening": {
+    "track": "LRDI",
+    "videos": [
+     {
+      "main": "Data Interpretation",
+      "sub": "Pie Charts",
+      "name": "Pie Chart 4",
+      "secs": 1528
+     },
+     {
+      "main": "Data Interpretation",
+      "sub": "Pie Charts",
+      "name": "Pie Chart 5",
+      "secs": 1738
+     }
+    ],
+    "secs": 3266
+   }
+  },
+  {
+   "day": 21,
+   "date": "2026-08-02",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Geometry",
+      "sub": "Triangles",
+      "name": "Triangles 3",
+      "secs": 1364
+     },
+     {
+      "main": "Geometry",
+      "sub": "Triangles",
+      "name": "Triangles 4",
+      "secs": 1697
+     },
+     {
+      "main": "Geometry",
+      "sub": "Triangles",
+      "name": "Triangles 5",
+      "secs": 1218
+     }
+    ],
+    "secs": 4279
+   },
+   "evening": {
+    "track": "LRDI",
+    "videos": [
+     {
+      "main": "Data Interpretation",
+      "sub": "Tables",
+      "name": "Tabular Set",
+      "secs": 1298
+     },
+     {
+      "main": "Data Interpretation",
+      "sub": "Routes & Networks",
+      "name": "Routes & Networks 1",
+      "secs": 1467
+     },
+     {
+      "main": "Data Interpretation",
+      "sub": "Routes & Networks",
+      "name": "Routes & Networks 2",
+      "secs": 1158
+     }
+    ],
+    "secs": 3923
+   }
+  },
+  {
+   "day": 22,
+   "date": "2026-08-03",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Geometry",
+      "sub": "Triangles",
+      "name": "Triangles 6",
+      "secs": 2301
+     },
+     {
+      "main": "Geometry",
+      "sub": "Triangles",
+      "name": "Triangles 7",
+      "secs": 1321
+     }
+    ],
+    "secs": 3622
+   },
+   "evening": {
+    "track": "LRDI",
+    "videos": [
+     {
+      "main": "Data Interpretation",
+      "sub": "Routes & Networks",
+      "name": "Routes & Networks 3",
+      "secs": 1417
+     },
+     {
+      "main": "Logic Sets",
+      "sub": "Maxima-Minima (Advanced)",
+      "name": "Max-Min 5 (Thinking Cap)",
+      "secs": 1051
+     },
+     {
+      "main": "Logic Sets",
+      "sub": "Maxima-Minima (Advanced)",
+      "name": "Max-Min 6 (Logical)",
+      "secs": 1180
+     }
+    ],
+    "secs": 3648
+   }
+  },
+  {
+   "day": 23,
+   "date": "2026-08-04",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Geometry",
+      "sub": "Triangles",
+      "name": "Triangles 8",
+      "secs": 1656
+     },
+     {
+      "main": "Geometry",
+      "sub": "Triangles",
+      "name": "Triangles 9",
+      "secs": 1671
+     }
+    ],
+    "secs": 3327
+   },
+   "evening": {
+    "track": "LRDI",
+    "videos": [
+     {
+      "main": "LR Foundations",
+      "sub": "Calendars",
+      "name": "Calendars 1",
+      "secs": 1868
+     },
+     {
+      "main": "LR Foundations",
+      "sub": "Calendars",
+      "name": "Calendars 2",
+      "secs": 695
+     },
+     {
+      "main": "LR Foundations",
+      "sub": "Calendars",
+      "name": "Calendars 3",
+      "secs": 1517
+     }
+    ],
+    "secs": 4080
+   }
+  },
+  {
+   "day": 24,
+   "date": "2026-08-05",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Geometry",
+      "sub": "Triangles",
+      "name": "Triangles 10",
+      "secs": 1329
+     },
+     {
+      "main": "Geometry",
+      "sub": "Triangles",
+      "name": "Triangles 11",
+      "secs": 1630
+     },
+     {
+      "main": "Geometry",
+      "sub": "Triangles",
+      "name": "Triangles 12",
+      "secs": 1460
+     }
+    ],
+    "secs": 4419
+   },
+   "evening": {
+    "track": "LRDI",
+    "videos": [
+     {
+      "main": "Advanced Practice",
+      "sub": "High-Level Mixed Sets",
+      "name": "LRDI Practice Set 3",
+      "secs": 752
+     },
+     {
+      "main": "Advanced Practice",
+      "sub": "High-Level Mixed Sets",
+      "name": "G&T Difficult Set",
+      "secs": 2240
+     },
+     {
+      "main": "Advanced Practice",
+      "sub": "High-Level Mixed Sets",
+      "name": "Advance Level Sets Intro",
+      "secs": 201
+     }
+    ],
+    "secs": 3193
+   }
+  },
+  {
+   "day": 25,
+   "date": "2026-08-06",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Geometry",
+      "sub": "Triangles",
+      "name": "Triangles 13",
+      "secs": 1449
+     },
+     {
+      "main": "Geometry",
+      "sub": "Quadrilaterals",
+      "name": "Quadrilaterals 1",
+      "secs": 2314
+     }
+    ],
+    "secs": 3763
+   },
+   "evening": {
+    "track": "LRDI",
+    "videos": [
+     {
+      "main": "Advanced Practice",
+      "sub": "High-Level Mixed Sets",
+      "name": "Ranking Puzzle",
+      "secs": 1372
+     },
+     {
+      "main": "Advanced Practice",
+      "sub": "High-Level Mixed Sets",
+      "name": "Alligation & Averages Set",
+      "secs": 2355
+     }
+    ],
+    "secs": 3727
+   }
+  },
+  {
+   "day": 26,
+   "date": "2026-08-07",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Geometry",
+      "sub": "Quadrilaterals",
+      "name": "Quadrilaterals 2",
+      "secs": 1329
+     },
+     {
+      "main": "Geometry",
+      "sub": "Quadrilaterals",
+      "name": "Quadrilaterals 3",
+      "secs": 797
+     },
+     {
+      "main": "Geometry",
+      "sub": "Circles",
+      "name": "Circles 1",
+      "secs": 1548
+     }
+    ],
+    "secs": 3674
+   },
+   "evening": {
+    "track": "LRDI",
+    "videos": [
+     {
+      "main": "Advanced Practice",
+      "sub": "High-Level Mixed Sets",
+      "name": "Difficult Puzzles Set",
+      "secs": 1492
+     },
+     {
+      "main": "Advanced Practice",
+      "sub": "High-Level Mixed Sets",
+      "name": "QB Puzzle Set 20 Pt1",
+      "secs": 1360
+     }
+    ],
+    "secs": 2852
+   }
+  },
+  {
+   "day": 27,
+   "date": "2026-08-08",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Geometry",
+      "sub": "Circles",
+      "name": "Circles 2",
+      "secs": 1197
+     },
+     {
+      "main": "Geometry",
+      "sub": "Circles",
+      "name": "Circles 3",
+      "secs": 1466
+     },
+     {
+      "main": "Geometry",
+      "sub": "Mensuration",
+      "name": "Mensuration 1",
+      "secs": 1487
+     }
+    ],
+    "secs": 4150
+   },
+   "evening": {
+    "track": "LRDI",
+    "videos": [
+     {
+      "main": "Advanced Practice",
+      "sub": "High-Level Mixed Sets",
+      "name": "QB Puzzle Set 20 Pt2",
+      "secs": 1838
+     },
+     {
+      "main": "Advanced Practice",
+      "sub": "High-Level Mixed Sets",
+      "name": "QB Puzzle Set 21",
+      "secs": 1515
+     }
+    ],
+    "secs": 3353
+   }
+  },
+  {
+   "day": 28,
+   "date": "2026-08-09",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Geometry",
+      "sub": "Mensuration",
+      "name": "Mensuration 2",
+      "secs": 1742
+     },
+     {
+      "main": "Geometry",
+      "sub": "Mensuration",
+      "name": "Mensuration 3",
+      "secs": 1294
+     },
+     {
+      "main": "Geometry",
+      "sub": "Mensuration",
+      "name": "Mensuration 4",
+      "secs": 1432
+     }
+    ],
+    "secs": 4468
+   },
+   "evening": {
+    "track": "LRDI",
+    "videos": [
+     {
+      "main": "Advanced Practice",
+      "sub": "High-Level Mixed Sets",
+      "name": "QB Puzzle Set 22 Pt1",
+      "secs": 1191
+     },
+     {
+      "main": "Advanced Practice",
+      "sub": "High-Level Mixed Sets",
+      "name": "QB Puzzle Set 22 Pt2",
+      "secs": 1593
+     },
+     {
+      "main": "Advanced Practice",
+      "sub": "High-Level Mixed Sets",
+      "name": "QB Puzzle Set 23",
+      "secs": 1692
+     }
+    ],
+    "secs": 4476
+   }
+  },
+  {
+   "day": 29,
+   "date": "2026-08-10",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Geometry",
+      "sub": "Mensuration",
+      "name": "Mensuration 5",
+      "secs": 1375
+     },
+     {
+      "main": "Arithmetic",
+      "sub": "Speed Maths",
+      "name": "Speed Maths 1",
+      "secs": 1882
+     },
+     {
+      "main": "Arithmetic",
+      "sub": "Speed Maths",
+      "name": "Speed Maths 2",
+      "secs": 1201
+     }
+    ],
+    "secs": 4458
+   },
+   "evening": {
+    "track": "LRDI",
+    "videos": [
+     {
+      "main": "Advanced Practice",
+      "sub": "High-Level Mixed Sets",
+      "name": "Maxima-Minima & Distribution (99+ile)",
+      "secs": 2562
+     }
+    ],
+    "secs": 2562
+   }
+  },
+  {
+   "day": 30,
+   "date": "2026-08-11",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Arithmetic",
+      "sub": "Speed Maths",
+      "name": "Speed Maths 3",
+      "secs": 1339
+     },
+     {
+      "main": "Arithmetic",
+      "sub": "Speed Maths",
+      "name": "Speed Maths 4",
+      "secs": 1232
+     },
+     {
+      "main": "Arithmetic",
+      "sub": "Speed Maths",
+      "name": "Speed Maths 5",
+      "secs": 1659
+     }
+    ],
+    "secs": 4230
+   },
+   "evening": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Arithmetic",
+      "sub": "Speed Maths",
+      "name": "Speed Maths 6",
+      "secs": 1242
+     },
+     {
+      "main": "Arithmetic",
+      "sub": "Percentages",
+      "name": "Percentages 1",
+      "secs": 1579
+     },
+     {
+      "main": "Arithmetic",
+      "sub": "Percentages",
+      "name": "Percentages 2",
+      "secs": 1366
+     }
+    ],
+    "secs": 4187
+   }
+  },
+  {
+   "day": 31,
+   "date": "2026-08-12",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Arithmetic",
+      "sub": "Percentages",
+      "name": "Percentages 3",
+      "secs": 1216
+     },
+     {
+      "main": "Arithmetic",
+      "sub": "Profit & Loss",
+      "name": "Profit and Loss 1",
+      "secs": 1565
+     },
+     {
+      "main": "Arithmetic",
+      "sub": "Profit & Loss",
+      "name": "Profit and Loss 2",
+      "secs": 1464
+     }
+    ],
+    "secs": 4245
+   },
+   "evening": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Arithmetic",
+      "sub": "Profit & Loss",
+      "name": "Profit and Loss 3",
+      "secs": 2312
+     },
+     {
+      "main": "Arithmetic",
+      "sub": "Profit & Loss",
+      "name": "Profit and Loss 4",
+      "secs": 1621
+     }
+    ],
+    "secs": 3933
+   }
+  },
+  {
+   "day": 32,
+   "date": "2026-08-13",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Arithmetic",
+      "sub": "Profit & Loss",
+      "name": "Profit and Loss 5",
+      "secs": 1466
+     },
+     {
+      "main": "Arithmetic",
+      "sub": "Profit & Loss",
+      "name": "Profit and Loss 6",
+      "secs": 1299
+     },
+     {
+      "main": "Arithmetic",
+      "sub": "Averages",
+      "name": "Averages 1",
+      "secs": 1390
+     }
+    ],
+    "secs": 4155
+   },
+   "evening": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Arithmetic",
+      "sub": "Averages",
+      "name": "Averages 2",
+      "secs": 1837
+     },
+     {
+      "main": "Arithmetic",
+      "sub": "Averages",
+      "name": "Averages 3",
+      "secs": 1919
+     }
+    ],
+    "secs": 3756
+   }
+  },
+  {
+   "day": 33,
+   "date": "2026-08-14",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Arithmetic",
+      "sub": "Averages",
+      "name": "Averages 4",
+      "secs": 1605
+     },
+     {
+      "main": "Arithmetic",
+      "sub": "Alligation & Mixture",
+      "name": "Alligation & Mixture 1",
+      "secs": 1907
+     }
+    ],
+    "secs": 3512
+   },
+   "evening": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Arithmetic",
+      "sub": "Alligation & Mixture",
+      "name": "Alligation & Mixture 2",
+      "secs": 1040
+     },
+     {
+      "main": "Arithmetic",
+      "sub": "Alligation & Mixture",
+      "name": "Alligation & Mixture 3",
+      "secs": 1415
+     },
+     {
+      "main": "Arithmetic",
+      "sub": "Alligation & Mixture",
+      "name": "Alligation & Mixture 4",
+      "secs": 1588
+     }
+    ],
+    "secs": 4043
+   }
+  },
+  {
+   "day": 34,
+   "date": "2026-08-15",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Arithmetic",
+      "sub": "Alligation & Mixture",
+      "name": "Alligation & Mixture 5",
+      "secs": 1604
+     },
+     {
+      "main": "Arithmetic",
+      "sub": "Alligation & Mixture",
+      "name": "Alligation & Mixture 6",
+      "secs": 1288
+     },
+     {
+      "main": "Arithmetic",
+      "sub": "Ratio",
+      "name": "Ratio 1",
+      "secs": 1438
+     }
+    ],
+    "secs": 4330
+   },
+   "evening": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Arithmetic",
+      "sub": "Ratio",
+      "name": "Ratio 2",
+      "secs": 1126
+     },
+     {
+      "main": "Arithmetic",
+      "sub": "Ratio",
+      "name": "Ratio 3",
+      "secs": 2315
+     }
+    ],
+    "secs": 3441
+   }
+  },
+  {
+   "day": 35,
+   "date": "2026-08-16",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Arithmetic",
+      "sub": "Ratio",
+      "name": "Ratio 4",
+      "secs": 1438
+     },
+     {
+      "main": "Arithmetic",
+      "sub": "Ratio",
+      "name": "Ratio 5",
+      "secs": 1914
+     },
+     {
+      "main": "Arithmetic",
+      "sub": "Ratio",
+      "name": "Ratio 6",
+      "secs": 997
+     }
+    ],
+    "secs": 4349
+   },
+   "evening": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Arithmetic",
+      "sub": "Proportion & Variation",
+      "name": "Proportion Variation 1",
+      "secs": 1555
+     },
+     {
+      "main": "Arithmetic",
+      "sub": "Proportion & Variation",
+      "name": "Proportion Variation 2",
+      "secs": 1675
+     }
+    ],
+    "secs": 3230
+   }
+  },
+  {
+   "day": 36,
+   "date": "2026-08-17",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Arithmetic",
+      "sub": "SI & CI",
+      "name": "SI & CI 1",
+      "secs": 1297
+     },
+     {
+      "main": "Arithmetic",
+      "sub": "SI & CI",
+      "name": "SI & CI 2",
+      "secs": 1574
+     },
+     {
+      "main": "Arithmetic",
+      "sub": "SI & CI",
+      "name": "SI & CI 3",
+      "secs": 1425
+     }
+    ],
+    "secs": 4296
+   },
+   "evening": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Arithmetic",
+      "sub": "SI & CI",
+      "name": "SI & CI 4",
+      "secs": 1122
+     },
+     {
+      "main": "Arithmetic",
+      "sub": "SI & CI",
+      "name": "SI & CI 5",
+      "secs": 991
+     },
+     {
+      "main": "Arithmetic",
+      "sub": "SI & CI",
+      "name": "SI & CI 6",
+      "secs": 1421
+     }
+    ],
+    "secs": 3534
+   }
+  },
+  {
+   "day": 37,
+   "date": "2026-08-18",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Arithmetic",
+      "sub": "Time & Work",
+      "name": "Time and Work 1",
+      "secs": 1318
+     },
+     {
+      "main": "Arithmetic",
+      "sub": "Time & Work",
+      "name": "Time and Work 2",
+      "secs": 1465
+     },
+     {
+      "main": "Arithmetic",
+      "sub": "Time & Work",
+      "name": "Time and Work 3",
+      "secs": 1565
+     }
+    ],
+    "secs": 4348
+   },
+   "evening": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Arithmetic",
+      "sub": "Time Speed Distance",
+      "name": "TSD 1",
+      "secs": 1337
+     },
+     {
+      "main": "Arithmetic",
+      "sub": "Time Speed Distance",
+      "name": "TSD 2",
+      "secs": 1418
+     },
+     {
+      "main": "Arithmetic",
+      "sub": "Time Speed Distance",
+      "name": "TSD 3",
+      "secs": 1609
+     }
+    ],
+    "secs": 4364
+   }
+  },
+  {
+   "day": 38,
+   "date": "2026-08-19",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Arithmetic",
+      "sub": "Time Speed Distance",
+      "name": "TSD 4",
+      "secs": 1917
+     },
+     {
+      "main": "Arithmetic",
+      "sub": "Time Speed Distance",
+      "name": "TSD 5",
+      "secs": 1516
+     }
+    ],
+    "secs": 3433
+   },
+   "evening": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Arithmetic",
+      "sub": "Time Speed Distance",
+      "name": "TSD 6",
+      "secs": 1681
+     },
+     {
+      "main": "Arithmetic",
+      "sub": "Time Speed Distance",
+      "name": "TSD 7 (Escalators)",
+      "secs": 1587
+     }
+    ],
+    "secs": 3268
+   }
+  },
+  {
+   "day": 39,
+   "date": "2026-08-20",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Arithmetic",
+      "sub": "Time Speed Distance",
+      "name": "TSD 8 (Escalators contd)",
+      "secs": 1453
+     },
+     {
+      "main": "Arithmetic",
+      "sub": "TSD \u2013 Boats & Streams",
+      "name": "Boat Streams 1",
+      "secs": 1787
+     }
+    ],
+    "secs": 3240
+   },
+   "evening": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Arithmetic",
+      "sub": "TSD \u2013 Boats & Streams",
+      "name": "Boat Streams 2",
+      "secs": 1356
+     },
+     {
+      "main": "Arithmetic",
+      "sub": "TSD \u2013 Relative Speed",
+      "name": "Relative Speed 1",
+      "secs": 1632
+     },
+     {
+      "main": "Arithmetic",
+      "sub": "TSD \u2013 Relative Speed",
+      "name": "Relative Speed 2",
+      "secs": 1331
+     }
+    ],
+    "secs": 4319
+   }
+  },
+  {
+   "day": 40,
+   "date": "2026-08-21",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Arithmetic",
+      "sub": "TSD \u2013 Relative Speed",
+      "name": "Relative Speed 3",
+      "secs": 1641
+     },
+     {
+      "main": "Arithmetic",
+      "sub": "TSD \u2013 Relative Speed",
+      "name": "Relative Speed 4",
+      "secs": 1302
+     }
+    ],
+    "secs": 2943
+   },
+   "evening": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Arithmetic",
+      "sub": "TSD \u2013 Linear Tracks",
+      "name": "Linear Tracks 1",
+      "secs": 1660
+     },
+     {
+      "main": "Arithmetic",
+      "sub": "TSD \u2013 Linear Tracks",
+      "name": "Linear Tracks 2",
+      "secs": 1748
+     }
+    ],
+    "secs": 3408
+   }
+  },
+  {
+   "day": 41,
+   "date": "2026-08-22",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Arithmetic",
+      "sub": "TSD \u2013 Linear Tracks",
+      "name": "Linear Tracks 3",
+      "secs": 1474
+     },
+     {
+      "main": "Arithmetic",
+      "sub": "TSD \u2013 Linear Races",
+      "name": "Linear Races 1",
+      "secs": 1344
+     },
+     {
+      "main": "Arithmetic",
+      "sub": "TSD \u2013 Linear Races",
+      "name": "Linear Races 2",
+      "secs": 1593
+     }
+    ],
+    "secs": 4411
+   },
+   "evening": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Arithmetic",
+      "sub": "Clocks",
+      "name": "Time & Distance Clocks 1",
+      "secs": 1339
+     },
+     {
+      "main": "Arithmetic",
+      "sub": "Circular Tracks",
+      "name": "Circular Tracks 1",
+      "secs": 1339
+     },
+     {
+      "main": "Arithmetic",
+      "sub": "Circular Tracks",
+      "name": "Circular Tracks 2",
+      "secs": 1412
+     }
+    ],
+    "secs": 4090
+   }
+  },
+  {
+   "day": 42,
+   "date": "2026-08-23",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Arithmetic",
+      "sub": "Circular Tracks",
+      "name": "Circular Tracks 3",
+      "secs": 1141
+     },
+     {
+      "main": "Algebra",
+      "sub": "Advance Algebra",
+      "name": "Advance Algebra 1",
+      "secs": 2081
+     }
+    ],
+    "secs": 3222
+   },
+   "evening": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Algebra",
+      "sub": "Advance Algebra",
+      "name": "Advance Algebra 2",
+      "secs": 1688
+     },
+     {
+      "main": "Algebra",
+      "sub": "Advance Algebra",
+      "name": "Advance Algebra 3",
+      "secs": 1149
+     },
+     {
+      "main": "Algebra",
+      "sub": "Advance Algebra",
+      "name": "Advance Algebra 4",
+      "secs": 1199
+     }
+    ],
+    "secs": 4036
+   }
+  },
+  {
+   "day": 43,
+   "date": "2026-08-24",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Algebra",
+      "sub": "Advance Algebra",
+      "name": "Advance Algebra 5",
+      "secs": 855
+     },
+     {
+      "main": "Algebra",
+      "sub": "Advance Algebra",
+      "name": "Advance Algebra 6",
+      "secs": 664
+     },
+     {
+      "main": "Algebra",
+      "sub": "Sequence & Series",
+      "name": "Sequence Series 1",
+      "secs": 1509
+     },
+     {
+      "main": "Algebra",
+      "sub": "Arithmetic Progression",
+      "name": "Arithmetic Progression 1",
+      "secs": 1345
+     }
+    ],
+    "secs": 4373
+   },
+   "evening": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Algebra",
+      "sub": "Arithmetic Progression",
+      "name": "Arithmetic Progression 2",
+      "secs": 1399
+     },
+     {
+      "main": "Algebra",
+      "sub": "Geometric Progression",
+      "name": "Geometric Progression 1",
+      "secs": 1298
+     },
+     {
+      "main": "Algebra",
+      "sub": "Geometric Progression",
+      "name": "Geometric Progression 2",
+      "secs": 975
+     },
+     {
+      "main": "Algebra",
+      "sub": "Geometric Progression",
+      "name": "Geometric Progression 3",
+      "secs": 790
+     }
+    ],
+    "secs": 4462
+   }
+  },
+  {
+   "day": 44,
+   "date": "2026-08-25",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Algebra",
+      "sub": "Simple Equations",
+      "name": "Simple Equations 1",
+      "secs": 1569
+     },
+     {
+      "main": "Algebra",
+      "sub": "Simple Equations",
+      "name": "Simple Equations 2",
+      "secs": 1712
+     }
+    ],
+    "secs": 3281
+   },
+   "evening": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Algebra",
+      "sub": "Simple Equations",
+      "name": "Simple Equations 3",
+      "secs": 1298
+     },
+     {
+      "main": "Algebra",
+      "sub": "Simple Equations",
+      "name": "Simple Equations 4",
+      "secs": 1368
+     },
+     {
+      "main": "Algebra",
+      "sub": "Simple Equations",
+      "name": "Simple Equations 5",
+      "secs": 1558
+     }
+    ],
+    "secs": 4224
+   }
+  },
+  {
+   "day": 45,
+   "date": "2026-08-26",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Algebra",
+      "sub": "Simple Equations",
+      "name": "Simple Equations 6",
+      "secs": 1339
+     },
+     {
+      "main": "Algebra",
+      "sub": "Cubic Equations",
+      "name": "Cubic Equation 1",
+      "secs": 1137
+     },
+     {
+      "main": "Algebra",
+      "sub": "Cubic Equations",
+      "name": "Cubic Equation 2",
+      "secs": 1422
+     }
+    ],
+    "secs": 3898
+   },
+   "evening": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Algebra",
+      "sub": "Quadratic Equations",
+      "name": "Quadratic Equation 1",
+      "secs": 1707
+     },
+     {
+      "main": "Algebra",
+      "sub": "Quadratic Equations",
+      "name": "Quadratic Equation 2",
+      "secs": 1253
+     },
+     {
+      "main": "Algebra",
+      "sub": "Quadratic Equations",
+      "name": "Quadratic Equation 3",
+      "secs": 1219
+     }
+    ],
+    "secs": 4179
+   }
+  },
+  {
+   "day": 46,
+   "date": "2026-08-27",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Algebra",
+      "sub": "Quadratic Equations",
+      "name": "Quadratic Equation 4",
+      "secs": 1544
+     },
+     {
+      "main": "Algebra",
+      "sub": "Inequalities",
+      "name": "Inequalities 1",
+      "secs": 1132
+     },
+     {
+      "main": "Algebra",
+      "sub": "Inequalities",
+      "name": "Inequalities 2",
+      "secs": 1788
+     }
+    ],
+    "secs": 4464
+   },
+   "evening": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Algebra",
+      "sub": "Inequalities",
+      "name": "Inequalities 3",
+      "secs": 1134
+     },
+     {
+      "main": "Algebra",
+      "sub": "Inequalities",
+      "name": "Inequalities 4",
+      "secs": 1202
+     },
+     {
+      "main": "Algebra",
+      "sub": "Inequalities",
+      "name": "Inequalities 5",
+      "secs": 1358
+     }
+    ],
+    "secs": 3694
+   }
+  },
+  {
+   "day": 47,
+   "date": "2026-08-28",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Algebra",
+      "sub": "Inequalities",
+      "name": "Inequalities 6",
+      "secs": 1697
+     },
+     {
+      "main": "Algebra",
+      "sub": "Inequalities",
+      "name": "Inequalities 7",
+      "secs": 702
+     },
+     {
+      "main": "Algebra",
+      "sub": "Inequalities",
+      "name": "Inequalities 8",
+      "secs": 444
+     },
+     {
+      "main": "Algebra",
+      "sub": "Inequalities",
+      "name": "Inequalities 9",
+      "secs": 912
+     }
+    ],
+    "secs": 3755
+   },
+   "evening": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Algebra",
+      "sub": "Graphs",
+      "name": "Graphs 1",
+      "secs": 826
+     },
+     {
+      "main": "Algebra",
+      "sub": "Graphs",
+      "name": "Graphs 2",
+      "secs": 1230
+     },
+     {
+      "main": "Algebra",
+      "sub": "Graphs",
+      "name": "Graphs 3",
+      "secs": 1208
+     }
+    ],
+    "secs": 3264
+   }
+  },
+  {
+   "day": 48,
+   "date": "2026-08-29",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Algebra",
+      "sub": "Graphs",
+      "name": "Graphs 4",
+      "secs": 1655
+     },
+     {
+      "main": "Algebra",
+      "sub": "Indices & Surds",
+      "name": "Indices Surds 1",
+      "secs": 1203
+     },
+     {
+      "main": "Algebra",
+      "sub": "Indices & Surds",
+      "name": "Indices Surds 2",
+      "secs": 1490
+     }
+    ],
+    "secs": 4348
+   },
+   "evening": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Algebra",
+      "sub": "Indices & Surds",
+      "name": "Indices Surds 3",
+      "secs": 1298
+     },
+     {
+      "main": "Algebra",
+      "sub": "Indices & Surds",
+      "name": "Indices Surds 4",
+      "secs": 1219
+     },
+     {
+      "main": "Algebra",
+      "sub": "Indices & Surds",
+      "name": "Indices Surds 5",
+      "secs": 719
+     }
+    ],
+    "secs": 3236
+   }
+  },
+  {
+   "day": 49,
+   "date": "2026-08-30",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Algebra",
+      "sub": "Logarithms",
+      "name": "Logarithms 1",
+      "secs": 1843
+     },
+     {
+      "main": "Algebra",
+      "sub": "Logarithms",
+      "name": "Logarithms 2",
+      "secs": 1446
+     },
+     {
+      "main": "Algebra",
+      "sub": "Statistics",
+      "name": "Statistics 1",
+      "secs": 989
+     }
+    ],
+    "secs": 4278
+   },
+   "evening": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Algebra",
+      "sub": "Statistics",
+      "name": "Statistics 2",
+      "secs": 1025
+     },
+     {
+      "main": "Algebra",
+      "sub": "Statistics",
+      "name": "Statistics 3",
+      "secs": 897
+     },
+     {
+      "main": "Algebra",
+      "sub": "Functions",
+      "name": "Functions 1",
+      "secs": 1276
+     },
+     {
+      "main": "Algebra",
+      "sub": "Functions",
+      "name": "Functions 2",
+      "secs": 1152
+     }
+    ],
+    "secs": 4350
+   }
+  },
+  {
+   "day": 50,
+   "date": "2026-08-31",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Algebra",
+      "sub": "Functions",
+      "name": "Functions 3",
+      "secs": 1167
+     },
+     {
+      "main": "Algebra",
+      "sub": "Functions",
+      "name": "Functions 4",
+      "secs": 994
+     },
+     {
+      "main": "Algebra",
+      "sub": "Functions",
+      "name": "Functions 5",
+      "secs": 987
+     },
+     {
+      "main": "Algebra",
+      "sub": "Functions",
+      "name": "Functions 6",
+      "secs": 818
+     }
+    ],
+    "secs": 3966
+   },
+   "evening": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Algebra",
+      "sub": "Functions",
+      "name": "Functions 7",
+      "secs": 1045
+     },
+     {
+      "main": "Algebra",
+      "sub": "Functions",
+      "name": "Functions 8",
+      "secs": 939
+     },
+     {
+      "main": "Algebra",
+      "sub": "Functions",
+      "name": "Functions 9",
+      "secs": 590
+     },
+     {
+      "main": "Algebra",
+      "sub": "Functions",
+      "name": "Functions 10",
+      "secs": 783
+     }
+    ],
+    "secs": 3357
+   }
+  },
+  {
+   "day": 51,
+   "date": "2026-09-01",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Modern Math",
+      "sub": "Permutations & Combinations",
+      "name": "P&C 1",
+      "secs": 1615
+     },
+     {
+      "main": "Modern Math",
+      "sub": "Permutations & Combinations",
+      "name": "P&C 2",
+      "secs": 2189
+     }
+    ],
+    "secs": 3804
+   },
+   "evening": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Modern Math",
+      "sub": "Permutations & Combinations",
+      "name": "P&C 3",
+      "secs": 2087
+     },
+     {
+      "main": "Modern Math",
+      "sub": "Permutations & Combinations",
+      "name": "P&C 4",
+      "secs": 1722
+     }
+    ],
+    "secs": 3809
+   }
+  },
+  {
+   "day": 52,
+   "date": "2026-09-02",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Modern Math",
+      "sub": "Permutations & Combinations",
+      "name": "P&C 5",
+      "secs": 1496
+     },
+     {
+      "main": "Modern Math",
+      "sub": "Permutations & Combinations",
+      "name": "P&C 6",
+      "secs": 1510
+     }
+    ],
+    "secs": 3006
+   },
+   "evening": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Modern Math",
+      "sub": "Permutations & Combinations",
+      "name": "P&C 7",
+      "secs": 1516
+     },
+     {
+      "main": "Modern Math",
+      "sub": "Permutations & Combinations",
+      "name": "P&C 8",
+      "secs": 1021
+     },
+     {
+      "main": "Modern Math",
+      "sub": "Permutations & Combinations",
+      "name": "P&C 9",
+      "secs": 1666
+     }
+    ],
+    "secs": 4203
+   }
+  },
+  {
+   "day": 53,
+   "date": "2026-09-03",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Modern Math",
+      "sub": "Permutations & Combinations",
+      "name": "P&C 10",
+      "secs": 1511
+     },
+     {
+      "main": "Modern Math",
+      "sub": "Permutations & Combinations",
+      "name": "P&C 11",
+      "secs": 1274
+     }
+    ],
+    "secs": 2785
+   },
+   "evening": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Modern Math",
+      "sub": "Permutations & Combinations",
+      "name": "P&C 12",
+      "secs": 1937
+     },
+     {
+      "main": "Modern Math",
+      "sub": "Permutations & Combinations",
+      "name": "P&C 13",
+      "secs": 1194
+     },
+     {
+      "main": "Modern Math",
+      "sub": "Permutations & Combinations",
+      "name": "P&C 14",
+      "secs": 1036
+     }
+    ],
+    "secs": 4167
+   }
+  },
+  {
+   "day": 54,
+   "date": "2026-09-04",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Modern Math",
+      "sub": "Permutations & Combinations",
+      "name": "P&C 15",
+      "secs": 1619
+     },
+     {
+      "main": "Modern Math",
+      "sub": "Permutations & Combinations",
+      "name": "P&C 16",
+      "secs": 1544
+     },
+     {
+      "main": "Modern Math",
+      "sub": "Permutations & Combinations",
+      "name": "P&C 17",
+      "secs": 953
+     }
+    ],
+    "secs": 4116
+   },
+   "evening": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Modern Math",
+      "sub": "Permutations & Combinations",
+      "name": "P&C 18",
+      "secs": 1263
+     },
+     {
+      "main": "Modern Math",
+      "sub": "Permutations & Combinations",
+      "name": "P&C 19",
+      "secs": 1485
+     },
+     {
+      "main": "Modern Math",
+      "sub": "Permutations & Combinations",
+      "name": "P&C 20",
+      "secs": 1622
+     }
+    ],
+    "secs": 4370
+   }
+  },
+  {
+   "day": 55,
+   "date": "2026-09-05",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Modern Math",
+      "sub": "Permutations & Combinations",
+      "name": "P&C 21",
+      "secs": 1039
+     },
+     {
+      "main": "Modern Math",
+      "sub": "Probability",
+      "name": "Probability 1",
+      "secs": 1291
+     },
+     {
+      "main": "Modern Math",
+      "sub": "Probability",
+      "name": "Probability 2",
+      "secs": 1269
+     }
+    ],
+    "secs": 3599
+   },
+   "evening": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Number System",
+      "sub": "Base Systems",
+      "name": "Base Systems 1",
+      "secs": 2342
+     },
+     {
+      "main": "Number System",
+      "sub": "Base Systems",
+      "name": "Base Systems 2",
+      "secs": 1395
+     }
+    ],
+    "secs": 3737
+   }
+  },
+  {
+   "day": 56,
+   "date": "2026-09-06",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Number System",
+      "sub": "Base Systems",
+      "name": "Base Systems 3",
+      "secs": 1286
+     },
+     {
+      "main": "Number System",
+      "sub": "Base Systems",
+      "name": "Base Systems 4",
+      "secs": 1175
+     },
+     {
+      "main": "Number System",
+      "sub": "Base Systems",
+      "name": "Base Systems 5",
+      "secs": 908
+     }
+    ],
+    "secs": 3369
+   },
+   "evening": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Number System",
+      "sub": "Recurring Decimals & Cyclicity",
+      "name": "Recurring Decimal Cyclicity (marathon)",
+      "secs": 3467
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Numbers \u2013 Advanced Practice",
+      "name": "Practice Numbers 1",
+      "secs": 779
+     }
+    ],
+    "secs": 4246
+   }
+  },
+  {
+   "day": 57,
+   "date": "2026-09-07",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Practice & Revision",
+      "sub": "Numbers \u2013 Advanced Practice",
+      "name": "Practice Numbers 2",
+      "secs": 746
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Numbers \u2013 Advanced Practice",
+      "name": "Practice Numbers 3",
+      "secs": 1261
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Numbers \u2013 Advanced Practice",
+      "name": "Practice Numbers 4",
+      "secs": 702
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Numbers \u2013 Advanced Practice",
+      "name": "Practice Numbers 5",
+      "secs": 960
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Numbers \u2013 Advanced Practice",
+      "name": "Practice Numbers 6",
+      "secs": 712
+     }
+    ],
+    "secs": 4381
+   },
+   "evening": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Practice & Revision",
+      "sub": "Numbers \u2013 Advanced Practice",
+      "name": "Practice Numbers 7",
+      "secs": 926
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Numbers \u2013 Advanced Practice",
+      "name": "Practice Numbers 8",
+      "secs": 700
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Numbers \u2013 Advanced Practice",
+      "name": "Practice Numbers 9",
+      "secs": 629
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Numbers \u2013 Advanced Practice",
+      "name": "Practice Numbers 10",
+      "secs": 879
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Numbers \u2013 Advanced Practice",
+      "name": "Practice Numbers 11",
+      "secs": 880
+     }
+    ],
+    "secs": 4014
+   }
+  },
+  {
+   "day": 58,
+   "date": "2026-09-08",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Practice & Revision",
+      "sub": "Numbers \u2013 Advanced Practice",
+      "name": "Practice Numbers 12",
+      "secs": 702
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Numbers \u2013 Advanced Practice",
+      "name": "Practice Numbers 13",
+      "secs": 977
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Numbers \u2013 Advanced Practice",
+      "name": "Practice Numbers 14",
+      "secs": 920
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Numbers \u2013 Advanced Practice",
+      "name": "Practice Numbers 15",
+      "secs": 1293
+     }
+    ],
+    "secs": 3892
+   },
+   "evening": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Practice & Revision",
+      "sub": "Numbers \u2013 Advanced Practice",
+      "name": "Practice Numbers 16",
+      "secs": 798
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Geometry \u2013 Advanced Practice",
+      "name": "Practice Geometry 1",
+      "secs": 1242
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Geometry \u2013 Advanced Practice",
+      "name": "Practice Geometry 2",
+      "secs": 1070
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Geometry \u2013 Advanced Practice",
+      "name": "Practice Geometry 3",
+      "secs": 907
+     }
+    ],
+    "secs": 4017
+   }
+  },
+  {
+   "day": 59,
+   "date": "2026-09-09",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Practice & Revision",
+      "sub": "Geometry \u2013 Advanced Practice",
+      "name": "10 Must-Know Geometry Concepts",
+      "secs": 1099
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Arithmetic \u2013 Advanced Questions",
+      "name": "Arithmetic Advance Q1",
+      "secs": 596
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Arithmetic \u2013 Advanced Questions",
+      "name": "Arithmetic Advance Q2",
+      "secs": 232
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Arithmetic \u2013 Advanced Questions",
+      "name": "Arithmetic Advance Q3",
+      "secs": 746
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Arithmetic \u2013 Advanced Questions",
+      "name": "Arithmetic Advance Q4",
+      "secs": 427
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Arithmetic \u2013 Advanced Questions",
+      "name": "Arithmetic Advance Q5",
+      "secs": 617
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Arithmetic \u2013 Advanced Questions",
+      "name": "Arithmetic Advance Q6",
+      "secs": 305
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Arithmetic \u2013 Advanced Questions",
+      "name": "Arithmetic Advance Q7",
+      "secs": 286
+     }
+    ],
+    "secs": 4308
+   },
+   "evening": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Practice & Revision",
+      "sub": "Arithmetic \u2013 Advanced Questions",
+      "name": "Arithmetic Advance Q8",
+      "secs": 480
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Arithmetic \u2013 Advanced Questions",
+      "name": "Arithmetic Advance Q9",
+      "secs": 445
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Arithmetic \u2013 Advanced Questions",
+      "name": "Arithmetic Advance Q10",
+      "secs": 525
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Arithmetic \u2013 Advanced Questions",
+      "name": "Arithmetic Advance Q11",
+      "secs": 404
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Arithmetic \u2013 Advanced Questions",
+      "name": "Arithmetic Advance Q12",
+      "secs": 708
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Arithmetic \u2013 Advanced Questions",
+      "name": "Arithmetic Advance Q13",
+      "secs": 370
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Arithmetic \u2013 Advanced Questions",
+      "name": "Arithmetic Advance Q14",
+      "secs": 214
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Arithmetic \u2013 Advanced Questions",
+      "name": "Arithmetic Advance Q15",
+      "secs": 551
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Arithmetic \u2013 Advanced Questions",
+      "name": "Arithmetic Advance Q16",
+      "secs": 689
+     }
+    ],
+    "secs": 4386
+   }
+  },
+  {
+   "day": 60,
+   "date": "2026-09-10",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Practice & Revision",
+      "sub": "Arithmetic \u2013 Advanced Questions",
+      "name": "Arithmetic Advance Q17",
+      "secs": 357
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Arithmetic \u2013 Advanced Questions",
+      "name": "Arithmetic Advance Q18",
+      "secs": 647
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Arithmetic \u2013 Advanced Questions",
+      "name": "Arithmetic Advance Q19",
+      "secs": 622
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Arithmetic \u2013 Advanced Questions",
+      "name": "Arithmetic Advance Q20",
+      "secs": 290
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Arithmetic \u2013 Advanced Questions",
+      "name": "Arithmetic Advance Q21",
+      "secs": 315
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Arithmetic \u2013 Advanced Questions",
+      "name": "Arithmetic Advance Q22",
+      "secs": 325
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Arithmetic \u2013 Advanced Questions",
+      "name": "Arithmetic Advance Q23",
+      "secs": 771
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Arithmetic \u2013 Advanced Questions",
+      "name": "Arithmetic Advance Q24",
+      "secs": 444
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Arithmetic \u2013 Advanced Questions",
+      "name": "Arithmetic Advance Q25",
+      "secs": 459
+     }
+    ],
+    "secs": 4230
+   },
+   "evening": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Practice & Revision",
+      "sub": "Arithmetic \u2013 Advanced Questions",
+      "name": "Arithmetic Advance Q26",
+      "secs": 465
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Arithmetic \u2013 Advanced Questions",
+      "name": "Arithmetic Advance Q27",
+      "secs": 621
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Arithmetic \u2013 Advanced Questions",
+      "name": "Arithmetic Advance Q28",
+      "secs": 526
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Arithmetic \u2013 Advanced Questions",
+      "name": "Arithmetic Advance Q29",
+      "secs": 444
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Arithmetic \u2013 Advanced Questions",
+      "name": "Arithmetic Advance Q30",
+      "secs": 456
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Arithmetic \u2013 Advanced Questions",
+      "name": "Arithmetic Advance Q31",
+      "secs": 489
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Arithmetic \u2013 Advanced Questions",
+      "name": "Arithmetic Advance Q32",
+      "secs": 647
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Arithmetic \u2013 Advanced Questions",
+      "name": "Arithmetic Advance Q33",
+      "secs": 541
+     }
+    ],
+    "secs": 4189
+   }
+  },
+  {
+   "day": 61,
+   "date": "2026-09-11",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Practice & Revision",
+      "sub": "Arithmetic \u2013 Advanced Questions",
+      "name": "Arithmetic Advance Q34",
+      "secs": 677
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Arithmetic \u2013 Advanced Questions",
+      "name": "Arithmetic Advance Q35",
+      "secs": 400
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Arithmetic \u2013 Advanced Questions",
+      "name": "Arithmetic Advance Q36",
+      "secs": 917
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Arithmetic \u2013 Advanced Questions",
+      "name": "Arithmetic Advance Q37",
+      "secs": 960
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Arithmetic \u2013 Advanced Questions",
+      "name": "Arithmetic Advance Q38",
+      "secs": 370
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Arithmetic \u2013 Advanced Questions",
+      "name": "Arithmetic Advance Q39",
+      "secs": 661
+     }
+    ],
+    "secs": 3985
+   },
+   "evening": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Practice & Revision",
+      "sub": "Arithmetic \u2013 Advanced Questions",
+      "name": "Arithmetic Advance Q40",
+      "secs": 522
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Arithmetic \u2013 Advanced Questions",
+      "name": "Arithmetic Advance Q41",
+      "secs": 466
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Arithmetic \u2013 Advanced Questions",
+      "name": "Arithmetic Advance Q42",
+      "secs": 1082
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Arithmetic \u2013 Advanced Questions",
+      "name": "Arithmetic Advance Q43",
+      "secs": 707
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Arithmetic \u2013 Advanced Questions",
+      "name": "Arithmetic Advance Q44",
+      "secs": 875
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Arithmetic \u2013 Advanced Questions",
+      "name": "Arithmetic Advance Q45",
+      "secs": 512
+     }
+    ],
+    "secs": 4164
+   }
+  },
+  {
+   "day": 62,
+   "date": "2026-09-12",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Practice & Revision",
+      "sub": "Arithmetic \u2013 Advanced Questions",
+      "name": "Arithmetic Advance Q46",
+      "secs": 692
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Arithmetic \u2013 Advanced Questions",
+      "name": "Arithmetic Advance Q47",
+      "secs": 604
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Arithmetic \u2013 Advanced Questions",
+      "name": "Arithmetic Advance Q48",
+      "secs": 710
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Arithmetic \u2013 Advanced Questions",
+      "name": "Arithmetic Advance Q49",
+      "secs": 469
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Arithmetic \u2013 Advanced Questions",
+      "name": "Arithmetic Advance Q50",
+      "secs": 414
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Arithmetic \u2013 Advanced Questions",
+      "name": "Arithmetic Advance Q51",
+      "secs": 1291
+     }
+    ],
+    "secs": 4180
+   },
+   "evening": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Practice & Revision",
+      "sub": "Arithmetic \u2013 Advanced Questions",
+      "name": "Arithmetic Advance Q52",
+      "secs": 741
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Arithmetic \u2013 Advanced Questions",
+      "name": "Arithmetic Advance Q53",
+      "secs": 611
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Arithmetic \u2013 Advanced Questions",
+      "name": "Arithmetic Advance Q54",
+      "secs": 761
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Arithmetic \u2013 Advanced Questions",
+      "name": "Arithmetic Advance Q55",
+      "secs": 743
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Arithmetic \u2013 Advanced Questions",
+      "name": "Arithmetic Advance Q56",
+      "secs": 1079
+     }
+    ],
+    "secs": 3935
+   }
+  },
+  {
+   "day": 63,
+   "date": "2026-09-13",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Practice & Revision",
+      "sub": "Arithmetic \u2013 Advanced Questions",
+      "name": "Arithmetic Advance Q57",
+      "secs": 601
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Arithmetic \u2013 Advanced Questions",
+      "name": "Arithmetic Advance Q58",
+      "secs": 662
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Arithmetic \u2013 Advanced Questions",
+      "name": "Arithmetic Advance Q59",
+      "secs": 756
+     }
+    ],
+    "secs": 2019
+   },
+   "evening": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Practice & Revision",
+      "sub": "Arithmetic \u2013 Advanced Questions",
+      "name": "Arithmetic Top Questions Marathon",
+      "secs": 10937
+     }
+    ],
+    "secs": 10937
+   }
+  },
+  {
+   "day": 64,
+   "date": "2026-09-14",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Practice & Revision",
+      "sub": "Algebra \u2013 Practice Sessions",
+      "name": "Algebra Practice 1",
+      "secs": 667
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Algebra \u2013 Practice Sessions",
+      "name": "Algebra Practice 2",
+      "secs": 428
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Algebra \u2013 Practice Sessions",
+      "name": "Algebra Practice 3",
+      "secs": 311
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Algebra \u2013 Practice Sessions",
+      "name": "Algebra Practice 4",
+      "secs": 401
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Algebra \u2013 Practice Sessions",
+      "name": "Algebra Practice 5",
+      "secs": 469
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Algebra \u2013 Practice Sessions",
+      "name": "Algebra Practice 6",
+      "secs": 565
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Algebra \u2013 Practice Sessions",
+      "name": "Algebra Practice 7",
+      "secs": 744
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Algebra \u2013 Practice Sessions",
+      "name": "Algebra Practice 8",
+      "secs": 563
+     }
+    ],
+    "secs": 4148
+   },
+   "evening": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Practice & Revision",
+      "sub": "Algebra \u2013 Practice Sessions",
+      "name": "Algebra Practice 9",
+      "secs": 486
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Algebra \u2013 Practice Sessions",
+      "name": "Algebra Practice 10",
+      "secs": 463
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Algebra \u2013 Practice Sessions",
+      "name": "Algebra Practice 11",
+      "secs": 441
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Algebra \u2013 Practice Sessions",
+      "name": "Algebra Practice 12",
+      "secs": 688
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Algebra \u2013 Practice Sessions",
+      "name": "Algebra Practice 13",
+      "secs": 433
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Algebra \u2013 Practice Sessions",
+      "name": "Algebra Practice 14",
+      "secs": 596
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Algebra \u2013 Practice Sessions",
+      "name": "Algebra Practice 15",
+      "secs": 448
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Algebra \u2013 Practice Sessions",
+      "name": "Algebra Practice 16",
+      "secs": 540
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Algebra \u2013 Practice Sessions",
+      "name": "Algebra Practice 17",
+      "secs": 227
+     }
+    ],
+    "secs": 4322
+   }
+  },
+  {
+   "day": 65,
+   "date": "2026-09-15",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Practice & Revision",
+      "sub": "Algebra \u2013 Practice Sessions",
+      "name": "Algebra Practice 18",
+      "secs": 294
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Mixed Quant \u2013 Advanced Level",
+      "name": "Quant Advance 1",
+      "secs": 533
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Mixed Quant \u2013 Advanced Level",
+      "name": "Quant Advance 2",
+      "secs": 363
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Mixed Quant \u2013 Advanced Level",
+      "name": "Quant Advance 3",
+      "secs": 332
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Mixed Quant \u2013 Advanced Level",
+      "name": "Quant Advance 4",
+      "secs": 287
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Mixed Quant \u2013 Advanced Level",
+      "name": "Quant Advance 5",
+      "secs": 449
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Mixed Quant \u2013 Advanced Level",
+      "name": "Quant Advance 6",
+      "secs": 287
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Mixed Quant \u2013 Advanced Level",
+      "name": "Quant Advance 7",
+      "secs": 361
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Mixed Quant \u2013 Advanced Level",
+      "name": "Quant Advance 8",
+      "secs": 364
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Mixed Quant \u2013 Advanced Level",
+      "name": "Quant Advance 9",
+      "secs": 488
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Mixed Quant \u2013 Advanced Level",
+      "name": "Quant Advance 10",
+      "secs": 384
+     }
+    ],
+    "secs": 4142
+   },
+   "evening": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Practice & Revision",
+      "sub": "Mixed Quant \u2013 Advanced Level",
+      "name": "Quant Advance 11",
+      "secs": 510
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Mixed Quant \u2013 Advanced Level",
+      "name": "Quant Advance 12",
+      "secs": 745
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Mixed Quant \u2013 Advanced Level",
+      "name": "Quant Advance 13",
+      "secs": 516
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Mixed Quant \u2013 Advanced Level",
+      "name": "Quant Advance 14",
+      "secs": 357
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Mixed Quant \u2013 Advanced Level",
+      "name": "Quant Advance 15",
+      "secs": 747
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Mixed Quant \u2013 Advanced Level",
+      "name": "Quant Advance 16",
+      "secs": 360
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Mixed Quant \u2013 Advanced Level",
+      "name": "Quant Advance 17",
+      "secs": 507
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Mixed Quant \u2013 Advanced Level",
+      "name": "Quant Advance 18",
+      "secs": 436
+     }
+    ],
+    "secs": 4178
+   }
+  },
+  {
+   "day": 66,
+   "date": "2026-09-16",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Practice & Revision",
+      "sub": "Mixed Quant \u2013 Advanced Level",
+      "name": "Quant Advance 19",
+      "secs": 550
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Mixed Quant \u2013 Advanced Level",
+      "name": "Quant Advance 20",
+      "secs": 678
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Mixed Quant \u2013 Advanced Level",
+      "name": "Quant Advance 21",
+      "secs": 511
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Mixed Quant \u2013 Advanced Level",
+      "name": "Quant Advance 22",
+      "secs": 427
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Mixed Quant \u2013 Advanced Level",
+      "name": "Quant Advance 23",
+      "secs": 523
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Mixed Quant \u2013 Advanced Level",
+      "name": "Quant Advance 24",
+      "secs": 315
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Mixed Quant \u2013 Advanced Level",
+      "name": "Quant Advance 25",
+      "secs": 591
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Mixed Quant \u2013 Advanced Level",
+      "name": "Quant Advance 26",
+      "secs": 417
+     }
+    ],
+    "secs": 4012
+   },
+   "evening": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Practice & Revision",
+      "sub": "Mixed Quant \u2013 Advanced Level",
+      "name": "Quant Advance 27",
+      "secs": 734
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Mixed Quant \u2013 Advanced Level",
+      "name": "Quant Advance 28",
+      "secs": 507
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Mixed Quant \u2013 Advanced Level",
+      "name": "Quant Advance 29",
+      "secs": 596
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Mixed Quant \u2013 Advanced Level",
+      "name": "Quant Advance 30",
+      "secs": 378
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Mixed Quant \u2013 Advanced Level",
+      "name": "Quant Advance 31",
+      "secs": 634
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Mixed Quant \u2013 Advanced Level",
+      "name": "Quant Advance 32",
+      "secs": 472
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Mixed Quant \u2013 Advanced Level",
+      "name": "Quant Advance 33",
+      "secs": 442
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Mixed Quant \u2013 Advanced Level",
+      "name": "Quant Advance 35",
+      "secs": 522
+     }
+    ],
+    "secs": 4285
+   }
+  },
+  {
+   "day": 67,
+   "date": "2026-09-17",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Practice & Revision",
+      "sub": "Mixed Quant \u2013 Advanced Level",
+      "name": "Quant Advance 37",
+      "secs": 960
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Mixed Quant \u2013 Advanced Level",
+      "name": "Quant Advance 38",
+      "secs": 522
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Mixed Quant \u2013 Advanced Level",
+      "name": "Quant Advance 39",
+      "secs": 688
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Mixed Quant \u2013 Advanced Level",
+      "name": "Quant Advance 40",
+      "secs": 192
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Mixed Quant \u2013 Advanced Level",
+      "name": "Quant Advance 41",
+      "secs": 574
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Mixed Quant \u2013 Advanced Level",
+      "name": "Quant Advance 42",
+      "secs": 406
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Mixed Quant \u2013 Advanced Level",
+      "name": "Quant Advance 43",
+      "secs": 512
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Mixed Quant \u2013 Advanced Level",
+      "name": "Quant Advance 44",
+      "secs": 349
+     }
+    ],
+    "secs": 4203
+   },
+   "evening": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Practice & Revision",
+      "sub": "Mixed Quant \u2013 Advanced Level",
+      "name": "Revision Best Concepts 44",
+      "secs": 416
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Mixed Quant \u2013 Advanced Level",
+      "name": "Revision Best Concepts 45",
+      "secs": 347
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Algebra \u2013 Advanced Topic Questions",
+      "name": "Adv NS Practice",
+      "secs": 700
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Algebra \u2013 Advanced Topic Questions",
+      "name": "Adv Algebra: Quadratic Eqn",
+      "secs": 447
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Algebra \u2013 Advanced Topic Questions",
+      "name": "Adv Algebra: Maxima Minima",
+      "secs": 484
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Algebra \u2013 Advanced Topic Questions",
+      "name": "Adv Algebra: Advance Quadratic",
+      "secs": 398
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Algebra \u2013 Advanced Topic Questions",
+      "name": "Adv Algebra: Inequality",
+      "secs": 475
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Algebra \u2013 Advanced Topic Questions",
+      "name": "Adv Algebra: Symmetry",
+      "secs": 558
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Algebra \u2013 Advanced Topic Questions",
+      "name": "Adv Algebra: Trigo Max Min",
+      "secs": 528
+     }
+    ],
+    "secs": 4353
+   }
+  },
+  {
+   "day": 68,
+   "date": "2026-09-18",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Practice & Revision",
+      "sub": "Algebra \u2013 Advanced Topic Questions",
+      "name": "Adv Algebra: Series Logarithm",
+      "secs": 718
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Algebra \u2013 Advanced Topic Questions",
+      "name": "Adv Algebra: Cubic Equation",
+      "secs": 506
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Algebra \u2013 Advanced Topic Questions",
+      "name": "Adv Algebra: Logarithms Tough I",
+      "secs": 762
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Algebra \u2013 Advanced Topic Questions",
+      "name": "Adv Algebra: Logarithms Tough II",
+      "secs": 474
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Algebra \u2013 Advanced Topic Questions",
+      "name": "Adv Algebra: Indices Surds",
+      "secs": 647
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Algebra \u2013 Advanced Topic Questions",
+      "name": "Adv Algebra: Inequalities",
+      "secs": 573
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Algebra \u2013 Advanced Topic Questions",
+      "name": "Adv Algebra: Mixed",
+      "secs": 597
+     }
+    ],
+    "secs": 4277
+   },
+   "evening": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Practice & Revision",
+      "sub": "Algebra \u2013 Advanced Topic Questions",
+      "name": "Adv Algebra: Functions Tough",
+      "secs": 294
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Algebra \u2013 Advanced Topic Questions",
+      "name": "Adv Algebra: Functions\u2013Inequalities",
+      "secs": 573
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Algebra \u2013 Advanced Topic Questions",
+      "name": "Adv Algebra: Algebra + Trigo",
+      "secs": 318
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Algebra \u2013 Advanced Topic Questions",
+      "name": "Adv Algebra: Cubic Tough Max Min",
+      "secs": 1364
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Algebra \u2013 Advanced Topic Questions",
+      "name": "Adv Algebra: Equations Difficult",
+      "secs": 1038
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Algebra \u2013 Advanced Topic Questions",
+      "name": "Adv Algebra: Series Tough",
+      "secs": 269
+     },
+     {
+      "main": "Practice & Revision",
+      "sub": "Algebra \u2013 Advanced Topic Questions",
+      "name": "Adv Algebra: Difficult GP",
+      "secs": 346
+     }
+    ],
+    "secs": 4202
+   }
+  },
+  {
+   "day": 69,
+   "date": "2026-09-19",
+   "morning": {
+    "track": "QA",
+    "videos": [
+     {
+      "main": "Practice & Revision",
+      "sub": "Algebra \u2013 Advanced Topic Questions",
+      "name": "Adv Algebra: Logarithms Tough III",
+      "secs": 718
+     }
+    ],
+    "secs": 718
+   }
+  }
+ ]
+}
