@@ -283,8 +283,8 @@ textarea.imp{width:100%;min-height:90px;border:1px solid var(--line);border-radi
 .arbody .sol{background:var(--ok-soft);border-radius:11px;padding:10px 12px;margin-top:8px}
 .foot{color:var(--faint);font-size:11.5px;margin-top:20px;text-align:center;line-height:1.7}
 #copybox{width:100%;min-height:96px;margin:8px 0;font:12px ui-monospace,monospace;display:none;background:var(--card);color:var(--ink);border:1px solid var(--line);border-radius:11px;padding:10px}
-.toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(80px);background:var(--ink);color:var(--card);padding:10px 20px;border-radius:13px;font:600 13px inherit;transition:transform .3s;z-index:300}
-.toast.show{transform:translateX(-50%) translateY(0)}
+.toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(180px);opacity:0;visibility:hidden;background:var(--ink);color:var(--card);padding:10px 20px;border-radius:13px;font:600 13px inherit;transition:transform .3s,opacity .3s,visibility .3s;z-index:300;box-shadow:var(--shadow-lg)}
+.toast.show{transform:translateX(-50%) translateY(0);opacity:1;visibility:visible}
 /* logout button */
 .pill.logout{display:block;width:100%;text-align:center;margin-top:10px;color:var(--bad);border-color:var(--bad-soft);font-weight:700}
 .pill.logout:hover{background:var(--bad-soft);border-color:var(--bad);color:var(--bad);transform:none}
@@ -300,6 +300,69 @@ textarea.imp{width:100%;min-height:90px;border:1px solid var(--line);border-radi
 .botnav button .bi{font-size:20px;line-height:1;transition:transform .18s;filter:grayscale(.35);opacity:.7}
 .botnav button.act{color:var(--b1)}
 .botnav button.act .bi{transform:translateY(-1px) scale(1.08);filter:none;opacity:1}
+
+/* ===== custom-test builder & modal ===== */
+.ctbtn{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;padding:14px;border-radius:14px;
+  border:none;background:var(--brand);color:#fff;font:800 14px inherit;cursor:pointer;box-shadow:var(--shadow-lg);transition:transform .15s;margin-top:12px}
+.ctbtn:hover{transform:translateY(-1px)}
+.ctpreview{display:flex;flex-wrap:wrap;gap:7px;margin-top:12px}
+.ctpill{background:var(--card2);border:1px solid var(--line2);border-radius:99px;padding:6px 12px;font-size:12px;color:var(--mut);font-weight:600}
+.ctpill b{color:var(--ink)}
+.modal{position:fixed;inset:0;z-index:150;display:none;align-items:flex-end;justify-content:center;
+  background:rgba(9,13,26,.55);backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px)}
+.modal.on{display:flex}
+.sheet{background:var(--card);width:100%;max-width:560px;max-height:90vh;overflow-y:auto;
+  border-radius:24px 24px 0 0;box-shadow:var(--shadow-lg);padding:20px 22px 26px;animation:sheetin .28s cubic-bezier(.2,.8,.2,1)}
+@keyframes sheetin{from{transform:translateY(40px);opacity:.4}to{transform:none;opacity:1}}
+.sheet .shd{display:flex;align-items:center;gap:10px;margin-bottom:4px}
+.sheet .shd h3{margin:0;font-size:17px;letter-spacing:-.3px}
+.sheet .shd .x{margin-left:auto;width:32px;height:32px;border-radius:10px;border:1px solid var(--line);background:var(--card2);
+  cursor:pointer;font-size:15px;color:var(--mut);display:grid;place-items:center}
+.flab{font-size:11px;font-weight:800;color:var(--mut);text-transform:uppercase;letter-spacing:.5px;margin:16px 0 7px}
+.ctdrop{border:1.5px solid var(--line);border-radius:13px;overflow:hidden;background:var(--card2)}
+.ctdrop-btn{display:flex;align-items:center;gap:8px;padding:12px 14px;cursor:pointer;user-select:none;font-weight:600;font-size:13px}
+.ctdrop-btn .cnt{margin-left:auto;color:var(--mut);font-weight:600}
+.ctdrop-btn .cv{color:var(--faint);transition:transform .2s}
+.ctdrop.open .ctdrop-btn .cv{transform:rotate(180deg)}
+.ctdrop-panel{display:none;border-top:1px solid var(--line2);max-height:300px;overflow-y:auto}
+.ctdrop.open .ctdrop-panel{display:block}
+.ctsearch{width:100%;border:none;border-bottom:1px solid var(--line2);background:var(--card);color:var(--ink);
+  padding:11px 14px;font:13px inherit;position:sticky;top:0}
+.ctsearch:focus{outline:none}
+.ctglab{font-size:10px;font-weight:800;color:var(--faint);text-transform:uppercase;letter-spacing:.5px;padding:10px 14px 3px;position:sticky;top:41px;background:var(--card)}
+.ctopt{display:flex;align-items:center;gap:10px;padding:8px 14px;cursor:pointer;font-size:13px}
+.ctopt:hover{background:var(--card2)}
+.ctopt input{width:18px;height:18px;accent-color:var(--qa);flex:none}
+.ctopt .cn{margin-left:auto;color:var(--faint);font-size:11px}
+.ctseg{display:flex;background:var(--card2);border:1px solid var(--line);border-radius:12px;padding:3px;gap:2px}
+.ctseg button{flex:1;border:0;background:transparent;padding:9px 6px;border-radius:9px;font:700 12.5px inherit;color:var(--mut);cursor:pointer;transition:.15s;white-space:nowrap}
+.ctseg button.act{background:var(--ink);color:var(--card)}
+.ctfoot{display:flex;align-items:center;gap:12px;margin-top:20px}
+.ctfoot .pool{font-size:12px;color:var(--mut)}
+.ctstart{margin-left:auto;border:none;background:var(--ok);color:#fff;border-radius:13px;padding:13px 22px;font:800 14px inherit;cursor:pointer;box-shadow:var(--shadow);transition:transform .15s}
+.ctstart:hover{transform:translateY(-1px)}
+.ctstart:disabled{opacity:.45;cursor:not-allowed;box-shadow:none;transform:none}
+/* ===== attempt-history cards ===== */
+.hcard{display:flex;align-items:center;gap:12px;border:1px solid var(--line);background:var(--card2);border-radius:14px;
+  padding:12px 14px;margin-bottom:8px;cursor:pointer;transition:.15s;text-align:left;width:100%;font:inherit}
+.hcard:hover{border-color:var(--qa);transform:translateY(-1px);box-shadow:var(--shadow)}
+.hbadge{width:52px;height:52px;border-radius:13px;display:grid;place-items:center;flex:none;font-weight:800;font-size:16px;line-height:1;
+  font-variant-numeric:tabular-nums}
+.hbadge.pos{background:var(--ok-soft);color:var(--ok)}.hbadge.neg{background:var(--bad-soft);color:var(--bad)}
+.hbadge small{display:block;font-size:8px;font-weight:700;letter-spacing:.4px;opacity:.75;text-transform:uppercase}
+.hmeta{flex:1;min-width:0}
+.hmeta .ht{font-weight:700;font-size:13px;margin-bottom:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.hmeta .hpills{display:flex;flex-wrap:wrap;gap:5px;font-size:11px}
+.hmeta .hp{padding:2px 7px;border-radius:7px;font-weight:700;font-variant-numeric:tabular-nums}
+.hp.c{background:var(--ok-soft);color:var(--ok)}.hp.w{background:var(--bad-soft);color:var(--bad)}
+.hp.s{background:var(--line2);color:var(--mut)}.hp.m{background:var(--card);border:1px solid var(--line);color:var(--mut)}
+.hcard .hgo{color:var(--faint);font-size:18px;flex:none}
+.hkind{font-size:9px;font-weight:800;letter-spacing:.5px;text-transform:uppercase;padding:2px 7px;border-radius:6px;flex:none}
+.hkind.mock{background:var(--lr-soft);color:var(--lr)}.hkind.drill{background:var(--qa-soft);color:var(--qa)}
+/* analysis view */
+.abar{display:flex;align-items:center;gap:12px;margin:16px 0 8px}
+.abar .back{border:1px solid var(--line);background:var(--card);border-radius:11px;padding:8px 14px;font:700 12.5px inherit;color:var(--mut);cursor:pointer}
+.abar .back:hover{color:var(--ink)}
 
 /* ============ RESPONSIVE ============ */
 @media(max-width:900px){
@@ -548,6 +611,7 @@ textarea.imp{width:100%;min-height:90px;border:1px solid var(--line);border-radi
     <button data-c="√">√</button><button data-c="x²">x²</button><button data-c="1/x">1/x</button><button data-c="00">00</button>
   </div>
 </div>
+<div class="modal" id="ctmodal"></div>
 <div class="toast" id="toast"></div>
 
 <script>
@@ -949,45 +1013,41 @@ function renderStudy(){
 /* ---------- PRACTICE ---------- */
 let sel=new Set(), selCount=10, selPace=120;
 let PT={view:"home"};
+const escH=s=>String(s??"").replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 function renderPracticeHome(){
   if(PT.view!=="home")return;
   const bank=allQ();
-  const groups={};
-  bank.forEach(q=>{if(!q.sub)return;const k=(q.sec||"QA")+" · "+(q.topic||"");(groups[k]=groups[k]||{})[q.sub]=(groups[k][q.sub]||0)+1});
   const pool=bank.filter(q=>sel.has(q.sub)).length;
-  const chips=Object.entries(groups).map(([g,subsMap])=>
-    `<div class="tgroup"><div class="glab">${g}</div><div class="tchips">${
-      Object.entries(subsMap).map(([s,n])=>
-        `<button class="tchip ${sel.has(s)?'on':''}" data-tsel="${s.replace(/"/g,'&quot;')}">${s} <span class="n">· ${n}</span></button>`).join("")
-    }</div></div>`).join("");
-  const histHtml=hist.slice().reverse().slice(0,8).map(s=>
-    `<div class="histrow"><span class="sc" style="color:${s.score>=0?'var(--ok)':'var(--bad)'}">${s.score>0?'+':''}${s.score}</span>
-     <span>${s.correct}✓ ${s.wrong}✗ ${s.skip}−</span><span class="mu">${s.n} Qs · ${fmtv(s.secs)} · ${s.date}</span>
-     <span class="mu" style="margin-left:auto">${s.topics||""}</span></div>`).join("");
+  const nTopics=[...sel].filter(s=>bank.some(q=>q.sub===s)).length;
+  const paceLabel={120:"CAT pace · 2 min/Q",90:"Sprint · 1.5 min/Q",0:"Untimed"}[selPace]||"CAT pace";
+  /* 1 — custom test (ranked first) */
+  const customCard=`<div class="pcard"><h3>🎯 Custom test — your topics, your rules</h3>
+    <div class="hint">Handpick the topics you've finished, set the length & pace, and get the full CAT interface — question palette, on-screen calculator and per-question analysis. Built from real CAT PYQs, auto-tagged by topic.</div>
+    <div class="ctpreview">
+      <span class="ctpill"><b>${nTopics||"No"}</b> topic${nTopics===1?"":"s"} selected</span>
+      <span class="ctpill"><b>${selCount}</b> questions</span>
+      <span class="ctpill">${paceLabel}</span>
+      <span class="ctpill"><b>${pool}</b> Qs in pool</span>
+    </div>
+    <button class="ctbtn" id="opencustom">➕ Create custom test</button>
+  </div>`;
+  /* 2 — full-paper mocks */
   const mockCard=`<div class="pcard"><h3>🏆 Full-Paper Mocks — actual CAT papers</h3>
     <div class="hint">Section-locked (VARC → DILR → QA), per-section timer, no going back — exactly like exam day.</div>
-    ${MOCKS.map((m,i)=>{const sk=m.sections.reduce((a,s)=>a+s.skip,0);
+    ${MOCKS.length?MOCKS.map((m,i)=>{const sk=m.sections.reduce((a,s)=>a+s.skip,0);
       const att=hist.filter(h=>h.kind==="mock"&&h.paper===m.name).length;
       return `<div class="histrow"><b style="min-width:140px">${m.name}</b>
       <span class="mu">${m.sections.map(s=>s.name+" "+s.qs.length).join(" · ")} · ${m.secMin} min/section${sk?` · ${sk} Qs excluded (figures lost in source PDF)`:''}${att?` · attempted ${att}×`:''}</span>
-      <button class="pill go" style="margin-left:auto;flex:none" data-mock="${i}">▶ Start</button></div>`}).join("")}
+      <button class="pill go" style="margin-left:auto;flex:none" data-mock="${i}">▶ Start</button></div>`}).join("")
+      :'<div class="hint">Full-paper mocks load on the hosted site (percentile99.vercel.app).</div>'}
   </div>`;
-  document.getElementById("practice").innerHTML=mockCard+`
-  <div class="pcard"><h3>🎯 Topic drill — timed PYQ set</h3>
-    <div class="hint">Pick topics (the Study sheet shows 🎯 chips on each), choose length, get the CAT interface with palette, calculator and per-question analysis. Real CAT PYQs are auto-tagged into topics.</div>
-    <div class="frow"><label>Number of questions</label>
-      <div class="seg">${[5,10,15,20].map(n=>`<button data-qn="${n}" class="${selCount===n?'act':''}">${n}</button>`).join("")}</div></div>
-    <div class="frow"><label>Pace</label>
-      <div class="seg">${[[120,"CAT · 2 min/Q"],[90,"Sprint · 1.5 min/Q"],[0,"Untimed"]].map(([v,l])=>`<button data-pace="${v}" class="${selPace===v?'act':''}">${l}</button>`).join("")}</div></div>
-    ${chips}
-    <div class="frow" style="margin-top:14px">
-      <button class="pill go" id="startbtn" ${pool===0?"disabled style='opacity:.5'":""}>▶ Start test (${Math.min(selCount,pool)} of ${pool} available)</button>
-      <button class="pill" id="selall">Select all topics</button>
-      <button class="pill" id="selnone">Clear</button>
-    </div>
-  </div>
-  <div class="pcard"><h3>📜 Attempt history</h3>${histHtml||'<div class="hint">No attempts yet — your tests and mocks will appear here and on the heatmap.</div>'}</div>
-  <div class="pcard"><h3>📥 Import more PYQ sets</h3>
+  /* 3 — attempt history (clickable → full analysis) */
+  const rows=hist.map((s,idx)=>({s,idx})).reverse().slice(0,15).map(({s,idx})=>historyCard(s,idx)).join("");
+  const histCard=`<div class="pcard"><h3>📜 Attempt history</h3>
+    ${hist.length?`<div class="hint" style="margin-top:0">Tap any attempt to reopen its full analysis.</div>${rows}`
+      :'<div class="hint">No attempts yet — your tests and mocks will appear here and on the heatmap.</div>'}</div>`;
+  /* 4 — import */
+  const importCard=`<div class="pcard"><h3>📥 Import more PYQ sets</h3>
     <div class="hint">Loaded: <b>${BANK0.length} practice + ${MPOOL.length} real CAT PYQs (auto-tagged)</b> + <b>${imported.length} imported</b>. Paste a JSON array —
     <code>{"id","sec","topic","sub","type":"mcq|tita","q","opts":[…],"ans","sol","year","src"}</code>. Give Claude any paper in chat to convert.</div>
     <textarea class="imp" id="impbox" placeholder='[{"id":"c24-q1","sec":"QA","topic":"Arithmetic","sub":"Percentages","type":"mcq","q":"…","opts":["a","b","c","d"],"ans":0,"sol":"…","year":2024,"src":"CAT 2024 Slot 1"}]'></textarea>
@@ -996,17 +1056,27 @@ function renderPracticeHome(){
       ${imported.length?'<button class="pill" id="impclear">Remove imported ('+imported.length+')</button>':''}
     </div>
   </div>`;
+  document.getElementById("practice").innerHTML=customCard+mockCard+histCard+importCard;
   bindPractice();
+}
+function historyCard(s,idx){
+  const pos=s.score>=0, kind=s.kind==="mock"?"mock":"drill";
+  const title=s.kind==="mock"?(s.paper||"Full mock"):(s.topics||"Custom test");
+  const acc=(s.correct+s.wrong)?Math.round(s.correct/(s.correct+s.wrong)*100):0;
+  return `<button class="hcard" data-hist="${idx}">
+    <div class="hbadge ${pos?'pos':'neg'}">${pos&&s.score>0?'+':''}${s.score}<small>score</small></div>
+    <div class="hmeta">
+      <div class="ht"><span class="hkind ${kind}">${kind}</span> ${escH(title)}</div>
+      <div class="hpills">
+        <span class="hp c">${s.correct}✓</span><span class="hp w">${s.wrong}✗</span><span class="hp s">${s.skip}−</span>
+        <span class="hp m">${acc}% acc</span><span class="hp m">${s.n} Qs</span><span class="hp m">⏱ ${fmtv(s.secs)}</span><span class="hp m">${s.date}</span>
+      </div>
+    </div><span class="hgo">›</span></button>`;
 }
 function bindPractice(){
   document.querySelectorAll("[data-mock]").forEach(b=>b.onclick=()=>startMock(+b.dataset.mock));
-  document.querySelectorAll("[data-tsel]").forEach(b=>b.onclick=()=>{
-    const s=b.dataset.tsel;sel.has(s)?sel.delete(s):sel.add(s);renderPracticeHome()});
-  document.querySelectorAll("[data-qn]").forEach(b=>b.onclick=()=>{selCount=+b.dataset.qn;renderPracticeHome()});
-  document.querySelectorAll("[data-pace]").forEach(b=>b.onclick=()=>{selPace=+b.dataset.pace;renderPracticeHome()});
-  const sa=document.getElementById("selall");if(sa)sa.onclick=()=>{allQ().forEach(q=>q.sub&&sel.add(q.sub));renderPracticeHome()};
-  const sn=document.getElementById("selnone");if(sn)sn.onclick=()=>{sel.clear();renderPracticeHome()};
-  const st=document.getElementById("startbtn");if(st)st.onclick=startTest;
+  const oc=document.getElementById("opencustom");if(oc)oc.onclick=openCustomModal;
+  document.querySelectorAll("[data-hist]").forEach(b=>b.onclick=()=>viewAnalysis(+b.dataset.hist));
   const ib=document.getElementById("impbtn");if(ib)ib.onclick=()=>{
     try{const arr=JSON.parse(document.getElementById("impbox").value);
       if(!Array.isArray(arr))throw 0;
@@ -1017,6 +1087,103 @@ function bindPractice(){
       toast(`Imported ${fresh.length} questions`);
     }catch(e){toast("Invalid JSON — check the format")}};
   const ic=document.getElementById("impclear");if(ic)ic.onclick=()=>{imported=[];saveP();renderPracticeHome();toast("Imported questions removed")};
+}
+/* ===== custom-test modal ===== */
+let ctDropOpen=false, ctSearch="";
+function openCustomModal(){ctDropOpen=false;ctSearch="";renderCustomModal();document.getElementById("ctmodal").classList.add("on")}
+function closeCustomModal(){document.getElementById("ctmodal").classList.remove("on")}
+function ctStats(){const bank=allQ();return{pool:bank.filter(q=>sel.has(q.sub)).length,nTopics:[...sel].filter(s=>bank.some(q=>q.sub===s)).length}}
+function renderCustomModal(){
+  const bank=allQ(),groups={};
+  bank.forEach(q=>{if(!q.sub)return;const k=q.sec||"QA";(groups[k]=groups[k]||{})[q.sub]=(groups[k][q.sub]||0)+1});
+  const {pool,nTopics}=ctStats();
+  const opts=Object.entries(groups).map(([g,subs])=>
+    `<div class="ctglab">${escH(g)}</div>`+Object.entries(subs).map(([s,n])=>
+      `<label class="ctopt" data-topic="${escH(s)}"><input type="checkbox" ${sel.has(s)?'checked':''} data-tt="${escH(s)}"><span>${escH(s)}</span><span class="cn">${n}</span></label>`).join("")).join("");
+  document.getElementById("ctmodal").innerHTML=`<div class="sheet">
+    <div class="shd"><h3>🎯 Create a custom test</h3><button class="x" id="ctx">✕</button></div>
+    <div class="hint" style="margin:2px 0 0">Only topics that have questions in the bank are listed — pick the ones you've studied.</div>
+    <div class="flab">Topics</div>
+    <div class="ctdrop ${ctDropOpen?'open':''}" id="ctdrop">
+      <div class="ctdrop-btn" id="ctdropbtn"><span class="lbl">${nTopics?nTopics+' topic'+(nTopics>1?'s':'')+' selected':'Select topics'}</span><span class="cnt">${pool} Qs</span><span class="cv">▾</span></div>
+      <div class="ctdrop-panel">
+        <input class="ctsearch" id="ctsearch" placeholder="Search topics…" value="${escH(ctSearch)}">
+        <div id="ctopts">${opts}</div>
+      </div>
+    </div>
+    <div class="frow" style="margin-top:8px;gap:8px"><button class="pill" id="ctall">Select all</button><button class="pill" id="ctclear">Clear</button></div>
+    <div class="flab">Number of questions</div>
+    <div class="ctseg" id="ctqn">${[5,10,15,20].map(n=>`<button data-qn="${n}" class="${selCount===n?'act':''}">${n}</button>`).join("")}</div>
+    <div class="flab">Pace</div>
+    <div class="ctseg" id="ctpace">${[[120,"CAT · 2m/Q"],[90,"Sprint · 1.5m/Q"],[0,"Untimed"]].map(([v,l])=>`<button data-pace="${v}" class="${selPace===v?'act':''}">${l}</button>`).join("")}</div>
+    <div class="ctfoot"><span class="pool" id="ctpool">${pool?`${Math.min(selCount,pool)} of ${pool} available`:'Pick at least one topic'}</span>
+      <button class="ctstart" id="ctstart" ${pool?'':'disabled'}>▶ Start test</button></div>
+  </div>`;
+  bindCustomModal();
+}
+function updateCtCounts(){
+  const {pool,nTopics}=ctStats();
+  const lbl=document.querySelector("#ctdropbtn .lbl");if(lbl)lbl.textContent=nTopics?nTopics+' topic'+(nTopics>1?'s':'')+' selected':'Select topics';
+  const cnt=document.querySelector("#ctdropbtn .cnt");if(cnt)cnt.textContent=pool+' Qs';
+  const pl=document.getElementById("ctpool");if(pl)pl.textContent=pool?`${Math.min(selCount,pool)} of ${pool} available`:'Pick at least one topic';
+  const st=document.getElementById("ctstart");if(st)st.disabled=!pool;
+}
+function bindCustomModal(){
+  const m=document.getElementById("ctmodal");
+  document.getElementById("ctx").onclick=closeCustomModal;
+  m.onclick=e=>{if(e.target===m)closeCustomModal()};
+  document.getElementById("ctdropbtn").onclick=()=>{ctDropOpen=!ctDropOpen;document.getElementById("ctdrop").classList.toggle("open",ctDropOpen)};
+  const search=document.getElementById("ctsearch");
+  if(search)search.oninput=e=>{ctSearch=e.target.value;const t=ctSearch.trim().toLowerCase();
+    document.querySelectorAll("#ctopts .ctopt").forEach(o=>{o.style.display=o.dataset.topic.toLowerCase().includes(t)?"":"none"})};
+  document.querySelectorAll("#ctopts input[data-tt]").forEach(cb=>cb.onchange=()=>{
+    const s=cb.dataset.tt;if(cb.checked)sel.add(s);else sel.delete(s);updateCtCounts()});
+  document.getElementById("ctall").onclick=()=>{allQ().forEach(q=>q.sub&&sel.add(q.sub));ctDropOpen=true;renderCustomModal()};
+  document.getElementById("ctclear").onclick=()=>{sel.clear();renderCustomModal()};
+  document.querySelectorAll("#ctqn [data-qn]").forEach(b=>b.onclick=()=>{selCount=+b.dataset.qn;
+    document.querySelectorAll("#ctqn [data-qn]").forEach(x=>x.classList.toggle("act",x===b));updateCtCounts()});
+  document.querySelectorAll("#ctpace [data-pace]").forEach(b=>b.onclick=()=>{selPace=+b.dataset.pace;
+    document.querySelectorAll("#ctpace [data-pace]").forEach(x=>x.classList.toggle("act",x===b))});
+  document.getElementById("ctstart").onclick=()=>{if(!ctStats().pool)return;closeCustomModal();renderPracticeHome();startTest()};
+}
+/* ===== shared analysis view (used by fresh submits + history reopen) ===== */
+function compactRow(r,cx){return{q:{q:r.q.q,type:r.q.type,opts:r.q.opts,ans:r.q.ans,sub:r.q.sub,sol:r.q.sol,src:r.q.src},a:r.a,att:r.att,ok:r.ok,t:r.t,cx:cx||null}}
+function viewAnalysis(idx){
+  const s=hist[idx];if(!s)return;
+  if(s.analysis){renderAnalysisView(s.analysis,true);return}
+  renderAnalysisView({kind:s.kind==="mock"?"mock":"drill",title:s.kind==="mock"?(s.paper||"Mock"):(s.topics||"Custom test"),
+    date:s.date,score:s.score,correct:s.correct,wrong:s.wrong,skip:s.skip,n:s.n,secs:s.secs,max:s.n*3},true);
+}
+function renderAnalysisView(a,fromHistory){
+  PT.view="result";
+  const acc=(a.correct+a.wrong)?Math.round(a.correct/(a.correct+a.wrong)*100):0;
+  const heading=(a.kind==="mock"?"🏆 "+(a.title||"Mock"):"🎯 "+(a.title||"Custom test"))+" · "+a.date;
+  const bar=`<div class="abar"><button class="back" id="aback">← Back to Practice</button>
+    <div style="font-weight:800;font-size:13.5px;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${escH(heading)}</div></div>`;
+  const summary=`<div class="pcard"><h3>📊 ${a.kind==="mock"?"Mock":"Test"} analysis</h3>
+    <div class="sumgrid">
+      <div class="hs"><b style="color:${a.score>=0?'var(--ok)':'var(--bad)'}">${a.score>0?'+':''}${a.score}</b><span>score (max ${a.max})</span></div>
+      <div class="hs"><b>${a.correct} / ${a.n}</b><span>correct</span></div>
+      <div class="hs"><b>${acc}%</b><span>accuracy</span></div>
+      <div class="hs"><b>${a.wrong}</b><span>wrong</span></div>
+      <div class="hs"><b>${a.skip}</b><span>skipped</span></div>
+      <div class="hs"><b>${fmtv(a.secs)}</b><span>total time</span></div>
+      <div class="hs"><b>${fmtv(Math.round(a.secs/Math.max(a.n,1)))}</b><span>avg / question</span></div>
+    </div>
+    ${a.topics?`<h3 style="margin-top:14px">Topic-wise</h3>${Object.entries(a.topics).map(([k,x])=>`<div class="histrow"><span style="flex:1">${escH(k)}</span>
+      <span class="ok2">${x.c}✓</span><span class="bad2">${x.w}✗</span><span class="skip2">${x.s}−</span><span class="mu">⏱ ${fmtv(x.t)}</span></div>`).join("")}`:""}
+    ${a.sections?`<div class="secsum">${a.sections.map(g=>`<div class="hs"><b>${g.name}: ${g.score}</b><span>${g.correct}✓ ${g.wrong}✗ ${g.skip}−${g.skipQ?` · ${g.skipQ} excl`:""}</span></div>`).join("")}</div>`:""}
+    ${a.ref?`<div class="hint">${a.ref}</div>`:""}</div>`;
+  let qbq;
+  if(a.sections){
+    qbq=a.sections.map(g=>`<div class="pcard"><h3>${g.name} — question by question</h3>${(g.rows||[]).map(r=>qrowHtml(r,r.cx)).join("")||'<div class="hint">Per-question detail wasn\'t saved for this attempt — summary only.</div>'}</div>`).join("");
+  }else{
+    qbq=`<div class="pcard"><h3>Question-by-question <span style="font-weight:500;color:var(--mut)">(tap any to see the solution)</span></h3>${(a.rows||[]).map(r=>qrowHtml(r,r.cx)).join("")||'<div class="hint">Per-question detail wasn\'t saved for this older attempt — summary only.</div>'}</div>`;
+  }
+  document.getElementById("practice").innerHTML=bar+summary+qbq;
+  document.querySelectorAll("[data-ar]").forEach(h=>h.onclick=()=>h.parentElement.classList.toggle("open"));
+  document.getElementById("aback").onclick=()=>{PT={view:"home"};render()};
+  go("practice");window.scrollTo({top:0});
 }
 
 /* test engine */
@@ -1149,62 +1316,32 @@ function submitTest(){
   const topics={};
   g.rows.forEach(r=>{const k=r.q.sub||"—";topics[k]=topics[k]||{c:0,w:0,s:0,t:0};
     topics[k].t+=r.t;if(!r.att)topics[k].s++;else r.ok?topics[k].c++:topics[k].w++});
-  hist.push({date:today(),n:PT.qs.length,score:g.score,correct:g.correct,wrong:g.wrong,skip:g.skip,
-    secs:PT.elapsed,topics:[...new Set(PT.qs.map(q=>q.sub))].slice(0,3).join(", ")});
+  const title=[...new Set(PT.qs.map(q=>q.sub))].slice(0,3).join(", ");
+  const analysis={kind:"drill",title:title||"Custom test",date:today(),
+    score:g.score,correct:g.correct,wrong:g.wrong,skip:g.skip,n:PT.qs.length,secs:PT.elapsed,max:PT.qs.length*3,
+    topics,rows:g.rows.map(r=>compactRow(r,ctxOf(r.q)))};
+  hist.push({kind:"drill",date:today(),n:PT.qs.length,score:g.score,correct:g.correct,wrong:g.wrong,skip:g.skip,
+    secs:PT.elapsed,topics:title,analysis});
   saveH();
-  PT.view="result";
-  const acc=g.correct+g.wrong?Math.round(g.correct/(g.correct+g.wrong)*100):0;
-  document.getElementById("practice").innerHTML=`
-  <div class="pcard"><h3>📊 Test Analysis — ${today()}</h3>
-    <div class="sumgrid">
-      <div class="hs"><b style="color:${g.score>=0?'var(--ok)':'var(--bad)'}">${g.score>0?'+':''}${g.score}</b><span>score (max ${PT.qs.length*3})</span></div>
-      <div class="hs"><b>${g.correct} / ${PT.qs.length}</b><span>correct</span></div>
-      <div class="hs"><b>${acc}%</b><span>accuracy</span></div>
-      <div class="hs"><b>${g.wrong}</b><span>wrong</span></div>
-      <div class="hs"><b>${g.skip}</b><span>skipped</span></div>
-      <div class="hs"><b>${fmtv(PT.elapsed)}</b><span>total time</span></div>
-      <div class="hs"><b>${fmtv(Math.round(PT.elapsed/PT.qs.length))}</b><span>avg / question</span></div>
-    </div>
-    <h3 style="margin-top:14px">Topic-wise</h3>
-    ${Object.entries(topics).map(([k,x])=>`<div class="histrow"><span style="flex:1">${k}</span>
-      <span class="ok2">${x.c}✓</span><span class="bad2">${x.w}✗</span><span class="skip2">${x.s}−</span>
-      <span class="mu">${fmtv(x.t)}</span></div>`).join("")}
-  </div>
-  <div class="pcard"><h3>Question-by-question (tap for solution)</h3>
-    ${g.rows.map(r=>qrowHtml(r,ctxOf(r.q))).join("")}
-    <div class="frow" style="margin-top:12px"><button class="pill primary" id="again">↺ New test</button></div>
-  </div>`;
-  document.querySelectorAll("[data-ar]").forEach(h=>h.onclick=()=>h.parentElement.classList.toggle("open"));
-  document.getElementById("again").onclick=()=>{PT={view:"home"};render()};
-  heatmap();go("practice");
+  renderAnalysisView(analysis,false);
+  heatmap();
 }
 function finishMock(){
   closeTest();
   const R=PT.results,m=PT.mock;
   const tot={score:0,correct:0,wrong:0,skip:0,n:0};
   R.forEach(g=>{tot.score+=g.score;tot.correct+=g.correct;tot.wrong+=g.wrong;tot.skip+=g.skip;tot.n+=g.rows.length});
+  const ref=m.year===2020?"Reference: in CAT 2020 ~100/228 raw ≈ 99th percentile, ~76 ≈ 95th, ~62 ≈ 90th (approximate).":
+    m.year===2017?"Reference: CAT 2017 was a 300-mark paper; ~170+ raw ≈ 99th percentile territory (approximate).":"";
+  const analysis={kind:"mock",title:m.name,date:today(),
+    score:tot.score,correct:tot.correct,wrong:tot.wrong,skip:tot.skip,n:tot.n,secs:PT.elapsed,max:tot.n*3,ref,
+    sections:R.map(g=>({name:g.name,score:g.score,correct:g.correct,wrong:g.wrong,skip:g.skip,skipQ:g.skipQ,
+      rows:g.rows.map(r=>compactRow(r,r.q.c!==undefined?m.ctxs[r.q.c]:null))}))};
   hist.push({kind:"mock",paper:m.name,date:today(),n:tot.n,score:tot.score,
-    correct:tot.correct,wrong:tot.wrong,skip:tot.skip,secs:PT.elapsed,topics:"🏆 "+m.name});
+    correct:tot.correct,wrong:tot.wrong,skip:tot.skip,secs:PT.elapsed,topics:"🏆 "+m.name,analysis});
   saveH();
-  PT.view="result";
-  document.getElementById("practice").innerHTML=`
-  <div class="pcard"><h3>🏆 Mock Analysis — ${m.name}</h3>
-    <div class="sumgrid">
-      <div class="hs"><b style="color:${tot.score>=0?'var(--ok)':'var(--bad)'}">${tot.score}</b><span>total (max ${tot.n*3})</span></div>
-      <div class="hs"><b>${tot.correct}✓ ${tot.wrong}✗ ${tot.skip}−</b><span>C / W / skipped</span></div>
-      <div class="hs"><b>${tot.correct+tot.wrong?Math.round(tot.correct/(tot.correct+tot.wrong)*100):0}%</b><span>accuracy</span></div>
-      <div class="hs"><b>${fmtv(PT.elapsed)}</b><span>total time</span></div>
-    </div>
-    <div class="secsum">${R.map(g=>`<div class="hs"><b>${g.name}: ${g.score}</b>
-      <span>${g.correct}✓ ${g.wrong}✗ ${g.skip}−${g.skipQ?` · ${g.skipQ} Q excluded`:""}</span></div>`).join("")}</div>
-    <div class="hint">${m.year===2020?"Reference: in CAT 2020 ~100/228 raw ≈ 99th percentile, ~76 ≈ 95th, ~62 ≈ 90th (approximate).":""}
-    ${m.year===2017?"Reference: CAT 2017 was a 300-mark paper; ~170+ raw ≈ 99th percentile territory (approximate).":""}</div>
-  </div>
-  ${R.map(g=>`<div class="pcard"><h3>${g.name} — question by question</h3>${g.rows.map(r=>qrowHtml(r,r.q.c!==undefined?m.ctxs[r.q.c]:null)).join("")}</div>`).join("")}
-  <div class="pcard"><button class="pill primary" id="again">↺ Back to Practice</button></div>`;
-  document.querySelectorAll("[data-ar]").forEach(h=>h.onclick=()=>h.parentElement.classList.toggle("open"));
-  document.getElementById("again").onclick=()=>{PT={view:"home"};render()};
-  heatmap();go("practice");window.scrollTo({top:0});
+  renderAnalysisView(analysis,false);
+  heatmap();
 }
 
 /* calculator */
