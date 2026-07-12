@@ -372,6 +372,43 @@ textarea.imp{width:100%;min-height:90px;border:1px solid var(--line);border-radi
 .abar .back{border:1px solid var(--line);background:var(--card);border-radius:11px;padding:8px 14px;font:700 12.5px inherit;color:var(--mut);cursor:pointer}
 .abar .back:hover{color:var(--ink)}
 
+/* ===== mock tests: year → slot → section picker ===== */
+.yearrow{display:flex;align-items:center;gap:10px;padding:12px 14px;border:1px solid var(--line);border-radius:13px;background:var(--card2);cursor:pointer;margin-top:8px;transition:.15s;user-select:none}
+.yearrow:hover{border-color:var(--qa)}
+.yearrow.open{border-radius:13px 13px 0 0;border-bottom-color:transparent}
+.yearrow .yr{font-weight:800;font-size:15px}
+.yearrow .ymeta{color:var(--mut);font-size:12px}
+.yearrow .ycaret{margin-left:auto;color:var(--faint);transition:transform .2s;font-size:12px}
+.yearrow.open .ycaret{transform:rotate(180deg)}
+.yearbody{display:none;border:1px solid var(--line);border-top:none;border-radius:0 0 13px 13px;padding:2px 12px 8px}
+.yearbody.open{display:block;animation:pgin .18s ease-out}
+.slotrow{padding:11px 2px;border-top:1px solid var(--line2)}
+.slotrow:first-child{border-top:none}
+.slothd{margin-bottom:9px}.slothd b{font-size:13.5px}
+.secpick{display:flex;gap:7px;flex-wrap:wrap;align-items:center}
+.secchip{border:1.5px solid var(--line);background:var(--card);color:var(--mut);border-radius:10px;padding:7px 12px;font:700 12px inherit;cursor:pointer;transition:.12s}
+.secchip span{opacity:.6;font-size:10.5px;margin-left:3px;font-weight:600}
+.secchip.on{background:var(--qa-soft);border-color:var(--qa);color:var(--qa)}
+.startmock{margin-left:auto}
+/* ===== instructions / overview page ===== */
+#instr{position:fixed;inset:0;z-index:150;display:none;overflow-y:auto;background:var(--bg);
+  background-image:radial-gradient(800px 500px at 20% 0%,var(--glow1),transparent 60%),radial-gradient(700px 400px at 90% 10%,var(--glow2),transparent 60%)}
+#instr.on{display:block}
+.instrwrap{max-width:640px;margin:5vh auto;padding:0 18px}
+.instrcard{background:var(--card);border:1px solid var(--line);border-radius:22px;box-shadow:var(--shadow-lg);padding:26px 26px 22px}
+.ilogo{width:48px;height:48px;border-radius:14px;background:var(--brand);display:grid;place-items:center;color:#fff;font-weight:800;font-size:17px;margin:0 auto 12px;box-shadow:0 8px 24px -6px rgba(147,51,234,.5)}
+.instrcard h2{text-align:center;margin:0 0 4px;font-size:21px;letter-spacing:-.3px}
+.ilabel{text-align:center;color:var(--mut);font-size:13px;margin-bottom:18px}
+.itable{width:100%;border-collapse:collapse;font-size:12.5px;margin-bottom:16px}
+.itable th,.itable td{border:1px solid var(--line);padding:7px 8px;text-align:center;font-variant-numeric:tabular-nums}
+.itable th{background:var(--card2);font-weight:700}
+.itable td:first-child,.itable th:first-child{text-align:left}
+.iinstr{font-size:12.5px;background:var(--card2);border:1px solid var(--line2);border-radius:13px;padding:12px 15px;margin-bottom:14px}
+.iinstr ul{margin:7px 0 0;padding-left:18px;line-height:1.65}.iinstr li{margin-bottom:5px}
+.iagree{display:flex;gap:9px;align-items:flex-start;font-size:12.5px;margin-bottom:16px;cursor:pointer}
+.iagree input{width:18px;height:18px;margin-top:1px;accent-color:var(--qa);flex:none}
+.ibtns{display:flex;gap:10px;justify-content:flex-end}
+
 /* ============ RESPONSIVE ============ */
 @media(max-width:900px){
   .wrap,.topin{padding-left:16px;padding-right:16px}
@@ -619,6 +656,7 @@ textarea.imp{width:100%;min-height:90px;border:1px solid var(--line);border-radi
     <button data-c="√">√</button><button data-c="x²">x²</button><button data-c="1/x">1/x</button><button data-c="00">00</button>
   </div>
 </div>
+<div id="instr"></div>
 <div class="modal" id="ctmodal"></div>
 <div class="toast" id="toast"></div>
 
@@ -1040,14 +1078,26 @@ function renderPracticeHome(){
     <button class="ctbtn" id="opencustom">➕ Create custom test</button>
   </div>`;
   /* 2 — full-paper mocks */
-  const mockCard=`<div class="pcard"><h3>🏆 Full-Paper Mocks — actual CAT papers</h3>
-    <div class="hint">Section-locked (VARC → DILR → QA), per-section timer, no going back — exactly like exam day.</div>
-    ${MOCKS.length?MOCKS.map((m,i)=>{const sk=m.sections.reduce((a,s)=>a+s.skip,0);
-      const att=hist.filter(h=>h.kind==="mock"&&h.paper===m.name).length;
-      return `<div class="histrow"><b style="min-width:140px">${m.name}</b>
-      <span class="mu">${m.sections.map(s=>s.name+" "+s.qs.length).join(" · ")} · ${m.secMin} min/section${sk?` · ${sk} Qs excluded (figures lost in source PDF)`:''}${att?` · attempted ${att}×`:''}</span>
-      <button class="pill go" style="margin-left:auto;flex:none" data-mock="${i}">▶ Start</button></div>`}).join("")
-      :'<div class="hint">Full-paper mocks load on the hosted site (percentile99.vercel.app).</div>'}
+  const byYear={};
+  MOCKS.forEach((m,i)=>{(byYear[m.year]=byYear[m.year]||[]).push({m,i})});
+  const years=Object.keys(byYear).sort((a,b)=>b-a);
+  const mockCard=`<div class="pcard"><h3>🏆 Full Mock Tests — actual CAT papers</h3>
+    <div class="hint">Pick a year, open a slot, and tap sections to choose what to attempt — a single section, any two, or the whole paper. You'll see real instructions and section-timing before it starts.</div>
+    ${years.length?years.map((y,yi)=>{
+      const slots=byYear[y].slice().sort((a,b)=>a.m.name.localeCompare(b.m.name,undefined,{numeric:true}));
+      const totQ=slots.reduce((a,x)=>a+x.m.sections.reduce((s,sec)=>s+sec.qs.length,0),0);
+      const op=yi===0?' open':'';
+      return `<div class="yearrow${op}" data-year="${y}"><span class="yr">CAT ${y}</span><span class="ymeta">${slots.length} slots · ${totQ} Qs</span><span class="ycaret">▾</span></div>
+      <div class="yearbody${op}" id="yb-${y}">${slots.map(({m,i})=>{
+        const slotlbl=m.name.replace(/^CAT \d+ /,'');
+        const att=hist.filter(h=>h.kind==="mock"&&h.paper===m.name).length;
+        return `<div class="slotrow">
+          <div class="slothd"><b>${slotlbl}</b> <span class="mu">${m.sections.map(s=>s.name+' '+s.qs.length).join(' · ')} · ${m.secMin}m/section${att?` · attempted ${att}×`:''}</span></div>
+          <div class="secpick">
+            ${m.sections.map(s=>`<button class="secchip on" data-mock="${i}" data-sec="${s.name}">${s.name} <span>${s.qs.length}</span></button>`).join('')}
+            <button class="pill go startmock" data-mock="${i}">▶ Start</button>
+          </div></div>`}).join('')}</div>`;
+    }).join(''):'<div class="hint">Full-paper mocks load on the hosted site (percentile99.vercel.app).</div>'}
   </div>`;
   /* 3 — attempt history (clickable → full analysis) */
   const rows=hist.map((s,idx)=>({s,idx})).reverse().slice(0,15).map(({s,idx})=>historyCard(s,idx)).join("");
@@ -1082,7 +1132,14 @@ function historyCard(s,idx){
     </div><span class="hgo">›</span></button>`;
 }
 function bindPractice(){
-  document.querySelectorAll("[data-mock]").forEach(b=>b.onclick=()=>startMock(+b.dataset.mock));
+  document.querySelectorAll(".yearrow").forEach(r=>r.onclick=()=>{
+    const yb=document.getElementById("yb-"+r.dataset.year);const open=yb.classList.toggle("open");r.classList.toggle("open",open)});
+  document.querySelectorAll(".secchip").forEach(b=>b.onclick=e=>{e.stopPropagation();b.classList.toggle("on")});
+  document.querySelectorAll(".startmock").forEach(b=>b.onclick=()=>{
+    const mi=+b.dataset.mock;
+    const secs=[...document.querySelectorAll(`.secchip.on[data-mock="${mi}"]`)].map(x=>x.dataset.sec);
+    if(!secs.length)return toast("Tap at least one section to include");
+    showInstructions(mi,secs)});
   const oc=document.getElementById("opencustom");if(oc)oc.onclick=openCustomModal;
   document.querySelectorAll("[data-hist]").forEach(b=>b.onclick=()=>viewAnalysis(+b.dataset.hist));
   const ib=document.getElementById("impbtn");if(ib)ib.onclick=()=>{
@@ -1207,20 +1264,51 @@ function startTest(){
   PT.timer=setInterval(tick,1000);
   showQ(0);
 }
-function startMock(mi){
+const SECFULL={VARC:"Verbal Ability & Reading Comprehension",DILR:"Data Interpretation & Logical Reasoning",QA:"Quantitative Ability"};
+function showInstructions(mi,secNames){
   const m=MOCKS[mi];
-  PT={view:"test",kind:"mock",mock:m,si:-1,results:[],elapsed:0,timer:null,pace:1};
+  const secs=(secNames&&secNames.length)?m.sections.filter(s=>secNames.includes(s.name)):m.sections.slice();
+  if(!secs.length)return;
+  const full=secs.length===m.sections.length;
+  const label=full?"Full Mock":secs.map(s=>s.name).join(" + ");
+  const totMin=secs.length*m.secMin, totQ=secs.reduce((a,s)=>a+s.qs.length,0);
+  const rows=secs.map(s=>`<tr><td>${SECFULL[s.name]||s.name}</td><td>${s.qs.length}</td><td>${m.secMin} min</td><td>+3</td><td>−1 (MCQ only)</td></tr>`).join("");
+  document.getElementById("instr").innerHTML=`<div class="instrwrap"><div class="instrcard">
+    <div class="ilogo">99</div>
+    <h2>${m.name}</h2>
+    <div class="ilabel">${label} · ${secs.length} section${secs.length>1?"s":""} · ${totQ} questions · ${totMin} minutes</div>
+    <table class="itable"><tr><th>Section</th><th>Qs</th><th>Time</th><th>Correct</th><th>Wrong</th></tr>${rows}</table>
+    <div class="iinstr"><b>General instructions</b><ul>
+      <li>This test is <b>section-timed</b>: you get <b>${m.secMin} minutes per section</b>. When the timer hits zero the section locks automatically and the next one begins.</li>
+      <li>Sections run in order (${secs.map(s=>s.name).join(" → ")}). Once a section is submitted or its time is up, you <b>cannot go back</b> to it — exactly like the real CAT.</li>
+      <li>Marking: <b>+3</b> for every correct answer, <b>−1</b> for a wrong MCQ. TITA (type-in-the-answer) questions carry <b>no negative marking</b>.</li>
+      <li>Use the <b>question palette</b> to jump around within a section, <b>Mark for Review</b> to flag, and the on-screen <b>calculator</b> (permitted in CAT).</li>
+      <li>Your full analysis — score, accuracy, section-wise breakdown and per-question solutions — appears the moment you finish.</li>
+    </ul></div>
+    <label class="iagree"><input type="checkbox" id="iagree"> I have read and understood the instructions and I am ready to begin.</label>
+    <div class="ibtns"><button class="pill" id="icancel">Cancel</button><button class="ctstart" id="ibegin" disabled>Begin Test →</button></div>
+  </div></div>`;
+  document.getElementById("instr").classList.add("on");window.scrollTo({top:0});
+  document.getElementById("iagree").onchange=e=>document.getElementById("ibegin").disabled=!e.target.checked;
+  document.getElementById("icancel").onclick=()=>document.getElementById("instr").classList.remove("on");
+  document.getElementById("ibegin").onclick=()=>{document.getElementById("instr").classList.remove("on");startMock(mi,secs.map(s=>s.name))};
+}
+function startMock(mi,secNames){
+  const m=MOCKS[mi];
+  const secList=(secNames&&secNames.length)?m.sections.filter(s=>secNames.includes(s.name)):m.sections.slice();
+  const full=secList.length===m.sections.length;
+  PT={view:"test",kind:"mock",mock:m,secList,full,mockTitle:m.name+(full?"":" — "+secList.map(s=>s.name).join(" + ")),si:-1,results:[],elapsed:0,timer:null,pace:1};
   document.getElementById("tover").classList.add("on");
   document.getElementById("subbtn").textContent="End Section";
   PT.timer=setInterval(tick,1000);
   loadSection(0);
-  toast(`${m.name} — ${m.sections[0].name} begins. ${m.secMin} minutes.`);
+  toast(`${secList[0].name} begins — ${m.secMin} minutes.`);
 }
 function loadSection(si){
-  const sec=PT.mock.sections[si];
+  const sec=PT.secList[si];
   PT.si=si;PT.qs=sec.qs;PT.cur=0;PT.ans={};PT.marked={};PT.visited={};
   PT.times=sec.qs.map(()=>0);PT.remain=PT.mock.secMin*60;
-  document.querySelector("#tover .ttl").textContent=`🏆 ${PT.mock.name} — ${sec.name} (${si+1}/${PT.mock.sections.length})`;
+  document.querySelector("#tover .ttl").textContent=`🏆 ${PT.mock.name} — ${sec.name} (${si+1}/${PT.secList.length})`;
   showQ(0);
 }
 function gradeCurrent(){
@@ -1233,11 +1321,11 @@ function gradeCurrent(){
 }
 function endSection(){
   const g=gradeCurrent();
-  g.name=PT.mock.sections[PT.si].name;g.skipQ=PT.mock.sections[PT.si].skip;
+  g.name=PT.secList[PT.si].name;g.skipQ=PT.secList[PT.si].skip;
   PT.results.push(g);
-  if(PT.si+1<PT.mock.sections.length){
+  if(PT.si+1<PT.secList.length){
     loadSection(PT.si+1);
-    toast(`Section locked. ${PT.mock.sections[PT.si].name} begins — ${PT.mock.secMin} min.`);
+    toast(`Section locked. ${PT.secList[PT.si].name} begins — ${PT.mock.secMin} min.`);
   }else finishMock();
 }
 function tick(){
@@ -1251,7 +1339,7 @@ function tick(){
 function showQ(i){
   PT.cur=i;PT.visited[i]=true;
   const q=PT.qs[i];
-  const tag=PT.kind==="mock"?PT.mock.sections[PT.si].name:`${q.topic||""} · ${q.sub||""}`;
+  const tag=PT.kind==="mock"?PT.secList[PT.si].name:`${q.topic||""} · ${q.sub||""}`;
   let inner=`<div class="qhead"><span class="qnum">Question ${i+1} of ${PT.qs.length}</span>
     <span class="qtag">${tag}</span>
     <span class="qtype">${q.type==="mcq"?"MCQ · +3 / −1":"TITA · +3 / no negative"}${q.src?` · ${q.src}`:""}</span></div>`;
@@ -1284,7 +1372,7 @@ document.getElementById("clearbtn").onclick=()=>{delete PT.ans[PT.cur];showQ(PT.
 document.getElementById("markbtn").onclick=()=>{PT.marked[PT.cur]=!PT.marked[PT.cur];showQ(Math.min(PT.cur+1,PT.qs.length-1))};
 document.getElementById("subbtn").onclick=()=>{
   if(PT.kind==="mock"){
-    if(confirm(PT.si+1<PT.mock.sections.length?"End this section early? You cannot come back (just like the real CAT).":"End the final section and submit the mock?"))endSection();
+    if(confirm(PT.si+1<PT.secList.length?"End this section early? You cannot come back (just like the real CAT).":"End the final section and submit the test?"))endSection();
   }else if(confirm("Submit the test?"))submitTest()};
 document.getElementById("fsbtn").onclick=()=>{
   const el=document.getElementById("tover");
@@ -1341,9 +1429,9 @@ function finishMock(){
   const R=PT.results,m=PT.mock;
   const tot={score:0,correct:0,wrong:0,skip:0,n:0};
   R.forEach(g=>{tot.score+=g.score;tot.correct+=g.correct;tot.wrong+=g.wrong;tot.skip+=g.skip;tot.n+=g.rows.length});
-  const ref=m.year===2020?"Reference: in CAT 2020 ~100/228 raw ≈ 99th percentile, ~76 ≈ 95th, ~62 ≈ 90th (approximate).":
+  const ref=!PT.full?"":m.year===2020?"Reference: in CAT 2020 ~100/228 raw ≈ 99th percentile, ~76 ≈ 95th, ~62 ≈ 90th (approximate).":
     m.year===2017?"Reference: CAT 2017 was a 300-mark paper; ~170+ raw ≈ 99th percentile territory (approximate).":"";
-  const analysis={kind:"mock",title:m.name,date:today(),
+  const analysis={kind:"mock",title:PT.mockTitle||m.name,date:today(),
     score:tot.score,correct:tot.correct,wrong:tot.wrong,skip:tot.skip,n:tot.n,secs:PT.elapsed,max:tot.n*3,ref,
     sections:R.map(g=>({name:g.name,score:g.score,correct:g.correct,wrong:g.wrong,skip:g.skip,skipQ:g.skipQ,
       rows:g.rows.map(r=>compactRow(r,r.q.c!==undefined?m.ctxs[r.q.c]:null))}))};
