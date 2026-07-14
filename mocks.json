@@ -36,7 +36,8 @@
 "argued that cultural imperialism was more significant than colonial domination.",
 "demonstrated how cultural imperialism was used to justify colonial domination"
 ],
-"c": 0
+"c": 0,
+"sub": "Reading Comprehension"
 },
 {
 "n": 2,
@@ -50,7 +51,8 @@
 "they were from the progressive middle- and upper-classes of society.",
 "they developed a feminist perspective of the world"
 ],
-"c": 0
+"c": 0,
+"sub": "Reading Comprehension"
 },
 {
 "n": 3,
@@ -64,7 +66,8 @@
 "perspective that they bring to their research",
 "knowledge of class tensions in Victorian society"
 ],
-"c": 0
+"c": 0,
+"sub": "Reading Comprehension"
 },
 {
 "n": 4,
@@ -78,7 +81,8 @@
 "presented travellers’ discovery of their identity as different from others.",
 "celebrated the freedom that travel gives."
 ],
-"c": 0
+"c": 0,
+"sub": "Reading Comprehension"
 },
 {
 "n": 5,
@@ -92,7 +96,8 @@
 "feminist writing",
 "autobiographical writing"
 ],
-"c": 0
+"c": 0,
+"sub": "Reading Comprehension"
 },
 {
 "n": 6,
@@ -106,7 +111,8 @@
 "the role of agriculture in the advancement of knowledge.",
 "the role of pathogens in the spread of infectious diseases."
 ],
-"c": 1
+"c": 1,
+"sub": "Reading Comprehension"
 },
 {
 "n": 7,
@@ -120,7 +126,8 @@
 "advocate the promotion of less complex societies as a basis for greater security and prosperity.",
 "highlight the enormous impact that settled farming had on population growth."
 ],
-"c": 1
+"c": 1,
+"sub": "Reading Comprehension"
 },
 {
 "n": 8,
@@ -134,7 +141,8 @@
 "a temporary phase which can be rectified by social action.",
 "resulting from a breakdown in the veneer of human nature."
 ],
-"c": 1
+"c": 1,
+"sub": "Reading Comprehension"
 },
 {
 "n": 9,
@@ -148,7 +156,8 @@
 "the author of the review believes in the veneer theory of human nature.",
 "most people agree with Hobbes’ pessimistic view of human nature as being intrinsically untrustworthy and selfish."
 ],
-"c": 1
+"c": 1,
+"sub": "Reading Comprehension"
 },
 {
 "n": 10,
@@ -162,7 +171,8 @@
 "It increases human contact as it fills an isolation void.",
 "It is shown to have adverse effects on young children’s learning."
 ],
-"c": 2
+"c": 2,
+"sub": "Reading Comprehension"
 },
 {
 "n": 11,
@@ -176,7 +186,8 @@
 "some workers face punitive action if they are not online.",
 "there is a growth in computer-based teaching in public schools"
 ],
-"c": 2
+"c": 2,
+"sub": "Reading Comprehension"
 },
 {
 "n": 12,
@@ -190,7 +201,8 @@
 "concealing the findings of psychologists and neuroscientists on screen-time use from the public.",
 "pushing for greater privacy while working with advertisement-support platforms to mine data."
 ],
-"c": 2
+"c": 2,
+"sub": "Reading Comprehension"
 },
 {
 "n": 13,
@@ -204,7 +216,8 @@
 ". . studies show that time on these advertisement-support platforms is unhealthy .",
 "“Gmail is the same Gmail. And it’s all free.”"
 ],
-"c": 2
+"c": 2,
+"sub": "Reading Comprehension"
 },
 {
 "n": 14,
@@ -218,7 +231,8 @@
 "The ideology of individualism must be set aside in order to deal with the crisis.",
 "In the decades to come, other ideologies will emerge in the aftermath of the crisis."
 ],
-"c": 3
+"c": 3,
+"sub": "Reading Comprehension"
 },
 {
 "n": 15,
@@ -232,7 +246,8 @@
 "The author has witnessed many economic crises by travelling a lot for two years.",
 "The author is preoccupied with the economic crisis because he is being followed."
 ],
-"c": 3
+"c": 3,
+"sub": "Reading Comprehension"
 },
 {
 "n": 16,
@@ -246,7 +261,8 @@
 "The huge gap between science and the arts has steadily narrowed over time.",
 "The economic crisis was not a failure of collective action to rectify economic problems."
 ],
-"c": 3
+"c": 3,
+"sub": "Reading Comprehension"
 },
 {
 "n": 17,
@@ -260,7 +276,8 @@
 "The story of the economic crisis is also one about international relations, global financial security, and mass psychology.",
 "The failure of economic systems does not necessarily mean the failure of their ideologies."
 ],
-"c": 3
+"c": 3,
+"sub": "Reading Comprehension"
 },
 {
 "n": 18,
@@ -274,7 +291,8 @@
 "An educational curriculum that promotes developing financial literacy in the masses.",
 "The complete nationalisation of all financial institutions."
 ],
-"c": 3
+"c": 3,
+"sub": "Reading Comprehension"
 },
 {
 "n": 19,
@@ -282,7 +300,8 @@
 "q": "5. For instance, algorithms struggle to determine if group identifiers like &quot;gay&quot; or &quot;black&quot; are used in offensive or prejudiced<br>ways because they&#x27;re trained on imbalanced datasets with unusually high rates of hate speech.",
 "ans": "3,3,3142,2431",
 "sol": "",
-"c": 4
+"c": 4,
+"sub": "Reading Comprehension"
 },
 {
 "n": 20,
@@ -296,7 +315,8 @@
 "Disinterestedness is different from indifference as the former means a non-subjective evaluation of things which is what constitutes aesthetic political representation.",
 "Disinterestedness, as distinct from indifference, is the basis of political representation."
 ],
-"c": null
+"c": null,
+"sub": "Para-jumble"
 },
 {
 "n": 21,
@@ -304,7 +324,8 @@
 "q": "4. The denigration of working-class women and women of colour often centres on their perceived failure to embody feminine<br>beauty.<br>5. ‘Woman’ was considered a biological category, but femininity was a ‘process’ by which women became specific kinds of<br>women.",
 "ans": "3",
 "sol": "",
-"c": 5
+"c": 5,
+"sub": "Reading Comprehension"
 },
 {
 "n": 22,
@@ -312,7 +333,8 @@
 "q": "1. Each one personified a different aspect of good fortune.<br>2. The others were versions of popular Buddhist gods, Hindu gods and Daoist gods.<br>3. Seven popular Japanese deities, the Shichi Fukujin, were considered to bring good luck and happiness.<br>4. Although they were included in the Shinto pantheon, only two of them, Daikoku and Ebisu, were indigenous Japanese gods.",
 "ans": "3142",
 "sol": "",
-"c": null
+"c": null,
+"sub": "Para-jumble"
 },
 {
 "n": 23,
@@ -320,7 +342,8 @@
 "q": "4. The exaptation concept, and the Russian-doll organization concept of living beings deduced from studies on evolution of the<br>various apparatuses in mammals, can be applied for the most complex human organ: the central nervous system (CNS).",
 "ans": "2431,4123",
 "sol": "",
-"c": 6
+"c": 6,
+"sub": "Reading Comprehension"
 },
 {
 "n": 24,
@@ -334,7 +357,8 @@
 "Since its origin, language has been continuously evolving to higher forms, from being used to identify objects to ensuring human survival by enabling our ancestors to bond and cooperate.",
 "Experts are challenging the narrow view of the origin of language, as being merely used to describe facts and label"
 ],
-"c": null
+"c": null,
+"sub": "Para-jumble"
 },
 {
 "n": 25,
@@ -348,7 +372,8 @@
 "Genetic theory has a wide range of theoretical approaches and application and is foundational to evolutionary biology and Metabolic theory has the potential to do the same for ecology.",
 "Genetic theory provides an example of how a range of theoretical approaches and applications can make a theory"
 ],
-"c": 7
+"c": 7,
+"sub": "Reading Comprehension"
 },
 {
 "n": 26,
@@ -356,7 +381,8 @@
 "q": "4. The criterion of ‘consumer welfare standard’ and the principle that antitrust law should serve consumer interests and that it<br>should protect competition rather than individual competitors was an antitrust law introduced by, and named after, the<br>&#x27;Chicago school&#x27;.",
 "ans": "4123",
 "sol": "",
-"c": 8
+"c": 8,
+"sub": "Reading Comprehension"
 }
 ],
 "skip": 0
@@ -377,7 +403,7 @@
 "Patient 8"
 ],
 "c": 9,
-"sub": "Venn Diagrams"
+"sub": "Conditional Logic & Puzzles"
 },
 {
 "n": 28,
@@ -392,7 +418,7 @@
 "Vial E"
 ],
 "c": 9,
-"sub": "Venn Diagrams"
+"sub": "Conditional Logic & Puzzles"
 },
 {
 "n": 29,
@@ -407,7 +433,7 @@
 "Vials A and G positive, vials D and E negative"
 ],
 "c": 9,
-"sub": "Venn Diagrams"
+"sub": "Conditional Logic & Puzzles"
 },
 {
 "n": 30,
@@ -422,7 +448,7 @@
 "{4,5,6,7}"
 ],
 "c": 9,
-"sub": "Venn Diagrams"
+"sub": "Conditional Logic & Puzzles"
 },
 {
 "n": 31,
@@ -502,7 +528,8 @@
 "64",
 "80"
 ],
-"c": 11
+"c": 11,
+"sub": "Venn Diagrams & Set Theory"
 },
 {
 "n": 38,
@@ -516,7 +543,8 @@
 "45",
 "185"
 ],
-"c": 11
+"c": 11,
+"sub": "Venn Diagrams & Set Theory"
 },
 {
 "n": 39,
@@ -524,7 +552,8 @@
 "q": "What was the number of schools having only facilities F1 and F3? (in numerical value)",
 "ans": "42,20",
 "sol": "",
-"c": 11
+"c": 11,
+"sub": "Venn Diagrams & Set Theory"
 },
 {
 "n": 40,
@@ -532,7 +561,8 @@
 "q": "What was the number of schools having only facilities F1 and F4? (in numerical value)",
 "ans": "20",
 "sol": "",
-"c": 11
+"c": 11,
+"sub": "Venn Diagrams & Set Theory"
 },
 {
 "n": 41,
@@ -547,7 +577,7 @@
 "14th"
 ],
 "c": 12,
-"sub": "Tables"
+"sub": "Tables & Data Sets"
 },
 {
 "n": 42,
@@ -562,7 +592,7 @@
 "12th"
 ],
 "c": 12,
-"sub": "Tables"
+"sub": "Tables & Data Sets"
 },
 {
 "n": 43,
@@ -577,7 +607,7 @@
 "16th"
 ],
 "c": 12,
-"sub": "Tables"
+"sub": "Tables & Data Sets"
 },
 {
 "n": 44,
@@ -592,7 +622,7 @@
 "14th"
 ],
 "c": 12,
-"sub": "Tables"
+"sub": "Tables & Data Sets"
 },
 {
 "n": 45,
@@ -607,7 +637,7 @@
 "84"
 ],
 "c": 13,
-"sub": "Maxima-Minima & Chocolate Distribution"
+"sub": "Grid & Arrangements"
 },
 {
 "n": 46,
@@ -622,7 +652,7 @@
 "54, 57, 34, 60"
 ],
 "c": 13,
-"sub": "Maxima-Minima & Chocolate Distribution"
+"sub": "Grid & Arrangements"
 },
 {
 "n": 47,
@@ -637,7 +667,7 @@
 "30"
 ],
 "c": 13,
-"sub": "Maxima-Minima & Chocolate Distribution"
+"sub": "Grid & Arrangements"
 },
 {
 "n": 48,
@@ -652,7 +682,7 @@
 "Bina, 4 trees"
 ],
 "c": 13,
-"sub": "Maxima-Minima & Chocolate Distribution"
+"sub": "Grid & Arrangements"
 },
 {
 "n": 50,
@@ -667,7 +697,7 @@
 "Cannot be determined"
 ],
 "c": 13,
-"sub": "Maxima-Minima & Chocolate Distribution"
+"sub": "Grid & Arrangements"
 }
 ],
 "skip": 1
@@ -717,7 +747,8 @@
 "6",
 "12"
 ],
-"c": null
+"c": null,
+"sub": "Inequalities"
 },
 {
 "n": 54,
@@ -746,7 +777,8 @@
 "439",
 "357"
 ],
-"c": null
+"c": null,
+"sub": "Percentages"
 },
 {
 "n": 57,
@@ -778,7 +810,8 @@
 "q": "(in numerical value)",
 "ans": "24,6",
 "sol": "(2 × 4 × 8 × 16) / (4 × 27/8 × 256/81) = 24",
-"c": null
+"c": null,
+"sub": "Numbers Basics"
 },
 {
 "n": 60,
@@ -882,7 +915,8 @@
 "q": "(in numerical value)",
 "ans": "3",
 "sol": "14a = 36b = 84c = K<br>14 = k1/a<br>84 = k1/c<br><br>36 = k1/b<br><br>(84/14)2 = 36<br><br>K(2/c – 2/a) = K1/b<br>2(1/c – 1/a) = 1/b<br>2b(1/c - 1/a) = 1<br>So 6b(1/c - 1/a) = 3",
-"c": null
+"c": null,
+"sub": "Numbers Basics"
 },
 {
 "n": 70,
@@ -911,7 +945,8 @@
 "3",
 "1"
 ],
-"c": null
+"c": null,
+"sub": "Simple Equations"
 },
 {
 "n": 72,
@@ -949,7 +984,8 @@
 "q": "A contractor agreed to construct a 6 km road in 200 days. He employed 140 persons for the work. After 60 days, he realized<br>that only 1.5 km road has been completed. How many additional people would he need to employ in order to finish the work<br>exactly on time? (in numerical value)",
 "ans": "40",
 "sol": "To complete 1.5 km, 140 persons took 60 days<br>So to complete the remaining 4.5 km, 140 persons would have taken = 60×3 = 180 days<br>Now to complete 180 days work in (200 – 60) = 140 days:<br>Number of persons required = 140 × 180/140 = 180<br>Additional persons = 180 – 140 = 40",
-"c": null
+"c": null,
+"sub": "Permutations & Combinations"
 },
 {
 "n": 75,
@@ -1023,7 +1059,8 @@
 "the high rewards via ransoms for successful piracy attempts.",
 "colonialism’s disruption of historic ties among countries."
 ],
-"c": 0
+"c": 0,
+"sub": "Reading Comprehension"
 },
 {
 "n": 2,
@@ -1037,7 +1074,8 @@
 "analytical, to explain the contrasts between peasant and pirate life in medieval England.",
 "facetious, about the hardships of peasant life in medieval England."
 ],
-"c": 0
+"c": 0,
+"sub": "Reading Comprehension"
 },
 {
 "n": 3,
@@ -1051,7 +1089,8 @@
 "the disorganised piracy of today is no match for the organised piracy of the past.",
 "colonialism should be considered an organised form of piracy."
 ],
-"c": 0
+"c": 0,
+"sub": "Reading Comprehension"
 },
 {
 "n": 4,
@@ -1065,7 +1104,8 @@
 "if we eliminate poverty and income disparities in affected regions.",
 "through international cooperation in enforcing stringent deterrents"
 ],
-"c": 0
+"c": 0,
+"sub": "Reading Comprehension"
 },
 {
 "n": 5,
@@ -1079,7 +1119,8 @@
 "Renewable energy systems are not as profitable as non-renewable energy systems.",
 "The production and distribution of renewable energy through small-scale, local systems is not economically sustainable."
 ],
-"c": 1
+"c": 1,
+"sub": "Reading Comprehension"
 },
 {
 "n": 6,
@@ -1093,7 +1134,8 @@
 "The example of agricultural finance helps us to see how to concentrate corporate activity in the renewable energy sector.",
 "The possible negative impacts of renewable energy"
 ],
-"c": 1
+"c": 1,
+"sub": "Reading Comprehension"
 },
 {
 "n": 7,
@@ -1107,7 +1149,8 @@
 "The author’s only reservation is about the profitability of renewable energy systems.",
 "The author has reservations about the consequences of renewable energy systems."
 ],
-"c": 1
+"c": 1,
+"sub": "Reading Comprehension"
 },
 {
 "n": 8,
@@ -1121,7 +1164,8 @@
 "Renewable energy produced at the household or neighbourhood level is more efficient than mass-produced forms of energy.",
 "Most forms of renewable energy are not profitable investments for institutional investors."
 ],
-"c": 1
+"c": 1,
+"sub": "Reading Comprehension"
 },
 {
 "n": 9,
@@ -1135,7 +1179,8 @@
 "More stringent global policies and regulations to ensure a more just system of toxic waste disposal.",
 "The localised, small-scale development of renewable energy systems"
 ],
-"c": 1
+"c": 1,
+"sub": "Reading Comprehension"
 },
 {
 "n": 10,
@@ -1149,7 +1194,8 @@
 "Social analytical accounts of people like Michelangelo or Leonardo cannot explain their genius.",
 "No analyses exist of Michelangelo’s or Leonardo’s social accounts"
 ],
-"c": 2
+"c": 2,
+"sub": "Reading Comprehension"
 },
 {
 "n": 11,
@@ -1163,7 +1209,8 @@
 "understanding the structures of perception is an important part of understanding how visual cultures work.",
 "studying visual culture requires institutional structures without which the structures of perception cannot be analysed"
 ],
-"c": 2
+"c": 2,
+"sub": "Reading Comprehension"
 },
 {
 "n": 12,
@@ -1177,7 +1224,8 @@
 "The way we experience sight is through images operated on by meaningful covenants.",
 "Sight as a meaningful visual experience is possible when there is a foundational condition established in images of"
 ],
-"c": 2
+"c": 2,
+"sub": "Reading Comprehension"
 },
 {
 "n": 13,
@@ -1191,7 +1239,8 @@
 "Scholars, Social Analysis, Michelangelo and Leonardo, Interpretive Devices",
 "Visual Culture, Aesthetic Value, Lay Audience, Visual Experience."
 ],
-"c": 2
+"c": 2,
+"sub": "Reading Comprehension"
 },
 {
 "n": 15,
@@ -1205,7 +1254,8 @@
 "Freudian theory of suicide as self-inflicted aggression implies that an aggressive act need not be sought to be avoided in order for it to be considered aggression.",
 "a common theory of aggression is that it is the result of an abnormally low neural regulation of testosterone."
 ],
-"c": 3
+"c": 3,
+"sub": "Reading Comprehension"
 },
 {
 "n": 17,
@@ -1219,7 +1269,8 @@
 "men in general are believed to be more hormonally driven to exhibit violence than women.",
 "aggression in most societies is kept under control through moderating the death instinct identified by Freud."
 ],
-"c": 3
+"c": 3,
+"sub": "Reading Comprehension"
 },
 {
 "n": 18,
@@ -1233,7 +1284,8 @@
 "Information revealed by subjecting an enemy combatant to torture is not always reliable because of the animosity involved.",
 "When an enemy combatant refuses to reveal information, the use of torture can sometimes involve real feelings of"
 ],
-"c": 3
+"c": 3,
+"sub": "Reading Comprehension"
 },
 {
 "n": 19,
@@ -1241,7 +1293,8 @@
 "q": "1. But the attention of the layman, not surprisingly, has been captured by the atom bomb, although there is at least a chance<br>that it may never be used again.<br>2. Of all the changes introduced by man into the household of nature, [controlled] large-scale nuclear fission is undoubtedly<br>the most dangerous and most profound.<br>3. The danger to humanity created by the so-called peaceful uses of atomic energy may, however, be much greater.<br>4. The resultant ionizing radiation has become the most serious agent of pollution of the environment and the greatest threat<br>to man’s survival on earth.",
 "ans": "2413",
 "sol": "",
-"c": null
+"c": null,
+"sub": "Para-jumble"
 },
 {
 "n": 20,
@@ -1249,7 +1302,8 @@
 "q": "corroboration of painful details.<br>5. As more and more stories of sexual assault have been made public in the last two years, the genre of their telling has<br>exploded --- crimes have a tendency to become not just stories but genres.",
 "ans": "4",
 "sol": "",
-"c": 4
+"c": 4,
+"sub": "Reading Comprehension"
 },
 {
 "n": 21,
@@ -1257,7 +1311,8 @@
 "q": "1. It also has four movable auxiliary telescopes 1.8 m in diameter.<br>2. Completed in 2006, the Very Large Telescope (VLT) has four reflecting telescopes,8.2 m in diameter that can observe objects<br>4 billion times weaker than can normally be seen with the naked eye.<br>3. This configuration enables one to distinguish an astronaut on the Moon.<br>4. When these are combined with the large telescopes, they produce what is called interferometry: a simulation of the power of<br>a mirror 16 m in diameter and the resolution of a telescope of 200 m.",
 "ans": "2143",
 "sol": "",
-"c": null
+"c": null,
+"sub": "Para-jumble"
 },
 {
 "n": 22,
@@ -1265,7 +1320,8 @@
 "q": "1. While you might think that you see or are aware of all the changes that happen in your immediate environment, there is<br>simply too much information for your brain to fully process everything.<br>2. Psychologists use the term ‘change blindness’ to describe this tendency of people to be blind to changes though they are in<br>the immediate environment.<br>3. It cannot be aware of every single thing that happens in the world around you.<br>4. Sometimes big shifts happen in front of your eyes and you are not at all aware of these changes.",
 "ans": "1342",
 "sol": "",
-"c": null
+"c": null,
+"sub": "Para-jumble"
 },
 {
 "n": 23,
@@ -1279,7 +1335,8 @@
 "Decisions based on intuition and information result in differential speed and ability to provide a rationale.",
 "We make decisions based on intuition or information on the basis of the time available."
 ],
-"c": 5
+"c": 5,
+"sub": "Reading Comprehension"
 },
 {
 "n": 24,
@@ -1293,7 +1350,8 @@
 "Thomas Hobbes theorized the voluntary surrender of rights by people as essential for emergence of sovereign states.",
 "Thomas Hobbes theorized the emergence of sovereign states based on a transactional relationship between people and"
 ],
-"c": 6
+"c": 6,
+"sub": "Reading Comprehension"
 },
 {
 "n": 25,
@@ -1301,7 +1359,8 @@
 "q": "4. There is, alongside the world of monopolized information and surveillance, a different dynamic growing up: information as a<br>social good, incapable of being owned or exploited or priced.<br>5. Yet information is abundant. Information goods are freely replicable. Once a thing is made, it can be copied and pasted<br>infinitely.",
 "ans": "2",
 "sol": "",
-"c": 7
+"c": 7,
+"sub": "Reading Comprehension"
 },
 {
 "n": 26,
@@ -1315,7 +1374,8 @@
 "Current methodologies used to define urban and rural areas are no longer relevant to our being able to study trends in urbanisation.",
 "Distinguishing between urban and rural areas might call for some judgement on the objective methodology being used"
 ],
-"c": null
+"c": null,
+"sub": "Para-jumble"
 }
 ],
 "skip": 2
@@ -1330,7 +1390,7 @@
 "ans": "2,9",
 "sol": "",
 "c": 8,
-"sub": "Arrangements (Linear & Circular)"
+"sub": "Grid & Arrangements"
 },
 {
 "n": 28,
@@ -1339,7 +1399,7 @@
 "ans": "9,6",
 "sol": "",
 "c": 8,
-"sub": "Arrangements (Linear & Circular)"
+"sub": "Grid & Arrangements"
 },
 {
 "n": 29,
@@ -1348,7 +1408,7 @@
 "ans": "6,6",
 "sol": "",
 "c": 8,
-"sub": "Arrangements (Linear & Circular)"
+"sub": "Grid & Arrangements"
 },
 {
 "n": 30,
@@ -1357,7 +1417,7 @@
 "ans": "6",
 "sol": "",
 "c": 9,
-"sub": "Arrangements (Linear & Circular)"
+"sub": "Grid & Arrangements"
 },
 {
 "n": 31,
@@ -1371,7 +1431,8 @@
 "Only one seminar is scheduled in the second slot.",
 "Three seminars are scheduled in the last slot."
 ],
-"c": 10
+"c": 10,
+"sub": "Sequencing & Scheduling"
 },
 {
 "n": 32,
@@ -1385,7 +1446,8 @@
 "Q, R and S",
 "P, Q and R"
 ],
-"c": 10
+"c": 10,
+"sub": "Sequencing & Scheduling"
 },
 {
 "n": 33,
@@ -1399,7 +1461,8 @@
 "Q is guiding G",
 "S is guiding F."
 ],
-"c": 10
+"c": 10,
+"sub": "Sequencing & Scheduling"
 },
 {
 "n": 34,
@@ -1413,7 +1476,8 @@
 "Only (ii)",
 "Neither (i) nor (ii)"
 ],
-"c": 10
+"c": 10,
+"sub": "Sequencing & Scheduling"
 },
 {
 "n": 36,
@@ -1427,7 +1491,8 @@
 "F is guided by S.",
 "E is guided by R."
 ],
-"c": 10
+"c": 10,
+"sub": "Sequencing & Scheduling"
 },
 {
 "n": 37,
@@ -1436,7 +1501,7 @@
 "ans": "9,11",
 "sol": "",
 "c": 11,
-"sub": "Tables"
+"sub": "Tables & Data Sets"
 },
 {
 "n": 38,
@@ -1445,7 +1510,7 @@
 "ans": "11",
 "sol": "",
 "c": 11,
-"sub": "Tables"
+"sub": "Tables & Data Sets"
 },
 {
 "n": 40,
@@ -1460,7 +1525,7 @@
 "1,25,000"
 ],
 "c": 11,
-"sub": "Tables"
+"sub": "Tables & Data Sets"
 },
 {
 "n": 41,
@@ -1475,7 +1540,7 @@
 "D, C, B, A"
 ],
 "c": 11,
-"sub": "Tables"
+"sub": "Tables & Data Sets"
 },
 {
 "n": 42,
@@ -1490,7 +1555,7 @@
 "38.25%"
 ],
 "c": 11,
-"sub": "Tables"
+"sub": "Tables & Data Sets"
 },
 {
 "n": 43,
@@ -1505,7 +1570,7 @@
 "Mumbai and Delhi"
 ],
 "c": 12,
-"sub": "Games & Tournaments"
+"sub": "Tables & Data Sets"
 },
 {
 "n": 44,
@@ -1520,7 +1585,7 @@
 "12"
 ],
 "c": 12,
-"sub": "Games & Tournaments"
+"sub": "Tables & Data Sets"
 },
 {
 "n": 45,
@@ -1535,7 +1600,7 @@
 "25"
 ],
 "c": 12,
-"sub": "Games & Tournaments"
+"sub": "Tables & Data Sets"
 },
 {
 "n": 46,
@@ -1550,7 +1615,7 @@
 "900"
 ],
 "c": 12,
-"sub": "Games & Tournaments"
+"sub": "Tables & Data Sets"
 },
 {
 "n": 47,
@@ -1564,7 +1629,8 @@
 "7",
 "6"
 ],
-"c": 13
+"c": 13,
+"sub": "Grid & Arrangements"
 },
 {
 "n": 48,
@@ -1578,7 +1644,8 @@
 "V, 2, 3, 7, 5, 6, 8",
 "8, 2, 3, V, 5, 7, 6"
 ],
-"c": 13
+"c": 13,
+"sub": "Grid & Arrangements"
 },
 {
 "n": 49,
@@ -1592,7 +1659,8 @@
 "Car 4 is a compact",
 "Car 1 is an SUV"
 ],
-"c": 13
+"c": 13,
+"sub": "Grid & Arrangements"
 },
 {
 "n": 50,
@@ -1606,7 +1674,8 @@
 "Car 6 is a compact",
 "Car 7 is a compact"
 ],
-"c": 13
+"c": 13,
+"sub": "Grid & Arrangements"
 }
 ],
 "skip": 2
@@ -1620,7 +1689,8 @@
 "q": "A sum of money is split among Amal, Sunil and Mita so that the ratio of the shares of Amal and Sunil is 3:2, while the ratio of<br>the shares of Sunil and Mita is 4:5. If the difference between the largest and the smallest of these three shares is Rs 400, then<br>Sunil’s share, in rupees, is",
 "ans": "800",
 "sol": "Given that Amal : Sunil = 3 : 2.<br>Also, Sunil : Mita = 4 : 5<br>On combining the ratio we get Amal : Sunil : Mita = 6 : 4 : 5<br>So, let their shares be 6x, 4x and 5x<br>According to the question 6x – 4x = 400<br>2x = 400<br>x = 200<br>So, Sunil’s share = 4x = 4 × 200 = 800",
-"c": null
+"c": null,
+"sub": "Ratio"
 },
 {
 "n": 52,
@@ -1667,7 +1737,8 @@
 "30",
 "27"
 ],
-"c": null
+"c": null,
+"sub": "Simple Equations"
 },
 {
 "n": 56,
@@ -1681,7 +1752,8 @@
 "Rs. 580",
 "Rs. 590"
 ],
-"c": null
+"c": null,
+"sub": "Percentages"
 },
 {
 "n": 57,
@@ -1842,7 +1914,8 @@
 "20",
 "21"
 ],
-"c": null
+"c": null,
+"sub": "Permutations & Combinations"
 },
 {
 "n": 71,
@@ -1936,7 +2009,8 @@
 "changes in population and migration had no effect on the call pulse rate of individual male northern elephant seals.",
 "the influx of new northern elephant seals into Año Nuevo Island would have soon made the call pulse rate of its male"
 ],
-"c": 0
+"c": 0,
+"sub": "Reading Comprehension"
 },
 {
 "n": 2,
@@ -1950,7 +2024,8 @@
 "Besides Isla Guadalupe, there was one more founder colony with the same average male call tempo from which male seals migrated to various other colonies.",
 "The call tempo of individual male seals in host colonies changed to match the average call tempo of immigrant male"
 ],
-"c": 0
+"c": 0,
+"sub": "Reading Comprehension"
 },
 {
 "n": 3,
@@ -1964,7 +2039,8 @@
 "The calls have transformed from exhibiting simple composition, great individual variety, and less regional variety to complex composition, less individual variety, and great regional variety.",
 "Owing to migrations in the aftermath of near species extinction, the average call pulse rates in the recolonised breeding"
 ],
-"c": 0
+"c": 0,
+"sub": "Reading Comprehension"
 },
 {
 "n": 4,
@@ -1978,7 +2054,8 @@
 "the male northern elephant seals of Isla Guadalupe with faster call pulse rates might have been the original settlers of the southern rookeries.",
 "the calls of male northern elephant seals in the southern rookeries have more sophisticated structures, containing"
 ],
-"c": 0
+"c": 0,
+"sub": "Reading Comprehension"
 },
 {
 "n": 5,
@@ -1992,7 +2069,8 @@
 "It has been observed that writers sometimes disregard the rules of rhetoric.",
 "Perish the thought that complete sentences necessarily need nouns and verbs!"
 ],
-"c": 1
+"c": 1,
+"sub": "Reading Comprehension"
 },
 {
 "n": 6,
@@ -2006,7 +2084,8 @@
 "A group of nouns arranged in a row becomes a sentence.",
 "Take an apple tree, plant it in a field, and you have an orchard"
 ],
-"c": 1
+"c": 1,
+"sub": "Reading Comprehension"
 },
 {
 "n": 7,
@@ -2020,7 +2099,8 @@
 "A Creative Writing course that focuses on how to avoid the use of rhetoric.",
 "The critique of standardised rules of punctuation and capitalisation."
 ],
-"c": 1
+"c": 1,
+"sub": "Reading Comprehension"
 },
 {
 "n": 8,
@@ -2034,7 +2114,8 @@
 "the subject–predicate relation is the same as the noun–verb relation.",
 "the primary purpose of grammar is to ensure that sentences remain simple."
 ],
-"c": 1
+"c": 1,
+"sub": "Reading Comprehension"
 },
 {
 "n": 9,
@@ -2048,7 +2129,8 @@
 "“Bad grammar produces bad sentences.”",
 "“The telling clause here is Unless he is certain of doing well.”."
 ],
-"c": 1
+"c": 1,
+"sub": "Reading Comprehension"
 },
 {
 "n": 10,
@@ -2062,7 +2144,8 @@
 "There is no idea common to all forms of anarchism; that is why it is anarchic.",
 "They are all opposed to the centralisation of power in the state."
 ],
-"c": 2
+"c": 2,
+"sub": "Reading Comprehension"
 },
 {
 "n": 12,
@@ -2076,7 +2159,8 @@
 "Both are sophisticated arguments for capitalism; but the former argue for a morally upright capitalism, while the latter argue that the market is the only morality.",
 "Both are founded on the moral principles of altruism; but the latter conceive of the market as a force too mystical for the"
 ],
-"c": 2
+"c": 2,
+"sub": "Reading Comprehension"
 },
 {
 "n": 13,
@@ -2090,7 +2174,8 @@
 "The popular perception of anarchism as espousing lawlessness and violence comes from a mainstream mistrust of collectivism.",
 "For anarchists, the state is the enemy because all states apply violence and terror to maintain their control."
 ],
-"c": 2
+"c": 2,
+"sub": "Reading Comprehension"
 },
 {
 "n": 14,
@@ -2104,7 +2189,8 @@
 "The new ruling class was constituted mainly of anarchists who were against the destructive impact of the Revolution on the market.",
 "The anarchists did not want a new ruling class, but were not politically strong enough to stop them."
 ],
-"c": 2
+"c": 2,
+"sub": "Reading Comprehension"
 },
 {
 "n": 16,
@@ -2118,7 +2204,8 @@
 "reliable transportation",
 "reliable measurements"
 ],
-"c": 3
+"c": 3,
+"sub": "Reading Comprehension"
 },
 {
 "n": 17,
@@ -2132,7 +2219,8 @@
 "Making the payment with the appropriate weight of grain.",
 "Paying with a faded bolt of cloth that has approximately the same value."
 ],
-"c": 3
+"c": 3,
+"sub": "Reading Comprehension"
 },
 {
 "n": 18,
@@ -2146,7 +2234,8 @@
 "Grains were the most used currency because of government requirements.",
 "Currency usage was similar to that of modern times."
 ],
-"c": 3
+"c": 3,
+"sub": "Reading Comprehension"
 },
 {
 "n": 19,
@@ -2154,7 +2243,8 @@
 "q": "5. More specifically, the feminist inquiry into the activity of reading begins with the realization that the literary canon is<br>androcentric, and that this has a profoundly damaging effect on women readers.",
 "ans": "3",
 "sol": "",
-"c": 4
+"c": 4,
+"sub": "Reading Comprehension"
 },
 {
 "n": 20,
@@ -2168,7 +2258,8 @@
 "Voice recognition has started to feature prominently in crime-scene intelligence investigations because of movies and television series.",
 "Although voice recognition is often presented as evidence in legal cases, its scientific basis can be shaky."
 ],
-"c": 5
+"c": 5,
+"sub": "Reading Comprehension"
 },
 {
 "n": 21,
@@ -2176,7 +2267,8 @@
 "q": "1. Tensions and sometimes conflict remain an issue in and between the 11 states in South East Asia (Brunei Darussalam,<br>Cambodia, Indonesia, Laos, Malaysia, Myanmar, the Philippines, Singapore, Thailand, Timor-Leste and Vietnam).<br>2. China’s rise as a regional military power and its claims in the South China Sea have become an increasingly pressing security<br>concern for many South East Asian states.<br>3. Since the 1990s, the security environment of South East Asia has seen both continuity and profound changes.<br>4. These concerns cause states from outside the region to take an active interest in South East Asian security.",
 "ans": "3124",
 "sol": "",
-"c": null
+"c": null,
+"sub": "Para-jumble"
 },
 {
 "n": 22,
@@ -2184,7 +2276,8 @@
 "q": "4. Meaning can be elicited, and the tales contextualized, by probing beneath the narrative of verbatim, original-language<br>records and exploring the connotations of highly significant words and phrases.",
 "ans": "1432",
 "sol": "",
-"c": 6
+"c": 6,
+"sub": "Reading Comprehension"
 },
 {
 "n": 23,
@@ -2198,7 +2291,8 @@
 "Biologists have questioned the long-standing view that ‘intelligence’ is a single entity and the attempts to estimate it's heritability.",
 "Biologists have questioned the view that ‘intelligence’ is a single entity and the ways in which what is inherited."
 ],
-"c": 7
+"c": 7,
+"sub": "Reading Comprehension"
 },
 {
 "n": 24,
@@ -2212,7 +2306,8 @@
 "Europe has consistently changed its internal structure to successfully adapt to the changing world order.",
 "Europe has consistently changed in keeping with the changing world order and that has culminated in a united Europe."
 ],
-"c": 8
+"c": 8,
+"sub": "Reading Comprehension"
 },
 {
 "n": 25,
@@ -2220,7 +2315,8 @@
 "q": "5. Slave-owners obsessed over slave talk, though they could never control it, yet feared its power to bind and inspire—for, as<br>everyone knew, oaths, whispers, and secret conversations bred conspiracy and revolt.",
 "ans": "3",
 "sol": "",
-"c": 9
+"c": 9,
+"sub": "Reading Comprehension"
 },
 {
 "n": 26,
@@ -2228,7 +2324,8 @@
 "q": "weapons because it allowed agents to be chosen and designed on a rational basis.<br>4. Though treaties were all made in good faith, they contained no means of control, and so failed to prevent interested parties<br>from developing and using biological weapons.",
 "ans": "1324",
 "sol": "",
-"c": 10
+"c": 10,
+"sub": "Reading Comprehension"
 }
 ],
 "skip": 2
@@ -2242,7 +2339,8 @@
 "q": "medicines of types A, C and D, but not with medicines of type B.<br>f. 50 patients were given all the four types of medicines. 75 patients were treated with exactly one type of medicine.<br>How many patients were treated with medicine type B?",
 "ans": "340",
 "sol": "",
-"c": 11
+"c": 11,
+"sub": "Venn Diagrams & Set Theory"
 },
 {
 "n": 28,
@@ -2250,7 +2348,8 @@
 "q": "The number of patients who were treated with medicine types B, C and D, but not type A was:",
 "ans": "10",
 "sol": "",
-"c": 11
+"c": 11,
+"sub": "Venn Diagrams & Set Theory"
 },
 {
 "n": 29,
@@ -2258,7 +2357,8 @@
 "q": "How many patients were treated with medicine types B and D only?",
 "ans": "150",
 "sol": "",
-"c": 11
+"c": 11,
+"sub": "Venn Diagrams & Set Theory"
 },
 {
 "n": 30,
@@ -2266,7 +2366,8 @@
 "q": "The number of patients who were treated with medicine type D was:",
 "ans": "325",
 "sol": "",
-"c": 11
+"c": 11,
+"sub": "Venn Diagrams & Set Theory"
 },
 {
 "n": 31,
@@ -2281,7 +2382,7 @@
 "2016"
 ],
 "c": 12,
-"sub": "Calendars"
+"sub": "Tables & Data Sets"
 },
 {
 "n": 33,
@@ -2296,7 +2397,7 @@
 "4"
 ],
 "c": 12,
-"sub": "Calendars"
+"sub": "Tables & Data Sets"
 },
 {
 "n": 34,
@@ -2311,7 +2412,7 @@
 "exactly 4"
 ],
 "c": 12,
-"sub": "Calendars"
+"sub": "Tables & Data Sets"
 },
 {
 "n": 35,
@@ -2326,7 +2427,7 @@
 "A only"
 ],
 "c": 12,
-"sub": "Calendars"
+"sub": "Tables & Data Sets"
 },
 {
 "n": 36,
@@ -2341,7 +2442,7 @@
 "B, W, X, and Z"
 ],
 "c": 12,
-"sub": "Calendars"
+"sub": "Tables & Data Sets"
 },
 {
 "n": 37,
@@ -2356,7 +2457,7 @@
 "Esha"
 ],
 "c": 13,
-"sub": "Tables"
+"sub": "Tables & Data Sets"
 },
 {
 "n": 38,
@@ -2371,7 +2472,7 @@
 "Cannot be determined"
 ],
 "c": 13,
-"sub": "Tables"
+"sub": "Tables & Data Sets"
 },
 {
 "n": 39,
@@ -2386,7 +2487,7 @@
 "Two among Alva, Deep and Esha"
 ],
 "c": 13,
-"sub": "Tables"
+"sub": "Tables & Data Sets"
 },
 {
 "n": 40,
@@ -2401,7 +2502,7 @@
 "Bithi and one out of Alva and Deep"
 ],
 "c": 13,
-"sub": "Tables"
+"sub": "Tables & Data Sets"
 },
 {
 "n": 41,
@@ -2410,7 +2511,7 @@
 "ans": "3,4",
 "sol": "",
 "c": 13,
-"sub": "Tables"
+"sub": "Tables & Data Sets"
 },
 {
 "n": 42,
@@ -2419,7 +2520,7 @@
 "ans": "4",
 "sol": "",
 "c": 13,
-"sub": "Tables"
+"sub": "Tables & Data Sets"
 },
 {
 "n": 43,
@@ -2434,7 +2535,7 @@
 "3.4"
 ],
 "c": 14,
-"sub": "Venn Diagrams"
+"sub": "Tables & Data Sets"
 },
 {
 "n": 44,
@@ -2449,7 +2550,7 @@
 "3.2"
 ],
 "c": 14,
-"sub": "Routes & Networks"
+"sub": "Tables & Data Sets"
 },
 {
 "n": 45,
@@ -2464,7 +2565,7 @@
 "1600"
 ],
 "c": 14,
-"sub": "Routes & Networks"
+"sub": "Tables & Data Sets"
 },
 {
 "n": 46,
@@ -2479,7 +2580,7 @@
 "1900"
 ],
 "c": 14,
-"sub": "Routes & Networks"
+"sub": "Tables & Data Sets"
 },
 {
 "n": 47,
@@ -2493,7 +2594,8 @@
 "H",
 "A"
 ],
-"c": 15
+"c": 15,
+"sub": "Venn Diagrams & Set Theory"
 },
 {
 "n": 48,
@@ -2507,7 +2609,8 @@
 "J",
 "G"
 ],
-"c": 15
+"c": 15,
+"sub": "Venn Diagrams & Set Theory"
 },
 {
 "n": 49,
@@ -2521,7 +2624,8 @@
 "C and E",
 "C and F"
 ],
-"c": 15
+"c": 15,
+"sub": "Venn Diagrams & Set Theory"
 },
 {
 "n": 50,
@@ -2535,7 +2639,8 @@
 "E, G and H",
 "C, G and H"
 ],
-"c": 15
+"c": 15,
+"sub": "Venn Diagrams & Set Theory"
 }
 ],
 "skip": 1
@@ -2555,7 +2660,8 @@
 "8",
 "10"
 ],
-"c": null
+"c": null,
+"sub": "Sequence & Series"
 },
 {
 "n": 52,
@@ -2563,7 +2669,8 @@
 "q": "A gentleman decided to treat a few children in the following manner. He gives half of his total stock of toffees and one extra to<br>the first child, and then the half of the remaining stock along with one extra to the second and continues giving away in this<br>fashion. His total stock exhausts after he takes care of 5 children. How many toffees were there in his stock initially?",
 "ans": "62",
 "sol": "Let the number of toffees be x.<br>Toffees Given to first child = (x/2)+1<br>Toffees given to second child= (1/2) (x- (x/2) -1) + 1 = (x/4)+(1/2)<br>We find the symmetry in the pattern of toffees distribution,<br>Therefore toffees distribution done [(x/2)+1] ,[(x/4)+(1/2)] ,[(x/8)+(1/4)] ,[(x/16)+(1/8)] ,[(x/32)+(1/16)]<br>⇒ [(x/2)+1] + [(x/4)+(1/2)] + [(x/8)+(1/4)] + [(x/16)+(1/8)] + [(x/32)+(1/16)] = x<br>⇒ (62/32) = x – (31/32)x<br>⇒ x=62",
-"c": null
+"c": null,
+"sub": "Permutations & Combinations"
 },
 {
 "n": 53,
@@ -2854,7 +2961,8 @@
 "East and south were more important for religious reasons for some civilisations",
 "East was considered by some civilisations to be a more positive direction"
 ],
-"c": 0
+"c": 0,
+"sub": "Reading Comprehension"
 },
 {
 "n": 3,
@@ -2868,7 +2976,8 @@
 "the Chinese emperor appreciated the winds from the south.",
 "north was considered the most desirable direction."
 ],
-"c": 0
+"c": 0,
+"sub": "Reading Comprehension"
 },
 {
 "n": 5,
@@ -2882,7 +2991,8 @@
 "The biggest contributory factor was the influence of Christian maps",
 "The biggest contributory factor is not stated in the passage"
 ],
-"c": 0
+"c": 0,
+"sub": "Reading Comprehension"
 },
 {
 "n": 6,
@@ -2896,7 +3006,8 @@
 "early Chinese maps",
 "early Christian maps"
 ],
-"c": 0
+"c": 0,
+"sub": "Reading Comprehension"
 },
 {
 "n": 7,
@@ -2910,7 +3021,8 @@
 "It encouraged reading among people by giving them access to thousands of books",
 "It gave people access to pamphlets and literature in several languages"
 ],
-"c": 1
+"c": 1,
+"sub": "Reading Comprehension"
 },
 {
 "n": 8,
@@ -2924,7 +3036,8 @@
 "shortened the time taken to produce books and pamphlets.",
 "enabled people to perform various tasks simultaneously."
 ],
-"c": 1
+"c": 1,
+"sub": "Reading Comprehension"
 },
 {
 "n": 9,
@@ -2938,7 +3051,8 @@
 "Reading printed books would become a thing of the past.",
 "The production of e-books would eventually fall."
 ],
-"c": 1
+"c": 1,
+"sub": "Reading Comprehension"
 },
 {
 "n": 10,
@@ -2952,7 +3066,8 @@
 "The continued suppression of free speech in closed societies",
 "The decline in reading habits among those who use the device"
 ],
-"c": 1
+"c": 1,
+"sub": "Reading Comprehension"
 },
 {
 "n": 11,
@@ -2966,7 +3081,8 @@
 "it encouraged religious freedom among the people by destroying the monopoly of religious leaders on the scriptures.",
 "it made available revolutionary strategies and opinions to the people."
 ],
-"c": 1
+"c": 1,
+"sub": "Reading Comprehension"
 },
 {
 "n": 12,
@@ -2980,7 +3096,8 @@
 "been disappointing because it has changed society too rapidly",
 "been more wasteful than the printing press because people spend more time daydreaming or surfing."
 ],
-"c": 1
+"c": 1,
+"sub": "Reading Comprehension"
 },
 {
 "n": 13,
@@ -2994,7 +3111,8 @@
 "malls used to perform a social function that has been lost",
 "malls are closing down because people have found alternate ways to shop."
 ],
-"c": 2
+"c": 2,
+"sub": "Reading Comprehension"
 },
 {
 "n": 14,
@@ -3008,7 +3126,8 @@
 "To show that Amazon is helping certain brands go online",
 "To indicate that the shopping habits of the American middle class have changed."
 ],
-"c": 2
+"c": 2,
+"sub": "Reading Comprehension"
 },
 {
 "n": 15,
@@ -3022,7 +3141,8 @@
 "were eager to get brand-name anchor outlets to set up shop m their mall",
 "malls are closing down because people have found alternate ways to shop."
 ],
-"c": 2
+"c": 2,
+"sub": "Reading Comprehension"
 },
 {
 "n": 16,
@@ -3036,7 +3156,8 @@
 "it was a commercial space as well as a gathering place.",
 "it sold things that were needed as well as those that were not."
 ],
-"c": 2
+"c": 2,
+"sub": "Reading Comprehension"
 },
 {
 "n": 17,
@@ -3050,7 +3171,8 @@
 "Malls were a hangout place where families grew close to each other",
 "Malls were a great place for everyone to gather and interact."
 ],
-"c": 2
+"c": 2,
+"sub": "Reading Comprehension"
 },
 {
 "n": 18,
@@ -3064,7 +3186,8 @@
 "emphasise that all brands were available under one roof.",
 "show that malls smelt good because of the various stores and food court."
 ],
-"c": 2
+"c": 2,
+"sub": "Reading Comprehension"
 },
 {
 "n": 19,
@@ -3078,7 +3201,8 @@
 "While a factor, isolation was not as important to speciation as natural selection",
 "Gene flow is less common and more erratic than Mayr and his colleagues claimed."
 ],
-"c": 3
+"c": 3,
+"sub": "Reading Comprehension"
 },
 {
 "n": 20,
@@ -3092,7 +3216,8 @@
 "Evolutionary changes unfold imperceptibly over time.",
 "Checkerspot butterflies are known to exhibit speciation while living in close proximity"
 ],
-"c": 3
+"c": 3,
+"sub": "Reading Comprehension"
 },
 {
 "n": 21,
@@ -3106,7 +3231,8 @@
 "the causes of speciation are debated by scientists",
 "checkerspot butterflies offer the best example of Ehrlich and Raven&#x27;s ideas about speciation"
 ],
-"c": 3
+"c": 3,
+"sub": "Reading Comprehension"
 },
 {
 "n": 22,
@@ -3120,7 +3246,8 @@
 "accrue to host cities, if at all, only in the long term",
 "are usually eroded by expenditure incurred by the host city"
 ],
-"c": 4
+"c": 4,
+"sub": "Reading Comprehension"
 },
 {
 "n": 23,
@@ -3134,7 +3261,8 @@
 "the authorities do not adapt them to local conditions.",
 "they become outdated having being built with little planning and under time pressure"
 ],
-"c": 4
+"c": 4,
+"sub": "Reading Comprehension"
 },
 {
 "n": 24,
@@ -3148,7 +3276,8 @@
 "the finances used to fund the Games could be better used for other purposes.",
 "the influx of visitors during the Games places a huge strain on the urban infrastructure."
 ],
-"c": 4
+"c": 4,
+"sub": "Reading Comprehension"
 },
 {
 "n": 25,
@@ -3162,7 +3291,8 @@
 "A classic is a work exploring the new., going beyond the universal, the contemporary, and the notion of a unified human consciousness",
 "A classic is a work that provides access to a universal experience of the human race as opposed to radically different"
 ],
-"c": 5
+"c": 5,
+"sub": "Reading Comprehension"
 },
 {
 "n": 26,
@@ -3176,7 +3306,8 @@
 "Indian translators should translate Indian texts into English as their work is less likely to pose cultural problems which are harder to address than the quality of language.",
 "Westerners might be good at gaining reasonable fluency in new languages, but as understanding the culture reflected in"
 ],
-"c": 6
+"c": 6,
+"sub": "Reading Comprehension"
 },
 {
 "n": 27,
@@ -3190,7 +3321,8 @@
 "Global warming melts glaciers, resulting in sea water volume expansion; this enables more water vapour to fill the air above faster. Thus, modern storms contain more destructive energy.",
 "It is naive to think that rising sea levels and the force of tropical storms are unrelated; Harvey was destructive as global"
 ],
-"c": 7
+"c": 7,
+"sub": "Reading Comprehension"
 },
 {
 "n": 28,
@@ -3198,7 +3330,8 @@
 "q": "1. The process of handing down implies not a passive transfer, but some contestation in defining what exactly is to be handed<br>down.<br>2. Wherever Western scholars have worked on the Indian past, the selection is even more apparent and the inventing of a<br>tradition much more recognizable.<br>3. Every generation selects what it requires from the past and makes its innovations, some more than others.<br>4. It is now a truism to say that traditions are not handed down unchanged, but are invented.<br>5. Just as life has death as its opposite, so is tradition by default the opposite of innovation.",
 "ans": "54132",
 "sol": "",
-"c": null
+"c": null,
+"sub": "Para-jumble"
 },
 {
 "n": 29,
@@ -3206,7 +3339,8 @@
 "q": "4. It is caused by a mutation in a particular gene and a child will suffer from the condition even if it inherits only one copy of the<br>mutated gene.<br>5. In results announced in Nature this week, scientists fixed a mutation that thickens the heart muscle, a condition called<br>hypertrophic cardiomyopathy.",
 "ans": "15243",
 "sol": "",
-"c": 8
+"c": 8,
+"sub": "Reading Comprehension"
 },
 {
 "n": 30,
@@ -3214,7 +3348,8 @@
 "q": "causes the disease, seven tested positive.<br>5. DNA from Bronze Age human skeletons indicate that the black plague could have emerged as early as 3,000 BCE, long<br>before the epidemic that swept through Europe in the mid-1300s.",
 "ans": "54123",
 "sol": "",
-"c": 9
+"c": 9,
+"sub": "Reading Comprehension"
 },
 {
 "n": 31,
@@ -3222,7 +3357,8 @@
 "q": "5. What is unprecedented is not the desire to put out news feeds related to the self, but the ease with which this broadcast<br>operation can now be executed, often provoking (un)anticipated responses from beyond one&#x27;s immediate location.",
 "ans": "32145",
 "sol": "",
-"c": 10
+"c": 10,
+"sub": "Reading Comprehension"
 },
 {
 "n": 32,
@@ -3230,7 +3366,8 @@
 "q": "1. People who study children&#x27;s language spend a lot of time watching how babies react to the speech they hear around them.<br>2. They make films of adults and babies interacting, and examine them very carefully to see whether the babies show any signs<br>of understanding what the adults say.<br>3. They believe that babies begin to react to language from the very moment they are born.<br>4. Sometimes the signs are very subtle - slight movements of the baby&#x27;s eyes or the head or the hands.<br>5. You&#x27;d never notice them if you were just sitting with the child, but by watching a recording over and over, you can spot them.",
 "ans": "3",
 "sol": "",
-"c": null
+"c": null,
+"sub": "Para-jumble"
 },
 {
 "n": 33,
@@ -3238,7 +3375,8 @@
 "q": "because we&#x27;ve engineered movement right out of our lives.<br>5. It&#x27;s only in the past few years that neuroscientists have begun to describe these factors and how they work, and each new<br>discovery adds awe-inspiring depth to the picture",
 "ans": "4",
 "sol": "",
-"c": 11
+"c": 11,
+"sub": "Reading Comprehension"
 },
 {
 "n": 34,
@@ -3246,7 +3384,8 @@
 "q": "4. Data from NASA&#x27;s MAVEN orbiter show that solar storms stripped away most of Mars&#x27;s once-thick atmosphere.<br>5. A recent study reveals how Mars lost much of its early water, while another indicates that some liquid water remains.",
 "ans": "1",
 "sol": "",
-"c": 12
+"c": 12,
+"sub": "Reading Comprehension"
 }
 ],
 "skip": 2
@@ -3267,7 +3406,7 @@
 "10:20"
 ],
 "c": 13,
-"sub": "Tables"
+"sub": "Sequencing & Scheduling"
 },
 {
 "n": 36,
@@ -3282,7 +3421,7 @@
 "10:17"
 ],
 "c": 13,
-"sub": "Tables"
+"sub": "Sequencing & Scheduling"
 },
 {
 "n": 37,
@@ -3297,7 +3436,7 @@
 "10:17"
 ],
 "c": 13,
-"sub": "Tables"
+"sub": "Sequencing & Scheduling"
 },
 {
 "n": 38,
@@ -3312,7 +3451,7 @@
 "23"
 ],
 "c": 13,
-"sub": "Venn Diagrams"
+"sub": "Sequencing & Scheduling"
 },
 {
 "n": 39,
@@ -3327,7 +3466,7 @@
 "56%"
 ],
 "c": 14,
-"sub": "Games & Tournaments"
+"sub": "Tables & Data Sets"
 },
 {
 "n": 40,
@@ -3342,7 +3481,7 @@
 "1500"
 ],
 "c": 14,
-"sub": "Games & Tournaments"
+"sub": "Tables & Data Sets"
 },
 {
 "n": 41,
@@ -3357,7 +3496,7 @@
 "6300"
 ],
 "c": 14,
-"sub": "Venn Diagrams"
+"sub": "Tables & Data Sets"
 },
 {
 "n": 42,
@@ -3372,7 +3511,7 @@
 "Cannot be determined from the given information"
 ],
 "c": 14,
-"sub": "Venn Diagrams"
+"sub": "Tables & Data Sets"
 },
 {
 "n": 43,
@@ -3387,7 +3526,7 @@
 "7 or 10"
 ],
 "c": 15,
-"sub": "Arrangements (Linear & Circular)"
+"sub": "Tables & Data Sets"
 },
 {
 "n": 44,
@@ -3396,7 +3535,7 @@
 "ans": "60",
 "sol": "",
 "c": 15,
-"sub": "Venn Diagrams"
+"sub": "Tables & Data Sets"
 },
 {
 "n": 45,
@@ -3405,7 +3544,7 @@
 "ans": "170",
 "sol": "",
 "c": 15,
-"sub": "Venn Diagrams"
+"sub": "Tables & Data Sets"
 },
 {
 "n": 46,
@@ -3419,7 +3558,8 @@
 "321",
 "330"
 ],
-"c": 15
+"c": 15,
+"sub": "Tables & Data Sets"
 },
 {
 "n": 47,
@@ -3428,7 +3568,7 @@
 "ans": "1",
 "sol": "",
 "c": 16,
-"sub": "Tables"
+"sub": "Tables & Data Sets"
 },
 {
 "n": 48,
@@ -3437,7 +3577,7 @@
 "ans": "6",
 "sol": "",
 "c": 16,
-"sub": "Tables"
+"sub": "Tables & Data Sets"
 },
 {
 "n": 49,
@@ -3452,7 +3592,7 @@
 "17"
 ],
 "c": 16,
-"sub": "Tables"
+"sub": "Tables & Data Sets"
 },
 {
 "n": 50,
@@ -3467,7 +3607,7 @@
 "3"
 ],
 "c": 16,
-"sub": "Tables"
+"sub": "Tables & Data Sets"
 },
 {
 "n": 51,
@@ -3482,7 +3622,7 @@
 "(1, 1)"
 ],
 "c": 17,
-"sub": "Games & Tournaments"
+"sub": "Venn Diagrams & Set Theory"
 },
 {
 "n": 52,
@@ -3497,7 +3637,7 @@
 "(1, 3)"
 ],
 "c": 17,
-"sub": "Games & Tournaments"
+"sub": "Venn Diagrams & Set Theory"
 },
 {
 "n": 53,
@@ -3512,7 +3652,7 @@
 "200"
 ],
 "c": 17,
-"sub": "Games & Tournaments"
+"sub": "Venn Diagrams & Set Theory"
 },
 {
 "n": 55,
@@ -3527,7 +3667,7 @@
 "8"
 ],
 "c": 18,
-"sub": "Arrangements (Linear & Circular)"
+"sub": "Grid & Arrangements"
 },
 {
 "n": 56,
@@ -3542,7 +3682,7 @@
 "They cannot be reached by anyone"
 ],
 "c": 18,
-"sub": "Arrangements (Linear & Circular)"
+"sub": "Grid & Arrangements"
 },
 {
 "n": 57,
@@ -3557,7 +3697,7 @@
 "the middle column"
 ],
 "c": 18,
-"sub": "Arrangements (Linear & Circular)"
+"sub": "Grid & Arrangements"
 },
 {
 "n": 58,
@@ -3572,7 +3712,7 @@
 "All individuals at the height of 9 m can be reached by at least 5 individuals"
 ],
 "c": 18,
-"sub": "Arrangements (Linear & Circular)"
+"sub": "Grid & Arrangements"
 },
 {
 "n": 59,
@@ -3587,7 +3727,7 @@
 "135"
 ],
 "c": 19,
-"sub": "Routes & Networks"
+"sub": "Networks & Routes"
 },
 {
 "n": 60,
@@ -3602,7 +3742,7 @@
 "60"
 ],
 "c": 20,
-"sub": "Routes & Networks"
+"sub": "Networks & Routes"
 },
 {
 "n": 61,
@@ -3611,7 +3751,7 @@
 "ans": "40",
 "sol": "",
 "c": 21,
-"sub": "Routes & Networks"
+"sub": "Networks & Routes"
 },
 {
 "n": 62,
@@ -3620,7 +3760,7 @@
 "ans": "4",
 "sol": "",
 "c": 22,
-"sub": "Routes & Networks"
+"sub": "Networks & Routes"
 },
 {
 "n": 63,
@@ -3629,7 +3769,7 @@
 "ans": "2",
 "sol": "",
 "c": 23,
-"sub": "Routes & Networks"
+"sub": "Networks & Routes"
 },
 {
 "n": 64,
@@ -3644,7 +3784,7 @@
 "0.9"
 ],
 "c": 24,
-"sub": "Routes & Networks"
+"sub": "Networks & Routes"
 },
 {
 "n": 65,
@@ -3653,7 +3793,7 @@
 "ans": "2",
 "sol": "",
 "c": 25,
-"sub": "Routes & Networks"
+"sub": "Networks & Routes"
 },
 {
 "n": 66,
@@ -3668,7 +3808,7 @@
 "30"
 ],
 "c": 26,
-"sub": "Routes & Networks"
+"sub": "Networks & Routes"
 }
 ],
 "skip": 1
@@ -3700,7 +3840,8 @@
 "q": "An elevator has a weight limit of 630 kg. It is carrying a group of people of whom the heaviest weighs 57 kg and the lightest<br>weighs 53 kg. What is the maximum possible number of people in the group?",
 "ans": "11",
 "sol": "Number of people in the group cannot exceed<br>Maximum possible number of people in the group = 11.",
-"c": null
+"c": null,
+"sub": "Averages"
 },
 {
 "n": 70,
@@ -3762,7 +3903,8 @@
 "4: 3",
 "6: 5"
 ],
-"c": null
+"c": null,
+"sub": "Profit & Loss"
 },
 {
 "n": 77,
@@ -3899,7 +4041,8 @@
 "4/9",
 "1/3"
 ],
-"c": null
+"c": null,
+"sub": "Indices & Surds"
 },
 {
 "n": 91,
@@ -4047,7 +4190,8 @@
 "provide the financial and institutional networks that enable ideas to become reality.",
 "provide access to cultural activities that promote new and creative ways of thinking."
 ],
-"c": 0
+"c": 0,
+"sub": "Reading Comprehension"
 },
 {
 "n": 2,
@@ -4061,7 +4205,8 @@
 "the larger the creative population in a city, the more likely it is to be stifled",
 "large bureaucracies and institutions are the inevitable outcome of successful cities"
 ],
-"c": 0
+"c": 0,
+"sub": "Reading Comprehension"
 },
 {
 "n": 3,
@@ -4075,7 +4220,8 @@
 "the creativity divide is widening in societies in line with socio-economic trends",
 "more people should work in jobs that engage their creative faculties"
 ],
-"c": 0
+"c": 0,
+"sub": "Reading Comprehension"
 },
 {
 "n": 4,
@@ -4089,7 +4235,8 @@
 "have leaders and institutions that do not block creativity",
 "typically do not start off as creative hubs"
 ],
-"c": 0
+"c": 0,
+"sub": "Reading Comprehension"
 },
 {
 "n": 5,
@@ -4103,7 +4250,8 @@
 "the more children learn, the less creative they become",
 "technology today prevents children from being creative."
 ],
-"c": 0
+"c": 0,
+"sub": "Reading Comprehension"
 },
 {
 "n": 6,
@@ -4117,7 +4265,8 @@
 "only artists, musicians., writers., and so on should be valued in a society.",
 "most cities ignore or waste the creativity of low-wage workers"
 ],
-"c": 0
+"c": 0,
+"sub": "Reading Comprehension"
 },
 {
 "n": 7,
@@ -4131,7 +4280,8 @@
 "outline the effects of climate change on the subnivium.",
 "draw an analogy between the effect of blankets on humans and of snow cover on species living in the subnivium."
 ],
-"c": 1
+"c": 1,
+"sub": "Reading Comprehension"
 },
 {
 "n": 8,
@@ -4145,7 +4295,8 @@
 "The subnivium maintains a steady temperature that can be 30 to 40 degrees warmer than the winter air temperature.",
 "Researchers have established the adverse effects of dwindling snow cover on the subnivium."
 ],
-"c": 1
+"c": 1,
+"sub": "Reading Comprehension"
 },
 {
 "n": 9,
@@ -4159,7 +4310,8 @@
 "Adding nutrients to the soil in winter.",
 "Planting more shrubs in areas of short snow season."
 ],
-"c": 1
+"c": 1,
+"sub": "Reading Comprehension"
 },
 {
 "n": 10,
@@ -4173,7 +4325,8 @@
 "The crowberry and alpine azalea are abundant in temperate and Arctic regions.",
 "The stability of the subnivium depends on several interrelated factors, including shrubs on the forest floor."
 ],
-"c": 1
+"c": 1,
+"sub": "Reading Comprehension"
 },
 {
 "n": 11,
@@ -4187,7 +4340,8 @@
 "A compact layer of wool is warmer than a similarly compact layer of goose down.",
 "The loss of the subnivium, while tragic, will affect only temperate and Artie regions."
 ],
-"c": 1
+"c": 1,
+"sub": "Reading Comprehension"
 },
 {
 "n": 12,
@@ -4201,7 +4355,8 @@
 "draw an analogy between blankets and the snowpack.",
 "alert readers to the fatal effects of excessive exposure to the cold."
 ],
-"c": 1
+"c": 1,
+"sub": "Reading Comprehension"
 },
 {
 "n": 13,
@@ -4215,7 +4370,8 @@
 "The private car represents an unattainable myth of independence.",
 "The future Uber car will be environmentally friendlier than even the Tesla."
 ],
-"c": 2
+"c": 2,
+"sub": "Reading Comprehension"
 },
 {
 "n": 15,
@@ -4229,7 +4385,8 @@
 "the company is rapidly upscaling the number of specialised charging stations for customer convenience.",
 "people believe in the autonomy represented by private cars."
 ],
-"c": 2
+"c": 2,
+"sub": "Reading Comprehension"
 },
 {
 "n": 16,
@@ -4243,7 +4400,8 @@
 "car drivers dream of autonomy but the future may be public transport.",
 "electrically powered bicycles are the only way to achieve autonomy in transportation."
 ],
-"c": 2
+"c": 2,
+"sub": "Reading Comprehension"
 },
 {
 "n": 17,
@@ -4257,7 +4415,8 @@
 "in the future, the private car will be transformed into a form of public transport.",
 "in the future, Uber rides will outstrip Tesla sales."
 ],
-"c": 2
+"c": 2,
+"sub": "Reading Comprehension"
 },
 {
 "n": 18,
@@ -4271,7 +4430,8 @@
 "in terms of environmental friendliness and safety, electric bicycles rather than electric cars are the future.",
 "electric buses are the best form of public transport."
 ],
-"c": 2
+"c": 2,
+"sub": "Reading Comprehension"
 },
 {
 "n": 19,
@@ -4285,7 +4445,8 @@
 "It highlights the personal benefits of using typewriters.uture.",
 "It shows that computers offer fewer options than typewriters."
 ],
-"c": 3
+"c": 3,
+"sub": "Reading Comprehension"
 },
 {
 "n": 20,
@@ -4299,7 +4460,8 @@
 "they like the nostalgic appeal of typewriter.",
 "they can control who reads the document."
 ],
-"c": 3
+"c": 3,
+"sub": "Reading Comprehension"
 },
 {
 "n": 21,
@@ -4313,7 +4475,8 @@
 "Typewriters are noisier than computers.",
 "Typewriters are messier to use than computers."
 ],
-"c": 3
+"c": 3,
+"sub": "Reading Comprehension"
 },
 {
 "n": 22,
@@ -4327,7 +4490,8 @@
 "to challenge the popular perception of Vikings as raiders by using evidence that suggests their early trade relations with Europe.",
 "to argue that besides being violent pillagers, Vikings were also skilled craftsmen and efficient traders."
 ],
-"c": 4
+"c": 4,
+"sub": "Reading Comprehension"
 },
 {
 "n": 23,
@@ -4341,7 +4505,8 @@
 "some of the antler artifacts found in Denmark and Great Britain could have come from candinavia.",
 "the Vikings&#x27; trade relations with Europe pre-dates the Viking raids."
 ],
-"c": 4
+"c": 4,
+"sub": "Reading Comprehension"
 },
 {
 "n": 24,
@@ -4355,7 +4520,8 @@
 "Antler combs, regarded by the Vikings as a symbol of good health, were part of the Viking culture.",
 "Vikings, once upon a. time, had trade relations with Denmark and Scandinavia."
 ],
-"c": 4
+"c": 4,
+"sub": "Reading Comprehension"
 },
 {
 "n": 25,
@@ -4369,7 +4535,8 @@
 "North American walnut sphinx moth caterpillars, in a case of acoustic deception, produce whistles that mimic bird alarm calls to defend themselves.",
 "North American walnut sphinx moth caterpillars, in a case of deception and camouflage, produce whistles that mimic bird"
 ],
-"c": 5
+"c": 5,
+"sub": "Reading Comprehension"
 },
 {
 "n": 26,
@@ -4383,7 +4550,8 @@
 "Both Socrates and Bacon advocated confirming arguments and theories by finding exceptions.",
 "Both Socrates and Bacon advocated examining arguments and theories from both sides to prove them."
 ],
-"c": 6
+"c": 6,
+"sub": "Reading Comprehension"
 },
 {
 "n": 27,
@@ -4397,7 +4565,8 @@
 "Meaning is dynamic; definitions are static. The 'meaning in use' theory helps us understand that definitions of words are culled from their meaning in exchange and use and not vice versa.",
 "The meaning of words in dictionaries is clear, fixed and less dangerous and ambiguous than the meaning that arises when"
 ],
-"c": 7
+"c": 7,
+"sub": "Reading Comprehension"
 },
 {
 "n": 28,
@@ -4405,7 +4574,8 @@
 "q": "1. The implications of retelling of Indian stories, hence, takes on new meaning in a modern India.<br>2. The stories we tell reflect the world around us.<br>3. We cannot help but retell the stories that we value - after all, they are never quite right for us - in our time.<br>4. And even if we manage to get them quite right, they are only right for us - other people living around us will have different<br>reasons for telling similar stories.<br>5. As soon as we capture a story, the world we were trying to capture has changed.",
 "ans": "25341",
 "sol": "",
-"c": null
+"c": null,
+"sub": "Para-jumble"
 },
 {
 "n": 29,
@@ -4413,7 +4583,8 @@
 "q": "1.Before plants can take life from atmosphere, nitrogen must undergo transformations similar to ones that food undergoes in<br>our digestive machinery.<br>2. In its aerial form nitrogen is insoluble, unusable and is in need of transformation.<br>3. Lightning starts the series of chemical reactions that need to happen to nitrogen, ultimately helping it nourish our earth.<br>4. Nitrogen - an essential food for plants - is an abundant resource, with about 22 million tons of it floating over each square<br>mile of earth.<br>5. One of the most dramatic examples in nature of ill wind that blows goodness is lightning.",
 "ans": "53421",
 "sol": "",
-"c": null
+"c": null,
+"sub": "Para-jumble"
 },
 {
 "n": 30,
@@ -4421,7 +4592,8 @@
 "q": "1.This has huge implications for the health care system as it operates today, where depleted resources and time lead to patients<br>rotating in and out of doctor&#x27;s offices, oftentimes receiving minimal care or concern (what is commonly referred to as &quot;bed side<br>manner&quot;) from doctors.<br>2. The placebo effect is when an individual&#x27;s medical condition or pain shows signs of improvement based on a fake<br>intervention that has been presented to them as a real one and used to be regularly dismissed by researchers as a<br>psychological effect.<br>3. The placebo effect is not solely based on believing in treatment, however, as the clinical setting in which treatments are<br>administered is also paramount.<br>4. That the mind has the power to trigger biochemical changes because the individual believes that a given drug or intervention<br>will be effective could empower chronic patients through the notion of our bodies&#x27; capacity for self-healing.<br>5. Placebo effects are now studied not just as foils for &quot;real&quot; interventions but as a potential portal into the self-healing powers<br>of the body.",
 "ans": "25431",
 "sol": "",
-"c": null
+"c": null,
+"sub": "Para-jumble"
 },
 {
 "n": 31,
@@ -4429,7 +4601,8 @@
 "q": "5. The Johnson who challenged Bishop Berkeley&#x27;s solipsist theory of the nonexistence of matter by kicking a large stone (&quot;I<br>refute it thus&quot;) is the same Johnson for whom language must have a daily practical use.",
 "ans": "43512",
 "sol": "",
-"c": 8
+"c": 8,
+"sub": "Reading Comprehension"
 },
 {
 "n": 32,
@@ -4437,7 +4610,8 @@
 "q": "1. Although we are born with the gift of language, research shows that we are surprisingly unskilled when it comes to<br>communicating with others.<br>2. We must carefully orchestrate our speech if we want to achieve our goals and bring our dreams to fruition.<br>3. We often choose our words without thought, oblivious of the emotional effects they can have on others.<br>4. We talk more than we need to, ignoring the effect we are having on those listening to us.<br>5. We listen poorly, without realizing it, and we often fail to pay attention to the subtle meanings conveyed by facial<br>expressions, body gestures, and the tone and cadence of our voice.",
 "ans": "2",
 "sol": "",
-"c": null
+"c": null,
+"sub": "Para-jumble"
 },
 {
 "n": 33,
@@ -4445,7 +4619,8 @@
 "q": "1. Over the past fortnight, one of its finest champions managed to pull off a similar impression.<br>2. Wimbledon&#x27;s greatest illusion is the sense of timelessness it evokes.<br>3. At 35 years and 342 days, Roger Federer became the oldest man to win the singles title in the Open Era - a full 14 years after<br>he first claimed the title as a scruffy, pony-tailed upstart.<br>4. Once he had survived the opening week, the second week witnessed the range of a rested Federer&#x27;s genius.<br>5. Given that his method isn&#x27;t reliant on explosive athleticism or muscular ball-striking, both vulnerable to decay, there is cause<br>to believe that Federer will continue to enchant for a while longer.",
 "ans": "4",
 "sol": "",
-"c": null
+"c": null,
+"sub": "Para-jumble"
 },
 {
 "n": 34,
@@ -4453,7 +4628,8 @@
 "q": "a brand and have that idea that they are an insider if they can understand the hidden message.<br>5. But the Comm Bank logo has more to it than meets the eye, as squirrelled away in that diamond is the Southern Cross<br>constellation.",
 "ans": "1",
 "sol": "",
-"c": 9
+"c": 9,
+"sub": "Reading Comprehension"
 }
 ],
 "skip": 1
@@ -4473,7 +4649,8 @@
 "196",
 "364"
 ],
-"c": null
+"c": null,
+"sub": "Tables & Data Sets"
 },
 {
 "n": 36,
@@ -4487,7 +4664,8 @@
 "16",
 "196"
 ],
-"c": null
+"c": null,
+"sub": "Tables & Data Sets"
 },
 {
 "n": 37,
@@ -4501,7 +4679,8 @@
 "30",
 "24"
 ],
-"c": null
+"c": null,
+"sub": "Tables & Data Sets"
 },
 {
 "n": 38,
@@ -4515,7 +4694,8 @@
 "Rs. 42520",
 "Rs. 45240"
 ],
-"c": null
+"c": null,
+"sub": "Tables & Data Sets"
 },
 {
 "n": 39,
@@ -4530,7 +4710,7 @@
 "3"
 ],
 "c": 10,
-"sub": "Tables"
+"sub": "Venn Diagrams & Set Theory"
 },
 {
 "n": 40,
@@ -4545,7 +4725,7 @@
 "18, 76, 79, 21, 45, 61"
 ],
 "c": 10,
-"sub": "Tables"
+"sub": "Venn Diagrams & Set Theory"
 },
 {
 "n": 41,
@@ -4560,7 +4740,7 @@
 "E6"
 ],
 "c": 10,
-"sub": "Tables"
+"sub": "Venn Diagrams & Set Theory"
 },
 {
 "n": 42,
@@ -4575,7 +4755,7 @@
 "E2, E3, E5, E6, El, E3"
 ],
 "c": 10,
-"sub": "Tables"
+"sub": "Venn Diagrams & Set Theory"
 },
 {
 "n": 43,
@@ -4590,7 +4770,7 @@
 "10"
 ],
 "c": 11,
-"sub": "Maxima-Minima & Chocolate Distribution"
+"sub": "Selection & Distribution"
 },
 {
 "n": 44,
@@ -4599,7 +4779,7 @@
 "ans": "2",
 "sol": "",
 "c": 11,
-"sub": "Maxima-Minima & Chocolate Distribution"
+"sub": "Selection & Distribution"
 },
 {
 "n": 45,
@@ -4614,7 +4794,7 @@
 "216"
 ],
 "c": 12,
-"sub": "Venn Diagrams"
+"sub": "Selection & Distribution"
 },
 {
 "n": 46,
@@ -4623,7 +4803,7 @@
 "ans": "20",
 "sol": "",
 "c": 12,
-"sub": "Venn Diagrams"
+"sub": "Selection & Distribution"
 },
 {
 "n": 47,
@@ -4637,7 +4817,8 @@
 "Dorm 7 needs an extensive repair",
 "Dorm 10 repair will cost no more than Rs. 4 Crores"
 ],
-"c": 13
+"c": 13,
+"sub": "Tables & Data Sets"
 },
 {
 "n": 48,
@@ -4645,7 +4826,8 @@
 "q": "What is the total cost of repairing the odd-numbered dorms (in Rs. Crores)?",
 "ans": "19",
 "sol": "",
-"c": 13
+"c": 13,
+"sub": "Tables & Data Sets"
 },
 {
 "n": 49,
@@ -4653,7 +4835,8 @@
 "q": "Suppose further that:<br>1. 4 of the 10 dorms needing repair are women&#x27;s dorms and need a total of Rs. 20 Crores for repair.<br>2. Only one of Dorms 1 to 5 is a women&#x27;s dorm.<br>What is the cost for repairing Dorm 9 (in Rs. Crores)?",
 "ans": "3",
 "sol": "",
-"c": 13
+"c": 13,
+"sub": "Tables & Data Sets"
 },
 {
 "n": 50,
@@ -4667,7 +4850,8 @@
 "Dorm 8",
 "Dorm 10"
 ],
-"c": 13
+"c": 13,
+"sub": "Tables & Data Sets"
 },
 {
 "n": 51,
@@ -4675,7 +4859,8 @@
 "q": "6. Tea in Cup 3 got a higher rating than that in Cup 1.<br>7. The rating of tea from Wayanad was more than the rating of tea from Munnar, but less than that from Assam.<br>What was the second highest rating given?",
 "ans": "7",
 "sol": "",
-"c": 14
+"c": 14,
+"sub": "Sequencing & Scheduling"
 },
 {
 "n": 52,
@@ -4683,7 +4868,8 @@
 "q": "6. Tea in Cup 3 got a higher rating than that in Cup 1.<br>7. The rating of tea from Wayanad was more than the rating of tea from Munnar, but less than that from Assam.<br>What was the number of the cup that contained tea from Ooty?",
 "ans": "4",
 "sol": "",
-"c": 14
+"c": 14,
+"sub": "Sequencing & Scheduling"
 },
 {
 "n": 53,
@@ -4697,7 +4883,8 @@
 "1",
 "6"
 ],
-"c": 15
+"c": 15,
+"sub": "Sequencing & Scheduling"
 },
 {
 "n": 55,
@@ -4712,7 +4899,7 @@
 "5"
 ],
 "c": 16,
-"sub": "Routes & Networks"
+"sub": "Grid & Arrangements"
 },
 {
 "n": 56,
@@ -4727,7 +4914,7 @@
 "d3"
 ],
 "c": 16,
-"sub": "Routes & Networks"
+"sub": "Grid & Arrangements"
 },
 {
 "n": 57,
@@ -4742,7 +4929,7 @@
 "6"
 ],
 "c": 16,
-"sub": "Routes & Networks"
+"sub": "Grid & Arrangements"
 },
 {
 "n": 58,
@@ -4757,7 +4944,7 @@
 "37"
 ],
 "c": 16,
-"sub": "Routes & Networks"
+"sub": "Grid & Arrangements"
 },
 {
 "n": 59,
@@ -4772,7 +4959,7 @@
 "13"
 ],
 "c": 17,
-"sub": "Routes & Networks"
+"sub": "Grid & Arrangements"
 },
 {
 "n": 60,
@@ -4787,7 +4974,7 @@
 "Rs. 1000"
 ],
 "c": 17,
-"sub": "Routes & Networks"
+"sub": "Grid & Arrangements"
 },
 {
 "n": 61,
@@ -4802,7 +4989,7 @@
 "Rs. 1000"
 ],
 "c": 17,
-"sub": "Routes & Networks"
+"sub": "Grid & Arrangements"
 },
 {
 "n": 62,
@@ -4817,7 +5004,7 @@
 "Tapesh"
 ],
 "c": 17,
-"sub": "Routes & Networks"
+"sub": "Grid & Arrangements"
 },
 {
 "n": 63,
@@ -4825,7 +5012,8 @@
 "q": "out of place. For example, if the original sequence is Thumb (T), index finger (I), middle finger (M), ring finger (R) and little<br>finger (L) then TLMRI is also allowed, but TMRLI is not.<br>How many different sequences of scans are allowed for any given person&#x27;s original scan?",
 "ans": "11",
 "sol": "",
-"c": 18
+"c": 18,
+"sub": "Conditional Logic & Puzzles"
 },
 {
 "n": 64,
@@ -4839,7 +5027,8 @@
 "8",
 "13"
 ],
-"c": 19
+"c": 19,
+"sub": "Conditional Logic & Puzzles"
 },
 {
 "n": 65,
@@ -4847,7 +5036,8 @@
 "q": "Suppose the lab allows a variation of the original sequence (of six inputs) where at most two scans (out of six) are out of place,<br>as long as the finger originally scanned twice is scanned twice and other fingers are scanned once.<br>How many different sequences of scans are allowed for any given person&#x27;s original scan?",
 "ans": "15",
 "sol": "",
-"c": 20
+"c": 20,
+"sub": "Conditional Logic & Puzzles"
 },
 {
 "n": 66,
@@ -4861,7 +5051,8 @@
 "13",
 "14"
 ],
-"c": 21
+"c": 21,
+"sub": "Conditional Logic & Puzzles"
 }
 ],
 "skip": 1
@@ -4875,7 +5066,8 @@
 "q": "The numbers 1, 2,..., 9 are arranged in a 3 X 3 square grid in such a way that each number occurs once and the entries along<br>each column, each row, and each of the two diagonals add up to the same value.<br>If the top left and the top right entries of the grid are 6 and 2, respectively, then the bottom middle entry is",
 "ans": "3",
 "sol": "The square grid is filled by 9 numbers from 1 to 9. Their sum (1 + 2 + 3 +... 9) equals 45. Since the sum of<br>numbers in each row and each column and each diagonal must be equal, the sum of terms in each row and in each column and in<br>each diagonal, must be 15. For this to happen, the middle element in the 2nd row and the 2nd column must be the middle-most<br>term of the 9 terms, i.e. 5. The corner elements in the first row are 6 and 2 (given), so the middle element in the first row must be 7.<br>In the 2nd column, the top most element is 7 and the middle element is 5, so the bottom row middle element must be 3.",
-"c": null
+"c": null,
+"sub": "Permutations & Combinations"
 },
 {
 "n": 68,
@@ -5063,7 +5255,8 @@
 "4",
 "√3"
 ],
-"c": null
+"c": null,
+"sub": "Triangles"
 },
 {
 "n": 82,
@@ -5110,7 +5303,8 @@
 "q": "If three sides of a rectangular park have a total length 400 ft, then the area of the park is maximum when the length (in ft) of its<br>longer side is",
 "ans": "200",
 "sol": "Let one side be l and the other be b. (l is not necessarily greater than b)<br>Given, 2l + b = 400<br>For area to be maximum, lb should be maximum.<br>∴ l (400 – 2l) should be maximum<br>l (400 – 2l) = l (2) (200–l) = 2 (l) (200 – l)<br>l (200 – l) will be maximum when l = 200 – l or 2l = 200<br>⇒ l = 100<br>If l = 100, b = 200.<br>∴ The longer side must be 200 feet long.",
-"c": null
+"c": null,
+"sub": "Mensuration"
 },
 {
 "n": 86,
@@ -5287,7 +5481,8 @@
 "Technology, laws, and customs are not unlike each other if considered as institutions."
 ],
 "ans": 3,
-"sol": ""
+"sol": "",
+"sub": "Reading Comprehension"
 },
 {
 "n": 2,
@@ -5301,7 +5496,8 @@
 "Technologies form the environmental context and shape the contours of human\nsociety."
 ],
 "ans": 3,
-"sol": ""
+"sol": "",
+"sub": "Reading Comprehension"
 },
 {
 "n": 3,
@@ -5315,7 +5511,8 @@
 "Paradoxically, the capitalist rationalisation of production is a mark of so-called\nsocialist systems as well."
 ],
 "ans": 2,
-"sol": ""
+"sol": "",
+"sub": "Reading Comprehension"
 },
 {
 "n": 4,
@@ -5329,7 +5526,8 @@
 "the critical theory of technology argues that, as issues of human rights become more\nprominent, we lose sight of the ways in which the social order becomes more authoritarian."
 ],
 "ans": 2,
-"sol": ""
+"sol": "",
+"sub": "Reading Comprehension"
 },
 {
 "n": 5,
@@ -5343,7 +5541,8 @@
 "Pablo Picasso’s miniaturised, but otherwise faithful and accurate painting of Vincent\nvan Gogh’s original painting."
 ],
 "ans": 2,
-"sol": ""
+"sol": "",
+"sub": "Reading Comprehension"
 },
 {
 "n": 6,
@@ -5357,7 +5556,8 @@
 "A 17th century French artist who adhered to a Christian worldview would need to be\ncompletely true to the original intent of a painting when restoring it."
 ],
 "ans": 3,
-"sol": ""
+"sol": "",
+"sub": "Reading Comprehension"
 },
 {
 "n": 7,
@@ -5371,7 +5571,8 @@
 "Both are continually undergoing restoration."
 ],
 "ans": 3,
-"sol": ""
+"sol": "",
+"sub": "Reading Comprehension"
 },
 {
 "n": 8,
@@ -5385,7 +5586,8 @@
 "it allows regular employment for certain craftsmen."
 ],
 "ans": 2,
-"sol": ""
+"sol": "",
+"sub": "Reading Comprehension"
 },
 {
 "n": 9,
@@ -5399,7 +5601,8 @@
 "We can understand the lives of the eerie creatures in Mankind’s early years through\ntheir whispers in the darkness."
 ],
 "ans": 2,
-"sol": ""
+"sol": "",
+"sub": "Reading Comprehension"
 },
 {
 "n": 10,
@@ -5413,7 +5616,8 @@
 "The passage describes the failure of human beings to fully comprehend their\nenvironment."
 ],
 "ans": 2,
-"sol": ""
+"sol": "",
+"sub": "Reading Comprehension"
 },
 {
 "n": 11,
@@ -5427,7 +5631,8 @@
 "Human beings conceptualise the Undead as possessing abnormal features."
 ],
 "ans": 3,
-"sol": ""
+"sol": "",
+"sub": "Reading Comprehension"
 },
 {
 "n": 12,
@@ -5441,7 +5646,8 @@
 "the relationship between Shamans and the Undead was believed to be a strong and\nstable one."
 ],
 "ans": 0,
-"sol": ""
+"sol": "",
+"sub": "Reading Comprehension"
 },
 {
 "n": 13,
@@ -5455,7 +5661,8 @@
 "Marcus Aurelius plotted revenge in his quest for justice."
 ],
 "ans": 0,
-"sol": ""
+"sol": "",
+"sub": "Reading Comprehension"
 },
 {
 "n": 14,
@@ -5469,7 +5676,8 @@
 "Despite practising meditation and cultivating the right attitude, emotions cannot ever\nbe controlled."
 ],
 "ans": 2,
-"sol": ""
+"sol": "",
+"sub": "Reading Comprehension"
 },
 {
 "n": 15,
@@ -5483,7 +5691,8 @@
 "There were no Stoics in India at the time of the Roman civilisation."
 ],
 "ans": 0,
-"sol": ""
+"sol": "",
+"sub": "Reading Comprehension"
 },
 {
 "n": 16,
@@ -5497,7 +5706,8 @@
 "The observation of emotions in a distant manner corresponds to the second\nmovement referred to earlier in the passage."
 ],
 "ans": 2,
-"sol": ""
+"sol": "",
+"sub": "Reading Comprehension"
 },
 {
 "n": 17,
@@ -5505,7 +5715,8 @@
 "q": "The four sentences (labelled 1, 2, 3 and 4) below, when properly sequenced, would yield a coherent paragraph. Decide on the proper sequencing of the order of the sentences and key in the sequence of the four numbers as your answer: 1. Some company leaders are basing their decisions on locating offices to foster innovation and growth, as their best-performing inventors suffered the greatest productivity losses when their commutes grew longer. 2. Shorter commutes support innovation by giving employees more time in the office and greater opportunities for in-person collaboration, while removing the physical strain of a long commute. 3. This is not always the case: remote work does not automatically lead to greater creativity and productivity as office water-cooler conversations are also very important for innovation. 4. Some see the link between long commutes and productivity as support for workfrom-home scenarios, as many workers have grown accustomed to their commutefree arrangements during the pandemic.",
 "ans": "2143",
 "sol": "",
-"c": null
+"c": null,
+"sub": "Para-jumble"
 },
 {
 "n": 18,
@@ -5519,7 +5730,8 @@
 ],
 "ans": 1,
 "sol": "",
-"c": null
+"c": null,
+"sub": "Para-summary"
 },
 {
 "n": 19,
@@ -5533,7 +5745,8 @@
 ],
 "ans": 1,
 "sol": "",
-"c": null
+"c": null,
+"sub": "Para-summary"
 },
 {
 "n": 20,
@@ -5547,7 +5760,8 @@
 ],
 "ans": 1,
 "sol": "",
-"c": null
+"c": null,
+"sub": "Para-completion"
 },
 {
 "n": 21,
@@ -5561,7 +5775,8 @@
 ],
 "ans": 0,
 "sol": "",
-"c": null
+"c": null,
+"sub": "Para-summary"
 },
 {
 "n": 22,
@@ -5575,7 +5790,8 @@
 ],
 "ans": 3,
 "sol": "",
-"c": null
+"c": null,
+"sub": "Para-completion"
 },
 {
 "n": 23,
@@ -5583,7 +5799,8 @@
 "q": "The four sentences (labelled 1, 2, 3 and 4) below, when properly sequenced, would yield a coherent paragraph. Decide on the proper sequencing of the order of the sentences and key in the sequence of the four numbers as your answer: 1. The creative element in product design has become of paramount importance as it is one of the few ways a firm or industry can sustain a competitive advantage over its rivals. 2. In fact, the creative element in the value of world industry would be larger still, if we added the contribution of the creative element in other industries, such as the design of tech accessories. 3. The creative industry is receiving a lot of attention today as its growth rate is faster than that of the world economy as a whole. 4. It is for this reason that today’s trade issues are increasingly involving intellectual property, as Western countries have an interest in protecting their revenues along with freeing trade in non-tangibles.",
 "ans": "3214",
 "sol": "",
-"c": null
+"c": null,
+"sub": "Para-jumble"
 },
 {
 "n": 24,
@@ -5591,7 +5808,8 @@
 "q": "The four sentences (labelled 1, 2, 3 and 4) below, when properly sequenced, would yield a coherent paragraph. Decide on the proper sequencing of the order of the sentences and key in the sequence of the four numbers as your answer: 1. Fish skin collagen has excellent thermo-stability and tensile strength making it ideal for use as bandage that adheres to the skin and adjusts to body movements. 2. Collagen, one of the main structural proteins in connective tissues in the human body, is well known for promoting skin regeneration. 3. Fish skin swims in here as diseases and bacteria that affect fish are different from most human pathogens. 4. The risk of introducing disease agents into other species through the use of pig and cow collagen proteins for wound healing has inhibited its broader applications in the medical field.",
 "ans": "2431",
 "sol": "",
-"c": null
+"c": null,
+"sub": "Para-jumble"
 }
 ]
 },
@@ -5611,7 +5829,8 @@
 "9:11 am",
 "9:06 am"
 ],
-"ans": 2
+"ans": 2,
+"sub": "Networks & Routes"
 },
 {
 "n": 2,
@@ -5625,7 +5844,8 @@
 "11:22 am",
 "11:07 am"
 ],
-"ans": 1
+"ans": 1,
+"sub": "Networks & Routes"
 },
 {
 "n": 3,
@@ -5639,7 +5859,8 @@
 "11:43 pm",
 "11:39 pm"
 ],
-"ans": 3
+"ans": 3,
+"sub": "Networks & Routes"
 },
 {
 "n": 4,
@@ -5647,7 +5868,8 @@
 "q": "What is the minimum number of trains that are required to provide the service on the AB line (considering both north and south directions)?",
 "sol": "",
 "type": "tita",
-"ans": "8"
+"ans": "8",
+"sub": "Networks & Routes"
 },
 {
 "n": 5,
@@ -5655,7 +5877,8 @@
 "q": "What is the minimum number of trains that are required to provide the service in this city?",
 "sol": "",
 "type": "tita",
-"ans": "48"
+"ans": "48",
+"sub": "Networks & Routes"
 },
 {
 "n": 6,
@@ -5663,7 +5886,8 @@
 "q": "How many tokens did Qahira receive?",
 "sol": "",
 "type": "tita",
-"ans": "2"
+"ans": "2",
+"sub": "Tables & Data Sets"
 },
 {
 "n": 7,
@@ -5677,7 +5901,8 @@
 "Rasheeda",
 "Tantra"
 ],
-"ans": 1
+"ans": 1,
+"sub": "Tables & Data Sets"
 },
 {
 "n": 8,
@@ -5685,7 +5910,8 @@
 "q": "How many tokens did Chhaya award?",
 "sol": "",
 "type": "tita",
-"ans": "3"
+"ans": "3",
+"sub": "Tables & Data Sets"
 },
 {
 "n": 9,
@@ -5693,7 +5919,8 @@
 "q": "How many tokens did Smera receive?",
 "sol": "",
 "type": "tita",
-"ans": "3"
+"ans": "3",
+"sub": "Tables & Data Sets"
 },
 {
 "n": 10,
@@ -5707,7 +5934,8 @@
 "Both (a) and (b)",
 "Neither (a) nor (b)"
 ],
-"ans": 2
+"ans": 2,
+"sub": "Tables & Data Sets"
 },
 {
 "n": 11,
@@ -5715,7 +5943,8 @@
 "q": "How many boys are there in the class?",
 "sol": "",
 "type": "tita",
-"ans": "50"
+"ans": "50",
+"sub": "Venn Diagrams & Set Theory"
 },
 {
 "n": 12,
@@ -5729,7 +5958,8 @@
 "Only I",
 "Neither I nor II"
 ],
-"ans": 1
+"ans": 1,
+"sub": "Venn Diagrams & Set Theory"
 },
 {
 "n": 13,
@@ -5743,7 +5973,8 @@
 "2/3",
 "7/13"
 ],
-"ans": 3
+"ans": 3,
+"sub": "Venn Diagrams & Set Theory"
 },
 {
 "n": 14,
@@ -5757,7 +5988,8 @@
 "5 or 6",
 "6"
 ],
-"ans": 2
+"ans": 2,
+"sub": "Venn Diagrams & Set Theory"
 },
 {
 "n": 15,
@@ -5771,7 +6003,8 @@
 "1",
 "2"
 ],
-"ans": 1
+"ans": 1,
+"sub": "Venn Diagrams & Set Theory"
 },
 {
 "n": 16,
@@ -5785,7 +6018,8 @@
 "2",
 "3"
 ],
-"ans": 1
+"ans": 1,
+"sub": "Tables & Data Sets"
 },
 {
 "n": 17,
@@ -5799,7 +6033,8 @@
 "3, 1, 2, 1",
 "3, 2, 1, 2"
 ],
-"ans": 1
+"ans": 1,
+"sub": "Tables & Data Sets"
 },
 {
 "n": 18,
@@ -5813,7 +6048,8 @@
 "Statement-1 only",
 "None of the statements"
 ],
-"ans": 0
+"ans": 0,
+"sub": "Tables & Data Sets"
 },
 {
 "n": 19,
@@ -5827,7 +6063,8 @@
 "None of the statements",
 "Both the statements"
 ],
-"ans": 2
+"ans": 2,
+"sub": "Tables & Data Sets"
 },
 {
 "n": 20,
@@ -5841,7 +6078,8 @@
 "Both the statements",
 "Statement-2 only"
 ],
-"ans": 1
+"ans": 1,
+"sub": "Tables & Data Sets"
 }
 ]
 },
@@ -6167,7 +6405,8 @@
 "neglect of research and development of medical technologies for the diagnosis and\ntreatment of diseases that typically afflict marginalised communities."
 ],
 "ans": 2,
-"sol": ""
+"sol": "",
+"sub": "Reading Comprehension"
 },
 {
 "n": 2,
@@ -6181,7 +6420,8 @@
 "engineering students today are taught to focus on objective technical outcomes,\nindependent of the social dimensions of their work."
 ],
 "ans": 3,
-"sol": ""
+"sol": "",
+"sub": "Reading Comprehension"
 },
 {
 "n": 3,
@@ -6195,7 +6435,8 @@
 "“And we hardly question whether devices are built sustainably, which has led to a\ncrisis of medical waste and health care accounting for 10 percent of U.S. greenhouse gas\nemissions.”"
 ],
 "ans": 3,
-"sol": ""
+"sol": "",
+"sub": "Reading Comprehension"
 },
 {
 "n": 4,
@@ -6209,7 +6450,8 @@
 "moving towards technical-social dualism where social community needs are\nincorporated in problem-definition and solutions."
 ],
 "ans": 3,
-"sol": ""
+"sol": "",
+"sub": "Reading Comprehension"
 },
 {
 "n": 5,
@@ -6223,7 +6465,8 @@
 "Musicking; Cognitive psychology; Antique; Symbol-makers; Modernity."
 ],
 "ans": 0,
-"sol": ""
+"sol": "",
+"sub": "Reading Comprehension"
 },
 {
 "n": 6,
@@ -6237,7 +6480,8 @@
 "A bald statement is one that is trailed by a series of qualifying clarifications and\ncaveats."
 ],
 "ans": 2,
-"sol": ""
+"sol": "",
+"sub": "Reading Comprehension"
 },
 {
 "n": 7,
@@ -6251,7 +6495,8 @@
 "All musical work is located in the overlap between linguistic capacity and music\nproduction."
 ],
 "ans": 1,
-"sol": ""
+"sol": "",
+"sub": "Reading Comprehension"
 },
 {
 "n": 8,
@@ -6265,7 +6510,8 @@
 "From a cognitive and psychological vantage, musicking arises from unconscious\ndispositions, not conscious ones."
 ],
 "ans": 2,
-"sol": ""
+"sol": "",
+"sub": "Reading Comprehension"
 },
 {
 "n": 9,
@@ -6279,7 +6525,8 @@
 "It is usual in social thought to treat culture and tradition as different from institutions."
 ],
 "ans": 1,
-"sol": ""
+"sol": "",
+"sub": "Reading Comprehension"
 },
 {
 "n": 10,
@@ -6293,7 +6540,8 @@
 "The stock exchange and the black market are both dependent on the market to\nsurvive."
 ],
 "ans": 0,
-"sol": ""
+"sol": "",
+"sub": "Reading Comprehension"
 },
 {
 "n": 11,
@@ -6307,7 +6555,8 @@
 "the institution of friendship cannot be found in the institution of joint-stock companies\nbecause the first is an informal institution, while the second is a formal one."
 ],
 "ans": 1,
-"sol": ""
+"sol": "",
+"sub": "Reading Comprehension"
 },
 {
 "n": 12,
@@ -6321,7 +6570,8 @@
 "“academic disciplines” and “institutions”."
 ],
 "ans": 3,
-"sol": ""
+"sol": "",
+"sub": "Reading Comprehension"
 },
 {
 "n": 13,
@@ -6335,7 +6585,8 @@
 "Cephalopods can change their texture."
 ],
 "ans": 1,
-"sol": ""
+"sol": "",
+"sub": "Reading Comprehension"
 },
 {
 "n": 14,
@@ -6349,7 +6600,8 @@
 "exhibit higher intelligence than other molluscs."
 ],
 "ans": 0,
-"sol": ""
+"sol": "",
+"sub": "Reading Comprehension"
 },
 {
 "n": 15,
@@ -6363,7 +6615,8 @@
 "squids"
 ],
 "ans": 2,
-"sol": ""
+"sol": "",
+"sub": "Reading Comprehension"
 },
 {
 "n": 16,
@@ -6377,7 +6630,8 @@
 "the number of chromatophores in Cephalopods is half the number of iridophores and\nleucophores."
 ],
 "ans": 3,
-"sol": ""
+"sol": "",
+"sub": "Reading Comprehension"
 },
 {
 "n": 17,
@@ -6391,7 +6645,8 @@
 ],
 "ans": 3,
 "sol": "",
-"c": null
+"c": null,
+"sub": "Para-summary"
 },
 {
 "n": 18,
@@ -6405,7 +6660,8 @@
 ],
 "ans": 1,
 "sol": "",
-"c": null
+"c": null,
+"sub": "Para-summary"
 },
 {
 "n": 19,
@@ -6419,7 +6675,8 @@
 ],
 "ans": 1,
 "sol": "",
-"c": null
+"c": null,
+"sub": "Para-summary"
 },
 {
 "n": 20,
@@ -6433,7 +6690,8 @@
 ],
 "ans": 3,
 "sol": "",
-"c": null
+"c": null,
+"sub": "Para-completion"
 },
 {
 "n": 21,
@@ -6441,7 +6699,8 @@
 "q": "The four sentences (labelled 1, 2, 3 and 4) below, when properly sequenced, would yield a coherent paragraph. Decide on the proper sequencing of the order of the sentences and key in the sequence of the four numbers as your answer: 1. From chemical pollutants in the environment to the damming of rivers to invasive species transported through global trade and travel, every environmental issue is different and there is no single tech solution that can solve this crisis. 2. Discourse on the threat of environmental collapse revolves around cutting down emissions, but biodiversity loss and ecosystem collapse are caused by myriad and diverse reasons. 3. This would require legislation that recognises the rights of future generations and other species that allows the judiciary to uphold a much higher standard of environmental protection than currently possible. 4. Clearly, our environmental crisis requires large political solutions, not minor technological ones, so, instead of focusing on infinite growth, we could consider a path of stable-state economies, while preserving markets and healthy competition.",
 "ans": "2143",
 "sol": "",
-"c": null
+"c": null,
+"sub": "Para-jumble"
 },
 {
 "n": 22,
@@ -6449,7 +6708,8 @@
 "q": "The four sentences (labelled 1, 2, 3 and 4) below, when properly sequenced, would yield a coherent paragraph. Decide on the proper sequencing of the order of the sentences and key in the sequence of the four numbers as your answer: 1. Women may prioritize cooking because they feel they alone are responsible for mediating a toxic and unhealthy food system. 2. Food is commonly framed through the lens of individual choice: you can choose to eat healthily. 3. This is particularly so in a neoliberal context where the state has transferred the responsibility for food onto individual consumers. 4. The individualized framing of choice appeals to a popular desire to experience agency, but draws away from the structural obstacles that stratify individual food choices.",
 "ans": "2431",
 "sol": "",
-"c": null
+"c": null,
+"sub": "Para-jumble"
 },
 {
 "n": 23,
@@ -6463,7 +6723,8 @@
 ],
 "ans": 2,
 "sol": "",
-"c": null
+"c": null,
+"sub": "Para-completion"
 },
 {
 "n": 24,
@@ -6471,7 +6732,8 @@
 "q": "The four sentences (labelled 1, 2, 3 and 4) below, when properly sequenced, would yield a coherent paragraph. Decide on the proper sequencing of the order of the sentences and key in the sequence of the four numbers as your answer: 1. The trajectory of cheerfulness through the self is linked to the history of the word ‘cheer’ which comes from an Old French meaning ‘face’. 2. Translations of the Bible into vernacular languages, expanded the noun ‘cheer’ into the more abstract ‘cheerful-ness’, something that circulates as an emotional and social quality defining the self and a moral community. 3. When you take on a cheerful expression, no matter what the state of your soul, your cheerfulness moves into the self: the interior of the self is changed by the power of cheer. 4. People in the medieval ‘Canterbury Tales’ have a ‘piteous’ or a ‘sober’ cheer; ‘cheer’ is an expression and a body part, lying at the intersection of emotions and physiognomy.",
 "ans": "3142",
 "sol": "",
-"c": null
+"c": null,
+"sub": "Para-jumble"
 }
 ]
 },
@@ -6485,7 +6747,8 @@
 "q": "If the last location visited is Ahmednagar, then what is the total distance covered in the route (in km)?",
 "sol": "",
 "type": "tita",
-"ans": "35"
+"ans": "35",
+"sub": "Networks & Routes"
 },
 {
 "n": 2,
@@ -6493,7 +6756,8 @@
 "q": "If the total number of widgets delivered in a day is 250 units, then what is the total distance covered in the route (in km)?",
 "sol": "",
 "type": "tita",
-"ans": "38"
+"ans": "38",
+"sub": "Networks & Routes"
 },
 {
 "n": 3,
@@ -6507,7 +6771,8 @@
 "7.56%",
 "17.64%"
 ],
-"ans": 2
+"ans": 2,
+"sub": "Networks & Routes"
 },
 {
 "n": 4,
@@ -6521,7 +6786,8 @@
 "18%",
 "30%"
 ],
-"ans": 2
+"ans": 2,
+"sub": "Networks & Routes"
 },
 {
 "n": 5,
@@ -6535,7 +6801,8 @@
 "220",
 "200"
 ],
-"ans": 0
+"ans": 0,
+"sub": "Networks & Routes"
 },
 {
 "n": 6,
@@ -6549,7 +6816,8 @@
 "Company C",
 "Company A"
 ],
-"ans": 2
+"ans": 2,
+"sub": "Tables & Data Sets"
 },
 {
 "n": 7,
@@ -6563,7 +6831,8 @@
 "Company A",
 "Company C"
 ],
-"ans": 0
+"ans": 0,
+"sub": "Tables & Data Sets"
 },
 {
 "n": 8,
@@ -6577,7 +6846,8 @@
 "Company C",
 "Company A"
 ],
-"ans": 3
+"ans": 3,
+"sub": "Tables & Data Sets"
 },
 {
 "n": 9,
@@ -6591,7 +6861,8 @@
 "Company B",
 "Company A"
 ],
-"ans": 2
+"ans": 2,
+"sub": "Tables & Data Sets"
 },
 {
 "n": 10,
@@ -6605,7 +6876,8 @@
 "Company A",
 "Company D"
 ],
-"ans": 0
+"ans": 0,
+"sub": "Tables & Data Sets"
 },
 {
 "n": 11,
@@ -6613,7 +6885,8 @@
 "q": "How many foreign products were FDA approved cosmetic products?",
 "sol": "",
 "type": "tita",
-"ans": "40"
+"ans": "40",
+"sub": "Venn Diagrams & Set Theory"
 },
 {
 "n": 12,
@@ -6627,7 +6900,8 @@
 "Cannot be determined",
 "50"
 ],
-"ans": 0
+"ans": 0,
+"sub": "Venn Diagrams & Set Theory"
 },
 {
 "n": 13,
@@ -6641,7 +6915,8 @@
 "At least 20 and at most 70",
 "At least 10 and at most 80"
 ],
-"ans": 0
+"ans": 0,
+"sub": "Venn Diagrams & Set Theory"
 },
 {
 "n": 14,
@@ -6655,7 +6930,8 @@
 "30",
 "10"
 ],
-"ans": 3
+"ans": 3,
+"sub": "Venn Diagrams & Set Theory"
 },
 {
 "n": 15,
@@ -6663,7 +6939,8 @@
 "q": "If 50 nutrition products did not have EU approval, then how many domestic cosmetic products did not have EU approval?",
 "sol": "",
 "type": "tita",
-"ans": "50"
+"ans": "50",
+"sub": "Venn Diagrams & Set Theory"
 },
 {
 "n": 16,
@@ -6671,7 +6948,8 @@
 "q": "What was the total number of households met by Tohri, Hokli and Lahur on the first day?",
 "sol": "",
 "type": "tita",
-"ans": "84"
+"ans": "84",
+"sub": "Venn Diagrams & Set Theory"
 },
 {
 "n": 17,
@@ -6679,7 +6957,8 @@
 "q": "How many TRICCEK items were sold by Tohri on the first day?",
 "sol": "",
 "type": "tita",
-"ans": "40"
+"ans": "40",
+"sub": "Tables & Data Sets"
 },
 {
 "n": 18,
@@ -6693,7 +6972,8 @@
 "between 21 and 29",
 "20 or less"
 ],
-"ans": 2
+"ans": 2,
+"sub": "Tables & Data Sets"
 },
 {
 "n": 19,
@@ -6707,7 +6987,8 @@
 "more than 40",
 "between 11 and 20"
 ],
-"ans": 0
+"ans": 0,
+"sub": "Tables & Data Sets"
 },
 {
 "n": 20,
@@ -6721,7 +7002,8 @@
 "Tohri had a higher success rate on the first day compared to the second day.",
 "Among the three, Tohri had the highest success rate on the second day."
 ],
-"ans": 3
+"ans": 3,
+"sub": "Tables & Data Sets"
 }
 ]
 },
@@ -7069,7 +7351,8 @@
 "Complex systems; Carrots; Milk cows; Convergence; Technos-logic"
 ],
 "ans": 2,
-"sol": ""
+"sol": "",
+"sub": "Reading Comprehension"
 },
 {
 "n": 2,
@@ -7083,7 +7366,8 @@
 "Apparent reality and organic reality are distinguished by the fact that the former is\nmanufactured."
 ],
 "ans": 2,
-"sol": ""
+"sol": "",
+"sub": "Reading Comprehension"
 },
 {
 "n": 3,
@@ -7097,7 +7381,8 @@
 "purposeful design represents the pinnacle of scientific expertise in the service of\nhuman betterment and civilisational progress."
 ],
 "ans": 0,
-"sol": ""
+"sol": "",
+"sub": "Reading Comprehension"
 },
 {
 "n": 4,
@@ -7111,7 +7396,8 @@
 "A bionic convergence indicates the meeting ground of genetic engineering and\nartificial intelligence."
 ],
 "ans": 0,
-"sol": ""
+"sol": "",
+"sub": "Reading Comprehension"
 },
 {
 "n": 5,
@@ -7125,7 +7411,8 @@
 "a smart-home system that changes the temperature as instructed by the resident."
 ],
 "ans": 1,
-"sol": ""
+"sol": "",
+"sub": "Reading Comprehension"
 },
 {
 "n": 6,
@@ -7139,7 +7426,8 @@
 "the other group was carrying out the tasks more efficiently."
 ],
 "ans": 0,
-"sol": ""
+"sol": "",
+"sub": "Reading Comprehension"
 },
 {
 "n": 7,
@@ -7153,7 +7441,8 @@
 "the digital templates forced them to acquire tunnel vision."
 ],
 "ans": 0,
-"sol": ""
+"sol": "",
+"sub": "Reading Comprehension"
 },
 {
 "n": 8,
@@ -7167,7 +7456,8 @@
 "it stunts the development of its users."
 ],
 "ans": 0,
-"sol": ""
+"sol": "",
+"sub": "Reading Comprehension"
 },
 {
 "n": 9,
@@ -7181,7 +7471,8 @@
 "Chicago School; Social organisation; Migration; Crime"
 ],
 "ans": 3,
-"sol": ""
+"sol": "",
+"sub": "Reading Comprehension"
 },
 {
 "n": 10,
@@ -7195,7 +7486,8 @@
 "Economists have found that throughout the twentieth century, the size of the labour\nforce in America has always been largest in rural areas."
 ],
 "ans": 1,
-"sol": ""
+"sol": "",
+"sub": "Reading Comprehension"
 },
 {
 "n": 11,
@@ -7209,7 +7501,8 @@
 "According to social disorganisation theory, the social integration of African American\nmigrants into Chicago was slower because they were less organised."
 ],
 "ans": 3,
-"sol": ""
+"sol": "",
+"sub": "Reading Comprehension"
 },
 {
 "n": 12,
@@ -7223,7 +7516,8 @@
 "to prevent crime, it is important to maintain social order through maintaining social\nsegregation."
 ],
 "ans": 1,
-"sol": ""
+"sol": "",
+"sub": "Reading Comprehension"
 },
 {
 "n": 13,
@@ -7237,7 +7531,8 @@
 "read widely in the country’s literature."
 ],
 "ans": 2,
-"sol": ""
+"sol": "",
+"sub": "Reading Comprehension"
 },
 {
 "n": 14,
@@ -7251,7 +7546,8 @@
 "Analysing Hollywood action movies that depict violence and sex to understand\ncontemporary America."
 ],
 "ans": 3,
-"sol": ""
+"sol": "",
+"sub": "Reading Comprehension"
 },
 {
 "n": 15,
@@ -7265,7 +7561,8 @@
 "the Orientalist view of Asia fired the imagination of some Western poets."
 ],
 "ans": 1,
-"sol": ""
+"sol": "",
+"sub": "Reading Comprehension"
 },
 {
 "n": 16,
@@ -7279,7 +7576,8 @@
 "Orientalists’ understanding of Indian history was linked to colonial concerns."
 ],
 "ans": 2,
-"sol": ""
+"sol": "",
+"sub": "Reading Comprehension"
 },
 {
 "n": 17,
@@ -7287,7 +7585,8 @@
 "q": "The four sentences (labelled 1, 2, 3 and 4) below, when properly sequenced, would yield a coherent paragraph. Decide on the proper sequencing of the order of the sentences and key in the sequence of the four numbers as your answer: 1.Various industrial sectors including retail, transit systems, enterprises, educational institutions, event organizing, finance, travel etc. have now started leveraging these beacons solutions to track and communicate with their customers. 2.A beacon fixed on to a shop wall enables the retailer to assess the proximity of the customer, and come up with a much targeted or personalized communication like offers, discounts and combos on products in each shelf. 3.Smart phones or other mobile devices can capture the beacon signals, and distance can be estimated by measuring received signal strength. 4.Beacons are tiny and inexpensive, micro-location-based technology devices that can send radio frequency signals and notify nearby Bluetooth devices of their presence and transmit information.",
 "ans": "4312",
 "sol": "",
-"c": null
+"c": null,
+"sub": "Para-jumble"
 },
 {
 "n": 18,
@@ -7301,7 +7600,8 @@
 ],
 "ans": 1,
 "sol": "",
-"c": null
+"c": null,
+"sub": "Para-completion"
 },
 {
 "n": 19,
@@ -7309,7 +7609,8 @@
 "q": "The four sentences (labelled 1, 2, 3 and 4) below, when properly sequenced, would yield a coherent paragraph. Decide on the proper sequencing of the order of the sentences and key in the sequence of the four numbers as your answer: 1. If I wanted to sit indoors and read, or play Sonic the Hedgehog on a red-hot Sega Mega Drive, I would often be made to feel guilty about not going outside to “enjoy it while it lasts”. 2. My mum, quite reasonably, wanted me and my sister out of the house, in the sun. 3. Tales of my mum’s idyllic-sounding childhood in the Sussex countryside, where trees were climbed by 8 am and streams navigated by lunchtime, were passed down to us like folklore. 4. To an introverted kid, that felt like a threat – and the feeling has stayed with me.",
 "ans": "2314",
 "sol": "",
-"c": null
+"c": null,
+"sub": "Para-jumble"
 },
 {
 "n": 20,
@@ -7323,7 +7624,8 @@
 ],
 "ans": 1,
 "sol": "",
-"c": null
+"c": null,
+"sub": "Para-completion"
 },
 {
 "n": 21,
@@ -7337,7 +7639,8 @@
 ],
 "ans": 1,
 "sol": "",
-"c": null
+"c": null,
+"sub": "Para-summary"
 },
 {
 "n": 22,
@@ -7351,7 +7654,8 @@
 ],
 "ans": 0,
 "sol": "",
-"c": null
+"c": null,
+"sub": "Para-summary"
 },
 {
 "n": 23,
@@ -7359,7 +7663,8 @@
 "q": "The four sentences (labelled 1, 2, 3 and 4) below, when properly sequenced, would yield a coherent paragraph. Decide on the proper sequencing of the order of the sentences and key in the sequence of the four numbers as your answer: 1. The more we are able to accept that our achievements are largely out of our control, the easier it becomes to understand that our failures, and those of others, are too. 2. But the raft of recent books about the limits of merit is an important correction to the arrogance of contemporary entitlement and an opportunity to reassert the importance of luck, or grace, in our thinking. 3. Meritocracy as an organising principle is an inevitable function of a free society, as we are designed to see our achievements as worthy of reward. 4. And that in turn should increase our humility and the respect with which we treat our fellow citizens, helping ultimately to build a more compassionate society.",
 "ans": "3214",
 "sol": "",
-"c": null
+"c": null,
+"sub": "Para-jumble"
 },
 {
 "n": 24,
@@ -7373,7 +7678,8 @@
 ],
 "ans": 3,
 "sol": "",
-"c": null
+"c": null,
+"sub": "Para-summary"
 }
 ]
 },
@@ -7393,7 +7699,8 @@
 "109 : 107",
 "71 : 69"
 ],
-"ans": 3
+"ans": 3,
+"sub": "Tables & Data Sets"
 },
 {
 "n": 2,
@@ -7407,7 +7714,8 @@
 "110",
 "90"
 ],
-"ans": 1
+"ans": 1,
+"sub": "Tables & Data Sets"
 },
 {
 "n": 3,
@@ -7421,7 +7729,8 @@
 "580",
 "230"
 ],
-"ans": 1
+"ans": 1,
+"sub": "Tables & Data Sets"
 },
 {
 "n": 4,
@@ -7429,7 +7738,8 @@
 "q": "How many of the males who were being tracked and who were between 20 and 30 years of age in 1980 died in the period 2000 to 2010?",
 "sol": "",
 "type": "tita",
-"ans": "40"
+"ans": "40",
+"sub": "Tables & Data Sets"
 },
 {
 "n": 5,
@@ -7437,7 +7747,8 @@
 "q": "How many of the females who were being tracked and who were between 20 and 30 years of age in 1980 died between the ages of 50 and 60?",
 "sol": "",
 "type": "tita",
-"ans": "30"
+"ans": "30",
+"sub": "Tables & Data Sets"
 },
 {
 "n": 6,
@@ -7451,7 +7762,8 @@
 "270",
 "60"
 ],
-"ans": 2
+"ans": 2,
+"sub": "Venn Diagrams & Set Theory"
 },
 {
 "n": 7,
@@ -7459,7 +7771,8 @@
 "q": "How many CS students failed in ML?",
 "sol": "",
 "type": "tita",
-"ans": "12"
+"ans": "12",
+"sub": "Venn Diagrams & Set Theory"
 },
 {
 "n": 8,
@@ -7467,7 +7780,8 @@
 "q": "How many non-CS students got A grade in ML?",
 "sol": "",
 "type": "tita",
-"ans": "27"
+"ans": "27",
+"sub": "Venn Diagrams & Set Theory"
 },
 {
 "n": 9,
@@ -7481,7 +7795,8 @@
 "99",
 "42"
 ],
-"ans": 1
+"ans": 1,
+"sub": "Venn Diagrams & Set Theory"
 },
 {
 "n": 10,
@@ -7495,7 +7810,8 @@
 "90",
 "75"
 ],
-"ans": 3
+"ans": 3,
+"sub": "Venn Diagrams & Set Theory"
 },
 {
 "n": 11,
@@ -7509,7 +7825,8 @@
 "Exactly ₹6",
 "₹4 or ₹5"
 ],
-"ans": 2
+"ans": 2,
+"sub": "Games & Tournaments"
 },
 {
 "n": 12,
@@ -7523,7 +7840,8 @@
 "₹11 or ₹12",
 "Exactly ₹12"
 ],
-"ans": 3
+"ans": 3,
+"sub": "Games & Tournaments"
 },
 {
 "n": 13,
@@ -7531,7 +7849,8 @@
 "q": "How much money (in ₹) did Ritesh have at the end of Round 4?",
 "sol": "",
 "type": "tita",
-"ans": "6"
+"ans": "6",
+"sub": "Games & Tournaments"
 },
 {
 "n": 14,
@@ -7539,7 +7858,8 @@
 "q": "How many games were played with a bet of ₹2?",
 "sol": "",
 "type": "tita",
-"ans": "6"
+"ans": "6",
+"sub": "Games & Tournaments"
 },
 {
 "n": 15,
@@ -7553,7 +7873,8 @@
 "Pulak and Qasim",
 "Pulak and Ritesh"
 ],
-"ans": 0
+"ans": 0,
+"sub": "Games & Tournaments"
 },
 {
 "n": 16,
@@ -7567,7 +7888,8 @@
 "Either 7 or 8",
 "Either 6 or 7"
 ],
-"ans": 0
+"ans": 0,
+"sub": "Tables & Data Sets"
 },
 {
 "n": 17,
@@ -7581,7 +7903,8 @@
 "Either 0 or 1",
 "Exactly 2"
 ],
-"ans": 1
+"ans": 1,
+"sub": "Tables & Data Sets"
 },
 {
 "n": 18,
@@ -7595,7 +7918,8 @@
 "Only Day 2",
 "Both Day 2 and Day 4"
 ],
-"ans": 0
+"ans": 0,
+"sub": "Tables & Data Sets"
 },
 {
 "n": 19,
@@ -7609,7 +7933,8 @@
 "Statement B only",
 "Both Statement A and Statement B"
 ],
-"ans": 3
+"ans": 3,
+"sub": "Tables & Data Sets"
 },
 {
 "n": 20,
@@ -7623,7 +7948,8 @@
 "5",
 "2"
 ],
-"ans": 2
+"ans": 2,
+"sub": "Tables & Data Sets"
 }
 ]
 },
@@ -7971,7 +8297,8 @@
 "A tribe that perceives its utensils as person-utensils in light of their functionality and\nbodily needs."
 ],
 "ans": 2,
-"sol": ""
+"sol": "",
+"sub": "Reading Comprehension"
 },
 {
 "n": 2,
@@ -7985,7 +8312,8 @@
 "They believed that animals like cats and dogs that live in proximity to humans have a\nmore clearly articulated personhood."
 ],
 "ans": 0,
-"sol": ""
+"sol": "",
+"sub": "Reading Comprehension"
 },
 {
 "n": 3,
@@ -7999,7 +8327,8 @@
 "The personhood of the incense burner and the stone chopper was a function of their\nusefulness to humans."
 ],
 "ans": 3,
-"sol": ""
+"sol": "",
+"sub": "Reading Comprehension"
 },
 {
 "n": 4,
@@ -8013,7 +8342,8 @@
 "The example provides an exception to the nonbinary understanding of personhood\nthat the passage had hitherto established."
 ],
 "ans": 2,
-"sol": ""
+"sol": "",
+"sub": "Reading Comprehension"
 },
 {
 "n": 5,
@@ -8027,7 +8357,8 @@
 "Cuttlefish exert self-control with the help of diversions."
 ],
 "ans": 0,
-"sol": ""
+"sol": "",
+"sub": "Reading Comprehension"
 },
 {
 "n": 6,
@@ -8041,7 +8372,8 @@
 "Cuttlefish cannot distinguish between geometrical shapes."
 ],
 "ans": 0,
-"sol": ""
+"sol": "",
+"sub": "Reading Comprehension"
 },
 {
 "n": 7,
@@ -8055,7 +8387,8 @@
 "Asian shore crabs and raw prawns are simultaneously released while a live grass\nshrimp drawer labelled with a triangle is placed in front of the cuttlefish, to be opened after\none minute."
 ],
 "ans": 3,
-"sol": ""
+"sol": "",
+"sub": "Reading Comprehension"
 },
 {
 "n": 8,
@@ -8069,7 +8402,8 @@
 "the former was performed over a longer time span than the latter."
 ],
 "ans": 1,
-"sol": ""
+"sol": "",
+"sub": "Reading Comprehension"
 },
 {
 "n": 9,
@@ -8083,7 +8417,8 @@
 "appealed to a universal group and not just to a niche section of people."
 ],
 "ans": 0,
-"sol": ""
+"sol": "",
+"sub": "Reading Comprehension"
 },
 {
 "n": 10,
@@ -8097,7 +8432,8 @@
 "sustainably farmed foods."
 ],
 "ans": 3,
-"sol": ""
+"sol": "",
+"sub": "Reading Comprehension"
 },
 {
 "n": 11,
@@ -8111,7 +8447,8 @@
 "tea drinking was sometimes promoted as a patriotic duty."
 ],
 "ans": 1,
-"sol": ""
+"sol": "",
+"sub": "Reading Comprehension"
 },
 {
 "n": 12,
@@ -8125,7 +8462,8 @@
 "tea drinkers lobbying for product diversity."
 ],
 "ans": 3,
-"sol": ""
+"sol": "",
+"sub": "Reading Comprehension"
 },
 {
 "n": 13,
@@ -8139,7 +8477,8 @@
 "Curtailment of privacy – Dystopia – Utopia – Intentional community."
 ],
 "ans": 0,
-"sol": ""
+"sol": "",
+"sub": "Reading Comprehension"
 },
 {
 "n": 14,
@@ -8153,7 +8492,8 @@
 "A society where public power is earned through merit rather than through privilege."
 ],
 "ans": 2,
-"sol": ""
+"sol": "",
+"sub": "Reading Comprehension"
 },
 {
 "n": 15,
@@ -8167,7 +8507,8 @@
 "many conceptions of utopian societies emphasise the importance of social\nuniformity and cultural homogeneity."
 ],
 "ans": 1,
-"sol": ""
+"sol": "",
+"sub": "Reading Comprehension"
 },
 {
 "n": 16,
@@ -8181,7 +8522,8 @@
 "the tradition of utopian literature has often shown societies in which it would be nearly\nimpossible for anyone to be sinful or criminal."
 ],
 "ans": 2,
-"sol": ""
+"sol": "",
+"sub": "Reading Comprehension"
 },
 {
 "n": 17,
@@ -8195,7 +8537,8 @@
 ],
 "ans": 3,
 "sol": "",
-"c": null
+"c": null,
+"sub": "Para-summary"
 },
 {
 "n": 18,
@@ -8203,7 +8546,8 @@
 "q": "The four sentences (labelled 1, 2, 3, 4) below, when properly sequenced would yield a coherent paragraph. Decide on the proper sequencing of the order of the sentences and key in the sequence of the four numbers as your answer: 1. In the central nervous systems of other animal species, such a comprehensive regeneration of neurons has not yet been proven beyond doubt. 2. Biologists from the University of Bayreuth have discovered a uniquely rapid form of regeneration in injured neurons and their function in the central nervous system of zebrafish. 3. They studied the Mauthner cells, which are solely responsible for the escape behaviour of the fish, and previously regarded as incapable of regeneration. 4. However, their ability to regenerate crucially depends on the location of the injury.",
 "ans": "2341",
 "sol": "",
-"c": null
+"c": null,
+"sub": "Para-jumble"
 },
 {
 "n": 19,
@@ -8211,7 +8555,8 @@
 "q": "The four sentences (labelled 1, 2, 3, 4) below, when properly sequenced would yield a coherent paragraph. Decide on the proper sequencing of the order of the sentences and key in the sequence of the four numbers as your answer: 1. A popular response is the exhortation to plant more trees. 2. It seems all but certain that global warming will go well above two degrees—quite how high no one knows yet. 3. Burning them releases it, which is why the scale of forest fires in the Amazon basin last year garnered headlines. 4. This is because trees sequester carbon by absorbing carbon dioxide.",
 "ans": "2143",
 "sol": "",
-"c": null
+"c": null,
+"sub": "Para-jumble"
 },
 {
 "n": 20,
@@ -8225,7 +8570,8 @@
 ],
 "ans": 3,
 "sol": "",
-"c": null
+"c": null,
+"sub": "Para-summary"
 },
 {
 "n": 21,
@@ -8233,7 +8579,8 @@
 "q": "Five jumbled up sentences, related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd one out and key in the number of the sentence as your answer: 1. The legal status of resources mined in space remains ambiguous; and while the market for asteroid minerals is currently nonexistent, this is likely to change as technical hurdles diminish. 2. Outer space is a commons, and all of it is open for exploration, however, space law developed in the 1950s and 60s is state-centric and arguably ill-suited to a commercial future. 3. Laws adopted by the US and Luxembourg are first steps, but they only protect firms from competing claims by their compatriots; a Chinese company will not be bound by US law. 4. Critics say the US is conferring rights that it has no authority to confer; Russia in particular has condemned this, citing the US’ disrespect for international law. 5. At issue now is commercial activity, as private firms—rather than nation states—look to space for profit.",
 "ans": "4",
 "sol": "",
-"c": null
+"c": null,
+"sub": "Odd One Out"
 },
 {
 "n": 22,
@@ -8241,7 +8588,8 @@
 "q": "Five jumbled up sentences, related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd one out and key in the number of the sentence as your answer: 1. There is a dark side to academic research, especially in India, and at its centre is the phenomenon of predatory journals. 2. But in truth, as long as you pay, you can get anything published. 3. In look and feel thus, they are exactly like any reputed journal. 4. They claim to be indexed in the most influential databases, say they possess editorial boards that comprise top scientists and researchers, and claim to have a rigorous peerreview structure. 5. But a large section of researchers and scientists across the world are at the receiving end of nothing short of an academic publishing scam.",
 "ans": "5",
 "sol": "",
-"c": null
+"c": null,
+"sub": "Odd One Out"
 },
 {
 "n": 23,
@@ -8255,7 +8603,8 @@
 ],
 "ans": 3,
 "sol": "",
-"c": null
+"c": null,
+"sub": "Para-summary"
 },
 {
 "n": 24,
@@ -8263,7 +8612,8 @@
 "q": "The four sentences (labelled 1, 2, 3, 4) below, when properly sequenced would yield a coherent paragraph. Decide on the proper sequencing of the order of the sentences and key in the sequence of the four numbers as your answer: 1. The work is more than the text, for the text only takes on life, when it is realized and furthermore the realization is by no means independent of the individual disposition of the reader. 2. The convergence of text and reader brings the literary work into existence and this convergence is not to be identified either with the reality of the text or with the individual disposition of the reader. 3. From this polarity it follows that the literary work cannot be completely identical with the text, or with the realization of the text, but in fact must lie halfway between the two. 4. The literary work has two poles, which we might call the artistic and the aesthetic; the artistic refers to the text created by the author, and the aesthetic to the realization accomplished by the reader.",
 "ans": "4312",
 "sol": "",
-"c": null
+"c": null,
+"sub": "Para-jumble"
 }
 ]
 },
@@ -8283,7 +8633,8 @@
 "16.5",
 "12.5"
 ],
-"ans": 1
+"ans": 1,
+"sub": "Tables & Data Sets"
 },
 {
 "n": 2,
@@ -8297,7 +8648,8 @@
 "8%",
 "20%"
 ],
-"ans": 2
+"ans": 2,
+"sub": "Tables & Data Sets"
 },
 {
 "n": 3,
@@ -8305,7 +8657,8 @@
 "q": "How many subcategories had sales of ₹ 4 million or more in 2019 and registered an increase in sales in excess of 25% in 2020?",
 "sol": "",
 "type": "tita",
-"ans": "1"
+"ans": "1",
+"sub": "Tables & Data Sets"
 },
 {
 "n": 4,
@@ -8319,7 +8672,8 @@
 "office supply, furniture, technology",
 "office supply, technology, furniture"
 ],
-"ans": 0
+"ans": 0,
+"sub": "Tables & Data Sets"
 },
 {
 "n": 5,
@@ -8333,7 +8687,8 @@
 "Exactly 1.",
 "Exactly 2."
 ],
-"ans": 1
+"ans": 1,
+"sub": "Tables & Data Sets"
 },
 {
 "n": 6,
@@ -8347,7 +8702,8 @@
 "Ganga did not sell any leftover mangoes.",
 "Ganga did not sell any leftover apples."
 ],
-"ans": 3
+"ans": 3,
+"sub": "Tables & Data Sets"
 },
 {
 "n": 7,
@@ -8361,7 +8717,8 @@
 "Either 19 or 20 units.",
 "Either 18 or 19 or 20 units."
 ],
-"ans": 3
+"ans": 3,
+"sub": "Tables & Data Sets"
 },
 {
 "n": 8,
@@ -8369,7 +8726,8 @@
 "q": "If it is known that three leftover units of mangoes were sold during the last business hour of the day, how many apple smoothies were sold during the day?",
 "sol": "",
 "type": "tita",
-"ans": "6"
+"ans": "6",
+"sub": "Tables & Data Sets"
 },
 {
 "n": 9,
@@ -8383,7 +8741,8 @@
 "1, 2, 2, 3",
 "3, 1, 1, 3"
 ],
-"ans": 2
+"ans": 2,
+"sub": "Sequencing & Scheduling"
 },
 {
 "n": 10,
@@ -8391,7 +8750,8 @@
 "q": "How many papers were written by Indian authors?",
 "sol": "",
 "type": "tita",
-"ans": "8"
+"ans": "8",
+"sub": "Sequencing & Scheduling"
 },
 {
 "n": 11,
@@ -8405,7 +8765,8 @@
 "Only Statement A",
 "Neither of the statements"
 ],
-"ans": 2
+"ans": 2,
+"sub": "Sequencing & Scheduling"
 },
 {
 "n": 12,
@@ -8419,7 +8780,8 @@
 "Every issue had exactly two papers by Indian authors.",
 "Every issue had at least one paper by author(s) from Automation area."
 ],
-"ans": 0
+"ans": 0,
+"sub": "Sequencing & Scheduling"
 },
 {
 "n": 13,
@@ -8433,7 +8795,8 @@
 "There was exactly one paper by an author from Logistics area in the October issue.",
 "There were exactly two papers by authors from Manufacturing area in the July issue."
 ],
-"ans": 3
+"ans": 3,
+"sub": "Sequencing & Scheduling"
 },
 {
 "n": 14,
@@ -8447,7 +8810,8 @@
 "6, 5, 7",
 "6, 6, 6"
 ],
-"ans": 2
+"ans": 2,
+"sub": "Sequencing & Scheduling"
 },
 {
 "n": 15,
@@ -8461,7 +8825,8 @@
 "Amudha, Dhinesh and Fani",
 "Amudha, Bharatan and Fani"
 ],
-"ans": 1
+"ans": 1,
+"sub": "Venn Diagrams & Set Theory"
 },
 {
 "n": 16,
@@ -8475,7 +8840,8 @@
 "(Amudha, Gowtham) and (Ezhil, Fani)",
 "(Chandran, Ezhil) and (Dhinesh, Gowtham)"
 ],
-"ans": 1
+"ans": 1,
+"sub": "Venn Diagrams & Set Theory"
 },
 {
 "n": 17,
@@ -8489,7 +8855,8 @@
 "Ezhil",
 "Dhinesh"
 ],
-"ans": 3
+"ans": 3,
+"sub": "Venn Diagrams & Set Theory"
 },
 {
 "n": 18,
@@ -8503,7 +8870,8 @@
 "Dhinesh",
 "Bharatan"
 ],
-"ans": 1
+"ans": 1,
+"sub": "Venn Diagrams & Set Theory"
 },
 {
 "n": 19,
@@ -8511,7 +8879,8 @@
 "q": "How many friends does Ezhil have?",
 "sol": "",
 "type": "tita",
-"ans": "3"
+"ans": "3",
+"sub": "Venn Diagrams & Set Theory"
 },
 {
 "n": 20,
@@ -8519,7 +8888,8 @@
 "q": "How many people are either a friend or a friend-of-a-friend of Ezhil?",
 "sol": "",
 "type": "tita",
-"ans": "4"
+"ans": "4",
+"sub": "Venn Diagrams & Set Theory"
 }
 ]
 },
@@ -8539,7 +8909,7 @@
 ],
 "ans": 2,
 "sol": "",
-"sub": "Algebra"
+"sub": "Numbers Basics"
 },
 {
 "n": 2,
@@ -8549,7 +8919,7 @@
 "opts": [],
 "ans": "70",
 "sol": "",
-"sub": "Number System"
+"sub": "Permutations & Combinations"
 },
 {
 "n": 3,
@@ -8564,7 +8934,7 @@
 ],
 "ans": 1,
 "sol": "",
-"sub": "Arithmetic"
+"sub": "SI & CI"
 },
 {
 "n": 4,
@@ -8579,7 +8949,7 @@
 ],
 "ans": 3,
 "sol": "",
-"sub": "Arithmetic"
+"sub": "Time & Work"
 },
 {
 "n": 5,
@@ -8589,7 +8959,7 @@
 "opts": [],
 "ans": "47",
 "sol": "",
-"sub": "Modern Math"
+"sub": "Permutations & Combinations"
 },
 {
 "n": 6,
@@ -8604,7 +8974,7 @@
 ],
 "ans": 3,
 "sol": "",
-"sub": "Geometry"
+"sub": "Triangles"
 },
 {
 "n": 7,
@@ -8619,7 +8989,7 @@
 ],
 "ans": 3,
 "sol": "",
-"sub": "Algebra"
+"sub": "Inequalities"
 },
 {
 "n": 8,
@@ -8634,7 +9004,7 @@
 ],
 "ans": 3,
 "sol": "",
-"sub": "Algebra"
+"sub": "Simple Equations"
 },
 {
 "n": 9,
@@ -8649,7 +9019,7 @@
 ],
 "ans": 2,
 "sol": "",
-"sub": "Geometry"
+"sub": "Triangles"
 },
 {
 "n": 10,
@@ -8664,7 +9034,7 @@
 ],
 "ans": 3,
 "sol": "",
-"sub": "Arithmetic"
+"sub": "Profit & Loss"
 },
 {
 "n": 11,
@@ -8674,7 +9044,7 @@
 "opts": [],
 "ans": "1000",
 "sol": "",
-"sub": "Arithmetic"
+"sub": "Profit & Loss"
 },
 {
 "n": 12,
@@ -8684,7 +9054,7 @@
 "opts": [],
 "ans": "120",
 "sol": "",
-"sub": "Geometry"
+"sub": "Triangles"
 },
 {
 "n": 13,
@@ -8694,7 +9064,7 @@
 "opts": [],
 "ans": "99",
 "sol": "",
-"sub": "Algebra"
+"sub": "Logarithms"
 },
 {
 "n": 14,
@@ -8704,7 +9074,7 @@
 "opts": [],
 "ans": "200",
 "sol": "",
-"sub": "Arithmetic"
+"sub": "Percentages"
 },
 {
 "n": 15,
@@ -8719,7 +9089,7 @@
 ],
 "ans": 1,
 "sol": "",
-"sub": "Algebra"
+"sub": "Quadratic Equations"
 },
 {
 "n": 16,
@@ -8734,7 +9104,7 @@
 ],
 "ans": 0,
 "sol": "",
-"sub": "Arithmetic"
+"sub": "Ratio"
 },
 {
 "n": 17,
@@ -8749,7 +9119,7 @@
 ],
 "ans": 3,
 "sol": "",
-"sub": "Arithmetic"
+"sub": "Averages"
 },
 {
 "n": 18,
@@ -8764,7 +9134,7 @@
 ],
 "ans": 1,
 "sol": "",
-"sub": "Algebra"
+"sub": "Simple Equations"
 },
 {
 "n": 19,
@@ -8774,7 +9144,7 @@
 "opts": [],
 "ans": "35",
 "sol": "",
-"sub": "Algebra"
+"sub": "Averages"
 },
 {
 "n": 20,
@@ -8789,7 +9159,7 @@
 ],
 "ans": 0,
 "sol": "",
-"sub": "Algebra"
+"sub": "Quadratic Equations"
 },
 {
 "n": 21,
@@ -8799,7 +9169,7 @@
 "opts": [],
 "ans": "32",
 "sol": "",
-"sub": "Arithmetic"
+"sub": "Time & Work"
 },
 {
 "n": 22,
@@ -8814,7 +9184,7 @@
 ],
 "ans": 2,
 "sol": "",
-"sub": "Arithmetic"
+"sub": "Time Speed Distance"
 }
 ]
 }
@@ -8852,7 +9222,7 @@
 ],
 "ans": 0,
 "sol": "",
-"sub": "RC"
+"sub": "Reading Comprehension"
 },
 {
 "n": 2,
@@ -8867,7 +9237,7 @@
 ],
 "ans": 2,
 "sol": "",
-"sub": "RC"
+"sub": "Reading Comprehension"
 },
 {
 "n": 3,
@@ -8882,7 +9252,7 @@
 ],
 "ans": 0,
 "sol": "",
-"sub": "RC"
+"sub": "Reading Comprehension"
 },
 {
 "n": 4,
@@ -8897,7 +9267,7 @@
 ],
 "ans": 0,
 "sol": "",
-"sub": "RC"
+"sub": "Reading Comprehension"
 },
 {
 "n": 5,
@@ -8912,7 +9282,7 @@
 ],
 "ans": 3,
 "sol": "",
-"sub": "RC"
+"sub": "Reading Comprehension"
 },
 {
 "n": 6,
@@ -8927,7 +9297,7 @@
 ],
 "ans": 0,
 "sol": "",
-"sub": "RC"
+"sub": "Reading Comprehension"
 },
 {
 "n": 7,
@@ -8942,7 +9312,7 @@
 ],
 "ans": 2,
 "sol": "",
-"sub": "RC"
+"sub": "Reading Comprehension"
 },
 {
 "n": 8,
@@ -8957,7 +9327,7 @@
 ],
 "ans": 0,
 "sol": "",
-"sub": "RC"
+"sub": "Reading Comprehension"
 },
 {
 "n": 9,
@@ -8972,7 +9342,7 @@
 ],
 "ans": 3,
 "sol": "",
-"sub": "RC"
+"sub": "Reading Comprehension"
 },
 {
 "n": 10,
@@ -8987,7 +9357,7 @@
 ],
 "ans": 0,
 "sol": "",
-"sub": "RC"
+"sub": "Reading Comprehension"
 },
 {
 "n": 11,
@@ -9002,7 +9372,7 @@
 ],
 "ans": 3,
 "sol": "",
-"sub": "RC"
+"sub": "Reading Comprehension"
 },
 {
 "n": 12,
@@ -9017,7 +9387,7 @@
 ],
 "ans": 3,
 "sol": "",
-"sub": "RC"
+"sub": "Reading Comprehension"
 },
 {
 "n": 13,
@@ -9032,7 +9402,7 @@
 ],
 "ans": 3,
 "sol": "",
-"sub": "RC"
+"sub": "Reading Comprehension"
 },
 {
 "n": 14,
@@ -9047,7 +9417,7 @@
 ],
 "ans": 2,
 "sol": "",
-"sub": "RC"
+"sub": "Reading Comprehension"
 },
 {
 "n": 15,
@@ -9062,7 +9432,7 @@
 ],
 "ans": 0,
 "sol": "",
-"sub": "RC"
+"sub": "Reading Comprehension"
 },
 {
 "n": 16,
@@ -9077,7 +9447,7 @@
 ],
 "ans": 0,
 "sol": "",
-"sub": "RC"
+"sub": "Reading Comprehension"
 },
 {
 "n": 17,
@@ -9087,7 +9457,7 @@
 "opts": [],
 "ans": "5",
 "sol": "",
-"sub": "VA"
+"sub": "Odd One Out"
 },
 {
 "n": 18,
@@ -9102,7 +9472,7 @@
 ],
 "ans": 2,
 "sol": "",
-"sub": "VA"
+"sub": "Para-summary"
 },
 {
 "n": 19,
@@ -9112,7 +9482,7 @@
 "opts": [],
 "ans": "2413",
 "sol": "",
-"sub": "VA"
+"sub": "Para-jumble"
 },
 {
 "n": 20,
@@ -9127,7 +9497,7 @@
 ],
 "ans": 3,
 "sol": "",
-"sub": "VA"
+"sub": "Para-summary"
 },
 {
 "n": 21,
@@ -9137,7 +9507,7 @@
 "opts": [],
 "ans": "1",
 "sol": "",
-"sub": "VA"
+"sub": "Odd One Out"
 },
 {
 "n": 22,
@@ -9152,7 +9522,7 @@
 ],
 "ans": 0,
 "sol": "",
-"sub": "VA"
+"sub": "Para-summary"
 },
 {
 "n": 23,
@@ -9162,7 +9532,7 @@
 "opts": [],
 "ans": "3214",
 "sol": "",
-"sub": "VA"
+"sub": "Para-jumble"
 },
 {
 "n": 24,
@@ -9172,7 +9542,7 @@
 "opts": [],
 "ans": "2143",
 "sol": "",
-"sub": "VA"
+"sub": "Para-jumble"
 }
 ]
 },
@@ -9187,7 +9557,7 @@
 "opts": [],
 "ans": "6",
 "sol": "",
-"sub": "DILR"
+"sub": "Tables & Data Sets"
 },
 {
 "n": 2,
@@ -9197,7 +9567,7 @@
 "opts": [],
 "ans": "11",
 "sol": "",
-"sub": "DILR"
+"sub": "Tables & Data Sets"
 },
 {
 "n": 3,
@@ -9212,7 +9582,7 @@
 ],
 "ans": 0,
 "sol": "",
-"sub": "DILR"
+"sub": "Tables & Data Sets"
 },
 {
 "n": 4,
@@ -9227,7 +9597,7 @@
 ],
 "ans": 1,
 "sol": "",
-"sub": "DILR"
+"sub": "Tables & Data Sets"
 },
 {
 "n": 5,
@@ -9242,7 +9612,7 @@
 ],
 "ans": 2,
 "sol": "",
-"sub": "DILR"
+"sub": "Games & Tournaments"
 },
 {
 "n": 6,
@@ -9257,7 +9627,7 @@
 ],
 "ans": 3,
 "sol": "",
-"sub": "DILR"
+"sub": "Games & Tournaments"
 },
 {
 "n": 7,
@@ -9272,7 +9642,7 @@
 ],
 "ans": 1,
 "sol": "",
-"sub": "DILR"
+"sub": "Games & Tournaments"
 },
 {
 "n": 8,
@@ -9287,7 +9657,7 @@
 ],
 "ans": 3,
 "sol": "",
-"sub": "DILR"
+"sub": "Games & Tournaments"
 },
 {
 "n": 9,
@@ -9302,7 +9672,7 @@
 ],
 "ans": 2,
 "sol": "",
-"sub": "DILR"
+"sub": "Selection & Distribution"
 },
 {
 "n": 10,
@@ -9317,7 +9687,7 @@
 ],
 "ans": 0,
 "sol": "",
-"sub": "DILR"
+"sub": "Selection & Distribution"
 },
 {
 "n": 11,
@@ -9327,7 +9697,7 @@
 "opts": [],
 "ans": "12",
 "sol": "",
-"sub": "DILR"
+"sub": "Selection & Distribution"
 },
 {
 "n": 12,
@@ -9342,7 +9712,7 @@
 ],
 "ans": 2,
 "sol": "",
-"sub": "DILR"
+"sub": "Selection & Distribution"
 },
 {
 "n": 13,
@@ -9357,7 +9727,7 @@
 ],
 "ans": 1,
 "sol": "",
-"sub": "DILR"
+"sub": "Selection & Distribution"
 },
 {
 "n": 14,
@@ -9372,7 +9742,7 @@
 ],
 "ans": 2,
 "sol": "",
-"sub": "DILR"
+"sub": "Selection & Distribution"
 },
 {
 "n": 15,
@@ -9382,7 +9752,7 @@
 "opts": [],
 "ans": "5",
 "sol": "",
-"sub": "DILR"
+"sub": "Tables & Data Sets"
 },
 {
 "n": 16,
@@ -9397,7 +9767,7 @@
 ],
 "ans": 1,
 "sol": "",
-"sub": "DILR"
+"sub": "Tables & Data Sets"
 },
 {
 "n": 17,
@@ -9407,7 +9777,7 @@
 "opts": [],
 "ans": "6",
 "sol": "",
-"sub": "DILR"
+"sub": "Tables & Data Sets"
 },
 {
 "n": 18,
@@ -9422,7 +9792,7 @@
 ],
 "ans": 2,
 "sol": "",
-"sub": "DILR"
+"sub": "Tables & Data Sets"
 },
 {
 "n": 19,
@@ -9437,7 +9807,7 @@
 ],
 "ans": 2,
 "sol": "",
-"sub": "DILR"
+"sub": "Tables & Data Sets"
 },
 {
 "n": 20,
@@ -9452,7 +9822,7 @@
 ],
 "ans": 3,
 "sol": "",
-"sub": "DILR"
+"sub": "Tables & Data Sets"
 }
 ]
 },
@@ -9472,7 +9842,7 @@
 ],
 "ans": 2,
 "sol": "",
-"sub": "Arithmetic"
+"sub": "Profit & Loss"
 },
 {
 "n": 2,
@@ -9482,7 +9852,7 @@
 "opts": [],
 "ans": "4195",
 "sol": "",
-"sub": "Number System"
+"sub": "Permutations & Combinations"
 },
 {
 "n": 3,
@@ -9497,7 +9867,7 @@
 ],
 "ans": 0,
 "sol": "",
-"sub": "Arithmetic"
+"sub": "Time & Work"
 },
 {
 "n": 4,
@@ -9512,7 +9882,7 @@
 ],
 "ans": 2,
 "sol": "",
-"sub": "Arithmetic"
+"sub": "Time Speed Distance"
 },
 {
 "n": 5,
@@ -9527,7 +9897,7 @@
 ],
 "ans": 1,
 "sol": "",
-"sub": "Algebra"
+"sub": "Inequalities"
 },
 {
 "n": 6,
@@ -9542,7 +9912,7 @@
 ],
 "ans": 3,
 "sol": "",
-"sub": "Algebra"
+"sub": "Arithmetic Progression"
 },
 {
 "n": 7,
@@ -9557,7 +9927,7 @@
 ],
 "ans": 1,
 "sol": "",
-"sub": "Arithmetic"
+"sub": "Profit & Loss"
 },
 {
 "n": 8,
@@ -9572,7 +9942,7 @@
 ],
 "ans": 1,
 "sol": "",
-"sub": "Arithmetic"
+"sub": "Time & Work"
 },
 {
 "n": 9,
@@ -9587,7 +9957,7 @@
 ],
 "ans": 0,
 "sol": "",
-"sub": "Arithmetic"
+"sub": "Profit & Loss"
 },
 {
 "n": 10,
@@ -9602,7 +9972,7 @@
 ],
 "ans": 3,
 "sol": "",
-"sub": "Algebra"
+"sub": "Quadratic Equations"
 },
 {
 "n": 11,
@@ -9617,7 +9987,7 @@
 ],
 "ans": 3,
 "sol": "",
-"sub": "Algebra"
+"sub": "Quadratic Equations"
 },
 {
 "n": 12,
@@ -9627,7 +9997,7 @@
 "opts": [],
 "ans": "250",
 "sol": "",
-"sub": "Arithmetic"
+"sub": "Percentages"
 },
 {
 "n": 13,
@@ -9642,7 +10012,7 @@
 ],
 "ans": 0,
 "sol": "",
-"sub": "Algebra"
+"sub": "Sequence & Series"
 },
 {
 "n": 14,
@@ -9657,7 +10027,7 @@
 ],
 "ans": 1,
 "sol": "",
-"sub": "Geometry"
+"sub": "Quadrilaterals"
 },
 {
 "n": 15,
@@ -9667,7 +10037,7 @@
 "opts": [],
 "ans": "5",
 "sol": "",
-"sub": "Algebra"
+"sub": "Logarithms"
 },
 {
 "n": 16,
@@ -9682,7 +10052,7 @@
 ],
 "ans": 0,
 "sol": "",
-"sub": "Algebra"
+"sub": "Ratio"
 },
 {
 "n": 17,
@@ -9697,7 +10067,7 @@
 ],
 "ans": 3,
 "sol": "",
-"sub": "Geometry"
+"sub": "Logarithms"
 },
 {
 "n": 18,
@@ -9707,7 +10077,7 @@
 "opts": [],
 "ans": "30",
 "sol": "",
-"sub": "Geometry"
+"sub": "Triangles"
 },
 {
 "n": 19,
@@ -9717,7 +10087,7 @@
 "opts": [],
 "ans": "45",
 "sol": "",
-"sub": "Arithmetic"
+"sub": "Alligation & Mixture"
 },
 {
 "n": 20,
@@ -9727,7 +10097,7 @@
 "opts": [],
 "ans": "1000",
 "sol": "",
-"sub": "Modern Math"
+"sub": "Permutations & Combinations"
 },
 {
 "n": 21,
@@ -9737,7 +10107,7 @@
 "opts": [],
 "ans": "10",
 "sol": "",
-"sub": "Arithmetic"
+"sub": "Averages"
 },
 {
 "n": 22,
@@ -9747,7 +10117,7 @@
 "opts": [],
 "ans": "7",
 "sol": "",
-"sub": "Algebra"
+"sub": "Numbers Basics"
 }
 ]
 }
@@ -9785,7 +10155,7 @@
 ],
 "ans": 2,
 "sol": "",
-"sub": "RC"
+"sub": "Reading Comprehension"
 },
 {
 "n": 2,
@@ -9800,7 +10170,7 @@
 ],
 "ans": 3,
 "sol": "",
-"sub": "RC"
+"sub": "Reading Comprehension"
 },
 {
 "n": 3,
@@ -9815,7 +10185,7 @@
 ],
 "ans": 0,
 "sol": "",
-"sub": "RC"
+"sub": "Reading Comprehension"
 },
 {
 "n": 4,
@@ -9830,7 +10200,7 @@
 ],
 "ans": 0,
 "sol": "",
-"sub": "RC"
+"sub": "Reading Comprehension"
 },
 {
 "n": 5,
@@ -9845,7 +10215,7 @@
 ],
 "ans": 0,
 "sol": "",
-"sub": "RC"
+"sub": "Reading Comprehension"
 },
 {
 "n": 6,
@@ -9860,7 +10230,7 @@
 ],
 "ans": 3,
 "sol": "",
-"sub": "RC"
+"sub": "Reading Comprehension"
 },
 {
 "n": 7,
@@ -9875,7 +10245,7 @@
 ],
 "ans": 2,
 "sol": "",
-"sub": "RC"
+"sub": "Reading Comprehension"
 },
 {
 "n": 8,
@@ -9890,7 +10260,7 @@
 ],
 "ans": 0,
 "sol": "",
-"sub": "RC"
+"sub": "Reading Comprehension"
 },
 {
 "n": 9,
@@ -9905,7 +10275,7 @@
 ],
 "ans": 3,
 "sol": "",
-"sub": "RC"
+"sub": "Reading Comprehension"
 },
 {
 "n": 10,
@@ -9920,7 +10290,7 @@
 ],
 "ans": 0,
 "sol": "",
-"sub": "RC"
+"sub": "Reading Comprehension"
 },
 {
 "n": 11,
@@ -9935,7 +10305,7 @@
 ],
 "ans": 3,
 "sol": "",
-"sub": "RC"
+"sub": "Reading Comprehension"
 },
 {
 "n": 12,
@@ -9950,7 +10320,7 @@
 ],
 "ans": 1,
 "sol": "",
-"sub": "RC"
+"sub": "Reading Comprehension"
 },
 {
 "n": 13,
@@ -9965,7 +10335,7 @@
 ],
 "ans": 2,
 "sol": "",
-"sub": "RC"
+"sub": "Reading Comprehension"
 },
 {
 "n": 14,
@@ -9980,7 +10350,7 @@
 ],
 "ans": 0,
 "sol": "",
-"sub": "RC"
+"sub": "Reading Comprehension"
 },
 {
 "n": 15,
@@ -9995,7 +10365,7 @@
 ],
 "ans": 1,
 "sol": "",
-"sub": "RC"
+"sub": "Reading Comprehension"
 },
 {
 "n": 16,
@@ -10010,7 +10380,7 @@
 ],
 "ans": 1,
 "sol": "",
-"sub": "RC"
+"sub": "Reading Comprehension"
 },
 {
 "n": 17,
@@ -10020,7 +10390,7 @@
 "opts": [],
 "ans": "3412",
 "sol": "",
-"sub": "VA"
+"sub": "Para-jumble"
 },
 {
 "n": 18,
@@ -10035,7 +10405,7 @@
 ],
 "ans": 2,
 "sol": "",
-"sub": "VA"
+"sub": "Para-summary"
 },
 {
 "n": 19,
@@ -10045,7 +10415,7 @@
 "opts": [],
 "ans": "3",
 "sol": "",
-"sub": "VA"
+"sub": "Odd One Out"
 },
 {
 "n": 20,
@@ -10055,7 +10425,7 @@
 "opts": [],
 "ans": "4",
 "sol": "",
-"sub": "VA"
+"sub": "Odd One Out"
 },
 {
 "n": 21,
@@ -10070,7 +10440,7 @@
 ],
 "ans": 2,
 "sol": "",
-"sub": "VA"
+"sub": "Para-summary"
 },
 {
 "n": 22,
@@ -10085,7 +10455,7 @@
 ],
 "ans": 1,
 "sol": "",
-"sub": "VA"
+"sub": "Para-summary"
 },
 {
 "n": 23,
@@ -10095,7 +10465,7 @@
 "opts": [],
 "ans": "3214",
 "sol": "",
-"sub": "VA"
+"sub": "Para-jumble"
 },
 {
 "n": 24,
@@ -10105,7 +10475,7 @@
 "opts": [],
 "ans": "2314",
 "sol": "",
-"sub": "VA"
+"sub": "Para-jumble"
 }
 ]
 },
@@ -10120,7 +10490,7 @@
 "opts": [],
 "ans": "3",
 "sol": "",
-"sub": "DILR"
+"sub": "Conditional Logic & Puzzles"
 },
 {
 "n": 2,
@@ -10130,7 +10500,7 @@
 "opts": [],
 "ans": "1",
 "sol": "",
-"sub": "DILR"
+"sub": "Conditional Logic & Puzzles"
 },
 {
 "n": 3,
@@ -10140,7 +10510,7 @@
 "opts": [],
 "ans": "3",
 "sol": "",
-"sub": "DILR"
+"sub": "Conditional Logic & Puzzles"
 },
 {
 "n": 4,
@@ -10155,7 +10525,7 @@
 ],
 "ans": 1,
 "sol": "",
-"sub": "DILR"
+"sub": "Conditional Logic & Puzzles"
 },
 {
 "n": 5,
@@ -10170,7 +10540,7 @@
 ],
 "ans": 0,
 "sol": "",
-"sub": "DILR"
+"sub": "Conditional Logic & Puzzles"
 },
 {
 "n": 6,
@@ -10185,7 +10555,7 @@
 ],
 "ans": 3,
 "sol": "",
-"sub": "DILR"
+"sub": "Conditional Logic & Puzzles"
 },
 {
 "n": 7,
@@ -10200,7 +10570,7 @@
 ],
 "ans": 2,
 "sol": "",
-"sub": "DILR"
+"sub": "Conditional Logic & Puzzles"
 },
 {
 "n": 8,
@@ -10210,7 +10580,7 @@
 "opts": [],
 "ans": "1",
 "sol": "",
-"sub": "DILR"
+"sub": "Conditional Logic & Puzzles"
 },
 {
 "n": 9,
@@ -10220,7 +10590,7 @@
 "opts": [],
 "ans": "2",
 "sol": "",
-"sub": "DILR"
+"sub": "Conditional Logic & Puzzles"
 },
 {
 "n": 10,
@@ -10235,7 +10605,7 @@
 ],
 "ans": 3,
 "sol": "",
-"sub": "DILR"
+"sub": "Conditional Logic & Puzzles"
 },
 {
 "n": 11,
@@ -10250,7 +10620,7 @@
 ],
 "ans": 0,
 "sol": "",
-"sub": "DILR"
+"sub": "Tables & Data Sets"
 },
 {
 "n": 12,
@@ -10265,7 +10635,7 @@
 ],
 "ans": 1,
 "sol": "",
-"sub": "DILR"
+"sub": "Tables & Data Sets"
 },
 {
 "n": 13,
@@ -10280,7 +10650,7 @@
 ],
 "ans": 1,
 "sol": "",
-"sub": "DILR"
+"sub": "Tables & Data Sets"
 },
 {
 "n": 14,
@@ -10295,7 +10665,7 @@
 ],
 "ans": 1,
 "sol": "",
-"sub": "DILR"
+"sub": "Tables & Data Sets"
 },
 {
 "n": 15,
@@ -10310,7 +10680,7 @@
 ],
 "ans": 0,
 "sol": "",
-"sub": "DILR"
+"sub": "Tables & Data Sets"
 },
 {
 "n": 16,
@@ -10325,7 +10695,7 @@
 ],
 "ans": 0,
 "sol": "",
-"sub": "DILR"
+"sub": "Tables & Data Sets"
 },
 {
 "n": 17,
@@ -10340,7 +10710,7 @@
 ],
 "ans": 0,
 "sol": "",
-"sub": "DILR"
+"sub": "Sequencing & Scheduling"
 },
 {
 "n": 18,
@@ -10355,7 +10725,7 @@
 ],
 "ans": 0,
 "sol": "",
-"sub": "DILR"
+"sub": "Sequencing & Scheduling"
 },
 {
 "n": 19,
@@ -10370,7 +10740,7 @@
 ],
 "ans": 2,
 "sol": "",
-"sub": "DILR"
+"sub": "Sequencing & Scheduling"
 },
 {
 "n": 20,
@@ -10385,7 +10755,7 @@
 ],
 "ans": 0,
 "sol": "",
-"sub": "DILR"
+"sub": "Sequencing & Scheduling"
 }
 ]
 },
@@ -10405,7 +10775,7 @@
 ],
 "ans": 2,
 "sol": "",
-"sub": "Geometry"
+"sub": "Triangles"
 },
 {
 "n": 2,
@@ -10420,7 +10790,7 @@
 ],
 "ans": 1,
 "sol": "",
-"sub": "Algebra"
+"sub": "Logarithms"
 },
 {
 "n": 3,
@@ -10435,7 +10805,7 @@
 ],
 "ans": 1,
 "sol": "",
-"sub": "Algebra"
+"sub": "Simple Equations"
 },
 {
 "n": 4,
@@ -10450,7 +10820,7 @@
 ],
 "ans": 2,
 "sol": "",
-"sub": "Algebra"
+"sub": "Inequalities"
 },
 {
 "n": 5,
@@ -10465,7 +10835,7 @@
 ],
 "ans": 1,
 "sol": "",
-"sub": "Arithmetic"
+"sub": "Percentages"
 },
 {
 "n": 6,
@@ -10475,7 +10845,7 @@
 "opts": [],
 "ans": "92",
 "sol": "",
-"sub": "Arithmetic"
+"sub": "Averages"
 },
 {
 "n": 7,
@@ -10485,7 +10855,7 @@
 "opts": [],
 "ans": "50",
 "sol": "",
-"sub": "Modern Math"
+"sub": "Permutations & Combinations"
 },
 {
 "n": 8,
@@ -10500,7 +10870,7 @@
 ],
 "ans": 1,
 "sol": "",
-"sub": "Algebra"
+"sub": "Time & Work"
 },
 {
 "n": 9,
@@ -10515,7 +10885,7 @@
 ],
 "ans": 3,
 "sol": "",
-"sub": "Algebra"
+"sub": "Quadratic Equations"
 },
 {
 "n": 10,
@@ -10530,7 +10900,7 @@
 ],
 "ans": 3,
 "sol": "",
-"sub": "Arithmetic"
+"sub": "Percentages"
 },
 {
 "n": 11,
@@ -10545,7 +10915,7 @@
 ],
 "ans": 0,
 "sol": "",
-"sub": "Geometry"
+"sub": "Triangles"
 },
 {
 "n": 12,
@@ -10560,7 +10930,7 @@
 ],
 "ans": 0,
 "sol": "",
-"sub": "Arithmetic"
+"sub": "Time & Work"
 },
 {
 "n": 13,
@@ -10570,7 +10940,7 @@
 "opts": [],
 "ans": "8",
 "sol": "",
-"sub": "Arithmetic"
+"sub": "Time Speed Distance"
 },
 {
 "n": 14,
@@ -10580,7 +10950,7 @@
 "opts": [],
 "ans": "34",
 "sol": "",
-"sub": "Algebra"
+"sub": "Alligation & Mixture"
 },
 {
 "n": 15,
@@ -10595,7 +10965,7 @@
 ],
 "ans": 3,
 "sol": "",
-"sub": "Algebra"
+"sub": "Sequence & Series"
 },
 {
 "n": 16,
@@ -10610,7 +10980,7 @@
 ],
 "ans": 2,
 "sol": "",
-"sub": "Arithmetic"
+"sub": "SI & CI"
 },
 {
 "n": 17,
@@ -10620,7 +10990,7 @@
 "opts": [],
 "ans": "3000",
 "sol": "",
-"sub": "Arithmetic"
+"sub": "Time & Work"
 },
 {
 "n": 18,
@@ -10635,7 +11005,7 @@
 ],
 "ans": 2,
 "sol": "",
-"sub": "Geometry"
+"sub": "Logarithms"
 },
 {
 "n": 19,
@@ -10650,7 +11020,7 @@
 ],
 "ans": 0,
 "sol": "",
-"sub": "Arithmetic"
+"sub": "Percentages"
 },
 {
 "n": 20,
@@ -10660,7 +11030,7 @@
 "opts": [],
 "ans": "12",
 "sol": "",
-"sub": "Algebra"
+"sub": "Inequalities"
 },
 {
 "n": 21,
@@ -10670,7 +11040,7 @@
 "opts": [],
 "ans": "3500",
 "sol": "",
-"sub": "Geometry"
+"sub": "Quadrilaterals"
 },
 {
 "n": 22,
@@ -10680,7 +11050,7 @@
 "opts": [],
 "ans": "6",
 "sol": "",
-"sub": "Algebra"
+"sub": "Indices & Surds"
 }
 ]
 }

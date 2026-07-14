@@ -801,7 +801,10 @@ const vid=(t,i)=>t+i;
 const V=t=>t==="Q"?DATA.vq:DATA.vd;
 const yt=(t,i)=>`https://www.youtube.com/watch?v=${V(t)[i][3]}&list=${LIST[t]}`;
 const SUBMAIN=Object.fromEntries(DATA.subs.map(([m,s])=>[s,m]));
-const MPOOL=MOCKS.flatMap((m,mi)=>m.sections.flatMap(sec=>sec.qs.filter(q=>q.sub).map(q=>({...q,_m:mi,topic:SUBMAIN[q.sub]||sec.name,sec:sec.name,src:m.name}))));
+/* Every mock question enters the custom-test pool. If a question has no `sub` (topic) tag,
+   it falls back to its section name so it's never silently dropped from the pool — this keeps
+   future ingests visible even before they're finely tagged. */
+const MPOOL=MOCKS.flatMap((m,mi)=>m.sections.flatMap(sec=>sec.qs.map(q=>{const sub=q.sub||sec.name;return{...q,sub,_m:mi,topic:SUBMAIN[sub]||sec.name,sec:sec.name,src:m.name}})));
 const allQ=()=>BANK0.concat(imported,MPOOL);
 const ctxOf=q=>q.c===undefined?null:(q._m!==undefined?MOCKS[q._m].ctxs[q.c]:(PT.mock?PT.mock.ctxs[q.c]:null));
 
