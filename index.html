@@ -178,7 +178,16 @@ h2.ph{font-size:19px;margin:20px 0 4px;letter-spacing:-.3px}
 .act3{display:flex;gap:2px;flex:none}
 .abtn{width:26px;height:26px;border:none;background:transparent;border-radius:8px;cursor:pointer;display:grid;place-items:center;font-size:13px;color:var(--faint);text-decoration:none;transition:.12s}
 .abtn:hover{background:var(--line2);transform:scale(1.12)}
-.abtn.yt{color:var(--yt)}.abtn.star.on{color:var(--star)}.abtn.note.on{color:var(--qa)}
+.abtn.yt{color:var(--yt)}.abtn.star.on{color:var(--star)}
+.abtn.note.on{color:#fff;background:var(--qa);box-shadow:0 1px 4px rgba(79,70,229,.4)}
+.abtn.note.on:hover{background:var(--qa);transform:scale(1.12)}
+.vid.hasnote{background:linear-gradient(90deg,var(--qa-soft),transparent 60%)}
+.notepv{display:flex;align-items:center;gap:8px;margin:1px 8px 7px 42px;padding:7px 11px;border-radius:10px;
+  background:var(--qa-soft);border:1px solid var(--line2);cursor:pointer;transition:.12s}
+.notepv:hover{border-color:var(--qa)}
+.notepv .npi{flex:none;font-size:12px}
+.notepv .npt{flex:1;min-width:0;font-size:12px;color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-style:italic;opacity:.92}
+.notepv .nped{flex:none;font-size:10.5px;font-weight:700;color:var(--qa);text-transform:uppercase;letter-spacing:.4px}
 .notebox{display:none;margin:2px 0 6px 42px}
 .notebox.open{display:block}
 .notebox textarea{width:100%;min-height:52px;border:1px solid var(--line);border-radius:10px;background:var(--card2);color:var(--ink);font:12.5px/1.45 inherit;padding:8px 10px;resize:vertical}
@@ -211,8 +220,15 @@ h2.ph{font-size:19px;margin:20px 0 4px;letter-spacing:-.3px}
 .sub.open .subbody{display:block}
 .mini{width:74px;height:6px;background:var(--ring-track);border-radius:4px;overflow:hidden;flex:none;margin-left:auto}
 .mini i{display:block;height:100%;background:var(--ok);border-radius:4px;transition:width .4s}
-.rev{background:var(--card);border:1px solid var(--line);border-radius:16px;margin-bottom:9px;box-shadow:var(--shadow);overflow:hidden}
-.rev .rhead{padding:11px 16px;font-weight:700;font-size:13px;border-bottom:1px solid var(--line2)}
+.revgrouphdr{display:flex;align-items:center;gap:8px;font-size:12px;font-weight:800;text-transform:uppercase;
+  letter-spacing:.6px;color:var(--mut);margin:14px 2px 8px}
+.revgrouphdr:first-child{margin-top:2px}
+.revgrouphdr span{background:var(--card2);border:1px solid var(--line2);border-radius:20px;padding:1px 9px;font-size:11px;color:var(--ink)}
+.revgrouphdr.star{color:var(--star)}.revgrouphdr.note{color:var(--qa)}
+.rev{background:var(--card);border:1px solid var(--line);border-radius:14px;margin-bottom:9px;box-shadow:var(--shadow);overflow:hidden;border-left:3px solid var(--line2)}
+.rev.star{border-left-color:var(--star)}.rev.note{border-left-color:var(--qa)}
+.rev .rhead{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:10px 15px;font-weight:700;font-size:12.5px;border-bottom:1px solid var(--line2)}
+.rev .rhead .rcount{flex:none;background:var(--card2);border-radius:20px;padding:1px 9px;font-size:11px;color:var(--mut);font-weight:600}
 .rev .body{padding:4px 12px 8px}
 .empty{text-align:center;color:var(--mut);padding:44px 0}
 /* practice */
@@ -950,16 +966,18 @@ function heatmap(){
 }
 
 /* shared lecture row */
-const row=(tr,i)=>{const v=V(tr)[i],id=vid(tr,i),nk=notes[id];
-  return`<div class="vid ${done[id]?'ck':''}">
+const noteSnip=s=>String(s).replace(/\s+/g," ").trim().slice(0,90).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+const row=(tr,i)=>{const v=V(tr)[i],id=vid(tr,i),nk=notes[id],st=stars[id],op=openNotes.has(id);
+  const pv=(nk&&!op)?`<div class="notepv" data-notebtn="${id}"><span class="npi">📝</span><span class="npt">${noteSnip(nk)}${nk.length>90?'…':''}</span><span class="nped">edit ✎</span></div>`:"";
+  return`<div class="vid ${done[id]?'ck':''} ${nk?'hasnote':''}">
     <input type="checkbox" data-id="${id}" ${done[id]?'checked':''}>
     <span class="nm">${v[0]}</span><span class="du">${fmtv(v[1])}</span>
     <span class="act3">
       <a class="abtn yt" href="${yt(tr,i)}" target="_blank" rel="noopener" title="Watch on YouTube">▶</a>
-      <button class="abtn star ${stars[id]?'on':''}" data-star="${id}" title="Mark for revision">${stars[id]?'★':'☆'}</button>
-      <button class="abtn note ${nk?'on':''}" data-notebtn="${id}" title="Notes">✎</button>
-    </span></div>
-    <div class="notebox ${openNotes.has(id)?'open':''}" id="nb-${id}">
+      <button class="abtn star ${st?'on':''}" data-star="${id}" title="Mark for revision">${st?'★':'☆'}</button>
+      <button class="abtn note ${nk?'on':''}" data-notebtn="${id}" title="${nk?'Edit your note':'Add a note'}">${nk?'📝':'✎'}</button>
+    </span></div>${pv}
+    <div class="notebox ${op?'open':''}" id="nb-${id}">
       <textarea data-note="${id}" placeholder="Your notes / remarks…">${nk?nk.replace(/</g,"&lt;"):""}</textarea></div>`};
 function pyqCount(f){return allQ().filter(f).length}
 
@@ -1008,12 +1026,13 @@ function render(){
       <span class="sct"><b>Test what you've studied</b><span>${studiedN?`${studiedN} topic${studiedN>1?'s':''} unlocked from your completed lectures`:'Finish some lectures to unlock a targeted test'}</span></span>
       <span class="scgo">→</span></button>`;
   renderPlan(next);
+  const noteN=Object.keys(notes).filter(k=>notes[k]).length, hasRev=starN||noteN;
   document.getElementById("homerev").innerHTML=
-    `<div class="sec2 revcard${starN?' open':''}" id="sec-homerev"><div class="shead">
+    `<div class="sec2 revcard${hasRev?' open':''}" id="sec-homerev"><div class="shead">
       <div class="sico rev" style="background:var(--rev-soft)">⭐</div>
-      <div><div class="sname">Revision queue</div><div class="ssub">${starN} lecture${starN===1?'':'s'} marked for revision</div></div>
+      <div><div class="sname">Revision &amp; notes</div><div class="ssub">${starN} starred · ${noteN} with notes</div></div>
       <div class="mright"><span class="caret">▼</span></div></div>
-      <div class="sbody" style="padding:${starN?'6px 14px 14px':'0'}">${starN?revHtml():'<div class="empty" style="margin:0">Nothing starred yet.<br>Hit ☆ on any lecture (here or in Study) to queue it for revision.</div>'}</div></div>`;
+      <div class="sbody" style="padding:${hasRev?'6px 14px 14px':'0'}">${revHtml()}</div></div>`;
   renderStudy();
   renderPracticeHome();
   bind();
@@ -1113,14 +1132,18 @@ function buildSheet(tr,label,icon,cls,total,secsTotal,ns){
     <div class="sbody">${inner}</div></div>`;
 }
 function revHtml(){
-  const groups={};
-  ["Q","L"].forEach(t=>V(t).forEach((v,i)=>{const id=vid(t,i);if(!stars[id])return;
-    const[m]=DATA.subs[v[2]],k=(t==="Q"?"QA · ":"LRDI · ")+m;
-    (groups[k]=groups[k]||[]).push([t,i])}));
-  return Object.entries(groups).map(([k,arr])=>
-    `<div class="rev"><div class="rhead">⭐ ${k} <span style="color:var(--mut);font-weight:400;font-size:11.5px">· ${arr.length} marked</span></div>
-     <div class="body">${arr.map(([t,i])=>row(t,i)).join("")}</div></div>`).join("")||
-    `<div class="empty">Nothing starred yet.<br>Hit ☆ on any lecture to queue it for revision.</div>`;
+  const starG={},noteG={};
+  ["Q","L"].forEach(t=>V(t).forEach((v,i)=>{const id=vid(t,i),[m]=DATA.subs[v[2]],k=(t==="Q"?"QA · ":"LRDI · ")+m;
+    if(stars[id])(starG[k]=starG[k]||[]).push([t,i]);
+    if(notes[id])(noteG[k]=noteG[k]||[]).push([t,i]);}));
+  const block=(groups,cls)=>Object.entries(groups).map(([k,arr])=>
+    `<div class="rev ${cls}"><div class="rhead"><span class="rk">${k}</span><span class="rcount">${arr.length}</span></div>
+     <div class="body">${arr.map(([t,i])=>row(t,i)).join("")}</div></div>`).join("");
+  const nStar=Object.values(starG).reduce((a,x)=>a+x.length,0), nNote=Object.values(noteG).reduce((a,x)=>a+x.length,0);
+  let out="";
+  if(nStar)out+=`<div class="revgrouphdr star">⭐ Marked for revision <span>${nStar}</span></div>`+block(starG,"star");
+  if(nNote)out+=`<div class="revgrouphdr note">📝 Lectures with notes <span>${nNote}</span></div>`+block(noteG,"note");
+  return out||`<div class="empty">Nothing saved yet.<br>Hit ☆ to queue a lecture for revision, or ✎ to jot a note — everything you save collects here.</div>`;
 }
 function renderStudy(){
   document.getElementById("sheet").innerHTML=
