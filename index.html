@@ -66,44 +66,49 @@ body{margin:0;font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Ro
 h2.ph{font-size:19px;margin:20px 0 4px;letter-spacing:-.3px}
 .psub{color:var(--mut);font-size:12.5px;margin-bottom:14px}
 /* hero */
-.hero{display:grid;grid-template-columns:auto 1fr;gap:18px;align-items:center;background:var(--card);
-  border:1px solid var(--line);border-radius:20px;padding:20px 22px;margin:16px 0 14px;box-shadow:var(--shadow)}
-.ring{position:relative;width:112px;height:112px;flex:none}
+/* analytics: progress (left) + heatmap (right) */
+.analytics{display:grid;grid-template-columns:minmax(0,300px) minmax(0,1fr);gap:14px;margin:16px 0 12px}
+.apanel{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:16px 18px;box-shadow:var(--shadow)}
+.apleft{display:flex;align-items:center;gap:16px}
+.apleft .ring{flex:none}
+.apleft .tbars{flex:1;min-width:0}
+.ring{position:relative;width:104px;height:104px;flex:none}
 .ring svg{transform:rotate(-90deg)}
 .ring .pct{position:absolute;inset:0;display:grid;place-items:center;text-align:center}
-.ring .pct b{font-size:22px;display:block;line-height:1}
+.ring .pct b{font-size:21px;display:block;line-height:1}
 .ring .pct span{font-size:10px;color:var(--mut);text-transform:uppercase;letter-spacing:.6px}
-.hstats{display:grid;grid-template-columns:repeat(auto-fit,minmax(108px,1fr));gap:10px}
-.hs{background:var(--card2);border:1px solid var(--line2);border-radius:13px;padding:10px 12px}
-.hs b{font-size:17px;display:block}
-.hs span{font-size:10.5px;color:var(--mut);text-transform:uppercase;letter-spacing:.5px}
-.tbars{grid-column:1/-1;display:grid;gap:9px;margin-top:2px}
+.tbars{display:grid;gap:11px}
 .bar .lbl{display:flex;justify-content:space-between;font-size:11.5px;color:var(--mut);margin-bottom:4px}
 .bar .lbl b{color:var(--ink);font-weight:600}
 .track{height:7px;background:var(--ring-track);border-radius:5px;overflow:hidden}
 .fill{height:100%;border-radius:5px;transition:width .5s cubic-bezier(.2,.8,.2,1)}
-/* heatmap */
-.hmcard{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:14px 18px;margin-bottom:14px;box-shadow:var(--shadow)}
+/* heatmap (fixed cells, horizontal scroll) */
+.apright{display:flex;flex-direction:column;min-width:0}
 .hmtop{display:flex;align-items:baseline;gap:10px;margin-bottom:10px}
 .hmtop b{font-size:13px}.hmtop span{font-size:11.5px;color:var(--mut)}
-.hmscroll{padding-bottom:2px}
-.hmgrid{display:flex;gap:4px;width:100%}
-.hmcol{display:flex;flex-direction:column;gap:4px;flex:1 1 0;min-width:0}
-.hmcell{width:100%;aspect-ratio:1;border-radius:3px;background:var(--hm0);transition:transform .1s}
-.hmcell:hover{transform:scale(1.25);z-index:2;position:relative}
+.hmscroll{overflow-x:auto;overflow-y:hidden;padding-bottom:5px;flex:1}
+.hmscroll::-webkit-scrollbar{height:7px}
+.hmscroll::-webkit-scrollbar-thumb{background:var(--line2);border-radius:4px}
+.hmscroll::-webkit-scrollbar-track{background:transparent}
+.hmgrid{display:flex;gap:3px;width:max-content}
+.hmcol{display:flex;flex-direction:column;gap:3px}
+.hmcell{width:12px;height:12px;border-radius:3px;background:var(--hm0);flex:none;transition:transform .1s}
+.hmcell:hover{transform:scale(1.3);position:relative;z-index:2}
 .hmcell.l1{background:var(--hm1)}.hmcell.l2{background:var(--hm2)}.hmcell.l3{background:var(--hm3)}.hmcell.l4{background:var(--hm4)}
 .hmcell.today{outline:2px solid var(--b1);outline-offset:1px}
 .hmcell.fut{background:transparent;border:1px dashed var(--line2)}
-.hmmonths{display:flex;gap:4px;margin-bottom:5px;font-size:9.5px;color:var(--faint)}
-.hmmonths span{flex:1 1 0;min-width:0;white-space:nowrap;overflow:visible}
-.hmlegend{display:flex;align-items:center;gap:4px;font-size:10px;color:var(--faint);margin-top:9px;justify-content:flex-end}
-/* metrics */
-.metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:14px}
-.met{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 13px;box-shadow:var(--shadow)}
-.met b{font-size:19px;display:block;line-height:1.15}
-.met span{font-size:10.5px;color:var(--mut);text-transform:uppercase;letter-spacing:.4px}
-.met.hot{background:linear-gradient(135deg,var(--brand-soft),var(--card))}
-.met.hot b{color:var(--b1)}
+.hmmonths{display:flex;gap:3px;margin-bottom:5px;font-size:9.5px;color:var(--faint);width:max-content}
+.hmmonths span{width:12px;flex:none;white-space:nowrap;overflow:visible}
+.hmlegend{display:flex;align-items:center;gap:4px;font-size:10px;color:var(--faint);margin-top:8px;justify-content:flex-end}
+/* merged metric bar */
+.metricbar{display:flex;background:var(--card);border:1px solid var(--line);border-radius:16px;
+  box-shadow:var(--shadow);overflow:hidden;margin-bottom:14px}
+.metricbar .met{flex:1;padding:13px 10px;text-align:center;border-left:1px solid var(--line2)}
+.metricbar .met:first-child{border-left:none}
+.met b{font-size:18px;display:block;line-height:1.15}
+.met span{font-size:10px;color:var(--mut);text-transform:uppercase;letter-spacing:.3px;white-space:nowrap}
+.met.hot b{color:#e2560f}
+.met.accent b{color:var(--b1)}
 /* home smart-test CTA */
 .homecta{margin-bottom:14px}
 .smartcta{width:100%;display:flex;align-items:center;gap:13px;padding:15px 17px;border:none;cursor:pointer;
@@ -470,9 +475,12 @@ textarea.imp{width:100%;min-height:90px;border:1px solid var(--line);border-radi
   .wrap{padding:0 14px}
   h2.ph{font-size:18px;margin:14px 0 3px}
   /* hero */
-  .hero{grid-template-columns:1fr;padding:18px;gap:14px;border-radius:18px}
-  .ring{margin:0 auto}
-  .metrics{grid-template-columns:repeat(2,1fr)}
+  .analytics{grid-template-columns:1fr}
+  .apleft{justify-content:center}
+  .metricbar{flex-wrap:wrap}
+  .metricbar .met{flex:1 1 33.33%}
+  .metricbar .met:nth-child(3n+1){border-left:none}
+  .metricbar .met:nth-child(n+4){border-top:1px solid var(--line2)}
   .topichdr{flex-direction:column;align-items:flex-start;gap:8px}
   .ctbtns .ctbtn{min-width:0}
   /* segmented controls scroll instead of crowd */
@@ -548,26 +556,27 @@ textarea.imp{width:100%;min-height:90px;border:1px solid var(--line);border-radi
 <div class="page act" id="pg-home">
   <h2 class="ph" id="greet">Welcome</h2>
   <div class="psub" id="headtag"></div>
-  <div class="hero">
-    <div class="ring">
-      <svg width="112" height="112" viewBox="0 0 112 112">
-        <circle cx="56" cy="56" r="49" fill="none" stroke="var(--ring-track)" stroke-width="9"/>
-        <circle id="ringfill" cx="56" cy="56" r="49" fill="none" stroke="url(#rg)" stroke-width="9"
-          stroke-linecap="round" stroke-dasharray="307.9" stroke-dashoffset="307.9" style="transition:stroke-dashoffset .7s cubic-bezier(.2,.8,.2,1)"/>
-        <defs><linearGradient id="rg" x1="0" y1="0" x2="1" y2="1">
-          <stop offset="0" stop-color="#4f46e5"/><stop offset="1" stop-color="#db2777"/></linearGradient></defs>
-      </svg>
-      <div class="pct"><div><b id="pctnum">0%</b><span>complete</span></div></div>
+  <div class="analytics">
+    <div class="apanel apleft">
+      <div class="ring">
+        <svg width="104" height="104" viewBox="0 0 112 112">
+          <circle cx="56" cy="56" r="49" fill="none" stroke="var(--ring-track)" stroke-width="9"/>
+          <circle id="ringfill" cx="56" cy="56" r="49" fill="none" stroke="url(#rg)" stroke-width="9"
+            stroke-linecap="round" stroke-dasharray="307.9" stroke-dashoffset="307.9" style="transition:stroke-dashoffset .7s cubic-bezier(.2,.8,.2,1)"/>
+          <defs><linearGradient id="rg" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#4f46e5"/><stop offset="1" stop-color="#db2777"/></linearGradient></defs>
+        </svg>
+        <div class="pct"><div><b id="pctnum">0%</b><span>complete</span></div></div>
+      </div>
+      <div class="tbars" id="tbars"></div>
     </div>
-    <div class="hstats" id="hstats"></div>
-    <div class="tbars" id="tbars"></div>
+    <div class="apanel apright">
+      <div class="hmtop"><b>📆 Activity</b><span id="hmsum"></span></div>
+      <div class="hmscroll" id="hmscroll"><div id="hmwrap"></div></div>
+      <div class="hmlegend">Less <span class="pl" style="background:var(--hm0)"></span><span class="pl" style="background:var(--hm1)"></span><span class="pl" style="background:var(--hm2)"></span><span class="pl" style="background:var(--hm3)"></span><span class="pl" style="background:var(--hm4)"></span> More</div>
+    </div>
   </div>
-  <div class="hmcard">
-    <div class="hmtop"><b>📆 Activity heatmap</b><span id="hmsum"></span></div>
-    <div class="hmscroll"><div id="hmwrap"></div></div>
-    <div class="hmlegend">Less <span class="pl" style="background:var(--hm0)"></span><span class="pl" style="background:var(--hm1)"></span><span class="pl" style="background:var(--hm2)"></span><span class="pl" style="background:var(--hm3)"></span><span class="pl" style="background:var(--hm4)"></span> More</div>
-  </div>
-  <div class="metrics" id="metrics"></div>
+  <div class="metricbar" id="metricbar"></div>
   <div class="homecta" id="homecta"></div>
   <div class="ctrl">
     <div class="seg" id="modeseg">
@@ -942,12 +951,17 @@ function streaks(act){
   return{cur,max,active:days.length};
 }
 function heatmap(){
-  const act=activityMap(),WEEKS=26,t=today();
-  const end=addDays(t,6-uDate(t).getUTCDay());          // Saturday of current week
-  const start=addDays(end,-(WEEKS*7-1));                 // Sunday, 26 weeks back
+  const act=activityMap(),t=today();
+  const end=addDays(t,6-uDate(t).getUTCDay());           // Saturday of current week
+  let start=addDays(end,-(30*7-1));                       // at least 30 weeks of history
+  const actDays=Object.keys(act).filter(d=>act[d]>0).sort();
+  if(cfg.start&&cfg.start<start)start=cfg.start;
+  if(actDays.length&&actDays[0]<start)start=actDays[0];
+  start=addDays(start,-uDate(start).getUTCDay());          // align to Sunday
+  const weeks=Math.round((uDate(end)-uDate(start))/(7*864e5))+1;
   const lvl=n=>n>=8?4:n>=5?3:n>=3?2:n>=1?1:0;
   let months='<div class="hmmonths">',cols='<div class="hmgrid">',lastM=-1,total=0,active=0;
-  for(let w=0;w<WEEKS;w++){
+  for(let w=0;w<weeks;w++){
     const ws=addDays(start,w*7),mo=uDate(ws).getUTCMonth();
     months+=`<span>${mo!==lastM?uDate(ws).toLocaleDateString("en-IN",{month:"short",timeZone:"UTC"}):""}</span>`;
     lastM=mo;
@@ -961,8 +975,9 @@ function heatmap(){
     cols+=col+'</div>';
   }
   document.getElementById("hmwrap").innerHTML=months+'</div>'+cols+'</div>';
+  const sc=document.getElementById("hmscroll");if(sc)sc.scrollLeft=sc.scrollWidth;   // land on most-recent week
   const {cur}=streaks(act);
-  document.getElementById("hmsum").innerHTML=`${cur?`<b style="color:var(--b1)">🔥 ${cur}-day streak</b> · `:''}${total} items · ${active} active days`;
+  document.getElementById("hmsum").innerHTML=`${cur?`<b style="color:var(--b1)">🔥 ${cur}d</b> · `:''}${total} items · ${active} days`;
 }
 
 /* shared lecture row */
@@ -995,28 +1010,21 @@ function render(){
   document.getElementById("ringfill").style.strokeDashoffset=(307.9*(1-frac)).toFixed(1);
   document.getElementById("pctnum").textContent=Math.round(frac*100)+"%";
   const dleft=Math.max(0,Math.ceil((new Date("2026-11-29")-new Date())/864e5));
-  document.getElementById("hstats").innerHTML=
-    `<div class="hs"><b>${daysDone}<span style="font-size:12px;color:var(--mut)"> / ${DAYS.length}</span></b><span>days done</span></div>`+
-    `<div class="hs"><b>${qd+ld}<span style="font-size:12px;color:var(--mut)"> / 469</span></b><span>lectures</span></div>`+
-    `<div class="hs"><b>${starN}</b><span>⭐ revision</span></div>`+
-    `<div class="hs"><b>${dleft}</b><span>days to CAT</span></div>`;
   const bar=(l,sub,f,c)=>`<div class="bar"><div class="lbl"><span><b>${l}</b> ${sub}</span><span>${Math.round(f*100)}%</span></div><div class="track"><div class="fill" style="width:${(f*100).toFixed(1)}%;background:${c}"></div></div></div>`;
   document.getElementById("tbars").innerHTML=
     bar("Quant",`· ${qd}/384`,qs/DATA.qsecs,"var(--qa)")+bar("LRDI",`· ${ld}/85`,ls/DATA.dsecs,"var(--lr)");
-  // ---- performance metrics ----
-  const act=activityMap(),{cur,max}=streaks(act);
-  const mocks=hist.filter(h=>h.kind==="mock").length, drills=hist.filter(h=>h.kind==="drill").length;
+  // ---- merged metric bar (lean, solid metrics only) ----
+  const act=activityMap(),{cur}=streaks(act);
+  const mocks=hist.filter(h=>h.kind==="mock").length;
   const pyqN=hist.reduce((a,h)=>a+(h.n||0),0);
   const corr=hist.reduce((a,h)=>a+(h.correct||0),0), answ=hist.reduce((a,h)=>a+(h.correct||0)+(h.wrong||0),0);
   const acc=answ?Math.round(corr/answ*100):0;
-  const bestMock=Math.max(0,...hist.filter(h=>h.kind==="mock").map(h=>h.score||0));
   const studyH=((qs+ls)+hist.reduce((a,h)=>a+(h.secs||0),0))/3600;
   const met=(v,l,cls)=>`<div class="met ${cls||''}"><b>${v}</b><span>${l}</span></div>`;
-  document.getElementById("metrics").innerHTML=
-    met(`🔥 ${cur}`,"day streak","hot")+met(max,"best streak")+
-    met(mocks,"mocks taken")+met(drills,"topic drills")+
-    met(acc+"%","PYQ accuracy")+met(pyqN,"questions solved")+
-    met(mocks?"+"+bestMock:"—","best mock score")+met(studyH.toFixed(studyH<10?1:0)+"h","time invested");
+  document.getElementById("metricbar").innerHTML=
+    met(dleft,"days to CAT","accent")+met(`🔥 ${cur}`,"day streak","hot")+
+    met(mocks,"mocks taken")+met(answ?acc+"%":"—","accuracy")+
+    met(pyqN,"solved")+met(studyH.toFixed(studyH<10?1:0)+"h","invested");
   document.querySelectorAll("#modeseg button").forEach(b=>b.classList.toggle("act",b.dataset.pm===prof.planMode));
   document.getElementById("filter").style.display=prof.planMode==="daily"?"inline-flex":"none";
   document.getElementById("jump").style.display=prof.planMode!=="topic"?"":"none";
