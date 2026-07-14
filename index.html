@@ -11,7 +11,7 @@
   --bg:#f1f3f9; --ink:#101528; --mut:#5c6a86; --faint:#94a1ba;
   --card:#ffffff; --card2:#f7f9fd; --line:#e4e8f1; --line2:#eef1f8;
   --b1:#4f46e5; --b2:#9333ea; --brand:linear-gradient(135deg,#4f46e5,#9333ea 60%,#db2777);
-  --qa:#4f46e5; --qa-soft:#eceafd; --lr:#d97706; --lr-soft:#fdf1dd;
+  --qa:#4f46e5; --qa-soft:#eceafd; --lr:#d97706; --lr-soft:#fdf1dd; --brand-soft:#eceafd; --rev-soft:#fef3d7;
   --ok:#0ea86c; --ok-soft:#e2f7ec; --bad:#dc2626; --bad-soft:#feecec;
   --mark:#7c3aed; --star:#f59e0b; --yt:#e02f2f;
   --hm0:#e6eaf3; --hm1:#c1e7d2; --hm2:#77caa0; --hm3:#2d9868; --hm4:#14532d;
@@ -24,7 +24,7 @@
   color-scheme: dark;
   --bg:#090d1a; --ink:#e9edf6; --mut:#93a1bd; --faint:#5b6981;
   --card:#111828; --card2:#0d1422; --line:#213049; --line2:#182337;
-  --qa:#818cf8; --qa-soft:#1e2350; --lr:#f0a83a; --lr-soft:#3a2c12;
+  --qa:#818cf8; --qa-soft:#1e2350; --lr:#f0a83a; --lr-soft:#3a2c12; --brand-soft:#241d52; --rev-soft:#3a2c12;
   --ok:#34d399; --ok-soft:#0c3527; --bad:#f87171; --bad-soft:#3a1515;
   --mark:#a78bfa; --star:#fbbf24; --yt:#ff5c5c;
   --hm0:#1b2437; --hm1:#12472e; --hm2:#177347; --hm3:#22a266; --hm4:#4ade97;
@@ -86,14 +86,46 @@ h2.ph{font-size:19px;margin:20px 0 4px;letter-spacing:-.3px}
 .hmcard{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:14px 18px;margin-bottom:14px;box-shadow:var(--shadow)}
 .hmtop{display:flex;align-items:baseline;gap:10px;margin-bottom:10px}
 .hmtop b{font-size:13px}.hmtop span{font-size:11.5px;color:var(--mut)}
-.hmscroll{overflow-x:auto;padding-bottom:4px}
-.hmgrid{display:flex;gap:3px}.hmcol{display:flex;flex-direction:column;gap:3px}
-.hmcell{width:11px;height:11px;border-radius:3px;background:var(--hm0)}
+.hmscroll{padding-bottom:2px}
+.hmgrid{display:flex;gap:4px;width:100%}
+.hmcol{display:flex;flex-direction:column;gap:4px;flex:1 1 0;min-width:0}
+.hmcell{width:100%;aspect-ratio:1;border-radius:3px;background:var(--hm0);transition:transform .1s}
+.hmcell:hover{transform:scale(1.25);z-index:2;position:relative}
 .hmcell.l1{background:var(--hm1)}.hmcell.l2{background:var(--hm2)}.hmcell.l3{background:var(--hm3)}.hmcell.l4{background:var(--hm4)}
-.hmcell.today{outline:2px solid var(--qa);outline-offset:-1px}
-.hmmonths{display:flex;gap:3px;margin-bottom:4px;font-size:9.5px;color:var(--faint)}
-.hmmonths span{width:11px;flex:none;white-space:nowrap}
-.hmlegend{display:flex;align-items:center;gap:4px;font-size:10px;color:var(--faint);margin-top:8px;justify-content:flex-end}
+.hmcell.today{outline:2px solid var(--b1);outline-offset:1px}
+.hmcell.fut{background:transparent;border:1px dashed var(--line2)}
+.hmmonths{display:flex;gap:4px;margin-bottom:5px;font-size:9.5px;color:var(--faint)}
+.hmmonths span{flex:1 1 0;min-width:0;white-space:nowrap;overflow:visible}
+.hmlegend{display:flex;align-items:center;gap:4px;font-size:10px;color:var(--faint);margin-top:9px;justify-content:flex-end}
+/* metrics */
+.metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:14px}
+.met{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 13px;box-shadow:var(--shadow)}
+.met b{font-size:19px;display:block;line-height:1.15}
+.met span{font-size:10.5px;color:var(--mut);text-transform:uppercase;letter-spacing:.4px}
+.met.hot{background:linear-gradient(135deg,var(--brand-soft),var(--card))}
+.met.hot b{color:var(--b1)}
+/* home smart-test CTA */
+.homecta{margin-bottom:14px}
+.smartcta{width:100%;display:flex;align-items:center;gap:13px;padding:15px 17px;border:none;cursor:pointer;
+  border-radius:16px;background:var(--brand);color:#fff;box-shadow:var(--shadow);text-align:left}
+.smartcta:hover{filter:brightness(1.05)}
+.smartcta .sci{font-size:22px;flex:none}
+.smartcta .sct{flex:1;display:flex;flex-direction:column;line-height:1.3}
+.smartcta .sct b{font-size:15px}
+.smartcta .sct span{font-size:11.5px;opacity:.9}
+.smartcta .scgo{font-size:20px;flex:none;opacity:.85}
+/* topic-wise header + home revision card */
+.topichdr{display:flex;align-items:center;justify-content:space-between;gap:12px;background:var(--card);
+  border:1px solid var(--line);border-radius:16px;padding:13px 16px;margin-bottom:12px;box-shadow:var(--shadow)}
+.topichdr b{font-size:14px}.topichdr span{display:block;font-size:11.5px;color:var(--mut);margin-top:2px}
+.nexttopic{flex:none;font-size:11px;font-weight:600;color:var(--b1);background:var(--brand-soft);border-radius:20px;padding:5px 11px;white-space:nowrap}
+.revcard{margin-top:14px}
+.sico.rev{color:#b7791f}
+/* dual custom-card buttons */
+.ctbtns{display:flex;gap:9px;flex-wrap:wrap}
+.ctbtns .ctbtn{flex:1;min-width:180px}
+.ctbtn.alt{background:var(--brand-soft);color:var(--b1);border:1px solid var(--b1)}
+.ctbtn.alt:hover{background:var(--brand);color:#fff;border-color:transparent}
 .pl{width:12px;height:12px;border-radius:4px;display:inline-block;flex:none}
 /* controls */
 .ctrl{display:flex;gap:8px;align-items:center;margin:14px 0 12px;flex-wrap:wrap}
@@ -424,6 +456,9 @@ textarea.imp{width:100%;min-height:90px;border:1px solid var(--line);border-radi
   /* hero */
   .hero{grid-template-columns:1fr;padding:18px;gap:14px;border-radius:18px}
   .ring{margin:0 auto}
+  .metrics{grid-template-columns:repeat(2,1fr)}
+  .topichdr{flex-direction:column;align-items:flex-start;gap:8px}
+  .ctbtns .ctbtn{min-width:0}
   /* segmented controls scroll instead of crowd */
   .ctrl{gap:7px}
   .seg{flex-wrap:nowrap;overflow-x:auto;max-width:100%;-webkit-overflow-scrolling:touch}
@@ -516,6 +551,8 @@ textarea.imp{width:100%;min-height:90px;border:1px solid var(--line);border-radi
     <div class="hmscroll"><div id="hmwrap"></div></div>
     <div class="hmlegend">Less <span class="pl" style="background:var(--hm0)"></span><span class="pl" style="background:var(--hm1)"></span><span class="pl" style="background:var(--hm2)"></span><span class="pl" style="background:var(--hm3)"></span><span class="pl" style="background:var(--hm4)"></span> More</div>
   </div>
+  <div class="metrics" id="metrics"></div>
+  <div class="homecta" id="homecta"></div>
   <div class="ctrl">
     <div class="seg" id="modeseg">
       <button data-pm="daily">📅 Daily</button>
@@ -530,6 +567,7 @@ textarea.imp{width:100%;min-height:90px;border:1px solid var(--line);border-radi
     <button class="pill primary" id="jump">Jump to next ↓</button>
   </div>
   <div id="plan"></div>
+  <div id="homerev"></div>
 </div>
 
 <!-- ============ STUDY ============ -->
@@ -870,36 +908,45 @@ function dayStatus(day){let t=0,n=0;
 function firstOpenDay(){for(const d of DAYS){const[n,t]=dayStatus(d);if(n<t)return d.d}return null}
 
 /* heatmap */
-function heatmap(){
+const addDays=(dstr,n)=>{const t=new Date(dstr+"T00:00:00Z");t.setUTCDate(t.getUTCDate()+n);return t.toISOString().slice(0,10)};
+const uDate=ds=>new Date(ds+"T00:00:00Z");
+function activityMap(){
   const act={};
   for(const k in done){const v=done[k];if(typeof v==="string")act[v]=(act[v]||0)+1}
   hist.forEach(s=>{if(s.date)act[s.date]=(act[s.date]||0)+(s.n||0)});
-  let start=new Date(cfg.start+"T00:00:00");const now=new Date();
-  if(now<start)start=new Date(now);
-  const keys=Object.keys(act).sort();
-  if(keys.length&&new Date(keys[0]+"T00:00:00")<start)start=new Date(keys[0]+"T00:00:00");
-  let end=new Date("2026-11-29T00:00:00");if(now>end)end=now;
-  start.setDate(start.getDate()-start.getDay());
-  const days=Math.floor((end-start)/864e5)+1, weeks=Math.ceil(days/7);
+  return act;
+}
+function streaks(act){
+  const days=Object.keys(act).filter(d=>act[d]>0).sort();
+  if(!days.length)return{cur:0,max:0,active:0};
+  let max=1,run=1;
+  for(let i=1;i<days.length;i++){run=addDays(days[i-1],1)===days[i]?run+1:1;if(run>max)max=run}
+  let d=today();if(!act[d])d=addDays(d,-1);
+  let cur=0;while(act[d]>0){cur++;d=addDays(d,-1)}
+  return{cur,max,active:days.length};
+}
+function heatmap(){
+  const act=activityMap(),WEEKS=26,t=today();
+  const end=addDays(t,6-uDate(t).getUTCDay());          // Saturday of current week
+  const start=addDays(end,-(WEEKS*7-1));                 // Sunday, 26 weeks back
   const lvl=n=>n>=8?4:n>=5?3:n>=3?2:n>=1?1:0;
-  const tstr=today();
   let months='<div class="hmmonths">',cols='<div class="hmgrid">',lastM=-1,total=0,active=0;
-  for(let w=0;w<weeks;w++){
-    const d0=new Date(start);d0.setDate(d0.getDate()+w*7);
-    months+=`<span>${d0.getMonth()!==lastM?d0.toLocaleDateString("en-IN",{month:"short"}):""}</span>`;
-    lastM=d0.getMonth();
+  for(let w=0;w<WEEKS;w++){
+    const ws=addDays(start,w*7),mo=uDate(ws).getUTCMonth();
+    months+=`<span>${mo!==lastM?uDate(ws).toLocaleDateString("en-IN",{month:"short",timeZone:"UTC"}):""}</span>`;
+    lastM=mo;
     let col='<div class="hmcol">';
     for(let i=0;i<7;i++){
-      const d=new Date(start);d.setDate(d.getDate()+w*7+i);
-      if(d>end){col+='<span class="hmcell" style="visibility:hidden"></span>';continue}
-      const ds=istDay(d),n=act[ds]||0;
+      const ds=addDays(start,w*7+i),fut=ds>t,n=act[ds]||0;
       if(n){total+=n;active++}
-      col+=`<span class="hmcell l${lvl(n)}${ds===tstr?' today':''}" title="${n} item${n===1?'':'s'} · ${d.toLocaleDateString('en-IN',{day:'numeric',month:'short'})}"></span>`;
+      const lab=uDate(ds).toLocaleDateString('en-IN',{day:'numeric',month:'short',timeZone:'UTC'});
+      col+=`<span class="hmcell l${lvl(n)}${ds===t?' today':''}${fut?' fut':''}" title="${fut?lab:n+' item'+(n===1?'':'s')+' · '+lab}"></span>`;
     }
     cols+=col+'</div>';
   }
   document.getElementById("hmwrap").innerHTML=months+'</div>'+cols+'</div>';
-  document.getElementById("hmsum").textContent=`${total} items across ${active} active days`;
+  const {cur}=streaks(act);
+  document.getElementById("hmsum").innerHTML=`${cur?`<b style="color:var(--b1)">🔥 ${cur}-day streak</b> · `:''}${total} items · ${active} active days`;
 }
 
 /* shared lecture row */
@@ -938,10 +985,35 @@ function render(){
   const bar=(l,sub,f,c)=>`<div class="bar"><div class="lbl"><span><b>${l}</b> ${sub}</span><span>${Math.round(f*100)}%</span></div><div class="track"><div class="fill" style="width:${(f*100).toFixed(1)}%;background:${c}"></div></div></div>`;
   document.getElementById("tbars").innerHTML=
     bar("Quant",`· ${qd}/384`,qs/DATA.qsecs,"var(--qa)")+bar("LRDI",`· ${ld}/85`,ls/DATA.dsecs,"var(--lr)");
+  // ---- performance metrics ----
+  const act=activityMap(),{cur,max}=streaks(act);
+  const mocks=hist.filter(h=>h.kind==="mock").length, drills=hist.filter(h=>h.kind==="drill").length;
+  const pyqN=hist.reduce((a,h)=>a+(h.n||0),0);
+  const corr=hist.reduce((a,h)=>a+(h.correct||0),0), answ=hist.reduce((a,h)=>a+(h.correct||0)+(h.wrong||0),0);
+  const acc=answ?Math.round(corr/answ*100):0;
+  const bestMock=Math.max(0,...hist.filter(h=>h.kind==="mock").map(h=>h.score||0));
+  const studyH=((qs+ls)+hist.reduce((a,h)=>a+(h.secs||0),0))/3600;
+  const met=(v,l,cls)=>`<div class="met ${cls||''}"><b>${v}</b><span>${l}</span></div>`;
+  document.getElementById("metrics").innerHTML=
+    met(`🔥 ${cur}`,"day streak","hot")+met(max,"best streak")+
+    met(mocks,"mocks taken")+met(drills,"topic drills")+
+    met(acc+"%","PYQ accuracy")+met(pyqN,"questions solved")+
+    met(mocks?"+"+bestMock:"—","best mock score")+met(studyH.toFixed(studyH<10?1:0)+"h","time invested");
   document.querySelectorAll("#modeseg button").forEach(b=>b.classList.toggle("act",b.dataset.pm===prof.planMode));
   document.getElementById("filter").style.display=prof.planMode==="daily"?"inline-flex":"none";
   document.getElementById("jump").style.display=prof.planMode!=="topic"?"":"none";
+  const studiedN=studiedSubs().size;
+  document.getElementById("homecta").innerHTML=
+    `<button class="smartcta" id="homesmart"><span class="sci">⚡</span>
+      <span class="sct"><b>Test what you've studied</b><span>${studiedN?`${studiedN} topic${studiedN>1?'s':''} unlocked from your completed lectures`:'Finish some lectures to unlock a targeted test'}</span></span>
+      <span class="scgo">→</span></button>`;
   renderPlan(next);
+  document.getElementById("homerev").innerHTML=
+    `<div class="sec2 revcard${starN?' open':''}" id="sec-homerev"><div class="shead">
+      <div class="sico rev" style="background:var(--rev-soft)">⭐</div>
+      <div><div class="sname">Revision queue</div><div class="ssub">${starN} lecture${starN===1?'':'s'} marked for revision</div></div>
+      <div class="mright"><span class="caret">▼</span></div></div>
+      <div class="sbody" style="padding:${starN?'6px 14px 14px':'0'}">${starN?revHtml():'<div class="empty" style="margin:0">Nothing starred yet.<br>Hit ☆ on any lecture (here or in Study) to queue it for revision.</div>'}</div></div>`;
   renderStudy();
   renderPracticeHome();
   bind();
@@ -949,19 +1021,12 @@ function render(){
 function renderPlan(next){
   const el=document.getElementById("plan");
   if(prof.planMode==="topic"){
-    // next 2 incomplete sub-topics
-    const seen=new Set();const upnext=[];
-    ["Q","L"].forEach(t=>V(t).forEach((v,i)=>{
-      const s=DATA.subs[v[2]][1];if(seen.has(s))return;
-      if(!done[vid(t,i)]){seen.add(s);
-        if(upnext.length<2){const items=[];V(t).forEach((v2,j)=>{if(DATA.subs[v2[2]][1]===s)items.push([t,j])});
-          upnext.push({s,main:DATA.subs[v[2]][0],items})}}
-    }));
-    el.innerHTML=`<div class="pcard"><h3>🧱 Topic-wise mode</h3>
-      <div class="hint">No dates, no pressure — work down the sheet in order. Here's what's next:</div>
-      ${upnext.map(u=>`<div class="slothead" style="margin-top:10px"><span class="badge q">${u.main}</span><span class="topic">${u.s}</span></div>`+
-        u.items.map(([t,i])=>row(t,i)).join("")).join("")}
-      <div class="dayact"><button class="pill primary" onclick="go('study')" style="margin-top:8px">Open the full sheet →</button></div></div>`;
+    // full topic sheet — same breakdown as the Study page, self-paced
+    const nextS=(()=>{for(const t of["Q","L"])for(let i=0;i<V(t).length;i++)if(!done[vid(t,i)])return DATA.subs[V(t)[i][2]][1];return null})();
+    el.innerHTML=`<div class="topichdr"><div><b>🧱 Topic-wise mode</b><span>No dates — work down the sheet at your own pace. Expand a section → topic to see lectures.</span></div>`+
+      (nextS?`<span class="nexttopic">Next up · ${nextS}</span>`:'')+`</div>`+
+      buildSheet("Q","Quantitative Aptitude","➗","q",384,DATA.qsecs,"h")+
+      buildSheet("L","LRDI — Logical Reasoning & DI","🧩","l",85,DATA.dsecs,"h");
     return;
   }
   if(prof.planMode==="weekly"){
@@ -1008,62 +1073,81 @@ function renderPlan(next){
         <div class="dright"><span class="dprog">${isDone?'<span class="donetick">done ✓</span>':n+" / "+t}</span><span class="caret">▼</span></div>
       </div><div class="dbody">${body}</div></div>`}).join("")||`<div class="empty">Nothing here 🎉</div>`;
 }
-function renderStudy(){
-  const build=(tr,label,icon,cls,total,secsTotal)=>{
-    const mains=new Map();
-    V(tr).forEach((v,i)=>{const[m,s]=DATA.subs[v[2]];
-      if(!mains.has(m))mains.set(m,{subs:new Map(),c:0,dc:0,s:0});
-      const M=mains.get(m);M.c++;M.s+=v[1];
-      if(!M.subs.has(s))M.subs.set(s,{items:[],dc:0,secs:0});
-      const S=M.subs.get(s);S.items.push(i);S.secs+=v[1];
-      if(done[vid(tr,i)]){M.dc++;S.dc++}});
-    const ico={"Number System":"🔢","Geometry":"📐","Arithmetic":"➗","Algebra":"𝑥","Modern Math":"🎲","Practice & Revision":"🔁","LR Foundations":"🧩","Puzzles":"🧠","Logic Sets":"⚖️","Data Interpretation":"📊","Advanced Practice":"🔥"};
-    let dcTot=0;mains.forEach(M=>dcTot+=M.dc);
-    let inner="";let mi=0;
-    for(const[m,M]of mains){
-      let subsHtml="";let si=0;
-      for(const[s,S]of M.subs){
-        const pq=pyqCount(q=>q.sub===s);
-        const full=S.dc===S.items.length;
-        subsHtml+=`<div class="sub" id="sub-${tr}-${mi}-${si}"><div class="subhead">
-          <span class="caret">▼</span><span class="sname2">${s}</span>
-          <span class="scount">${S.dc}/${S.items.length} · ${fmt(S.secs)}</span>
-          ${pq?`<button class="chip pyq" data-pyq="${s.replace(/"/g,'&quot;')}">${full?'✓ ':''}🎯 ${pq} PYQs</button>`:''}
-          <span class="mini"><i style="width:${(S.dc/S.items.length*100).toFixed(0)}%"></i></span></div>
-          <div class="subbody">${S.items.map(i=>row(tr,i)).join("")}</div></div>`;
-        si++;
-      }
-      const tq=pyqCount(q=>q.topic===m);
-      inner+=`<div class="mtop" id="m-${tr}-${mi}"><div class="mhead">
-        <div class="mico">${ico[m]||"📚"}</div>
-        <div><div class="mname">${m}</div><div class="msub">${M.c} lectures · ${fmt(M.s)}${tq?` · 🎯 ${tq} PYQs`:''}</div></div>
-        <div class="mright"><span class="mpct">${Math.round(M.dc/M.c*100)}%</span><span class="caret">▼</span></div></div>
-        <div class="mbody">${subsHtml}</div></div>`;
-      mi++;
+function buildSheet(tr,label,icon,cls,total,secsTotal,ns){
+  ns=ns||"s";
+  const mains=new Map();
+  V(tr).forEach((v,i)=>{const[m,s]=DATA.subs[v[2]];
+    if(!mains.has(m))mains.set(m,{subs:new Map(),c:0,dc:0,s:0});
+    const M=mains.get(m);M.c++;M.s+=v[1];
+    if(!M.subs.has(s))M.subs.set(s,{items:[],dc:0,secs:0});
+    const S=M.subs.get(s);S.items.push(i);S.secs+=v[1];
+    if(done[vid(tr,i)]){M.dc++;S.dc++}});
+  const ico={"Number System":"🔢","Geometry":"📐","Arithmetic":"➗","Algebra":"𝑥","Modern Math":"🎲","Practice & Revision":"🔁","LR Foundations":"🧩","Puzzles":"🧠","Logic Sets":"⚖️","Data Interpretation":"📊","Advanced Practice":"🔥"};
+  let dcTot=0;mains.forEach(M=>dcTot+=M.dc);
+  let inner="";let mi=0;
+  for(const[m,M]of mains){
+    let subsHtml="";let si=0;
+    for(const[s,S]of M.subs){
+      const pq=pyqCount(q=>q.sub===s);
+      const full=S.dc===S.items.length;
+      subsHtml+=`<div class="sub" id="sub-${ns}${tr}-${mi}-${si}"><div class="subhead">
+        <span class="caret">▼</span><span class="sname2">${s}</span>
+        <span class="scount">${S.dc}/${S.items.length} · ${fmt(S.secs)}</span>
+        ${pq?`<button class="chip pyq" data-pyq="${s.replace(/"/g,'&quot;')}">${full?'✓ ':''}🎯 ${pq} PYQs</button>`:''}
+        <span class="mini"><i style="width:${(S.dc/S.items.length*100).toFixed(0)}%"></i></span></div>
+        <div class="subbody">${S.items.map(i=>row(tr,i)).join("")}</div></div>`;
+      si++;
     }
-    return`<div class="sec2 open" id="sec-${tr}"><div class="shead">
-      <div class="sico ${cls}" style="background:${tr==="Q"?"var(--qa-soft)":"var(--lr-soft)"}">${icon}</div>
-      <div><div class="sname">${label}</div><div class="ssub">${total} lectures · ${fmt(secsTotal)} · ${dcTot} done</div></div>
-      <div class="mright"><span class="mpct">${Math.round(dcTot/total*100)}%</span><span class="caret">▼</span></div></div>
-      <div class="sbody">${inner}</div></div>`;
-  };
-  document.getElementById("sheet").innerHTML=
-    build("Q","Quantitative Aptitude","➗","q",384,DATA.qsecs)+
-    build("L","LRDI — Logical Reasoning & DI","🧩","l",85,DATA.dsecs);
+    const tq=pyqCount(q=>q.topic===m);
+    inner+=`<div class="mtop" id="m-${ns}${tr}-${mi}"><div class="mhead">
+      <div class="mico">${ico[m]||"📚"}</div>
+      <div><div class="mname">${m}</div><div class="msub">${M.c} lectures · ${fmt(M.s)}${tq?` · 🎯 ${tq} PYQs`:''}</div></div>
+      <div class="mright"><span class="mpct">${Math.round(M.dc/M.c*100)}%</span><span class="caret">▼</span></div></div>
+      <div class="mbody">${subsHtml}</div></div>`;
+    mi++;
+  }
+  return`<div class="sec2 open" id="sec-${ns}${tr}"><div class="shead">
+    <div class="sico ${cls}" style="background:${tr==="Q"?"var(--qa-soft)":"var(--lr-soft)"}">${icon}</div>
+    <div><div class="sname">${label}</div><div class="ssub">${total} lectures · ${fmt(secsTotal)} · ${dcTot} done</div></div>
+    <div class="mright"><span class="mpct">${Math.round(dcTot/total*100)}%</span><span class="caret">▼</span></div></div>
+    <div class="sbody">${inner}</div></div>`;
+}
+function revHtml(){
   const groups={};
   ["Q","L"].forEach(t=>V(t).forEach((v,i)=>{const id=vid(t,i);if(!stars[id])return;
     const[m]=DATA.subs[v[2]],k=(t==="Q"?"QA · ":"LRDI · ")+m;
     (groups[k]=groups[k]||[]).push([t,i])}));
-  document.getElementById("rev").innerHTML=Object.entries(groups).map(([k,arr])=>
+  return Object.entries(groups).map(([k,arr])=>
     `<div class="rev"><div class="rhead">⭐ ${k} <span style="color:var(--mut);font-weight:400;font-size:11.5px">· ${arr.length} marked</span></div>
      <div class="body">${arr.map(([t,i])=>row(t,i)).join("")}</div></div>`).join("")||
     `<div class="empty">Nothing starred yet.<br>Hit ☆ on any lecture to queue it for revision.</div>`;
+}
+function renderStudy(){
+  document.getElementById("sheet").innerHTML=
+    buildSheet("Q","Quantitative Aptitude","➗","q",384,DATA.qsecs,"s")+
+    buildSheet("L","LRDI — Logical Reasoning & DI","🧩","l",85,DATA.dsecs,"s");
+  document.getElementById("rev").innerHTML=revHtml();
 }
 
 /* ---------- PRACTICE ---------- */
 let sel=new Set(), selCount=10, selPace=120;
 let PT={view:"home"};
 const escH=s=>String(s??"").replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+/* Map a studied LRDI lecture sub-topic to the matching PYQ set-bucket (QA subs match by name). */
+const DILR_ALIAS={"Venn Diagrams":"Venn Diagrams & Set Theory","Games & Tournaments":"Games & Tournaments","Tables":"Tables & Data Sets","Pie Charts":"Tables & Data Sets","Routes & Networks":"Networks & Routes","Arrangements (Linear & Circular)":"Grid & Arrangements","Maxima-Minima & Chocolate Distribution":"Selection & Distribution","Maxima-Minima (Advanced)":"Conditional Logic & Puzzles","Calendars":"Sequencing & Scheduling"};
+/* PYQ topics the user has "been through" — any topic with ≥1 completed lecture. */
+function studiedSubs(){
+  const studied=new Set();
+  ["Q","L"].forEach(t=>V(t).forEach((v,i)=>{if(done[vid(t,i)]){const s=DATA.subs[v[2]][1];studied.add(s);if(DILR_ALIAS[s])studied.add(DILR_ALIAS[s])}}));
+  const poolSubs=new Set(allQ().map(q=>q.sub));
+  return new Set([...studied].filter(s=>poolSubs.has(s)));
+}
+function smartTest(){
+  const ss=studiedSubs();
+  if(!ss.size){toast("Finish a few lectures first — then I'll build a test from what you've studied");return}
+  sel=new Set(ss);PT={view:"home"};renderPracticeHome();openCustomModal();
+  toast(`${ss.size} studied topic${ss.size>1?'s':''} pre-selected — set length & pace, then start`);
+}
 function renderPracticeHome(){
   if(PT.view!=="home")return;
   const bank=allQ();
@@ -1079,7 +1163,10 @@ function renderPracticeHome(){
       <span class="ctpill">${paceLabel}</span>
       <span class="ctpill"><b>${pool}</b> Qs in pool</span>
     </div>
-    <button class="ctbtn" id="opencustom">➕ Create custom test</button>
+    <div class="ctbtns">
+      <button class="ctbtn" id="opencustom">➕ Create custom test</button>
+      <button class="ctbtn alt" id="smarttest" title="Auto-picks every topic you've studied so far">⚡ Test what I've studied</button>
+    </div>
   </div>`;
   /* 2 — full-paper mocks */
   const byYear={};
@@ -1135,6 +1222,7 @@ function bindPractice(){
     if(!secs.length)return toast("Tap at least one section to include");
     showInstructions(mi,secs)});
   const oc=document.getElementById("opencustom");if(oc)oc.onclick=openCustomModal;
+  const stb=document.getElementById("smarttest");if(stb)stb.onclick=smartTest;
   document.querySelectorAll("[data-hist]").forEach(b=>b.onclick=()=>viewAnalysis(+b.dataset.hist));
 }
 /* ===== custom-test modal ===== */
@@ -1489,6 +1577,7 @@ function bind(){
     renderPracticeHome();go("practice");toast("Topic loaded — start your drill")});
   document.querySelectorAll("#modeseg button").forEach(b=>b.onclick=()=>{
     prof.planMode=b.dataset.pm;saveF();render()});
+  const hs=document.getElementById("homesmart");if(hs)hs.onclick=smartTest;
 }
 document.getElementById("filter").querySelectorAll("button").forEach(b=>b.onclick=()=>{
   document.getElementById("filter").querySelectorAll("button").forEach(x=>x.classList.remove("act"));b.classList.add("act");
