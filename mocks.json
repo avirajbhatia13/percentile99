@@ -295,7 +295,8 @@
 "Aesthetic political representation advocates autonomy for the representatives manifested through disinterestedness which itself is different from indifference.",
 "Disinterestedness is different from indifference as the former means a non-subjective evaluation of things which is what constitutes aesthetic political representation.",
 "Disinterestedness, as distinct from indifference, is the basis of political representation."
-]
+],
+"c": null
 },
 {
 "n": 21,
@@ -310,7 +311,8 @@
 "type": "tita",
 "q": "1. Each one personified a different aspect of good fortune.<br>2. The others were versions of popular Buddhist gods, Hindu gods and Daoist gods.<br>3. Seven popular Japanese deities, the Shichi Fukujin, were considered to bring good luck and happiness.<br>4. Although they were included in the Shinto pantheon, only two of them, Daikoku and Ebisu, were indigenous Japanese gods.",
 "ans": "3142",
-"sol": ""
+"sol": "",
+"c": null
 },
 {
 "n": 23,
@@ -331,7 +333,8 @@
 "From the belief that humans invented language to process factual information, scholars now think that language was the outcome of the need to ensure social cohesion and thus human survival.",
 "Since its origin, language has been continuously evolving to higher forms, from being used to identify objects to ensuring human survival by enabling our ancestors to bond and cooperate.",
 "Experts are challenging the narrow view of the origin of language, as being merely used to describe facts and label"
-]
+],
+"c": null
 },
 {
 "n": 25,
@@ -684,7 +687,8 @@
 "94%",
 "89%"
 ],
-"sub": "Alligation & Mixture"
+"sub": "Alligation & Mixture",
+"c": null
 },
 {
 "n": 52,
@@ -698,7 +702,8 @@
 "4.8",
 "4.2"
 ],
-"sub": "Time Speed Distance"
+"sub": "Time Speed Distance",
+"c": null
 },
 {
 "n": 53,
@@ -711,7 +716,8 @@
 "8",
 "6",
 "12"
-]
+],
+"c": null
 },
 {
 "n": 54,
@@ -725,7 +731,8 @@
 "11 : 00 am",
 "11 : 20 am"
 ],
-"sub": "Time Speed Distance"
+"sub": "Time Speed Distance",
+"c": null
 },
 {
 "n": 55,
@@ -738,7 +745,8 @@
 "417",
 "439",
 "357"
-]
+],
+"c": null
 },
 {
 "n": 57,
@@ -746,7 +754,8 @@
 "q": "In a trapezium ABCD, AB is parallel to DC, BC is perpendicular to DC and ∠BAD = 45°. If DC = 5 cm, BC = 4cm, the area of the<br>trapezium in sq cm is (in numerical value)",
 "ans": "28",
 "sol": "Required Area = (5 × 4) + ½ x 4 x 4 = 28",
-"sub": "Quadrilaterals"
+"sub": "Quadrilaterals",
+"c": null
 },
 {
 "n": 58,
@@ -760,14 +769,16 @@
 "0",
 "15.9375"
 ],
-"sub": "Functions"
+"sub": "Functions",
+"c": null
 },
 {
 "n": 59,
 "type": "tita",
 "q": "(in numerical value)",
 "ans": "24,6",
-"sol": "(2 × 4 × 8 × 16) / (4 × 27/8 × 256/81) = 24"
+"sol": "(2 × 4 × 8 × 16) / (4 × 27/8 × 256/81) = 24",
+"c": null
 },
 {
 "n": 60,
@@ -775,7 +786,8 @@
 "q": "Let N, x and y be positive integers such that N = x + y, 2 &lt; x &lt; 10 and 14 &lt; y &lt; 23. If N &gt; 25, then how many distinct values are<br>possible for N? (in numerical value)",
 "ans": "6,252,18",
 "sol": "N=x + y<br>Minimum of x + y = 3 + 15 =18<br>Maximum value of x + y = 9 + 22 = 31<br>Now as N &gt; 25, so all values from 26 to 31 are possible.<br>6 values are possible",
-"sub": "Numbers Basics"
+"sub": "Numbers Basics",
+"c": null
 },
 {
 "n": 61,
@@ -789,7 +801,8 @@
 "31",
 "35"
 ],
-"sub": "Profit & Loss"
+"sub": "Profit & Loss",
+"c": null
 },
 {
 "n": 62,
@@ -803,7 +816,8 @@
 "26",
 "29"
 ],
-"sub": "Time Speed Distance"
+"sub": "Time Speed Distance",
+"c": null
 },
 {
 "n": 63,
@@ -811,7 +825,8 @@
 "q": "How many integers in the set {100, 101, 102, ..., 999} have at least one digit repeated? (in numerical value)",
 "ans": "252",
 "sol": "Three digit numbers without repetition = 9 × 9 × 8 = 648<br>So three digit numbers with at least one digit repeated = 900 – 648 = 252",
-"sub": "Numbers Basics"
+"sub": "Numbers Basics",
+"c": null
 },
 {
 "n": 64,
@@ -825,7 +840,8 @@
 "3",
 "4"
 ],
-"sub": "Averages"
+"sub": "Averages",
+"c": null
 },
 {
 "n": 65,
@@ -839,7 +855,8 @@
 "k = 2",
 "|k| ≠ 2"
 ],
-"sub": "Simple Equations"
+"sub": "Simple Equations",
+"c": null
 },
 {
 "n": 66,
@@ -847,7 +864,8 @@
 "q": "Dick is thrice as old as Tom and Harry is twice as old as Dick. If Dick&#x27;s age is 1 year less than the average age of all three, then<br>Harry&#x27;s age, in years, is (in numerical value)",
 "ans": "18,1600,3",
 "sol": "Let age of Tom = x<br>So age of Dick = 3x and Harry = 6x<br>So (x + 3x + 6x)/3 - 3x = 1<br>x=3<br>So Harry’s age = 18",
-"sub": "Averages"
+"sub": "Averages",
+"c": null
 },
 {
 "n": 68,
@@ -855,14 +873,16 @@
 "q": "A person invested a certain amount of money at 10% annual interest, compounded half-yearly. After one and a half years, the<br>interest and principal together became Rs 18522. The amount, in rupees, that the person had invested is (in numerical value)",
 "ans": "1600",
 "sol": "P ( 1 +5/100)3 = 18522<br>P = 16000",
-"sub": "SI & CI"
+"sub": "SI & CI",
+"c": null
 },
 {
 "n": 69,
 "type": "tita",
 "q": "(in numerical value)",
 "ans": "3",
-"sol": "14a = 36b = 84c = K<br>14 = k1/a<br>84 = k1/c<br><br>36 = k1/b<br><br>(84/14)2 = 36<br><br>K(2/c – 2/a) = K1/b<br>2(1/c – 1/a) = 1/b<br>2b(1/c - 1/a) = 1<br>So 6b(1/c - 1/a) = 3"
+"sol": "14a = 36b = 84c = K<br>14 = k1/a<br>84 = k1/c<br><br>36 = k1/b<br><br>(84/14)2 = 36<br><br>K(2/c – 2/a) = K1/b<br>2(1/c – 1/a) = 1/b<br>2b(1/c - 1/a) = 1<br>So 6b(1/c - 1/a) = 3",
+"c": null
 },
 {
 "n": 70,
@@ -876,7 +896,8 @@
 "12",
 "13"
 ],
-"sub": "Logarithms"
+"sub": "Logarithms",
+"c": null
 },
 {
 "n": 71,
@@ -889,7 +910,8 @@
 "4",
 "3",
 "1"
-]
+],
+"c": null
 },
 {
 "n": 72,
@@ -903,7 +925,8 @@
 "-5050",
 "-5151"
 ],
-"sub": "Numbers Basics"
+"sub": "Numbers Basics",
+"c": null
 },
 {
 "n": 73,
@@ -917,14 +940,16 @@
 "41",
 "43"
 ],
-"sub": "Numbers Basics"
+"sub": "Numbers Basics",
+"c": null
 },
 {
 "n": 74,
 "type": "tita",
 "q": "A contractor agreed to construct a 6 km road in 200 days. He employed 140 persons for the work. After 60 days, he realized<br>that only 1.5 km road has been completed. How many additional people would he need to employ in order to finish the work<br>exactly on time? (in numerical value)",
 "ans": "40",
-"sol": "To complete 1.5 km, 140 persons took 60 days<br>So to complete the remaining 4.5 km, 140 persons would have taken = 60×3 = 180 days<br>Now to complete 180 days work in (200 – 60) = 140 days:<br>Number of persons required = 140 × 180/140 = 180<br>Additional persons = 180 – 140 = 40"
+"sol": "To complete 1.5 km, 140 persons took 60 days<br>So to complete the remaining 4.5 km, 140 persons would have taken = 60×3 = 180 days<br>Now to complete 180 days work in (200 – 60) = 140 days:<br>Number of persons required = 140 × 180/140 = 180<br>Additional persons = 180 – 140 = 40",
+"c": null
 },
 {
 "n": 75,
@@ -938,7 +963,8 @@
 "2018",
 "2020"
 ],
-"sub": "Numbers Basics"
+"sub": "Numbers Basics",
+"c": null
 },
 {
 "n": 76,
@@ -952,7 +978,8 @@
 "7",
 "6"
 ],
-"sub": "Quadratic Equations"
+"sub": "Quadratic Equations",
+"c": null
 }
 ],
 "skip": 2
@@ -1213,7 +1240,8 @@
 "type": "tita",
 "q": "1. But the attention of the layman, not surprisingly, has been captured by the atom bomb, although there is at least a chance<br>that it may never be used again.<br>2. Of all the changes introduced by man into the household of nature, [controlled] large-scale nuclear fission is undoubtedly<br>the most dangerous and most profound.<br>3. The danger to humanity created by the so-called peaceful uses of atomic energy may, however, be much greater.<br>4. The resultant ionizing radiation has become the most serious agent of pollution of the environment and the greatest threat<br>to man’s survival on earth.",
 "ans": "2413",
-"sol": ""
+"sol": "",
+"c": null
 },
 {
 "n": 20,
@@ -1228,14 +1256,16 @@
 "type": "tita",
 "q": "1. It also has four movable auxiliary telescopes 1.8 m in diameter.<br>2. Completed in 2006, the Very Large Telescope (VLT) has four reflecting telescopes,8.2 m in diameter that can observe objects<br>4 billion times weaker than can normally be seen with the naked eye.<br>3. This configuration enables one to distinguish an astronaut on the Moon.<br>4. When these are combined with the large telescopes, they produce what is called interferometry: a simulation of the power of<br>a mirror 16 m in diameter and the resolution of a telescope of 200 m.",
 "ans": "2143",
-"sol": ""
+"sol": "",
+"c": null
 },
 {
 "n": 22,
 "type": "tita",
 "q": "1. While you might think that you see or are aware of all the changes that happen in your immediate environment, there is<br>simply too much information for your brain to fully process everything.<br>2. Psychologists use the term ‘change blindness’ to describe this tendency of people to be blind to changes though they are in<br>the immediate environment.<br>3. It cannot be aware of every single thing that happens in the world around you.<br>4. Sometimes big shifts happen in front of your eyes and you are not at all aware of these changes.",
 "ans": "1342",
-"sol": ""
+"sol": "",
+"c": null
 },
 {
 "n": 23,
@@ -1284,7 +1314,8 @@
 "With the diversity of urban landscapes, measurable criteria for defining urban areas may need to be supplemented with human judgement.",
 "Current methodologies used to define urban and rural areas are no longer relevant to our being able to study trends in urbanisation.",
 "Distinguishing between urban and rural areas might call for some judgement on the objective methodology being used"
-]
+],
+"c": null
 }
 ],
 "skip": 2
@@ -1588,7 +1619,8 @@
 "type": "tita",
 "q": "A sum of money is split among Amal, Sunil and Mita so that the ratio of the shares of Amal and Sunil is 3:2, while the ratio of<br>the shares of Sunil and Mita is 4:5. If the difference between the largest and the smallest of these three shares is Rs 400, then<br>Sunil’s share, in rupees, is",
 "ans": "800",
-"sol": "Given that Amal : Sunil = 3 : 2.<br>Also, Sunil : Mita = 4 : 5<br>On combining the ratio we get Amal : Sunil : Mita = 6 : 4 : 5<br>So, let their shares be 6x, 4x and 5x<br>According to the question 6x – 4x = 400<br>2x = 400<br>x = 200<br>So, Sunil’s share = 4x = 4 × 200 = 800"
+"sol": "Given that Amal : Sunil = 3 : 2.<br>Also, Sunil : Mita = 4 : 5<br>On combining the ratio we get Amal : Sunil : Mita = 6 : 4 : 5<br>So, let their shares be 6x, 4x and 5x<br>According to the question 6x – 4x = 400<br>2x = 400<br>x = 200<br>So, Sunil’s share = 4x = 4 × 200 = 800",
+"c": null
 },
 {
 "n": 52,
@@ -1596,7 +1628,8 @@
 "q": "The number of pairs of integers (x, y) satisfy x ≥ y ≥ - 20 and 2x + 5y = 99 is",
 "ans": "17,17",
 "sol": "2x + 5y = 99 also it is given that x ≥ y ≥ -20<br>So, possible cases are<br>x<br><br>y<br><br>x<br><br>y<br><br>47<br><br>1<br><br>52<br><br>-1<br><br>42<br><br>3<br><br>57<br><br>-3<br><br>37<br><br>5<br><br>62<br><br>-5<br><br>32<br><br>7<br><br>67<br><br>-7<br><br>27<br><br>9<br><br>72<br><br>-9<br><br>22<br><br>11<br><br>77<br><br>-11<br><br>17<br><br>13<br><br>82<br><br>-13<br><br>87<br><br>-15<br><br>92<br><br>-17<br><br>97<br><br>-19<br><br>So, total 17 cases are there",
-"sub": "Numbers Basics"
+"sub": "Numbers Basics",
+"c": null
 },
 {
 "n": 53,
@@ -1610,7 +1643,8 @@
 "3",
 "5"
 ],
-"sub": "Numbers Basics"
+"sub": "Numbers Basics",
+"c": null
 },
 {
 "n": 54,
@@ -1618,7 +1652,8 @@
 "q": "For the same principal amount, the compound interest for two years at 5% per annum exceeds the simple interest for three<br>years at 3% per annum by Rs. 1125.Then the principal amount in rupees is",
 "ans": "90000",
 "sol": "Let the principal = 8000<br>So, simple interest for 3 years @ 3% per annum = Rs.720<br>Compound interest for 2 years @ 5% per annum = Rs.820<br>Difference = Rs.100<br>So, using unitary method<br>When difference is 100 principal is 8000<br>When difference is 1125 principal is 90000",
-"sub": "SI & CI"
+"sub": "SI & CI",
+"c": null
 },
 {
 "n": 55,
@@ -1631,7 +1666,8 @@
 "33",
 "30",
 "27"
-]
+],
+"c": null
 },
 {
 "n": 56,
@@ -1644,7 +1680,8 @@
 "Rs. 570",
 "Rs. 580",
 "Rs. 590"
-]
+],
+"c": null
 },
 {
 "n": 57,
@@ -1652,7 +1689,8 @@
 "q": "How many 4-digit numbers, each greater than 1000 and each having all four digits distinct, are there with 7 coming before 3?",
 "ans": "315,2704",
 "sol": "Case I: When 7 is at first place then 3 can be any of the three places<br>= 1 × 1 × 8 × 7 + 1 × 8 × 1 × 7 + 1 × 8 × 7 × 1 = 168<br>Case II: When 3 is at the last place<br>= 7 × 1 × 7 × 1 + 7 × 7 × 1 × 1 = 98<br>Case III: When both 7 and 3 are in middle places<br>= 7 × 1 × 1 × 7 = 49<br>So, total cases = 168 + 98 + 49 = 315",
-"sub": "Numbers Basics"
+"sub": "Numbers Basics",
+"c": null
 },
 {
 "n": 58,
@@ -1660,7 +1698,8 @@
 "q": "If x and y are positive real numbers satisfying x + y = 102, then the minimum possible value of",
 "ans": "2704",
 "sol": "Since we need to find the minimum value and as we know that minimum value will occur when we have<br>symmetry. So, as x + y = 102. We have x = 51 and y = 51.<br>So, the minimum possible value of 2601 (1 + 1/x) (1 + 1/y) = 2704",
-"sub": "Inequalities"
+"sub": "Inequalities",
+"c": null
 },
 {
 "n": 59,
@@ -1674,7 +1713,8 @@
 "7",
 "6"
 ],
-"sub": "Permutations & Combinations"
+"sub": "Permutations & Combinations",
+"c": null
 },
 {
 "n": 60,
@@ -1688,7 +1728,8 @@
 "3",
 "4"
 ],
-"sub": "Circular Tracks"
+"sub": "Circular Tracks",
+"c": null
 },
 {
 "n": 61,
@@ -1702,7 +1743,8 @@
 "16",
 "0"
 ],
-"sub": "Functions"
+"sub": "Functions",
+"c": null
 },
 {
 "n": 62,
@@ -1710,7 +1752,8 @@
 "q": "Let C1and C2 be concentric circles such that the diameter of C1 is 2cm longer than that of C2. If a chord of C1 has length 6cm<br>and is a tangent of C2, then the diameter, in cm, of C1 is",
 "ans": "10",
 "sol": "If the diameter of circle C1 is 2 more than the diameter of circle C2 so we can say that radius of C1 is 1 more than<br>the radius of circle C2. As shown below in the figure,<br><br>Now, we can say that it must satisfy Pythagoras property<br>So, x will be 4 and x + 1 will be 5 i.e. radius of circle C1 is 5 cm.<br>So, diameter of circle C1 is 10 cm.",
-"sub": "Circles"
+"sub": "Circles",
+"c": null
 },
 {
 "n": 63,
@@ -1724,7 +1767,8 @@
 "24",
 "27"
 ],
-"sub": "Triangles"
+"sub": "Triangles",
+"c": null
 },
 {
 "n": 64,
@@ -1738,7 +1782,8 @@
 "5:7",
 "4:1"
 ],
-"sub": "Time Speed Distance"
+"sub": "Time Speed Distance",
+"c": null
 },
 {
 "n": 65,
@@ -1752,7 +1797,8 @@
 "4",
 "6"
 ],
-"sub": "Averages"
+"sub": "Averages",
+"c": null
 },
 {
 "n": 66,
@@ -1766,7 +1812,8 @@
 "2",
 "-4"
 ],
-"sub": "Geometric Progression"
+"sub": "Geometric Progression",
+"c": null
 },
 {
 "n": 68,
@@ -1780,7 +1827,8 @@
 "475",
 "450"
 ],
-"sub": "TSD – Linear Races"
+"sub": "TSD – Linear Races",
+"c": null
 },
 {
 "n": 70,
@@ -1793,7 +1841,8 @@
 "22",
 "20",
 "21"
-]
+],
+"c": null
 },
 {
 "n": 71,
@@ -1807,7 +1856,8 @@
 "55",
 "50"
 ],
-"sub": "Profit & Loss"
+"sub": "Profit & Loss",
+"c": null
 },
 {
 "n": 73,
@@ -1815,7 +1865,8 @@
 "q": "John takes twice as much time as Jack to finish a job. Jack and Jim together take one-thirds of the time to finish the job than<br>John takes working alone. Moreover, in order to finish the job, John takes three days more than that taken by three of them<br>working together. In how many days will Jim finish the job working alone?",
 "ans": "4",
 "sol": "Since John takes twice as much as Jack to finish a job. So, efficiency of John and jack is 1:2. Also, Jack and Jim<br>together take one-third of the time to finish the job than John. So, efficiency of Jack + Jim and John is 3:1.<br>So, efficiency of John, Jack and Jim is 1:2:1 respectively.<br>Now, let all of them together took ‘x’ days so John alone take x + 3 days.<br>So, x (1 + 2 + 1) = x + 3<br>On solving, we get x = 1<br>So, John takes = 4 days, Jack = 4/2 = 2 days and Jim = 4 days",
-"sub": "Time & Work"
+"sub": "Time & Work",
+"c": null
 },
 {
 "n": 75,
@@ -1823,7 +1874,8 @@
 "q": "If x and y are non-negative integers such that x + 9 = z, y + 1 = z and x + y &lt; z + 5,then the maximum possible value of",
 "ans": "23",
 "sol": "x + 9 = z ______ (1)<br>y + 1 = z _______ (2)<br>Adding (1) and (2), we get<br>x + y +10 = 2z<br>⇒ x + y = 2z – 10<br>Now, x + y &lt; z + 5<br>2z – 10 &lt; z + 5<br>z &lt; 15<br>Therefore, Maximum z = 14<br>From eq”(1), Maximum x = z – 9 = 5<br>From eq”(2), Maximum y = z – 1 = 13<br>Max.(2x + y) = 2 × 5 + 13 = 23",
-"sub": "Inequalities"
+"sub": "Inequalities",
+"c": null
 },
 {
 "n": 76,
@@ -1837,7 +1889,8 @@
 "7.8",
 "6.6"
 ],
-"sub": "Circles"
+"sub": "Circles",
+"c": null
 }
 ],
 "skip": 4
@@ -2122,7 +2175,8 @@
 "type": "tita",
 "q": "1. Tensions and sometimes conflict remain an issue in and between the 11 states in South East Asia (Brunei Darussalam,<br>Cambodia, Indonesia, Laos, Malaysia, Myanmar, the Philippines, Singapore, Thailand, Timor-Leste and Vietnam).<br>2. China’s rise as a regional military power and its claims in the South China Sea have become an increasingly pressing security<br>concern for many South East Asian states.<br>3. Since the 1990s, the security environment of South East Asia has seen both continuity and profound changes.<br>4. These concerns cause states from outside the region to take an active interest in South East Asian security.",
 "ans": "3124",
-"sol": ""
+"sol": "",
+"c": null
 },
 {
 "n": 22,
@@ -2500,14 +2554,16 @@
 "9",
 "8",
 "10"
-]
+],
+"c": null
 },
 {
 "n": 52,
 "type": "tita",
 "q": "A gentleman decided to treat a few children in the following manner. He gives half of his total stock of toffees and one extra to<br>the first child, and then the half of the remaining stock along with one extra to the second and continues giving away in this<br>fashion. His total stock exhausts after he takes care of 5 children. How many toffees were there in his stock initially?",
 "ans": "62",
-"sol": "Let the number of toffees be x.<br>Toffees Given to first child = (x/2)+1<br>Toffees given to second child= (1/2) (x- (x/2) -1) + 1 = (x/4)+(1/2)<br>We find the symmetry in the pattern of toffees distribution,<br>Therefore toffees distribution done [(x/2)+1] ,[(x/4)+(1/2)] ,[(x/8)+(1/4)] ,[(x/16)+(1/8)] ,[(x/32)+(1/16)]<br>⇒ [(x/2)+1] + [(x/4)+(1/2)] + [(x/8)+(1/4)] + [(x/16)+(1/8)] + [(x/32)+(1/16)] = x<br>⇒ (62/32) = x – (31/32)x<br>⇒ x=62"
+"sol": "Let the number of toffees be x.<br>Toffees Given to first child = (x/2)+1<br>Toffees given to second child= (1/2) (x- (x/2) -1) + 1 = (x/4)+(1/2)<br>We find the symmetry in the pattern of toffees distribution,<br>Therefore toffees distribution done [(x/2)+1] ,[(x/4)+(1/2)] ,[(x/8)+(1/4)] ,[(x/16)+(1/8)] ,[(x/32)+(1/16)]<br>⇒ [(x/2)+1] + [(x/4)+(1/2)] + [(x/8)+(1/4)] + [(x/16)+(1/8)] + [(x/32)+(1/16)] = x<br>⇒ (62/32) = x – (31/32)x<br>⇒ x=62",
+"c": null
 },
 {
 "n": 53,
@@ -2515,7 +2571,8 @@
 "q": "Veeru invested Rs 10000 at 5% simple annual interest, and exactly after two years, Joy invested Rs 8000 at 10% simple annual<br>interest. How many years after Veeru’s investment, will their balances, i.e., principal plus accumulated interest, be equal?",
 "ans": "12",
 "sol": "Let x be the number of year after which veeru amount will be equal to Joy amount.<br><br>So, (principle + Interest) for Veeru after x year = 10,000 + 10,000<br><br>and (principle + Interest) for Joy after (x – 2) years =<br><br>8000 + 8000<br><br>Accroding to given condtion,<br>⇒ 10000 + 500x = 800 + 800x – 1600 ⇒ x = 12",
-"sub": "SI & CI"
+"sub": "SI & CI",
+"c": null
 },
 {
 "n": 56,
@@ -2529,7 +2586,8 @@
 "50",
 "67"
 ],
-"sub": "Percentages"
+"sub": "Percentages",
+"c": null
 },
 {
 "n": 57,
@@ -2543,7 +2601,8 @@
 "Infinite",
 "2"
 ],
-"sub": "Simple Equations"
+"sub": "Simple Equations",
+"c": null
 },
 {
 "n": 58,
@@ -2551,7 +2610,8 @@
 "q": "A solution, of volume 40 litres, has dye and water in the proportion 2 : 3. Water is added to the solution to change this<br>proportion to 2 : 5. If one-fourths of this diluted solution is taken out, how many litres of dye must be added to the remaining<br>solution to bring the proportion back to 2 : 3?",
 "ans": "8",
 "sol": "Dye<br>40L<br>⇒<br>2<br>⇒<br>16<br><br>:<br><br>Water<br>3<br>24<br><br>Now, water is added and ratio becomes 2:5 but dye volume in the solution is same<br>Let, x L<br>⇒<br>2<br>:<br>5<br>⇒<br>16<br>?<br>⇒<br>16<br>40<br>Now, one fourth of solution taken out<br>⇒<br>12<br>30<br>Now, dye is added but water volume remain same and ratio become 2:3<br>Let y2 ⇒<br><br>2<br>?<br><br>:<br><br>∴ 50L ⇒<br>2<br>:<br>⇒<br>20<br>This means 8L dye is added.<br><br>3<br>30<br>3<br>30",
-"sub": "Alligation & Mixture"
+"sub": "Alligation & Mixture",
+"c": null
 },
 {
 "n": 59,
@@ -2565,7 +2625,8 @@
 "7",
 "6"
 ],
-"sub": "Averages"
+"sub": "Averages",
+"c": null
 },
 {
 "n": 60,
@@ -2573,7 +2634,8 @@
 "q": "How many 3-digit numbers are there, for which the product of their digits is more than 2 but less than 7?",
 "ans": "21",
 "sol": "113, 114, 115, 116, 122<br><br>cases for each number. 123 ⇒ 3! = 6 cases for 123. ∴ Total = 15 + 6 = 21",
-"sub": "Numbers Basics"
+"sub": "Numbers Basics",
+"c": null
 },
 {
 "n": 61,
@@ -2587,7 +2649,8 @@
 "90",
 "70"
 ],
-"sub": "Time Speed Distance"
+"sub": "Time Speed Distance",
+"c": null
 },
 {
 "n": 62,
@@ -2595,7 +2658,8 @@
 "q": "If log4 5 = (log4 y) (log6√5), then y equals",
 "ans": "36",
 "sol": "",
-"sub": "Logarithms"
+"sub": "Logarithms",
+"c": null
 },
 {
 "n": 63,
@@ -2609,7 +2673,8 @@
 "256",
 "264"
 ],
-"sub": "Mensuration"
+"sub": "Mensuration",
+"c": null
 },
 {
 "n": 64,
@@ -2623,7 +2688,8 @@
 "75",
 "82"
 ],
-"sub": "Time Speed Distance"
+"sub": "Time Speed Distance",
+"c": null
 },
 {
 "n": 66,
@@ -2637,7 +2703,8 @@
 "40",
 "20"
 ],
-"sub": "Quadratic Equations"
+"sub": "Quadratic Equations",
+"c": null
 },
 {
 "n": 70,
@@ -2651,7 +2718,8 @@
 "56",
 "46"
 ],
-"sub": "Numbers Basics"
+"sub": "Numbers Basics",
+"c": null
 },
 {
 "n": 71,
@@ -2659,7 +2727,8 @@
 "q": "The area of the region satisfying the inequalities |x| - y ≤ 1, y ≥ 0 and y ≤ 1 is",
 "ans": "3",
 "sol": "x| - y ≤ 1, y ≥ 0, y ≤ 1<br>If x &gt; 0 ⇒ x – y = 1 ……… (1)<br>And x &lt; 0 ⇒ x – y = 1<br>Or x + y = -1 ……………. (2)<br>Put x = 0 in (1), y = -1<br>Put y = 0 in (1) x = 1<br>Put y = 1 in (1), x = 2<br>Put x = 0 in (2), y = -1<br>Y = 0 in (2), x = -1<br>Y = 1 in (2), x = -2<br>Shaded area is trapezium = ½ [ 2 + 4] × 1 = 35q.units",
-"sub": "Inequalities"
+"sub": "Inequalities",
+"c": null
 },
 {
 "n": 72,
@@ -2673,7 +2742,8 @@
 "66",
 "62"
 ],
-"sub": "Percentages"
+"sub": "Percentages",
+"c": null
 },
 {
 "n": 73,
@@ -2687,7 +2757,8 @@
 "5544",
 "4466"
 ],
-"sub": "Averages"
+"sub": "Averages",
+"c": null
 },
 {
 "n": 74,
@@ -2701,7 +2772,8 @@
 "84",
 "96"
 ],
-"sub": "Alligation & Mixture"
+"sub": "Alligation & Mixture",
+"c": null
 },
 {
 "n": 75,
@@ -2709,7 +2781,8 @@
 "q": "A person spent Rs 50000 to purchase a desktop computer and a laptop computer. He sold the desktop at 20% profit and the<br>laptop at 10% loss. If overall he made a 2% profit then the purchase price, in rupees, of the desktop is",
 "ans": "20000",
 "sol": "Let the purchase price of develop be x ∴ 1.2x + 0.9 (50000-x) = 1.02 × 50000",
-"sub": "Profit & Loss"
+"sub": "Profit & Loss",
+"c": null
 },
 {
 "n": 76,
@@ -2723,7 +2796,8 @@
 "8",
 "2"
 ],
-"sub": "Simple Equations"
+"sub": "Simple Equations",
+"c": null
 }
 ],
 "skip": 6
@@ -3123,7 +3197,8 @@
 "type": "tita",
 "q": "1. The process of handing down implies not a passive transfer, but some contestation in defining what exactly is to be handed<br>down.<br>2. Wherever Western scholars have worked on the Indian past, the selection is even more apparent and the inventing of a<br>tradition much more recognizable.<br>3. Every generation selects what it requires from the past and makes its innovations, some more than others.<br>4. It is now a truism to say that traditions are not handed down unchanged, but are invented.<br>5. Just as life has death as its opposite, so is tradition by default the opposite of innovation.",
 "ans": "54132",
-"sol": ""
+"sol": "",
+"c": null
 },
 {
 "n": 29,
@@ -3154,7 +3229,8 @@
 "type": "tita",
 "q": "1. People who study children&#x27;s language spend a lot of time watching how babies react to the speech they hear around them.<br>2. They make films of adults and babies interacting, and examine them very carefully to see whether the babies show any signs<br>of understanding what the adults say.<br>3. They believe that babies begin to react to language from the very moment they are born.<br>4. Sometimes the signs are very subtle - slight movements of the baby&#x27;s eyes or the head or the hands.<br>5. You&#x27;d never notice them if you were just sitting with the child, but by watching a recording over and over, you can spot them.",
 "ans": "3",
-"sol": ""
+"sol": "",
+"c": null
 },
 {
 "n": 33,
@@ -3606,7 +3682,8 @@
 "q": "Arun&#x27;s present age in years is 40% of Barun&#x27;s. In another few years, Arun&#x27;s age will be half of Barun&#x27;s. By what percentage will<br>Barun&#x27;s age increase during this period?",
 "ans": "20",
 "sol": "Let Barun’s age be 10x. Arun’s age is 4x. The difference of these ages in 6x, a constant. When Arun’s age is 50% of<br>Barun’s age, this difference also would be 50% ie Barun’s age, at that stage would be 12x. It would be increase by 20%.",
-"sub": "Percentages"
+"sub": "Percentages",
+"c": null
 },
 {
 "n": 68,
@@ -3614,14 +3691,16 @@
 "q": "A person can complete a job in 120 days. He works alone on Day 1. On Day 2, he is joined by another person who also can<br>complete the job in exactly 120 days. On Day 3, they are joined by another person of equal efficiency. Like this, everyday a new<br>person with the same efficiency joins the work. How many days are required to complete the job?",
 "ans": "15",
 "sol": "Let the number of days required to complete the job be n.<br>1 person works on day 1, 2 on day 2, 3 on day 3, …. n on day n.<br>Each person has the same efficiency.",
-"sub": "Time & Work"
+"sub": "Time & Work",
+"c": null
 },
 {
 "n": 69,
 "type": "tita",
 "q": "An elevator has a weight limit of 630 kg. It is carrying a group of people of whom the heaviest weighs 57 kg and the lightest<br>weighs 53 kg. What is the maximum possible number of people in the group?",
 "ans": "11",
-"sol": "Number of people in the group cannot exceed<br>Maximum possible number of people in the group = 11."
+"sol": "Number of people in the group cannot exceed<br>Maximum possible number of people in the group = 11.",
+"c": null
 },
 {
 "n": 70,
@@ -3629,7 +3708,8 @@
 "q": "A man leaves his home and walks at a speed of 12 km per hour, reaching the railway station 10 minutes after the train had<br>departed. If instead he had walked at a speed of 15 km per hour, he would have reached the station 10 minutes before the<br>train&#x27;s departure. The distance (in km) from his home to the railway station is",
 "ans": "20",
 "sol": "The speed in the second case is 5/4 times the speed in the first case. Therefore, the time would be 4/5 times the<br>time, i.e., 1/5 less. This one fifth is 20 min. Therefore, the time taken in the first case is 100 min.",
-"sub": "Time Speed Distance"
+"sub": "Time Speed Distance",
+"c": null
 },
 {
 "n": 71,
@@ -3637,7 +3717,8 @@
 "q": "Ravi invests 50% of his monthly savings in fixed deposits. Thirty percent of the rest of his savings is invested in stocks and the<br>rest goes into Ravi&#x27;s savings bank account. If the total amount deposited by him in the bank (for savings account and fixed<br>deposits) is Rs 59500, then Ravi&#x27;s total monthly savings (in Rs) is",
 "ans": "70000",
 "sol": "Let the total monthly savings be S.<br><br>S = 70000",
-"sub": "Percentages"
+"sub": "Percentages",
+"c": null
 },
 {
 "n": 74,
@@ -3651,7 +3732,8 @@
 "348 crore",
 "345 crore"
 ],
-"sub": "Profit & Loss"
+"sub": "Profit & Loss",
+"c": null
 },
 {
 "n": 75,
@@ -3665,7 +3747,8 @@
 "60",
 "65"
 ],
-"sub": "Percentages"
+"sub": "Percentages",
+"c": null
 },
 {
 "n": 76,
@@ -3678,7 +3761,8 @@
 "8: 7",
 "4: 3",
 "6: 5"
-]
+],
+"c": null
 },
 {
 "n": 77,
@@ -3692,7 +3776,8 @@
 "10%",
 "12%"
 ],
-"sub": "Profit & Loss"
+"sub": "Profit & Loss",
+"c": null
 },
 {
 "n": 78,
@@ -3706,7 +3791,8 @@
 "24%",
 "28%"
 ],
-"sub": "Profit & Loss"
+"sub": "Profit & Loss",
+"c": null
 },
 {
 "n": 79,
@@ -3720,7 +3806,8 @@
 "1: 4",
 "25: 4"
 ],
-"sub": "Numbers Basics"
+"sub": "Numbers Basics",
+"c": null
 },
 {
 "n": 80,
@@ -3734,7 +3821,8 @@
 "4.5",
 "6"
 ],
-"sub": "Averages"
+"sub": "Averages",
+"c": null
 },
 {
 "n": 81,
@@ -3748,7 +3836,8 @@
 "8",
 "2π"
 ],
-"sub": "Simple Equations"
+"sub": "Simple Equations",
+"c": null
 },
 {
 "n": 83,
@@ -3762,7 +3851,8 @@
 "9π",
 "9"
 ],
-"sub": "Triangles"
+"sub": "Triangles",
+"c": null
 },
 {
 "n": 84,
@@ -3776,7 +3866,8 @@
 "60",
 "20"
 ],
-"sub": "Percentages"
+"sub": "Percentages",
+"c": null
 },
 {
 "n": 85,
@@ -3784,7 +3875,8 @@
 "q": "A ball of diameter 4 cm is kept on top of a hollow cylinder standing vertically. The height of the cylinder is 3 cm, while its<br>volume is 9 π cm3. Then the vertical distance, in cm, of the topmost point of the ball from the base of the cylinder is",
 "ans": "6",
 "sol": "The height of the cylinder (h) = 3<br>The volume = 9π<br>πr2h = 9π ⇒ r = √3<br>The radius of the ball (R) = 2<br>The height of O, the centre of the ball, above the line representing the top of the cylinder is say a.<br>(a = 1)<br>∴ The height of the topmost point of the ball from the base of the cylinder is h + a +R = 3 + 1 + 2 = 6",
-"sub": "Time Speed Distance"
+"sub": "Time Speed Distance",
+"c": null
 },
 {
 "n": 86,
@@ -3792,7 +3884,8 @@
 "q": "Let ABC be a right-angled triangle with BC as the hypotenuse. Lengths of AB and AC are 15 km and 20 krn, respectively. The<br>minimum possible time, in minutes, required to reach the hypotenuse from A at a speed of 30 km per hour is",
 "ans": "24",
 "sol": "In a 3, 4, 5 triangle, the length of the altitude to the hypotenuse = 3(4)/5 = 2.4. Therefore, in a 15, 20, 25 triangle,<br>it is 12. This is the shortest distance from A to BC. At 60 km/hr, i.e., 1 km/min, it would take 24 min to cover 24 km.",
-"sub": "Time Speed Distance"
+"sub": "Time Speed Distance",
+"c": null
 },
 {
 "n": 90,
@@ -3805,7 +3898,8 @@
 "9/4",
 "4/9",
 "1/3"
-]
+],
+"c": null
 },
 {
 "n": 91,
@@ -3819,7 +3913,8 @@
 "87",
 "105"
 ],
-"sub": "Simple Equations"
+"sub": "Simple Equations",
+"c": null
 },
 {
 "n": 92,
@@ -3827,7 +3922,8 @@
 "q": "For how many integers n, will the inequality (n – 5) (n – 10) – 3(n – 2) ≤ 0 be satisfied?",
 "ans": "11",
 "sol": "(n – 5) (n – 10) – 3(n – 2) ≤ 0<br><br>⇒ n2 – 18n + 56 ≤ 0<br>⇒ (n – 4) (n – 14) ≤ 0<br><br>As n is an integer, n can be 4, 5, 6 ……14, i.e. it can have 11 values.",
-"sub": "Inequalities"
+"sub": "Inequalities",
+"c": null
 },
 {
 "n": 93,
@@ -3835,7 +3931,8 @@
 "q": "If f1(x) = x2 + 11x + n and f2(x) = x, then the largest positive integer n for which the equation f1(x) = f2 (x) has two distinct real<br>roots, is",
 "ans": "24",
 "sol": "x2 + 11x + n = x ⇒ x2 + 10x + n = 0<br>x2 + 10x + 25 = 0 has real and equal roots<br><br>x2 + 10x + n = 0 where n &gt; 25 has complex roots.<br>The maximum value of n for which the equation has two distinct real roots in 24.",
-"sub": "Simple Equations"
+"sub": "Simple Equations",
+"c": null
 },
 {
 "n": 94,
@@ -3843,7 +3940,8 @@
 "q": "If a, b, c, and d are integers such that a + b + c + d = 30, then the minimum possible value of (a - b)2 + (a - c)2 + (a - d)2 is",
 "ans": "2",
 "sol": "a + b + c + d = 30, a, b, c, d are integers.<br><br>(a – b)2 + (a – c)2 + (a – d)2 would have its maximum value when each bracket has the least possible value.<br>Let (a, b, c, d) = (8, 8, 7, 7)<br>The given expression would be 2. It cannot have a smaller value.",
-"sub": "Inequalities"
+"sub": "Inequalities",
+"c": null
 },
 {
 "n": 95,
@@ -3851,7 +3949,8 @@
 "q": "Let AB, CD, EF, GH, and JK be five diameters of a circle with center at O. In how many ways can three points be chosen out of A,<br>B, C, D, E, F, G, H, J, K, and O so as to form a triangle?",
 "ans": "160",
 "sol": "There are 5 pairs of diametrically opposite points and the centre O.<br>If O is not selected, the number of triangles = 10C3 = 120.<br><br>If O is selected, the other two points can be selected in 10(8)/2, i.e., 40 ways. The number of triangles is 160.",
-"sub": "Permutations & Combinations"
+"sub": "Permutations & Combinations",
+"c": null
 },
 {
 "n": 97,
@@ -3865,7 +3964,8 @@
 "3: 4",
 "4: 3"
 ],
-"sub": "Arithmetic Progression"
+"sub": "Arithmetic Progression",
+"c": null
 },
 {
 "n": 98,
@@ -3879,7 +3979,8 @@
 "14",
 "15"
 ],
-"sub": "Permutations & Combinations"
+"sub": "Permutations & Combinations",
+"c": null
 },
 {
 "n": 100,
@@ -3893,7 +3994,8 @@
 "10",
 "11"
 ],
-"sub": "Arithmetic Progression"
+"sub": "Arithmetic Progression",
+"c": null
 }
 ],
 "skip": 8
@@ -4302,21 +4404,24 @@
 "type": "tita",
 "q": "1. The implications of retelling of Indian stories, hence, takes on new meaning in a modern India.<br>2. The stories we tell reflect the world around us.<br>3. We cannot help but retell the stories that we value - after all, they are never quite right for us - in our time.<br>4. And even if we manage to get them quite right, they are only right for us - other people living around us will have different<br>reasons for telling similar stories.<br>5. As soon as we capture a story, the world we were trying to capture has changed.",
 "ans": "25341",
-"sol": ""
+"sol": "",
+"c": null
 },
 {
 "n": 29,
 "type": "tita",
 "q": "1.Before plants can take life from atmosphere, nitrogen must undergo transformations similar to ones that food undergoes in<br>our digestive machinery.<br>2. In its aerial form nitrogen is insoluble, unusable and is in need of transformation.<br>3. Lightning starts the series of chemical reactions that need to happen to nitrogen, ultimately helping it nourish our earth.<br>4. Nitrogen - an essential food for plants - is an abundant resource, with about 22 million tons of it floating over each square<br>mile of earth.<br>5. One of the most dramatic examples in nature of ill wind that blows goodness is lightning.",
 "ans": "53421",
-"sol": ""
+"sol": "",
+"c": null
 },
 {
 "n": 30,
 "type": "tita",
 "q": "1.This has huge implications for the health care system as it operates today, where depleted resources and time lead to patients<br>rotating in and out of doctor&#x27;s offices, oftentimes receiving minimal care or concern (what is commonly referred to as &quot;bed side<br>manner&quot;) from doctors.<br>2. The placebo effect is when an individual&#x27;s medical condition or pain shows signs of improvement based on a fake<br>intervention that has been presented to them as a real one and used to be regularly dismissed by researchers as a<br>psychological effect.<br>3. The placebo effect is not solely based on believing in treatment, however, as the clinical setting in which treatments are<br>administered is also paramount.<br>4. That the mind has the power to trigger biochemical changes because the individual believes that a given drug or intervention<br>will be effective could empower chronic patients through the notion of our bodies&#x27; capacity for self-healing.<br>5. Placebo effects are now studied not just as foils for &quot;real&quot; interventions but as a potential portal into the self-healing powers<br>of the body.",
 "ans": "25431",
-"sol": ""
+"sol": "",
+"c": null
 },
 {
 "n": 31,
@@ -4331,14 +4436,16 @@
 "type": "tita",
 "q": "1. Although we are born with the gift of language, research shows that we are surprisingly unskilled when it comes to<br>communicating with others.<br>2. We must carefully orchestrate our speech if we want to achieve our goals and bring our dreams to fruition.<br>3. We often choose our words without thought, oblivious of the emotional effects they can have on others.<br>4. We talk more than we need to, ignoring the effect we are having on those listening to us.<br>5. We listen poorly, without realizing it, and we often fail to pay attention to the subtle meanings conveyed by facial<br>expressions, body gestures, and the tone and cadence of our voice.",
 "ans": "2",
-"sol": ""
+"sol": "",
+"c": null
 },
 {
 "n": 33,
 "type": "tita",
 "q": "1. Over the past fortnight, one of its finest champions managed to pull off a similar impression.<br>2. Wimbledon&#x27;s greatest illusion is the sense of timelessness it evokes.<br>3. At 35 years and 342 days, Roger Federer became the oldest man to win the singles title in the Open Era - a full 14 years after<br>he first claimed the title as a scruffy, pony-tailed upstart.<br>4. Once he had survived the opening week, the second week witnessed the range of a rested Federer&#x27;s genius.<br>5. Given that his method isn&#x27;t reliant on explosive athleticism or muscular ball-striking, both vulnerable to decay, there is cause<br>to believe that Federer will continue to enchant for a while longer.",
 "ans": "4",
-"sol": ""
+"sol": "",
+"c": null
 },
 {
 "n": 34,
@@ -4365,7 +4472,8 @@
 "162",
 "196",
 "364"
-]
+],
+"c": null
 },
 {
 "n": 36,
@@ -4378,7 +4486,8 @@
 "84",
 "16",
 "196"
-]
+],
+"c": null
 },
 {
 "n": 37,
@@ -4391,7 +4500,8 @@
 "12",
 "30",
 "24"
-]
+],
+"c": null
 },
 {
 "n": 38,
@@ -4404,7 +4514,8 @@
 "Rs. 59840",
 "Rs. 42520",
 "Rs. 45240"
-]
+],
+"c": null
 },
 {
 "n": 39,
@@ -4763,7 +4874,8 @@
 "type": "tita",
 "q": "The numbers 1, 2,..., 9 are arranged in a 3 X 3 square grid in such a way that each number occurs once and the entries along<br>each column, each row, and each of the two diagonals add up to the same value.<br>If the top left and the top right entries of the grid are 6 and 2, respectively, then the bottom middle entry is",
 "ans": "3",
-"sol": "The square grid is filled by 9 numbers from 1 to 9. Their sum (1 + 2 + 3 +... 9) equals 45. Since the sum of<br>numbers in each row and each column and each diagonal must be equal, the sum of terms in each row and in each column and in<br>each diagonal, must be 15. For this to happen, the middle element in the 2nd row and the 2nd column must be the middle-most<br>term of the 9 terms, i.e. 5. The corner elements in the first row are 6 and 2 (given), so the middle element in the first row must be 7.<br>In the 2nd column, the top most element is 7 and the middle element is 5, so the bottom row middle element must be 3."
+"sol": "The square grid is filled by 9 numbers from 1 to 9. Their sum (1 + 2 + 3 +... 9) equals 45. Since the sum of<br>numbers in each row and each column and each diagonal must be equal, the sum of terms in each row and in each column and in<br>each diagonal, must be 15. For this to happen, the middle element in the 2nd row and the 2nd column must be the middle-most<br>term of the 9 terms, i.e. 5. The corner elements in the first row are 6 and 2 (given), so the middle element in the first row must be 7.<br>In the 2nd column, the top most element is 7 and the middle element is 5, so the bottom row middle element must be 3.",
+"c": null
 },
 {
 "n": 68,
@@ -4771,7 +4883,8 @@
 "q": "In a 10 km race. A, B, and C, each running at uniform speed, get the gold, silver, and bronze medals, respectively. If A beats B by<br>1 km and B beats C by 1 km, then by how many metres does A beat C?",
 "ans": "1900",
 "sol": "A beats B by 1 km, means A travels 10 km in the same time that B travels 9 km. The ratio of speeds of A and B is<br>10 : 9. Similarly, the ratio of speeds of B and C is 10 : 9.<br>A : B = 10 : 9<br>B : C = 10 : 9<br>⇒ The ratio of speeds of A : B : C = 100 : 90 : 81<br>In the same time that A travels 100 m, C travels 81 metres<br>⇒ In the same time that A travels 10000 m, C would travel 8100 m or A would beat C by 1900 m. Ans: (1900)",
-"sub": "TSD – Linear Races"
+"sub": "TSD – Linear Races",
+"c": null
 },
 {
 "n": 69,
@@ -4785,7 +4898,8 @@
 "27 : 16",
 "27 : 18"
 ],
-"sub": "Alligation & Mixture"
+"sub": "Alligation & Mixture",
+"c": null
 },
 {
 "n": 70,
@@ -4799,7 +4913,8 @@
 "65 miles",
 "70 miles"
 ],
-"sub": "Time Speed Distance"
+"sub": "Time Speed Distance",
+"c": null
 },
 {
 "n": 71,
@@ -4813,7 +4928,8 @@
 "13400",
 "14000"
 ],
-"sub": "Factors"
+"sub": "Factors",
+"c": null
 },
 {
 "n": 72,
@@ -4827,7 +4943,8 @@
 "32",
 "26"
 ],
-"sub": "Averages"
+"sub": "Averages",
+"c": null
 },
 {
 "n": 73,
@@ -4841,7 +4958,8 @@
 "2500",
 "3000"
 ],
-"sub": "Profit & Loss"
+"sub": "Profit & Loss",
+"c": null
 },
 {
 "n": 74,
@@ -4855,7 +4973,8 @@
 "40",
 "45"
 ],
-"sub": "Time & Work"
+"sub": "Time & Work",
+"c": null
 },
 {
 "n": 75,
@@ -4869,7 +4988,8 @@
 "25",
 "45"
 ],
-"sub": "Profit & Loss"
+"sub": "Profit & Loss",
+"c": null
 },
 {
 "n": 76,
@@ -4883,7 +5003,8 @@
 "10",
 "7"
 ],
-"sub": "Percentages"
+"sub": "Percentages",
+"c": null
 },
 {
 "n": 77,
@@ -4897,7 +5018,8 @@
 "207",
 "210"
 ],
-"sub": "Numbers Basics"
+"sub": "Numbers Basics",
+"c": null
 },
 {
 "n": 78,
@@ -4911,7 +5033,8 @@
 "380",
 "388"
 ],
-"sub": "Time Speed Distance"
+"sub": "Time Speed Distance",
+"c": null
 },
 {
 "n": 79,
@@ -4925,7 +5048,8 @@
 "300",
 "400"
 ],
-"sub": "Time & Work"
+"sub": "Time & Work",
+"c": null
 },
 {
 "n": 81,
@@ -4938,7 +5062,8 @@
 "3",
 "4",
 "√3"
-]
+],
+"c": null
 },
 {
 "n": 82,
@@ -4952,7 +5077,8 @@
 "1480",
 "1520"
 ],
-"sub": "Time Speed Distance"
+"sub": "Time Speed Distance",
+"c": null
 },
 {
 "n": 83,
@@ -4966,7 +5092,8 @@
 "-7",
 "-8"
 ],
-"sub": "Quadrilaterals"
+"sub": "Quadrilaterals",
+"c": null
 },
 {
 "n": 84,
@@ -4974,14 +5101,16 @@
 "q": "ABCD is a quadrilateral inscribed in a circle with centre O. If ∠COD = 120 degrees and ∠BAC = 30 degrees, then the value of<br>∠BCD (in degrees) is",
 "ans": "90",
 "sol": "Given, ∠COD = 120° and ∠BAC = 30°.<br>As ∠COD = 120°, ∠DAC = 60° (Central angle)<br>∠DAC + ∠BAC = 60° + 30° = 90°<br>∠A = 90° ⇒ ∠BCD = 90° (Opposite angles are supplementary in a cyclic quadrilateral)",
-"sub": "Circles"
+"sub": "Circles",
+"c": null
 },
 {
 "n": 85,
 "type": "tita",
 "q": "If three sides of a rectangular park have a total length 400 ft, then the area of the park is maximum when the length (in ft) of its<br>longer side is",
 "ans": "200",
-"sol": "Let one side be l and the other be b. (l is not necessarily greater than b)<br>Given, 2l + b = 400<br>For area to be maximum, lb should be maximum.<br>∴ l (400 – 2l) should be maximum<br>l (400 – 2l) = l (2) (200–l) = 2 (l) (200 – l)<br>l (200 – l) will be maximum when l = 200 – l or 2l = 200<br>⇒ l = 100<br>If l = 100, b = 200.<br>∴ The longer side must be 200 feet long."
+"sol": "Let one side be l and the other be b. (l is not necessarily greater than b)<br>Given, 2l + b = 400<br>For area to be maximum, lb should be maximum.<br>∴ l (400 – 2l) should be maximum<br>l (400 – 2l) = l (2) (200–l) = 2 (l) (200 – l)<br>l (200 – l) will be maximum when l = 200 – l or 2l = 200<br>⇒ l = 100<br>If l = 100, b = 200.<br>∴ The longer side must be 200 feet long.",
+"c": null
 },
 {
 "n": 86,
@@ -4989,7 +5118,8 @@
 "q": "Let P be an interior point of a right-angled isosceles triangle ABC with hypotenuse AB. If the perpendicular distance of P from<br>each of AB, BC, and CA is 4 (√2 - l) cm, then the area, in sq cm, of the triangle ABC is",
 "ans": "16",
 "sol": "As P is equidistant from the sides, P is the in center of the triangle.<br>r is the in radius of the triangle, viz. 4(√2 - 1) cm<br>Let the sides of the triangle be a, a, a √2",
-"sub": "Time Speed Distance"
+"sub": "Time Speed Distance",
+"c": null
 },
 {
 "n": 87,
@@ -5003,7 +5133,8 @@
 "1875",
 "1877"
 ],
-"sub": "Numbers Basics"
+"sub": "Numbers Basics",
+"c": null
 },
 {
 "n": 88,
@@ -5017,7 +5148,8 @@
 "x &gt; 30",
 "3 &lt; x &lt; 23"
 ],
-"sub": "Logarithms"
+"sub": "Logarithms",
+"c": null
 },
 {
 "n": 89,
@@ -5031,7 +5163,8 @@
 "36",
 "40"
 ],
-"sub": "Functions"
+"sub": "Functions",
+"c": null
 },
 {
 "n": 90,
@@ -5045,7 +5178,8 @@
 "3",
 "4"
 ],
-"sub": "Quadratic Equations"
+"sub": "Quadratic Equations",
+"c": null
 },
 {
 "n": 92,
@@ -5053,7 +5187,8 @@
 "q": "If log (2a × 3b × 5C) is the arithmetic mean of log (22 × 33 × 5), log (26 × 3 × 57), and log (2 × 32 × 54), then a equals",
 "ans": "3",
 "sol": "While it is not explicitly stated that a, b and c are integers, going by the spirit of the question, we are forced to assume that they<br>are integers. In that case, we can equate the powers of 2, 3 and 5 on the LHS and the RHS and say that a= 3, b = 2, and c = 4.",
-"sub": "Logarithms"
+"sub": "Logarithms",
+"c": null
 },
 {
 "n": 93,
@@ -5061,7 +5196,8 @@
 "q": "Let a1, a2, a3, a4, a5 be a sequence of five consecutive odd numbers. Consider a new sequence of five consecutive even<br>numbers ending with 2a3.<br>If the sum of the numbers in the new sequence is 450, then a5 is",
 "ans": "51",
 "sol": "The 5 consecutive odd numbers are<br>a1, a2, a3, a4, a5<br>The 5 consecutive even numbers are<br>2a3 – 8, 2a3 – 6, 2a3 – 4, 2a3 – 2, 2a3<br><br>The sum of these 5 numbers = 10a3 – 20 = 450 (given)<br>∴ a3 = 47 and a5 = 51. Ans: (51)",
-"sub": "Sequence & Series"
+"sub": "Sequence & Series",
+"c": null
 },
 {
 "n": 94,
@@ -5069,7 +5205,8 @@
 "q": "How many different pairs (a, b) of positive integers are there such that a ≤ b and",
 "ans": "3",
 "sol": "⇒ 9(a + b) = ab<br>⇒ ab – 9a – 9b + 81 = 81<br>⇒ (a – 9) (b – 9) = 81 = 34<br><br>As a, b &gt; 0 and a ≤ b, there are only 3 ordered pairs, given by a – 9 = 1, 3 or 9 and correspondingly b – 9 = 81, 27, 9.",
-"sub": "Numbers Basics"
+"sub": "Numbers Basics",
+"c": null
 },
 {
 "n": 95,
@@ -5077,7 +5214,8 @@
 "q": "In how many ways can 8 identical pens be distributed among Amal, Bimal, and Kamal so that Amal gets at least 1 pen, Bimal<br>gets at least 2 pens, and Kamal gets at least 3 pens?",
 "ans": "6",
 "sol": "The data is shown below.<br>A B K<br>1 2 3<br>The remaining 2 pens can go to different people<br>(3 ways – 1,1,0; 0,1,1; 1,0,1) or the same person<br>(3 ways – 2,0,0; 0,2,0; 0,0,2).<br>Alternately, we can distribute the last 2 identical pens among the three of them using<br>x1+ x2+ x3 = 2, which has 4C2 non-negative integral solutions, i.e. 6.",
-"sub": "Permutations & Combinations"
+"sub": "Permutations & Combinations",
+"c": null
 },
 {
 "n": 96,
@@ -5085,7 +5223,8 @@
 "q": "How many four digit numbers, which are divisible by 6, can be formed using the digits 0, 2, 3, 4, 6, such that no digit is used<br>more than once and 0 does not occur in the left-most position?",
 "ans": "50",
 "sol": "The sum of the digits must be a multiple of 3. We can use (A) 2,4,0,3 or (B) 2,4,0,6 or (C) 2,4,3,6<br>(A) _ _ _ 0 (6 numbers)<br>_ _ _ 2 (4 numbers)<br>_ _ _ 4 (4 numbers)<br>(B) _ _ _ 0 (6 numbers)<br>_ _ _ 2 (4 numbers)<br>_ _ _ 4 (4 numbers)<br>_ _ _ 6 (4 numbers)<br>(C) 2, 4, 3, 6 (18 numbers, with even digit in the units place)<br>There are a total of 50 numbers.",
-"sub": "Numbers Basics"
+"sub": "Numbers Basics",
+"c": null
 },
 {
 "n": 97,
@@ -5093,7 +5232,8 @@
 "q": "If f(ab) = f(a)f(b) for all positive integers a and b, then the largest possible value of f(l) is",
 "ans": "1",
 "sol": "f (1 × 1) = f (1) f (1) Let f (1) = x<br>∴ x = x2 i.e., x = 0 or 1. The ‘largest’ value is1.<br>Ans: (1)<br><br>Alternately, the function which satisfies the condition is an exponential function of the form f(a) = ax.<br>When x = 1, the largest value of f (1) is 1x, which is 1.",
-"sub": "Numbers Basics"
+"sub": "Numbers Basics",
+"c": null
 },
 {
 "n": 99,
@@ -5107,7 +5247,8 @@
 "3/32",
 "4/32"
 ],
-"sub": "Geometric Progression"
+"sub": "Geometric Progression",
+"c": null
 }
 ],
 "skip": 4
@@ -5363,7 +5504,8 @@
 "type": "tita",
 "q": "The four sentences (labelled 1, 2, 3 and 4) below, when properly sequenced, would yield a coherent paragraph. Decide on the proper sequencing of the order of the sentences and key in the sequence of the four numbers as your answer: 1. Some company leaders are basing their decisions on locating offices to foster innovation and growth, as their best-performing inventors suffered the greatest productivity losses when their commutes grew longer. 2. Shorter commutes support innovation by giving employees more time in the office and greater opportunities for in-person collaboration, while removing the physical strain of a long commute. 3. This is not always the case: remote work does not automatically lead to greater creativity and productivity as office water-cooler conversations are also very important for innovation. 4. Some see the link between long commutes and productivity as support for workfrom-home scenarios, as many workers have grown accustomed to their commutefree arrangements during the pandemic.",
 "ans": "2143",
-"sol": ""
+"sol": "",
+"c": null
 },
 {
 "n": 18,
@@ -5376,7 +5518,8 @@
 "The inanimate world is both sentient and cognizant like its animate counterpart."
 ],
 "ans": 1,
-"sol": ""
+"sol": "",
+"c": null
 },
 {
 "n": 19,
@@ -5389,7 +5532,8 @@
 "Medieval texts have documented how strong connections between the Christian\ncommunities of Ethiopia and Europe were invaluable in establishing military and trade links\nbetween the two civilisations."
 ],
 "ans": 1,
-"sol": ""
+"sol": "",
+"c": null
 },
 {
 "n": 20,
@@ -5402,7 +5546,8 @@
 "Option 4"
 ],
 "ans": 1,
-"sol": ""
+"sol": "",
+"c": null
 },
 {
 "n": 21,
@@ -5415,7 +5560,8 @@
 "Citizens become less inclined to petitioning as it enables vocal citizens to shape\npolitical agendas, but this needs to change to strengthen democracies today."
 ],
 "ans": 0,
-"sol": ""
+"sol": "",
+"c": null
 },
 {
 "n": 22,
@@ -5428,21 +5574,24 @@
 "Option 4"
 ],
 "ans": 3,
-"sol": ""
+"sol": "",
+"c": null
 },
 {
 "n": 23,
 "type": "tita",
 "q": "The four sentences (labelled 1, 2, 3 and 4) below, when properly sequenced, would yield a coherent paragraph. Decide on the proper sequencing of the order of the sentences and key in the sequence of the four numbers as your answer: 1. The creative element in product design has become of paramount importance as it is one of the few ways a firm or industry can sustain a competitive advantage over its rivals. 2. In fact, the creative element in the value of world industry would be larger still, if we added the contribution of the creative element in other industries, such as the design of tech accessories. 3. The creative industry is receiving a lot of attention today as its growth rate is faster than that of the world economy as a whole. 4. It is for this reason that today’s trade issues are increasingly involving intellectual property, as Western countries have an interest in protecting their revenues along with freeing trade in non-tangibles.",
 "ans": "3214",
-"sol": ""
+"sol": "",
+"c": null
 },
 {
 "n": 24,
 "type": "tita",
 "q": "The four sentences (labelled 1, 2, 3 and 4) below, when properly sequenced, would yield a coherent paragraph. Decide on the proper sequencing of the order of the sentences and key in the sequence of the four numbers as your answer: 1. Fish skin collagen has excellent thermo-stability and tensile strength making it ideal for use as bandage that adheres to the skin and adjusts to body movements. 2. Collagen, one of the main structural proteins in connective tissues in the human body, is well known for promoting skin regeneration. 3. Fish skin swims in here as diseases and bacteria that affect fish are different from most human pathogens. 4. The risk of introducing disease agents into other species through the use of pig and cow collagen proteins for wound healing has inhibited its broader applications in the medical field.",
 "ans": "2431",
-"sol": ""
+"sol": "",
+"c": null
 }
 ]
 },
@@ -5706,7 +5855,8 @@
 "q": "For any real number x, let ⌊x⌋ be the largest integer less than or equal to x. If Σ (n=1 to N) ⌊1/5 + n/25⌋ = 25, then N equals",
 "ans": "44",
 "sol": "⌊(5+n)/25⌋ = 0 for n ≤ 19 and 1 for 20 ≤ n ≤ 44 (25 ones). So N = 44.",
-"sub": "Functions"
+"sub": "Functions",
+"c": null
 },
 {
 "n": 2,
@@ -5714,7 +5864,8 @@
 "q": "A trapezium ABCD has side AD parallel to BC, ∠BAD = 90°, BC = 3 cm and AD = 8 cm. If the perimeter of this trapezium is 36 cm, then its area, in sq. cm, is",
 "ans": "66",
 "sol": "Right trapezium: height h ⊥ to parallel sides 8 and 3. h + √(h²+25) = 25 → h = 12. Area = ½(8+3)(12) = 66.",
-"sub": "Quadrilaterals"
+"sub": "Quadrilaterals",
+"c": null
 },
 {
 "n": 3,
@@ -5728,7 +5879,8 @@
 "(−3, 4)",
 "(4, 5)",
 "(−4, 5)"
-]
+],
+"c": null
 },
 {
 "n": 4,
@@ -5736,7 +5888,8 @@
 "q": "Pinky is standing in a queue at a ticket counter. Suppose the ratio of the number of persons standing ahead of Pinky to the number of persons standing behind her in the queue is 3 : 5. If the total number of persons in the queue is less than 300, then the maximum possible number of persons standing ahead of Pinky is",
 "ans": "111",
 "sol": "Ahead:behind = 3k:5k, total = 8k+1 < 300 → k ≤ 37 → max ahead = 3(37) = 111.",
-"sub": "Ratio"
+"sub": "Ratio",
+"c": null
 },
 {
 "n": 5,
@@ -5750,7 +5903,8 @@
 "7",
 "9",
 "8"
-]
+],
+"c": null
 },
 {
 "n": 6,
@@ -5758,7 +5912,8 @@
 "q": "For natural numbers x, y, and z, if xy + yz = 19 and yz + xz = 51, then the minimum possible value of xyz is",
 "ans": "34",
 "sol": "y(x+z)=19 → y=1, x+z=19; z(x+1)=51 → z=3,x=16 or z=17,x=2 → xyz = 48 or 34 → minimum 34.",
-"sub": "Simple Equations"
+"sub": "Simple Equations",
+"c": null
 },
 {
 "n": 7,
@@ -5772,7 +5927,8 @@
 "8",
 "10",
 "7"
-]
+],
+"c": null
 },
 {
 "n": 8,
@@ -5786,7 +5942,8 @@
 "12",
 "6",
 "10"
-]
+],
+"c": null
 },
 {
 "n": 9,
@@ -5794,7 +5951,8 @@
 "q": "Let A be the largest positive integer that divides all the numbers of the form 3ᵏ + 4ᵏ + 5ᵏ, and B be the largest positive integer that divides all the numbers of the form 4ᵏ + 3(4ᵏ) + 4ᵏ⁺², where k is any positive integer. Then (A + B) equals",
 "ans": "82",
 "sol": "gcd(3+4+5, 9+16+25, …) = gcd(12,50,…) = 2 → A=2. 4ᵏ+3·4ᵏ+4ᵏ⁺² = 20·4ᵏ → gcd = 80 → B=80. A+B = 82.",
-"sub": "Remainders"
+"sub": "Remainders",
+"c": null
 },
 {
 "n": 10,
@@ -5802,7 +5960,8 @@
 "q": "In a village, the ratio of number of males to females is 5 : 4. The ratio of number of literate males to literate females is 2 : 3. The ratio of the number of illiterate males to illiterate females is 4 : 3. If 3600 males in the village are literate, then the total number of females in the village is",
 "ans": "43200",
 "sol": "Literate M,F = 2a,3a; illiterate M,F = 4b,3b. (2a+4b):(3a+3b)=5:4 → b=7a. 2a=3600 → a=1800, b=12600. Females = 3(a+b) = 43200.",
-"sub": "Ratio"
+"sub": "Ratio",
+"c": null
 },
 {
 "n": 11,
@@ -5816,7 +5975,8 @@
 "37.5%",
 "62.5%",
 "40%"
-]
+],
+"c": null
 },
 {
 "n": 12,
@@ -5830,7 +5990,8 @@
 "the empty set",
 "the set of all positive integers",
 "either the empty set or the set of all integers"
-]
+],
+"c": null
 },
 {
 "n": 13,
@@ -5838,7 +5999,8 @@
 "q": "The number of ways of distributing 20 identical balloons among 4 children such that each child gets some balloons but no child gets an odd number of balloons, is",
 "ans": "84",
 "sol": "Each even and ≥2: put 2yᵢ with Σyᵢ = 10, yᵢ ≥ 1 → C(9,3) = 84.",
-"sub": "Permutations & Combinations"
+"sub": "Permutations & Combinations",
+"c": null
 },
 {
 "n": 14,
@@ -5852,7 +6014,8 @@
 "5",
 "3",
 "1"
-]
+],
+"c": null
 },
 {
 "n": 15,
@@ -5866,7 +6029,8 @@
 "1440",
 "2520",
 "1680"
-]
+],
+"c": null
 },
 {
 "n": 16,
@@ -5880,7 +6044,8 @@
 "P²/16 − R²",
 "P²/8 − R²/2",
 "P²/2 − 2PR"
-]
+],
+"c": null
 },
 {
 "n": 17,
@@ -5894,7 +6059,8 @@
 "25",
 "0",
 "100"
-]
+],
+"c": null
 },
 {
 "n": 18,
@@ -5902,7 +6068,8 @@
 "q": "Amal buys 110 kg of syrup and 120 kg of juice, syrup being 20% less costly than juice, per kg. He sells 10 kg of syrup at 10% profit and 20 kg of juice at 20% profit. Mixing the remaining juice and syrup, Amal sells the mixture at ₹308.32 per kg and makes an overall profit of 64%. Then, Amal's cost price for syrup, in rupees per kg, is",
 "ans": "160",
 "sol": "Juice cost j, syrup 0.8j. Total cost = 208j. Revenue = 8.8j + 24j + 200·308.32 = 1.64·208j → j = 200 → syrup = 0.8·200 = ₹160.",
-"sub": "Profit & Loss"
+"sub": "Profit & Loss",
+"c": null
 },
 {
 "n": 19,
@@ -5916,7 +6083,8 @@
 "1 : 5",
 "1 : 4",
 "1 : 7"
-]
+],
+"c": null
 },
 {
 "n": 20,
@@ -5930,7 +6098,8 @@
 "1 : 2",
 "3 : 1",
 "4 : 1"
-]
+],
+"c": null
 },
 {
 "n": 21,
@@ -5944,7 +6113,8 @@
 "0",
 "1",
 "2"
-]
+],
+"c": null
 },
 {
 "n": 22,
@@ -5958,7 +6128,8 @@
 "53",
 "52",
 "47"
-]
+],
+"c": null
 }
 ]
 }
@@ -6219,7 +6390,8 @@
 "With big data making personal information freely available, the debate on the nature\nof freedom and the need for privacy has resurfaced."
 ],
 "ans": 3,
-"sol": ""
+"sol": "",
+"c": null
 },
 {
 "n": 18,
@@ -6232,7 +6404,8 @@
 "Contrary to our assumption that urban settlements have always involved hierarchical\npolitical and administrative structures, ancient cities were not organised in this way."
 ],
 "ans": 1,
-"sol": ""
+"sol": "",
+"c": null
 },
 {
 "n": 19,
@@ -6245,7 +6418,8 @@
 "Museums have to guard timeless art treasures from intrinsic defects such as the\ndeterioration of paint, polish and canvas."
 ],
 "ans": 1,
-"sol": ""
+"sol": "",
+"c": null
 },
 {
 "n": 20,
@@ -6258,21 +6432,24 @@
 "Option 4"
 ],
 "ans": 3,
-"sol": ""
+"sol": "",
+"c": null
 },
 {
 "n": 21,
 "type": "tita",
 "q": "The four sentences (labelled 1, 2, 3 and 4) below, when properly sequenced, would yield a coherent paragraph. Decide on the proper sequencing of the order of the sentences and key in the sequence of the four numbers as your answer: 1. From chemical pollutants in the environment to the damming of rivers to invasive species transported through global trade and travel, every environmental issue is different and there is no single tech solution that can solve this crisis. 2. Discourse on the threat of environmental collapse revolves around cutting down emissions, but biodiversity loss and ecosystem collapse are caused by myriad and diverse reasons. 3. This would require legislation that recognises the rights of future generations and other species that allows the judiciary to uphold a much higher standard of environmental protection than currently possible. 4. Clearly, our environmental crisis requires large political solutions, not minor technological ones, so, instead of focusing on infinite growth, we could consider a path of stable-state economies, while preserving markets and healthy competition.",
 "ans": "2143",
-"sol": ""
+"sol": "",
+"c": null
 },
 {
 "n": 22,
 "type": "tita",
 "q": "The four sentences (labelled 1, 2, 3 and 4) below, when properly sequenced, would yield a coherent paragraph. Decide on the proper sequencing of the order of the sentences and key in the sequence of the four numbers as your answer: 1. Women may prioritize cooking because they feel they alone are responsible for mediating a toxic and unhealthy food system. 2. Food is commonly framed through the lens of individual choice: you can choose to eat healthily. 3. This is particularly so in a neoliberal context where the state has transferred the responsibility for food onto individual consumers. 4. The individualized framing of choice appeals to a popular desire to experience agency, but draws away from the structural obstacles that stratify individual food choices.",
 "ans": "2431",
-"sol": ""
+"sol": "",
+"c": null
 },
 {
 "n": 23,
@@ -6285,14 +6462,16 @@
 "Option 4"
 ],
 "ans": 2,
-"sol": ""
+"sol": "",
+"c": null
 },
 {
 "n": 24,
 "type": "tita",
 "q": "The four sentences (labelled 1, 2, 3 and 4) below, when properly sequenced, would yield a coherent paragraph. Decide on the proper sequencing of the order of the sentences and key in the sequence of the four numbers as your answer: 1. The trajectory of cheerfulness through the self is linked to the history of the word ‘cheer’ which comes from an Old French meaning ‘face’. 2. Translations of the Bible into vernacular languages, expanded the noun ‘cheer’ into the more abstract ‘cheerful-ness’, something that circulates as an emotional and social quality defining the self and a moral community. 3. When you take on a cheerful expression, no matter what the state of your soul, your cheerfulness moves into the self: the interior of the self is changed by the power of cheer. 4. People in the medieval ‘Canterbury Tales’ have a ‘piteous’ or a ‘sober’ cheer; ‘cheer’ is an expression and a body part, lying at the intersection of emotions and physiognomy.",
 "ans": "3142",
-"sol": ""
+"sol": "",
+"c": null
 }
 ]
 },
@@ -6563,7 +6742,8 @@
 "sol": "",
 "topic": "Algebra",
 "sub": "Quadratic Equations",
-"n": 1
+"n": 1,
+"c": null
 },
 {
 "type": "mcq",
@@ -6578,7 +6758,8 @@
 "sol": "",
 "topic": "Algebra",
 "sub": "Simple Equations",
-"n": 2
+"n": 2,
+"c": null
 },
 {
 "type": "mcq",
@@ -6593,7 +6774,8 @@
 "sol": "",
 "topic": "Geometry",
 "sub": "Triangles",
-"n": 3
+"n": 3,
+"c": null
 },
 {
 "type": "mcq",
@@ -6608,7 +6790,8 @@
 "sol": "",
 "topic": "Arithmetic",
 "sub": "Averages",
-"n": 4
+"n": 4,
+"c": null
 },
 {
 "type": "tita",
@@ -6617,7 +6800,8 @@
 "sol": "",
 "topic": "Arithmetic",
 "sub": "SI & CI",
-"n": 5
+"n": 5,
+"c": null
 },
 {
 "type": "mcq",
@@ -6632,7 +6816,8 @@
 "sol": "",
 "topic": "Algebra",
 "sub": "Arithmetic Progression",
-"n": 6
+"n": 6,
+"c": null
 },
 {
 "type": "mcq",
@@ -6647,7 +6832,8 @@
 "sol": "",
 "topic": "Arithmetic",
 "sub": "Time Speed Distance",
-"n": 7
+"n": 7,
+"c": null
 },
 {
 "type": "mcq",
@@ -6662,7 +6848,8 @@
 "sol": "",
 "topic": "Arithmetic",
 "sub": "Percentages",
-"n": 8
+"n": 8,
+"c": null
 },
 {
 "type": "tita",
@@ -6671,7 +6858,8 @@
 "sol": "",
 "topic": "Algebra",
 "sub": "Simple Equations",
-"n": 9
+"n": 9,
+"c": null
 },
 {
 "type": "tita",
@@ -6680,7 +6868,8 @@
 "sol": "",
 "topic": "Arithmetic",
 "sub": "Time & Work",
-"n": 10
+"n": 10,
+"c": null
 },
 {
 "type": "mcq",
@@ -6695,7 +6884,8 @@
 "sol": "",
 "topic": "Number System",
 "sub": "Factorials",
-"n": 11
+"n": 11,
+"c": null
 },
 {
 "type": "mcq",
@@ -6710,7 +6900,8 @@
 "sol": "",
 "topic": "Algebra",
 "sub": "Cubic Equations",
-"n": 12
+"n": 12,
+"c": null
 },
 {
 "type": "tita",
@@ -6719,7 +6910,8 @@
 "sol": "",
 "topic": "Algebra",
 "sub": "Simple Equations",
-"n": 13
+"n": 13,
+"c": null
 },
 {
 "type": "mcq",
@@ -6734,7 +6926,8 @@
 "sol": "",
 "topic": "Arithmetic",
 "sub": "Averages",
-"n": 14
+"n": 14,
+"c": null
 },
 {
 "type": "tita",
@@ -6743,7 +6936,8 @@
 "sol": "",
 "topic": "Arithmetic",
 "sub": "Averages",
-"n": 15
+"n": 15,
+"c": null
 },
 {
 "type": "tita",
@@ -6752,7 +6946,8 @@
 "sol": "",
 "topic": "Algebra",
 "sub": "Functions",
-"n": 16
+"n": 16,
+"c": null
 },
 {
 "type": "tita",
@@ -6761,7 +6956,8 @@
 "sol": "",
 "topic": "Algebra",
 "sub": "Logarithms",
-"n": 17
+"n": 17,
+"c": null
 },
 {
 "type": "mcq",
@@ -6776,7 +6972,8 @@
 "sol": "",
 "topic": "Arithmetic",
 "sub": "Alligation & Mixture",
-"n": 18
+"n": 18,
+"c": null
 },
 {
 "type": "mcq",
@@ -6791,7 +6988,8 @@
 "sol": "",
 "topic": "Geometry",
 "sub": "Triangles",
-"n": 19
+"n": 19,
+"c": null
 },
 {
 "type": "mcq",
@@ -6806,7 +7004,8 @@
 "sol": "",
 "topic": "Algebra",
 "sub": "Sequence & Series",
-"n": 20
+"n": 20,
+"c": null
 },
 {
 "type": "mcq",
@@ -6821,7 +7020,8 @@
 "sol": "",
 "topic": "Modern Math",
 "sub": "Permutations & Combinations",
-"n": 21
+"n": 21,
+"c": null
 },
 {
 "type": "tita",
@@ -6830,7 +7030,8 @@
 "sol": "",
 "topic": "Geometry",
 "sub": "Mensuration",
-"n": 22
+"n": 22,
+"c": null
 }
 ]
 }
@@ -7085,7 +7286,8 @@
 "type": "tita",
 "q": "The four sentences (labelled 1, 2, 3 and 4) below, when properly sequenced, would yield a coherent paragraph. Decide on the proper sequencing of the order of the sentences and key in the sequence of the four numbers as your answer: 1.Various industrial sectors including retail, transit systems, enterprises, educational institutions, event organizing, finance, travel etc. have now started leveraging these beacons solutions to track and communicate with their customers. 2.A beacon fixed on to a shop wall enables the retailer to assess the proximity of the customer, and come up with a much targeted or personalized communication like offers, discounts and combos on products in each shelf. 3.Smart phones or other mobile devices can capture the beacon signals, and distance can be estimated by measuring received signal strength. 4.Beacons are tiny and inexpensive, micro-location-based technology devices that can send radio frequency signals and notify nearby Bluetooth devices of their presence and transmit information.",
 "ans": "4312",
-"sol": ""
+"sol": "",
+"c": null
 },
 {
 "n": 18,
@@ -7098,14 +7300,16 @@
 "Option 4"
 ],
 "ans": 1,
-"sol": ""
+"sol": "",
+"c": null
 },
 {
 "n": 19,
 "type": "tita",
 "q": "The four sentences (labelled 1, 2, 3 and 4) below, when properly sequenced, would yield a coherent paragraph. Decide on the proper sequencing of the order of the sentences and key in the sequence of the four numbers as your answer: 1. If I wanted to sit indoors and read, or play Sonic the Hedgehog on a red-hot Sega Mega Drive, I would often be made to feel guilty about not going outside to “enjoy it while it lasts”. 2. My mum, quite reasonably, wanted me and my sister out of the house, in the sun. 3. Tales of my mum’s idyllic-sounding childhood in the Sussex countryside, where trees were climbed by 8 am and streams navigated by lunchtime, were passed down to us like folklore. 4. To an introverted kid, that felt like a threat – and the feeling has stayed with me.",
 "ans": "2314",
-"sol": ""
+"sol": "",
+"c": null
 },
 {
 "n": 20,
@@ -7118,7 +7322,8 @@
 "Option 4"
 ],
 "ans": 1,
-"sol": ""
+"sol": "",
+"c": null
 },
 {
 "n": 21,
@@ -7131,7 +7336,8 @@
 "Cultural collaboration is the need of the hour. Beautiful design ideas of indigenous\npeople need to be showcased and shared worldwide."
 ],
 "ans": 1,
-"sol": ""
+"sol": "",
+"c": null
 },
 {
 "n": 22,
@@ -7144,14 +7350,16 @@
 "The ban on the use by scholars of any form of categorisation - but the divinely\nordained one - delayed the adoption of the alphabetic sequence by several centuries."
 ],
 "ans": 0,
-"sol": ""
+"sol": "",
+"c": null
 },
 {
 "n": 23,
 "type": "tita",
 "q": "The four sentences (labelled 1, 2, 3 and 4) below, when properly sequenced, would yield a coherent paragraph. Decide on the proper sequencing of the order of the sentences and key in the sequence of the four numbers as your answer: 1. The more we are able to accept that our achievements are largely out of our control, the easier it becomes to understand that our failures, and those of others, are too. 2. But the raft of recent books about the limits of merit is an important correction to the arrogance of contemporary entitlement and an opportunity to reassert the importance of luck, or grace, in our thinking. 3. Meritocracy as an organising principle is an inevitable function of a free society, as we are designed to see our achievements as worthy of reward. 4. And that in turn should increase our humility and the respect with which we treat our fellow citizens, helping ultimately to build a more compassionate society.",
 "ans": "3214",
-"sol": ""
+"sol": "",
+"c": null
 },
 {
 "n": 24,
@@ -7164,7 +7372,8 @@
 "All jokes target someone and one should be able to joke about anyone in the society,\nwhich is inconsistent with cancel culture."
 ],
 "ans": 3,
-"sol": ""
+"sol": "",
+"c": null
 }
 ]
 },
@@ -7435,7 +7644,8 @@
 "sol": "",
 "topic": "Arithmetic",
 "sub": "Time Speed Distance",
-"n": 1
+"n": 1,
+"c": null
 },
 {
 "type": "mcq",
@@ -7450,7 +7660,8 @@
 "sol": "",
 "topic": "Algebra",
 "sub": "Functions",
-"n": 2
+"n": 2,
+"c": null
 },
 {
 "type": "mcq",
@@ -7465,7 +7676,8 @@
 "sol": "",
 "topic": "Algebra",
 "sub": "Inequalities",
-"n": 3
+"n": 3,
+"c": null
 },
 {
 "type": "mcq",
@@ -7480,7 +7692,8 @@
 "sol": "",
 "topic": "Algebra",
 "sub": "Quadratic Equations",
-"n": 4
+"n": 4,
+"c": null
 },
 {
 "type": "mcq",
@@ -7495,7 +7708,8 @@
 "sol": "",
 "topic": "Geometry",
 "sub": "Triangles",
-"n": 5
+"n": 5,
+"c": null
 },
 {
 "type": "mcq",
@@ -7510,7 +7724,8 @@
 "sol": "",
 "topic": "Algebra",
 "sub": "Inequalities",
-"n": 6
+"n": 6,
+"c": null
 },
 {
 "type": "mcq",
@@ -7525,7 +7740,8 @@
 "sol": "",
 "topic": "Arithmetic",
 "sub": "Alligation & Mixture",
-"n": 7
+"n": 7,
+"c": null
 },
 {
 "type": "tita",
@@ -7534,7 +7750,8 @@
 "sol": "",
 "topic": "Number System",
 "sub": "HCF & LCM",
-"n": 8
+"n": 8,
+"c": null
 },
 {
 "type": "mcq",
@@ -7549,7 +7766,8 @@
 "sol": "",
 "topic": "Modern Math",
 "sub": "Permutations & Combinations",
-"n": 9
+"n": 9,
+"c": null
 },
 {
 "type": "mcq",
@@ -7564,7 +7782,8 @@
 "sol": "",
 "topic": "Arithmetic",
 "sub": "Time & Work",
-"n": 10
+"n": 10,
+"c": null
 },
 {
 "type": "tita",
@@ -7573,7 +7792,8 @@
 "sol": "",
 "topic": "Algebra",
 "sub": "Simple Equations",
-"n": 11
+"n": 11,
+"c": null
 },
 {
 "type": "tita",
@@ -7582,7 +7802,8 @@
 "sol": "",
 "topic": "Arithmetic",
 "sub": "Time & Work",
-"n": 12
+"n": 12,
+"c": null
 },
 {
 "type": "tita",
@@ -7591,7 +7812,8 @@
 "sol": "",
 "topic": "Arithmetic",
 "sub": "Averages",
-"n": 13
+"n": 13,
+"c": null
 },
 {
 "type": "mcq",
@@ -7606,7 +7828,8 @@
 "sol": "",
 "topic": "Arithmetic",
 "sub": "Averages",
-"n": 14
+"n": 14,
+"c": null
 },
 {
 "type": "mcq",
@@ -7621,7 +7844,8 @@
 "sol": "",
 "topic": "Arithmetic",
 "sub": "SI & CI",
-"n": 15
+"n": 15,
+"c": null
 },
 {
 "type": "tita",
@@ -7630,7 +7854,8 @@
 "sol": "",
 "topic": "Algebra",
 "sub": "Arithmetic Progression",
-"n": 16
+"n": 16,
+"c": null
 },
 {
 "type": "mcq",
@@ -7645,7 +7870,8 @@
 "sol": "",
 "topic": "Algebra",
 "sub": "Quadratic Equations",
-"n": 17
+"n": 17,
+"c": null
 },
 {
 "type": "tita",
@@ -7654,7 +7880,8 @@
 "sol": "",
 "topic": "Algebra",
 "sub": "Indices & Surds",
-"n": 18
+"n": 18,
+"c": null
 },
 {
 "type": "tita",
@@ -7663,7 +7890,8 @@
 "sol": "",
 "topic": "Geometry",
 "sub": "Triangles",
-"n": 19
+"n": 19,
+"c": null
 },
 {
 "type": "mcq",
@@ -7678,7 +7906,8 @@
 "sol": "",
 "topic": "Geometry",
 "sub": "Quadrilaterals",
-"n": 20
+"n": 20,
+"c": null
 },
 {
 "type": "mcq",
@@ -7693,7 +7922,8 @@
 "sol": "",
 "topic": "Geometry",
 "sub": "Circles",
-"n": 21
+"n": 21,
+"c": null
 },
 {
 "type": "tita",
@@ -7702,7 +7932,8 @@
 "sol": "",
 "topic": "Arithmetic",
 "sub": "Time Speed Distance",
-"n": 22
+"n": 22,
+"c": null
 }
 ]
 }
@@ -7719,7 +7950,7 @@
 "The sleights of hand that conflate consumption with virtue are a central theme in A Thirst for Empire, a sweeping and richly detailed history of tea by the historian Erika Rappaport. How did tea evolve from an obscure “China drink” to a universal beverage imbued with civilising properties? The answer, in brief, revolves around this conflation, not only by profit-motivated marketers but by a wide variety of interest groups. While abundant historical records have allowed the study of how tea itself moved from east to west, Rappaport is focused on the movement of the idea of tea to suit particular purposes. Beginning in the 1700s, the temperance movement advocated for tea as a pleasure that cheered but did not inebriate, and industrialists soon borrowed this moral argument in advancing their case for free trade in tea (and hence more open markets for their textiles). Factory owners joined in, compelled by the cause of a sober workforce, while Christian missionaries discovered that tea “would soothe any colonial encounter”. During the Second World War, tea service was presented as a social and patriotic activity that uplifted soldiers and calmed refugees. But it was tea’s consumer-directed marketing by importers and retailers – and later by brands – that most closely portends current trade debates. An early version of the “farm to table” movement was sparked by anti-Chinese sentiment and concerns over trade deficits, as well as by the reality and threat of adulterated tea containing dirt and hedge clippings. Lipton was soon advertising “from the Garden to Tea Cup” supply chains originating in British India and supervised by “educated Englishmen”. While tea marketing always presented direct consumer benefits (health, energy, relaxation), tea drinkers were also assured that they were participating in a larger noble project that advanced the causes of family, nation and civilization. . . . Rappaport’s treatment of her subject is refreshingly apolitical. Indeed, it is a virtue that readers will be unable to guess her political orientation: both the miracle of markets and capitalism’s dark underbelly are evident in tea’s complex story, as are the complicated effects of British colonialism. . . . Commodity histories are now themselves commodities: recent works investigate cotton, salt, cod, sugar, chocolate, paper and milk. And morality marketing is now a commodity as well, applied to food, “fair trade” apparel and eco-tourism. Yet tea is, Rappaport makes clear, a world apart – an astonishing success story in which tea marketers not only succeeded in conveying a sense of moral elevation to the consumer but also arguably did advance the cause of civilisation and community. I have been offered tea at a British garden party, a Bedouin campfire, a Turkish carpet shop and a Japanese chashitsu, to name a few settings. In each case the offering was more an idea – friendship, community, respect – than a drink, and in each case the idea then created a reality. It is not a stretch to say that tea marketers have advanced the particularly noble cause of human dialogue and friendship.",
 "We cannot travel outside our neighbourhood without passports. We must wear the same plain clothes. We must exchange our houses every ten years. We cannot avoid labour. We all go to bed at the same time . . . We have religious freedom, but we cannot deny that the soul dies with the body, since ‘but for the fear of punishment, they would have nothing but contempt for the laws and customs of society'. . . . In More’s time, for much of the population, given the plenty and security on offer, such restraints would not have seemed overly unreasonable. For modern readers, however, Utopia appears to rely upon relentless transparency, the repression of variety, and the curtailment of privacy. Utopia provides security: but at what price? In both its external and internal relations, indeed, it seems perilously dystopian. Such a conclusion might be fortified by examining selectively the tradition which follows More on these points. This often portrays societies where . . . 'it would be almost impossible for man to be depraved, or wicked'. . . . This is achieved both through institutions and mores, which underpin the common life. . . . The passions are regulated and inequalities of wealth and distinction are minimized. Needs, vanity, and emulation are restrained, often by prizing equality and holding riches in contempt. The desire for public power is curbed. Marriage and sexual intercourse are often controlled: in Tommaso Campanella’s The City of the Sun (1623), the first great literary utopia after More’s, relations are forbidden to men before the age of twenty-one and women before nineteen. Communal child-rearing is normal; for Campanella this commences at age two. Greater simplicity of life, ‘living according to nature’, is often a result: the desire for simplicity and purity are closely related. People become more alike in appearance, opinion, and outlook than they often have been. Unity, order, and homogeneity thus prevail at the cost of individuality and diversity. This model, as J. C. Davis demonstrates, dominated early modern utopianism. . . . And utopian homogeneity remains a familiar theme well into the twentieth century. Given these considerations, it is not unreasonable to take as our starting point here the hypothesis that utopia and dystopia evidently share more in common than is often supposed. Indeed, they might be twins, the progeny of the same parents. Insofar as this proves to be the case, my linkage of both here will be uncomfortably close for some readers. Yet we should not mistake this argument for the assertion that all utopias are, or tend to produce, dystopias. Those who defend this proposition will find that their association here is not nearly close enough. For we have only to acknowledge the existence of thousands of successful intentional communities in which a cooperative ethos predominates and where harmony without coercion is the rule to set aside such an assertion. Here the individual’s submersion in the group is consensual (though this concept is not unproblematic). It results not in enslavement but voluntary submission to group norms. Harmony is achieved without . . . harming others.",
 "<img src=\"img/pyq/2021/s1/sales-bars.png\" alt=\"Horizontal bar chart of 2020 sales by product subcategory\"><br><br><br>The horizontal bars in the above diagram represent 2020 aggregate sales (in ₹ million) of a company for the different subcategories of its products. The top four product subcategories (Bookcases, Chairs, Furnishings, Tables) belong to furniture product category; the bottom four product subcategories (Accessories, Copiers, Machines, Phones) belong to the technology product category while all other product subcategories belong to the office supply product category. For each of the product subcategories, there is a vertical line indicating the sales of the corresponding subcategory in 2019.",
-"Ganga, Kaveri, and Narmada are three women who buy four raw materials (Mango, Apple, Banana and Milk) and sell five finished products (Mango smoothie, Apple smoothie, Banana smoothie, Mixed fruit smoothie and Fruit salad). Table-1 gives information about the raw materials required to produce the five finished products. One unit of a finished product requires one unit of each of the raw materials mentioned in the second column of the table. Table-1 Finished product<br><br>Raw materials required<br><br>Mango smoothie<br><br>Mango, Milk<br><br>Apple smoothie<br><br>Apple, Milk<br><br>Banana smoothie<br><br>Banana, Milk<br><br>Mixed fruit smoothie<br><br>Mango, Apple, Banana, Milk<br><br>Fruit salad<br><br>Mango, Apple, Banana<br><br>One unit of milk, mango, apple, and banana cost ₹5, ₹3, ₹2, and ₹1 respectively. Each unit of a finished product is sold for a profit equal to two times the number of raw materials used to make that product. For example, apple smoothie is made with two raw materials (apple and milk) and will be sold for a profit of ₹4 per unit. Leftover raw materials are sold during the last business hour of the day for a loss of ₹1 per unit. The amount, in rupees, received from sales (revenue) for each woman in each of the four business hours of the day is given in Table-2. Table-2 Business Hour<br><br>Ganga<br><br>Kaveri<br><br>Narmada<br><br>Hour 1<br><br>23<br><br>19<br><br>31<br><br>Hour 2<br><br>21<br><br>22<br><br>21<br><br>Hour 3<br><br>29<br><br>30<br><br>23<br><br>Hour 4 (last hour)<br><br>30<br><br>27<br><br>22<br><br>The following additional facts are known.<br>1. No one except possibly Ganga sold any Mango smoothie.<br>2. Each woman sold either zero or one unit of any single finished product in any hour.<br>3. Each woman had exactly one unit each of two different raw materials as leftovers.<br>4. No one had any banana leftover.",
+"<p>Ganga, Kaveri, and Narmada are three women who buy four raw materials (Mango, Apple, Banana and Milk) and sell five finished products (Mango smoothie, Apple smoothie, Banana smoothie, Mixed fruit smoothie and Fruit salad). Table-1 gives information about the raw materials required to produce the five finished products. One unit of a finished product requires one unit of each of the raw materials mentioned in the second column of the table.</p><p><b>Table-1</b></p><table><tr><th>Finished product</th><th>Raw materials required</th></tr><tr><td>Mango smoothie</td><td>Mango, Milk</td></tr><tr><td>Apple smoothie</td><td>Apple, Milk</td></tr><tr><td>Banana smoothie</td><td>Banana, Milk</td></tr><tr><td>Mixed fruit smoothie</td><td>Mango, Apple, Banana, Milk</td></tr><tr><td>Fruit salad</td><td>Mango, Apple, Banana</td></tr></table><p>One unit of milk, mango, apple, and banana cost ₹ 5, ₹ 3, ₹ 2, and ₹ 1 respectively. Each unit of a finished product is sold for a profit equal to two times the number of raw materials used to make that product. For example, apple smoothie is made with two raw materials (apple and milk) and will be sold for a profit of ₹ 4 per unit. Leftover raw materials are sold during the last business hour of the day for a loss of ₹ 1 per unit.</p><p>The amount, in rupees, received from sales (revenue) for each woman in each of the four business hours of the day is given in Table-2.</p><p><b>Table-2</b></p><table><tr><th>Business Hour</th><th>Ganga</th><th>Kaveri</th><th>Narmada</th></tr><tr><td>Hour 1</td><td>23</td><td>19</td><td>31</td></tr><tr><td>Hour 2</td><td>21</td><td>22</td><td>21</td></tr><tr><td>Hour 3</td><td>29</td><td>30</td><td>23</td></tr><tr><td>Hour 4 (last hour)</td><td>30</td><td>27</td><td>22</td></tr></table><p>The following additional facts are known.<br>1. No one except possibly Ganga sold any Mango smoothie.<br>2. Each woman sold either zero or one unit of any single finished product in any hour.<br>3. Each woman had exactly one unit each of two different raw materials as leftovers.<br>4. No one had any banana leftover.</p>",
 "A journal plans to publish 18 research papers, written by eight authors (A, B, C, D, E, F, G, and H) in four issues of the journal scheduled in January, April, July and October. Each of the research papers was written by exactly one of the eight authors. Five papers were scheduled in each of the first two issues, while four were scheduled in each of the last two issues. Every author wrote at least one paper and at most three papers. The total number of papers written by A, D, G and H was double the total number of papers written by the other four authors. Four of the authors were from India and two each were from Japan and China. Each author belonged to exactly one of the three areas — Manufacturing, Automation and Logistics. Four of the authors were from the Logistics area and two were from the Automation area. As per the journal policy, none of the authors could have more than one paper in any issue of the journal. The following facts are also known.<br>1. F, an Indian author from the Logistics area, wrote only one paper. It was scheduled in the October issue.<br>2. A was from the Automation area and did not have a paper scheduled in the October issue.<br>3. None of the Indian authors were from the Manufacturing area and none of the Japanese or Chinese authors were from the Automation area.<br>4. A and H were from different countries, but had their papers scheduled in exactly the same issues.<br>5. C and E, both Chinese authors from different areas, had the same number of papers scheduled. Further, E had papers scheduled in consecutive issues of the journal but C did not.<br>6. B, from the Logistics area, had a paper scheduled in the April issue of the journal.<br>7. B and G belonged to the same country. None of their papers were scheduled in the same issue of the journal.<br>8. D, a Japanese author from the Manufacturing area, did not have a paper scheduled in the July issue.<br>9. C and H belonged to different areas.",
 "Amudha, Bharatan, Chandran, Dhinesh, Ezhil, Fani and Gowtham are seven people in a town. Any pair of them could either be strangers, acquaintances, or friends. All relationships are mutual. For example, if Amudha is a friend of Bharatan, then Bharatan is also a friend of Amudha. Similarly, if Amudha is a stranger to Bharatan, then Bharatan is also a stranger to Amudha. Partial information about the number of friends, acquaintances, and strangers of each of these people among them is given in the table below.<br><table><tr><th></th><th>No. of Friends</th><th>No. of Acquaintances</th><th>No. of Strangers</th></tr><tr><td>Amudha</td><td></td><td>1</td><td>4</td></tr><tr><td>Bharatan</td><td></td><td></td><td></td></tr><tr><td>Chandran</td><td></td><td>1</td><td></td></tr><tr><td>Dhinesh</td><td></td><td></td><td>2</td></tr><tr><td>Ezhil</td><td></td><td></td><td>1</td></tr><tr><td>Fani</td><td>1</td><td></td><td></td></tr><tr><td>Gowtham</td><td></td><td>3</td><td>2</td></tr></table><br>The following additional facts are also known.<br>1. Amudha, Bharatan, and Chandran are mutual strangers.<br>2. Amudha, Dhinesh, and Fani are Ezil's friends.<br>3. Chandran and Gowtham are friends.<br>4. Every friend of Amudha is an acquaintance of Bharatan, and every acquaintance of Bharatan is a friend of Amudha.<br>5. Every friend of Bharatan is an acquaintance of Amudha, and every acquaintance of Amudha is a friend of Bharatan."
 ],
@@ -7963,21 +8194,24 @@
 "Visual speech mismatched with auditory speech can result in the perception of an entirely\ndifferent message: this illusion is known as the McGurk effect."
 ],
 "ans": 3,
-"sol": ""
+"sol": "",
+"c": null
 },
 {
 "n": 18,
 "type": "tita",
 "q": "The four sentences (labelled 1, 2, 3, 4) below, when properly sequenced would yield a coherent paragraph. Decide on the proper sequencing of the order of the sentences and key in the sequence of the four numbers as your answer: 1. In the central nervous systems of other animal species, such a comprehensive regeneration of neurons has not yet been proven beyond doubt. 2. Biologists from the University of Bayreuth have discovered a uniquely rapid form of regeneration in injured neurons and their function in the central nervous system of zebrafish. 3. They studied the Mauthner cells, which are solely responsible for the escape behaviour of the fish, and previously regarded as incapable of regeneration. 4. However, their ability to regenerate crucially depends on the location of the injury.",
 "ans": "2341",
-"sol": ""
+"sol": "",
+"c": null
 },
 {
 "n": 19,
 "type": "tita",
 "q": "The four sentences (labelled 1, 2, 3, 4) below, when properly sequenced would yield a coherent paragraph. Decide on the proper sequencing of the order of the sentences and key in the sequence of the four numbers as your answer: 1. A popular response is the exhortation to plant more trees. 2. It seems all but certain that global warming will go well above two degrees—quite how high no one knows yet. 3. Burning them releases it, which is why the scale of forest fires in the Amazon basin last year garnered headlines. 4. This is because trees sequester carbon by absorbing carbon dioxide.",
 "ans": "2143",
-"sol": ""
+"sol": "",
+"c": null
 },
 {
 "n": 20,
@@ -7990,21 +8224,24 @@
 "Competition has driven emerging economies, once suppliers of cheap labour, to become\ninnovators of business models that have enabled them to move up the value chain and go\nglobal."
 ],
 "ans": 3,
-"sol": ""
+"sol": "",
+"c": null
 },
 {
 "n": 21,
 "type": "tita",
 "q": "Five jumbled up sentences, related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd one out and key in the number of the sentence as your answer: 1. The legal status of resources mined in space remains ambiguous; and while the market for asteroid minerals is currently nonexistent, this is likely to change as technical hurdles diminish. 2. Outer space is a commons, and all of it is open for exploration, however, space law developed in the 1950s and 60s is state-centric and arguably ill-suited to a commercial future. 3. Laws adopted by the US and Luxembourg are first steps, but they only protect firms from competing claims by their compatriots; a Chinese company will not be bound by US law. 4. Critics say the US is conferring rights that it has no authority to confer; Russia in particular has condemned this, citing the US’ disrespect for international law. 5. At issue now is commercial activity, as private firms—rather than nation states—look to space for profit.",
 "ans": "4",
-"sol": ""
+"sol": "",
+"c": null
 },
 {
 "n": 22,
 "type": "tita",
 "q": "Five jumbled up sentences, related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd one out and key in the number of the sentence as your answer: 1. There is a dark side to academic research, especially in India, and at its centre is the phenomenon of predatory journals. 2. But in truth, as long as you pay, you can get anything published. 3. In look and feel thus, they are exactly like any reputed journal. 4. They claim to be indexed in the most influential databases, say they possess editorial boards that comprise top scientists and researchers, and claim to have a rigorous peerreview structure. 5. But a large section of researchers and scientists across the world are at the receiving end of nothing short of an academic publishing scam.",
 "ans": "5",
-"sol": ""
+"sol": "",
+"c": null
 },
 {
 "n": 23,
@@ -8017,14 +8254,16 @@
 "Peacekeeping forces in foreign countries have tended to be aloof for valid reasons\nbut would be more effective if they worked more closely with local communities."
 ],
 "ans": 3,
-"sol": ""
+"sol": "",
+"c": null
 },
 {
 "n": 24,
 "type": "tita",
 "q": "The four sentences (labelled 1, 2, 3, 4) below, when properly sequenced would yield a coherent paragraph. Decide on the proper sequencing of the order of the sentences and key in the sequence of the four numbers as your answer: 1. The work is more than the text, for the text only takes on life, when it is realized and furthermore the realization is by no means independent of the individual disposition of the reader. 2. The convergence of text and reader brings the literary work into existence and this convergence is not to be identified either with the reality of the text or with the individual disposition of the reader. 3. From this polarity it follows that the literary work cannot be completely identical with the text, or with the realization of the text, but in fact must lie halfway between the two. 4. The literary work has two poles, which we might call the artistic and the aesthetic; the artistic refers to the text created by the author, and the aesthetic to the realization accomplished by the reader.",
 "ans": "4312",
-"sol": ""
+"sol": "",
+"c": null
 }
 ]
 },
@@ -8089,10 +8328,10 @@
 "sol": "",
 "type": "mcq",
 "opts": [
-"Either 0 or 1 or",
-"2. Either 1 or",
-"",
-""
+"Either 0 or 1 or 2.",
+"Either 1 or 2.",
+"Exactly 1.",
+"Exactly 2."
 ],
 "ans": 1
 },
@@ -9507,6 +9746,939 @@
 "q": "For all possible integers n satisfying 2.25 ≤ 2 + 2<sup>n+2</sup> ≤ 202, the number of integer values of 3 + 3<sup>n+1</sup> is",
 "opts": [],
 "ans": "7",
+"sol": "",
+"sub": "Algebra"
+}
+]
+}
+]
+},
+{
+"id": "cat2021slot3",
+"name": "CAT 2021 Slot 3",
+"year": 2021,
+"secMin": 40,
+"ctxs": [
+"<p>Back in the early 2000s, an awesome thing happened in the New X-Men comics. Our mutant heroes had been battling giant robots called Sentinels for years, but suddenly these mechanical overlords spawned a new threat: Nano-Sentinels! Not content to rule Earth with their metal fists, these tiny robots invaded our bodies at the microscopic level. Infected humans were slowly converted into machines, cell by cell.</p><p>Now, a new wave of extremely odd robots is making at least part of the Nano-Sentinels story come true. Using exotic fabrication materials like squishy hydrogels and elastic polymers, researchers are making autonomous devices that are often tiny and that could turn out to be more powerful than an army of Terminators. Some are 1-centimetre blobs that can skate over water. Others are flat sheets that can roll themselves into tubes, or matchstick-sized plastic coils that act as powerful muscles. No, they won’t be invading our bodies and turning us into Sentinels – which I personally find a little disappointing – but some of them could one day swim through our bloodstream to heal us. They could also clean up pollutants in water or fold themselves into different kinds of vehicles for us to drive. . . .</p><p>Unlike a traditional robot, which is made of mechanical parts, these new kinds of robots are made from molecular parts. The principle is the same: both are devices that can move around and do things independently. But a robot made from smart materials might be nothing more than a pink drop of hydrogel. Instead of gears and wires, it’s assembled from two kinds of molecules – some that love water and some that avoid it – which interact to allow the bot to skate on top of a pond.</p><p>Sometimes these materials are used to enhance more conventional robots. One team of researchers, for example, has developed a different kind of hydrogel that becomes sticky when exposed to a low-voltage zap of electricity and then stops being sticky when the electricity is switched off. This putty-like gel can be pasted right onto the feet or wheels of a robot. When the robot wants to climb a sheer wall or scoot across the ceiling, it can activate its sticky feet with a few volts. Once it is back on a flat surface again, the robot turns off the adhesive like a light switch.</p><p>Robots that are wholly or partly made of gloop aren’t the future that I was promised in science fiction. But it’s definitely the future I want. I’m especially keen on the nanometre-scale “soft robots” that could one day swim through our bodies. Metin Sitti, a director at the Max Planck Institute for Intelligent Systems in Germany, worked with colleagues to prototype these tiny, synthetic beasts using various stretchy materials, such as simple rubber, and seeding them with magnetic microparticles. They are assembled into a finished shape by applying magnetic fields. The results look like flowers or geometric shapes made from Tinkertoy ball and stick modelling kits. They’re guided through tubes of fluid using magnets, and can even stop and cling to the sides of a tube.</p>",
+"<p>Starting in 1957, [Noam Chomsky] proclaimed a new doctrine: Language, that most human of all attributes, was innate. The grammatical faculty was built into the infant brain, and your average 3-year-old was not a mere apprentice in the great enterprise of absorbing English from his or her parents, but a “linguistic genius.” Since this message was couched in terms of Chomskyan theoretical linguistics, in discourse so opaque that it was nearly incomprehensible even to some scholars, many people did not hear it. Now, in a brilliant, witty and altogether satisfying book, Mr. Chomsky's colleague Steven Pinker . . . has brought Mr. Chomsky's findings to everyman. In “The Language Instinct” he has gathered persuasive data from such diverse fields as cognitive neuroscience, developmental psychology and speech therapy to make his points, and when he disagrees with Mr. Chomsky he tells you so. . . .</p><p>For Mr. Chomsky and Mr. Pinker, somewhere in the human brain there is a complex set of neural circuits that have been programmed with “super-rules” (making up what Mr. Chomsky calls “universal grammar”), and that these rules are unconscious and instinctive. A half- century ago, this would have been pooh-poohed as a “black box” theory, since one could not actually pinpoint this grammatical faculty in a specific part of the brain, or describe its functioning. But now things are different. Neurosurgeons [have now found that this] “black box” is situated in and around Broca’s area, on the left side of the forebrain. . . .</p><p>Unlike Mr. Chomsky, Mr. Pinker firmly places the wiring of the brain for language within the framework of Darwinian natural selection and evolution. He effectively disposes of all claims that intelligent nonhuman primates like chimps have any abilities to learn and use language. It is not that chimps lack the vocal apparatus to speak; it is just that their brains are unable to produce or use grammar. On the other hand, the “language instinct,” when it first appeared among our most distant hominid ancestors, must have given them a selective reproductive advantage over their competitors (including the ancestral chimps). . . .</p><p>So according to Mr. Pinker, the roots of language must be in the genes, but there cannot be a “grammar gene” any more than there can be a gene for the heart or any other complex body structure. This proposition will undoubtedly raise the hackles of some behavioral psychologists and anthropologists, for it apparently contradicts the liberal idea that human behavior may be changed for the better by improvements in culture and environment, and it might seem to invite the twin bugaboos of biological determinism and racism. Yet Mr. Pinker stresses one point that should allay such fears. Even though there are 4,000 to 6,000 languages today, they are all sufficiently alike to be considered one language by an extraterrestrial observer. In other words, most of the diversity of the world’s cultures, so beloved to anthropologists, is superficial and minor compared to the similarities. Racial differences are literally only “skin deep.” The fundamental unity of humanity is the theme of Mr. Chomsky's universal grammar, and of this exciting book.</p>",
+"<p>Today we can hardly conceive of ourselves without an unconscious. Yet between 1700 and 1900, this notion developed as a genuinely original thought. The “unconscious” burst the shell of conventional language, coined as it had been to embody the fleeting ideas and the shifting conceptions of several generations until, finally, it became fixed and defined in specialized terms within the realm of medical psychology and Freudian psychoanalysis.</p><p>The vocabulary concerning the soul and the mind increased enormously in the course of the nineteenth century. The enrichments of literary and intellectual language led to an altered understanding of the meanings that underlie time-honored expressions and traditional catchwords. At the same time, once coined, powerful new ideas attracted to themselves a whole host of seemingly unrelated issues, practices, and experiences, creating a peculiar network of preoccupations that as a group had not existed before. The drawn-out attempt to approach and define the unconscious brought together the spiritualist and the psychical researcher of borderline phenomena (such as apparitions, spectral illusions, haunted houses, mediums, trance, automatic writing); the psychiatrist or alienist probing the nature of mental disease, of abnormal ideation, hallucination, delirium, melancholia, mania; the surgeon performing operations with the aid of hypnotism; the magnetizer claiming to correct the disequilibrium in the universal flow of magnetic fluids but who soon came to be regarded as a clever manipulator of the imagination; the physiologist and the physician who puzzled over sleep, dreams, sleepwalking, anesthesia, the influence of the mind on the body in health and disease; the neurologist concerned with the functions of the brain and the physiological basis of mental life; the philosopher interested in the will, the emotions, consciousness, knowledge, imagination and the creative genius; and, last but not least, the psychologist.</p><p>Significantly, most if not all of these practices (for example, hypnotism in surgery or psychological magnetism) originated in the waning years of the eighteenth century and during the early decades of the nineteenth century, as did some of the disciplines (such as psychology and psychical research). The majority of topics too were either new or assumed hitherto unknown colors. Thus, before 1790, few if any spoke, in medical terms, of the affinity between creative genius and the hallucinations of the insane . . .</p><p>Striving vaguely and independently to give expression to a latent conception, various lines of thought can be brought together by some novel term. The new concept then serves as a kind of resting place or stocktaking in the development of ideas, giving satisfaction and a stimulus for further discussion or speculation. Thus, the massive introduction of the term unconscious by Hartmann in 1869 appeared to focalize many stray thoughts, affording a temporary feeling that a crucial step had been taken forward, a comprehensive knowledge gained, a knowledge that required only further elaboration, explication, and unfolding in order to bring in a bounty of higher understanding. Ultimately, Hartmann’s attempt at defining the unconscious proved fruitless because he extended its reach into every realm of organic and inorganic, spiritual, intellectual, and instinctive existence, severely diluting the precision and compromising the impact of the concept.</p>",
+"<p>Keeping time accurately comes with a price. The maximum accuracy of a clock is directly related to how much disorder, or entropy, it creates every time it ticks. Natalia Ares at the University of Oxford and her colleagues made this discovery using a tiny clock with an accuracy that can be controlled. The clock consists of a 50-nanometre-thick membrane of silicon nitride, vibrated by an electric current. Each time the membrane moved up and down once and then returned to its original position, the researchers counted a tick, and the regularity of the spacing between the ticks represented the accuracy of the clock. The researchers found that as they increased the clock’s accuracy, the heat produced in the system grew, increasing the entropy of its surroundings by jostling nearby particles . . . “If a clock is more accurate, you are paying for it somehow,” says Ares. In this case, you pay for it by pouring more ordered energy into the clock, which is then converted into entropy. “By measuring time, we are increasing the entropy of the universe,” says Ares. The more entropy there is in the universe, the closer it may be to its eventual demise. “Maybe we should stop measuring time,” says Ares. The scale of the additional entropy is so small, though, that there is no need to worry about its effects, she says.</p><p>The increase in entropy in timekeeping may be related to the “arrow of time”, says Marcus Huber at the Austrian Academy of Sciences in Vienna, who was part of the research team. It has been suggested that the reason that time only flows forward, not in reverse, is that the total amount of entropy in the universe is constantly increasing, creating disorder that cannot be put in order again.</p><p>The relationship that the researchers found is a limit on the accuracy of a clock, so it doesn’t mean that a clock that creates the most possible entropy would be maximally accurate – hence a large, inefficient grandfather clock isn’t more precise than an atomic clock. “It’s a bit like fuel use in a car. Just because I’m using more fuel doesn’t mean that I’m going faster or further,” says Huber.</p><p>When the researchers compared their results with theoretical models developed for clocks that rely on quantum effects, they were surprised to find that the relationship between accuracy and entropy seemed to be the same for both. . . . We can’t be sure yet that these results are actually universal, though, because there are many types of clocks for which the relationship between accuracy and entropy haven’t been tested. “It’s still unclear how this principle plays out in real devices such as atomic clocks, which push the ultimate quantum limits of accuracy,” says Mark Mitchison at Trinity College Dublin in Ireland. Understanding this relationship could be helpful for designing clocks in the future, particularly those used in quantum computers and other devices where both accuracy and temperature are crucial, says Ares. This finding could also help us understand more generally how the quantum world and the classical world are similar and different in terms of thermodynamics and the passage of time.</p>",
+"<p>Three reviewers Amal, Bimal, and Komal are tasked with selecting questions from a pool of 13 questions (Q01 to Q13). Questions can be created by external “subject matter experts” (SMEs) or by one of the three reviewers. Each of the reviewers either approves or disapproves a question that is shown to them. Their decisions lead to eventual acceptance or rejection of the question in the manner described below.</p><p>If a question is created by an SME, it is reviewed first by Amal, and then by Bimal. If both of them approve the question, then the question is accepted and is not reviewed by Komal. If both disapprove the question, it is rejected and is not reviewed by Komal. If one of them approves the question and the other disapproves it, then the question is reviewed by Komal. Then the question is accepted only if she approves it.</p><p>A question created by one of the reviewers is decided upon by the other two. If a question is created by Amal, then it is first reviewed by Bimal. If Bimal approves the question, then it is accepted. Otherwise, it is reviewed by Komal. The question is then accepted only if Komal approves it. A similar process is followed for questions created by Bimal, whose questions are first reviewed by Komal, and then by Amal only if Komal disapproves it. Questions created by Komal are first reviewed by Amal, and then, if required, by Bimal.</p><p>The following facts are known about the review process after its completion.</p><p>1. Q02, Q06, Q09, Q11, and Q12 were rejected and the other questions were accepted. 2. Amal reviewed only Q02, Q03, Q04, Q06, Q08, Q10, Q11, and Q13. 3. Bimal reviewed only Q02, Q04, Q06 through Q09, Q12, and Q13. 4. Komal reviewed only Q01 through Q05, Q07, Q08, Q09, Q11, and Q12.</p>",
+"<p>Each of the bottles mentioned in this question contains 50 ml of liquid. The liquid in any bottle can be 100% pure content (P) or can have certain amount of impurity (I). Visually it is not possible to distinguish between P and I. There is a testing device which detects impurity, as long as the percentage of impurity in the content tested is 10% or more.</p><p>For example, suppose bottle 1 contains only P, and bottle 2 contains 80% P and 20% I. If content from bottle 1 is tested, it will be found out that it contains only P. If content of bottle 2 is tested, the test will reveal that it contains some amount of I. If 10 ml of content from bottle 1 is mixed with 20 ml content from bottle 2, the test will show that the mixture has impurity, and hence we can conclude that at least one of the two bottles has I. However, if 10 ml of content from bottle 1 is mixed with 5 ml of content from bottle 2. the test will not detect any impurity in the resultant mixture.</p>",
+"<p>10 players – P1, P2, … , P10 - competed in an international javelin throw event. The number (after P) of a player reflects his rank at the beginning of the event, with rank 1 going to the topmost player. There were two phases in the event with the first phase consisting of rounds 1, 2, and 3, and the second phase consisting of rounds 4, 5, and 6. A throw is measured in terms of the distance it covers (in meters, up to one decimal point accuracy), only if the throw is a ‘valid’ one. For an invalid throw, the distance is taken as zero. A player’s score at the end of a round is the maximum distance of all his throws up to that round. Players are re-ranked after every round based on their current scores. In case of a tie in scores, the player with a prevailing higher rank retains the higher rank. This ranking determines the order in which the players go for their throws in the next round.</p><p>In each of the rounds in the first phase, the players throw in increasing order of their latest rank, i.e. the player ranked 1 at that point throws first, followed by the player ranked 2 at that point and so on. The top six players at the end of the first phase qualify for the second phase. In each of the rounds in the second phase, the players throw in decreasing order of their latest rank i.e. the player ranked 6 at that point throws first, followed by the player ranked 5 at that point and so on. The players ranked 1, 2, and 3 at the end of the sixth round receive gold, silver, and bronze medals respectively.</p><p>All the valid throws of the event were of distinct distances (as per stated measurement accuracy). The tables below show distances (in meters) covered by all valid throws in the first and the third round in the event.</p><p>Distances covered by all the valid throws in the first round Player Distance (in m) P1 82.9 P3 81.5 P5 86.4 P6 82.5 P7 87.2 P9 84.1</p><table><tr><th>Player</th><th>Distance (in m)</th></tr><tr><td>P1</td><td>82.9</td></tr><tr><td>P3</td><td>81.5</td></tr><tr><td>P5</td><td>86.4</td></tr><tr><td>P6</td><td>82.5</td></tr><tr><td>P7</td><td>87.2</td></tr><tr><td>P9</td><td>84.1</td></tr></table><p>Distances covered by all the valid throws in the third round Player Distance (in m) P1 88.6 P3 79.0 P9 81.4</p><table><tr><th>Player</th><th>Distance (in m)</th></tr><tr><td>P1</td><td>88.6</td></tr><tr><td>P3</td><td>79.0</td></tr><tr><td>P9</td><td>81.4</td></tr></table><p>The following facts are also known.</p><p>i. Among the throws in the second round, only the last two were valid. Both the throws enabled these players to qualify for the second phase, with one of them qualifying with the least score. None of these players won any medal. ii. If a player throws first in a round AND he was also the last (among the players in the current round) to throw in the previous round, then the player is said to get a double. Two players got a double. iii. In each round of the second phase, exactly one player improved his score. Each of these improvements was by the same amount. iv. The gold and bronze medalists improved their scores in the fifth and the sixth rounds respectively. One medal winner improved his score in the fourth round. v. The difference between the final scores of the gold medalist and the silver medalist, as well as the difference between the final scores of the silver medalist and the bronze medalist was 1.0 m.</p>",
+"<div class=\"qfig\"><img loading=\"lazy\" src=\"img/pyq/2021/s3/schedule-gantt.png\" alt=\"Employee project schedule Gantt chart\"></div><p>The figure above shows the schedule of four employees – Abani, Bahni, Danni and Tinni – whom Dhoni supervised in 2020. Altogether there were five projects which started and concluded in 2020 in which they were involved. For each of these projects and for each employee, the starting day was at the beginning of a month and the concluding day was the end of a month, and these are indicated by the left and right end points of the corresponding horizontal bars. The number within each bar indicates the percentage of assigned work completed by the employee for that project, as assessed by Dhoni.</p><p>For each employee, his/her total project-month (in 2020) is the sum of the number of months (s)he worked across the five project, while his/her annual completion index is the weightage average of the completion percentage assigned from the different projects, with the weights being the corresponding number of months (s)he worked in these projects. For each project, the total employee-month is the sum of the number of months four employees worked in this project, while its completion index is the weightage average of the completion percentage assigned for the employees who worked in this project, with the weights being the corresponding number of months they worked in this project.</p>"
+],
+"sections": [
+{
+"name": "VARC",
+"qs": [
+{
+"n": 1,
+"c": 0,
+"type": "mcq",
+"q": "Which one of the following statements best captures the sense of the first paragraph?",
+"opts": [
+"Tiny sentinels called X-Men infected people, turning them into mutant robot overlords.",
+"None of the options listed here.",
+"The X-Men were mutant heroes who now had to battle tiny robots called Nano- Sentinels.",
+"People who were infected by Nano-Sentinel robots became mutants who were called X-Men."
+],
+"ans": 2,
+"sol": "",
+"sub": "RC"
+},
+{
+"n": 2,
+"c": 0,
+"type": "mcq",
+"q": "Which one of the following statements, if true, would be the most direct extension of the arguments in the passage?",
+"opts": [
+"X-Men may be created by injecting people with mutant nano-gels that will respond to the brain’s magnetic field.",
+"1-centimetre blobs of gel that have nano-robots in them will be used to send messages.",
+"Sentinel robots will be used in warfare to cause large-scale destructive mutations amongst civilians.",
+"In the future, robots will be used to search and destroy diseases even in the deepest recesses of the human body."
+],
+"ans": 3,
+"sol": "",
+"sub": "RC"
+},
+{
+"n": 3,
+"c": 0,
+"type": "mcq",
+"q": "Which one of the following scenarios, if false, could be seen as supporting the passage?",
+"opts": [
+"Nano-Sentinel-like robots are likely to be used to inject people to convert them into robots, cell by cell.",
+"There are two kinds of molecules used to make some nano-robots: one that reacts positively to water and the other negatively.",
+"Robots made from smart materials are likely to become part of our everyday lives in the future.",
+"Some hydrogels turn sticky when an electric current is passed through them; this potentially has very useful applications."
+],
+"ans": 0,
+"sol": "",
+"sub": "RC"
+},
+{
+"n": 4,
+"c": 0,
+"type": "mcq",
+"q": "Which one of the following statements best summarises the central point of the passage?",
+"opts": [
+"Once the stuff of science fiction, nano-robots now feature in cutting-edge scientific research.",
+"The field of robotics is likely to be feature more and more in comics like the New X- Men.",
+"Robots will use nano-robots on their feet and wheels to climb walls or move on ceilings.",
+"Nano-robots made from molecules that react to water have become increasingly useful."
+],
+"ans": 0,
+"sol": "",
+"sub": "RC"
+},
+{
+"n": 5,
+"c": 1,
+"type": "mcq",
+"q": "According to the passage, all of the following are true about the language instinct EXCEPT that:",
+"opts": [
+"all intelligent primates are gifted with it.",
+"not all intelligent primates are gifted with it.",
+"it confers an evolutionary reproductive advantage.",
+"developments in neuroscience have increased its acceptance."
+],
+"ans": 0,
+"sol": "",
+"sub": "RC"
+},
+{
+"n": 6,
+"c": 1,
+"type": "mcq",
+"q": "On the basis of the information in the passage, Pinker and Chomsky may disagree with each other on which one of the following points?",
+"opts": [
+"The possibility of a universal grammar.",
+"The inborn language acquisition skills of humans.",
+"The language instinct.",
+"The Darwinian explanatory paradigm for language."
+],
+"ans": 3,
+"sol": "",
+"sub": "RC"
+},
+{
+"n": 7,
+"c": 1,
+"type": "mcq",
+"q": "Which one of the following statements best summarises the author’s position about Pinker’s book?",
+"opts": [
+"The evolutionary and deterministic framework of Pinker’s book makes it racist.",
+"Anatomical developments like the voice box play a key role in determining language acquisition skills.",
+"The universality of the “language instinct” counters claims that Pinker’s book is racist.",
+"Culture and environment play a key role in shaping our acquisition of language."
+],
+"ans": 2,
+"sol": "",
+"sub": "RC"
+},
+{
+"n": 8,
+"c": 1,
+"type": "mcq",
+"q": "From the passage, it can be inferred that all of the following are true about Pinker’s book, “The Language Instinct”, EXCEPT that Pinker:",
+"opts": [
+"draws from behavioural psychology theories.",
+"draws extensively from Chomsky’s propositions.",
+"disagrees with Chomsky on certain grounds.",
+"writes in a different style from Chomsky."
+],
+"ans": 0,
+"sol": "",
+"sub": "RC"
+},
+{
+"n": 9,
+"c": 2,
+"type": "mcq",
+"q": "Which one of the following statements best describes what the passage is about?",
+"opts": [
+"The discovery of the unconscious as a part of the human mind.",
+"The identification of the unconscious as an object of psychical research.",
+"The growing vocabulary of the soul and the mind, as diverse processes.",
+"The collating of diverse ideas under the single term: unconscious."
+],
+"ans": 3,
+"sol": "",
+"sub": "RC"
+},
+{
+"n": 10,
+"c": 2,
+"type": "mcq",
+"q": "“The enrichments of literary and intellectual language led to an altered understanding of the meanings that underlie time-honored expressions and traditional catchwords.” Which one of the following interpretations of this sentence would be closest in meaning to the original?",
+"opts": [
+"The meanings of time-honored expressions were changed by innovations in literary and intellectual language.",
+"Literary and intellectual language was altered by time-honored expressions and traditional catchwords.",
+"Time-honored expressions and traditional catchwords were enriched by literary and intellectual language.",
+"All of the options listed here."
+],
+"ans": 0,
+"sol": "",
+"sub": "RC"
+},
+{
+"n": 11,
+"c": 2,
+"type": "mcq",
+"q": "All of the following statements may be considered valid inferences from the passage, EXCEPT:",
+"opts": [
+"Without the linguistic developments of the nineteenth century, the growth of understanding of the soul and the mind may not have happened.",
+"Eighteenth century thinkers were the first to perceive a connection between creative genius and insanity.",
+"Unrelated practices began to be treated as related to each other, as knowledge of the mind grew in the nineteenth century.",
+"New conceptions in the nineteenth century could provide new knowledge because of the establishment of fields such as anaesthesiology."
+],
+"ans": 3,
+"sol": "",
+"sub": "RC"
+},
+{
+"n": 12,
+"c": 2,
+"type": "mcq",
+"q": "Which one of the following sets of words is closest to mapping the main arguments of the passage?",
+"opts": [
+"Unconscious; Latent conception; Dreams.",
+"Language; Unconscious; Psychoanalysis.",
+"Imagination; Magnetism; Psychiatry.",
+"Literary language; Unconscious; Insanity."
+],
+"ans": 1,
+"sol": "",
+"sub": "RC"
+},
+{
+"n": 13,
+"c": 3,
+"type": "mcq",
+"q": "Which one of the following sets of words and phrases serves best as keywords of the passage?",
+"opts": [
+"Electric current; Heat; Quantum effects.",
+"Silicon Nitride; Energy; Grandfather Clock.",
+"Measuring Time; Accuracy; Entropy.",
+"Membrane; Arrow of time; Entropy."
+],
+"ans": 2,
+"sol": "",
+"sub": "RC"
+},
+{
+"n": 14,
+"c": 3,
+"type": "mcq",
+"q": "“It’s a bit like fuel use in a car. Just because I’m using more fuel doesn’t mean that I’m going faster or further . . .” What is the purpose of this example?",
+"opts": [
+"If you go faster in a car, you will tend to consume more fuel, but the converse is not necessarily true. In the same way, increased entropy does not necessarily mean greater accuracy of a clock.",
+"The further you go in a car, the more fuel you use. In the same way, the faster you go in a car, the less time you use.",
+"If you measure the speed of a car with a grandfather clock, the result will be different than if you measured it with an atomic clock.",
+"The further and faster you go in a car, the greater the amount of fuel you will use, the greater the amount of heat produced and, hence, the greater the entropy."
+],
+"ans": 0,
+"sol": "",
+"sub": "RC"
+},
+{
+"n": 15,
+"c": 3,
+"type": "mcq",
+"q": "The author makes all of the following arguments in the passage, EXCEPT that:",
+"opts": [
+"The relationship between accuracy and entropy may not apply to all clocks.",
+"Researchers found that the heat produced in a system is the price paid for increased accuracy of measurement.",
+"There is no difference in accuracy between an inefficient grandfather clock and an atomic clock.",
+"In designing clocks for quantum computers, both precision and heat have to be taken into account."
+],
+"ans": 1,
+"sol": "",
+"sub": "RC"
+},
+{
+"n": 16,
+"c": 3,
+"type": "mcq",
+"q": "None of the following statements can be inferred from the passage EXCEPT that:",
+"opts": [
+"the arrow of time has not yet been tested for atomic clocks.",
+"quantum computers are likely to produce more heat and, hence, more entropy, because of the emphasis on their clocks' accuracy.",
+"grandfather clocks are likely to produce less heat and, hence, less entropy, because they are not as accurate.",
+"a clock with a 50-nanometre-thick membrane of silicon nitride has been made to vibrate, producing electric currents."
+],
+"ans": 1,
+"sol": "",
+"sub": "RC"
+},
+{
+"n": 17,
+"c": null,
+"type": "tita",
+"q": "The four sentences (labelled 1, 2, 3 and 4) below, when properly sequenced would yield a coherent paragraph. Decide on the proper sequencing of the order of the sentences and key in the sequence of the four numbers as your answer:<br>1. Businesses find automation, such as robotic employees, a big asset in terms of productivity and efficiency.<br>2. But in recent years, robotics has had increasing impacts on unemployment, not just of manual labour, as computers are rapidly handling some white-collar and service-sector work.<br>3. For years politicians have promised workers that they would bring back their jobs by clamping down on trade, offshoring and immigration.<br>4. Economists, based on their research, say that the bigger threat to jobs now is not globalisation but automation.",
+"opts": [],
+"ans": "3412",
+"sol": "",
+"sub": "VA"
+},
+{
+"n": 18,
+"c": null,
+"type": "mcq",
+"q": "The passage given below is followed by four alternate summaries. Choose the option that best captures the essence of the passage.<br><br>The human mind is wired to see patterns. Not only does the brain process information as it comes in, it also stores insights from all our past experiences. Every interaction, happy or sad, is catalogued in our memory. Intuition draws from that deep memory well to inform our decisions going forward. In other words, intuitive decisions are based on data, and not contrary to data as many would like to assume. When we subconsciously spot patterns, the body starts firing neurochemicals in both the brain and gut. These “somatic markers” are what give us that instant sense that something is right … or that it’s off. Not only are these automatic processes faster than rational thought, but our intuition draws from decades of diverse qualitative experience (sights, sounds, interactions, etc.) – a wholly human feature that big data alone could never accomplish.",
+"opts": [
+"Intuition draws from deep memory, and may not be related to data, but to decades of diverse qualitative experience.",
+"Intuitions are automatic processes and are therefore faster than rational thought, and so decisions based on them are better.",
+"Intuitions are neuro-chemical firings based on pattern recognition and draw upon a rich and vast database of experiences.",
+"Intuition is infinitely richer than big data which is based on rational thought and accomplishes more than what big data can."
+],
+"ans": 2,
+"sol": "",
+"sub": "VA"
+},
+{
+"n": 19,
+"c": null,
+"type": "tita",
+"q": "Five jumbled up sentences, related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd one out and key in the number of the sentence as your answer:<br>1. They often include a foundation course on navigating capitalism with Chinese characteristics and have replaced typical cases from US corporates with a focus on how Western theories apply to China’s buzzing local firms.<br>2. The best Chinese business schools look like their Western rivals but are now growing distinct in terms of what they teach and the career boost they offer.<br>3. Western schools have enhanced their offerings with double degrees, popular with domestic and overseas students alike—and boosted the prestige of their Chinese partners.<br>4. For students, a big draw is the chance to rub shoulders with captains of China’s private sector.<br>5. Their business courses now largely cater to the growing demand from China Inc which has become more global, richer and ready to recruit from this sinocentric student body.",
+"opts": [],
+"ans": "3",
+"sol": "",
+"sub": "VA"
+},
+{
+"n": 20,
+"c": null,
+"type": "tita",
+"q": "Five jumbled up sentences, related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd one out and key in the number of the sentence as your answer:<br>1. A typical example is Wikipedia, where the overwhelming majority of contributors are male and so the available content is skewed to reflect their interests.<br>2. Without diversity of thought and representation, society is left with a distorted picture of future options, which are likely to result in augmenting existing inequalities.<br>3. Gross gender inequality in the technology sector is problematic, not only for the industry-wide marginalisation of women, but because technology designs embody the values of their makers.<br>4. While redressing unequal representation in the workplace is a step in the right direction, broader social change is needed to address the structural inequalities embedded within the current organisation of work and employment.<br>5. If technology merely reflects the perspectives of the male stereotype, then new technologies are unlikely to accommodate the diverse social contexts within which they operate.",
+"opts": [],
+"ans": "4",
+"sol": "",
+"sub": "VA"
+},
+{
+"n": 21,
+"c": null,
+"type": "mcq",
+"q": "The passage given below is followed by four alternate summaries. Choose the option that best captures the essence of the passage.<br><br>People view idleness as a sin and industriousness as a virtue, and in the process have developed an unsatisfactory relationship with their jobs. Work has become a way for them to keep busy, even though many find their work meaningless. In their need for activity people undertake what was once considered work (fishing, gardening) as hobbies. The opposing view is that hard work has made us prosperous and improved our levels of health and education. It has also brought innovation and labour and time-saving devices, which have lessened life’s drudgery.",
+"opts": [
+"Some believe that hard work has been glorified to the extent that it has become meaningless, and led to greater idleness, but it has also had enormous positive impacts on everyday life.",
+"Despite some detractors, hard work is essential in today’s world to enable economic progress, for education and health and to propel innovations that make life easier.",
+"While the idealisation of hard work has propelled people into meaningless jobs and endless activity, it has also led to tremendous social benefits from prosperity and innovation.",
+"Hard work has overtaken all aspects of our lives and has enabled economic prosperity, but it is important that people reserve their leisure time for some idleness."
+],
+"ans": 2,
+"sol": "",
+"sub": "VA"
+},
+{
+"n": 22,
+"c": null,
+"type": "mcq",
+"q": "The passage given below is followed by four alternate summaries. Choose the option that best captures the essence of the passage.<br><br>Brazil’s growth rate has been low, yet most Brazilians say their financial situation has improved, and they expect it to get even better. This is because most incomes are rising fast, with higher minimum wages and very low unemployment. The result is falling inequality and a growing middle class — the result of economic stabilization, improved social security and universal primary education. But despite recent improvements the Brazilian economy is still painfully unequal, with poor Brazilians paying the biggest share of their income in taxes and getting the least back in government services.",
+"opts": [
+"Good economic indicators have masked the unfair taxation of the poor that is likely to destabilise the Brazilian economy in the next few years.",
+"Most Brazilians feel they have benefitted from recent economic events, but the poor continue to be dealt unfairly by the state.",
+"With rising incomes and falling unemployment, most Brazilians are being misled into thinking that their economy is doing well.",
+"Economic reforms have benefitted many Brazilians, but they are unaware of the impending problems from rising inequalities in their society."
+],
+"ans": 1,
+"sol": "",
+"sub": "VA"
+},
+{
+"n": 23,
+"c": null,
+"type": "tita",
+"q": "The four sentences (labelled 1, 2, 3 and 4) below, when properly sequenced would yield a coherent paragraph. Decide on the proper sequencing of the order of the sentences and key in the sequence of the four numbers as your answer:<br>1. Restitution of artefacts to original cultures could faces legal obstacles, as many Western museums are legally prohibited from disposing off their collections.<br>2. This is in response to countries like Nigeria, which are pressurising European museums to return their precious artefacts looted by colonisers in the past.<br>3. Museums in Europe today are struggling to come to terms with their colonial legacy, some taking steps to return artefacts but not wanting to lose their prized collections.<br>4. Legal hurdles notwithstanding, politicians and institutions in France and Germany would now like to defuse the colonial time bombs, and are now backing the return of part of their holdings.",
+"opts": [],
+"ans": "3214",
+"sol": "",
+"sub": "VA"
+},
+{
+"n": 24,
+"c": null,
+"type": "tita",
+"q": "The four sentences (labelled 1, 2, 3, 4) below, when properly sequenced would yield a coherent paragraph. Decide on the proper sequencing of the order of the sentences and key in the sequence of the four numbers as your answer:<br>1. It is regimes of truth that make certain relationships speakable – relationships, like subjectivities, are constituted through discursive formations, which sustain regimes of truth.<br>2. Relationships are nothing without the communication that brings them into being; interpersonal communication is connected to knowledge shared by interlocutors, and scholars should attend to relational histories in their analyses.<br>3. A Foucauldian approach to relationships goes beyond these conceptions of discourse and history to macrolevel regimes of truth as constituting relationships.<br>4. Reconsidering micropractices within relationships that are constituted within and simultaneously contributors to regimes of truth acknowledges the central position of power/knowledge in the constitution of what has come to be considered true and real.",
+"opts": [],
+"ans": "2314",
+"sol": "",
+"sub": "VA"
+}
+]
+},
+{
+"name": "DILR",
+"qs": [
+{
+"n": 1,
+"c": 4,
+"type": "tita",
+"q": "How many questions were DEFINITELY created by Amal?",
+"opts": [],
+"ans": "3",
+"sol": "",
+"sub": "DILR"
+},
+{
+"n": 2,
+"c": 4,
+"type": "tita",
+"q": "How many questions were DEFINITELY created by Komal?",
+"opts": [],
+"ans": "1",
+"sol": "",
+"sub": "DILR"
+},
+{
+"n": 3,
+"c": 4,
+"type": "tita",
+"q": "How many questions were DEFINITELY created by the SMEs?",
+"opts": [],
+"ans": "3",
+"sol": "",
+"sub": "DILR"
+},
+{
+"n": 4,
+"c": 4,
+"type": "mcq",
+"q": "How many questions were DEFINITELY disapproved by Bimal?",
+"opts": [
+"7",
+"4",
+"5",
+"3"
+],
+"ans": 1,
+"sol": "",
+"sub": "DILR"
+},
+{
+"n": 5,
+"c": 4,
+"type": "mcq",
+"q": "The approval ratio of a reviewer is the ratio of the number of questions (s)he approved to the number of questions (s)he reviewed. Which option best describes Amal’s approval ratio?",
+"opts": [
+"lies between 0.25 and 0.75",
+"0.25",
+"lies between 0.25 and 0.50",
+"either 0.25 or 0.75"
+],
+"ans": 0,
+"sol": "",
+"sub": "DILR"
+},
+{
+"n": 6,
+"c": 4,
+"type": "mcq",
+"q": "How many questions created by Amal or Bimal were disapproved by at least one of the other reviewers?",
+"opts": [
+"7",
+"2",
+"4",
+"5"
+],
+"ans": 3,
+"sol": "",
+"sub": "DILR"
+},
+{
+"n": 7,
+"c": 5,
+"type": "mcq",
+"q": "5 ml of content from bottle A is mixed with 5 ml of content from bottle B. The resultant mixture, when tested, detects the presence of I. If it is known that bottle A contains only P, what BEST can be concluded about the volume of I in bottle B?",
+"opts": [
+"1 ml",
+"Less than 1 ml",
+"10 ml or more",
+"10 ml"
+],
+"ans": 2,
+"sol": "",
+"sub": "DILR"
+},
+{
+"n": 8,
+"c": 5,
+"type": "tita",
+"q": "There are four bottles. Each bottle is known to contain only P or only I. They will be considered to be “collectively ready for despatch” if all of them contain only P. In minimum how many tests, is it possible to ascertain whether these four bottles are “collectively ready for despatch”?",
+"opts": [],
+"ans": "1",
+"sol": "",
+"sub": "DILR"
+},
+{
+"n": 9,
+"c": 5,
+"type": "tita",
+"q": "There are four bottles. It is known that three of these bottles contain only P, while the remaining one contains 80% P and 20% I. What is the minimum number of tests required to definitely identify the bottle containing some amount of I?",
+"opts": [],
+"ans": "2",
+"sol": "",
+"sub": "DILR"
+},
+{
+"n": 10,
+"c": 5,
+"type": "mcq",
+"q": "There are four bottles. It is known that either one or two of these bottles contain(s) only P, while the remaining ones contain 85% P and 15% I. What is the minimum number of tests required to ascertain the exact number of bottles containing only P?",
+"opts": [
+"2",
+"3",
+"4",
+"1"
+],
+"ans": 3,
+"sol": "",
+"sub": "DILR"
+},
+{
+"n": 11,
+"c": 6,
+"type": "mcq",
+"q": "Which two players got the double?",
+"opts": [
+"P8, P10",
+"P1, P10",
+"P2, P4",
+"P1, P8"
+],
+"ans": 0,
+"sol": "",
+"sub": "DILR"
+},
+{
+"n": 12,
+"c": 6,
+"type": "mcq",
+"q": "Who won the silver medal?",
+"opts": [
+"P5",
+"P1",
+"P9",
+"P7"
+],
+"ans": 1,
+"sol": "",
+"sub": "DILR"
+},
+{
+"n": 13,
+"c": 6,
+"type": "mcq",
+"q": "Who threw the last javelin in the event?",
+"opts": [
+"P10",
+"P7",
+"P1",
+"P9"
+],
+"ans": 1,
+"sol": "",
+"sub": "DILR"
+},
+{
+"n": 14,
+"c": 6,
+"type": "mcq",
+"q": "What was the final score (in m) of the silver-medalist?",
+"opts": [
+"89.6",
+"88.6",
+"88.4",
+"87.2"
+],
+"ans": 1,
+"sol": "",
+"sub": "DILR"
+},
+{
+"n": 15,
+"c": 6,
+"type": "mcq",
+"q": "Which of the following can be the final score (in m) of P8?",
+"opts": [
+"82.7",
+"0",
+"85.1",
+"81.9"
+],
+"ans": 0,
+"sol": "",
+"sub": "DILR"
+},
+{
+"n": 16,
+"c": 6,
+"type": "mcq",
+"q": "By how much did the gold medalist improve his score (in m) in the second phase?",
+"opts": [
+"2.4",
+"1.2",
+"1.0",
+"2.0"
+],
+"ans": 0,
+"sol": "",
+"sub": "DILR"
+},
+{
+"n": 17,
+"c": 7,
+"type": "mcq",
+"q": "Which of the following statements is/are true? I: The total project-month was the same for the four employees. II: The total employee-month was the same for the five projects.",
+"opts": [
+"Only I",
+"Only II",
+"Both I and II",
+"Neither I nor II"
+],
+"ans": 0,
+"sol": "",
+"sub": "DILR"
+},
+{
+"n": 18,
+"c": 7,
+"type": "mcq",
+"q": "Which employees did not work in multiple projects for any of the months in 2020?",
+"opts": [
+"Only Abani, Bahni and Danni",
+"Only Abani and Bahni",
+"Only Tinni",
+"All four of them"
+],
+"ans": 0,
+"sol": "",
+"sub": "DILR"
+},
+{
+"n": 19,
+"c": 7,
+"type": "mcq",
+"q": "The project duration, measured in terms of the number of months, is the time during which at least one employee worked in the project. Which of the following pairs of the projects had the same duration?",
+"opts": [
+"Project 1, Project 5",
+"Project 3, Project 5",
+"Project 3, Project 4",
+"Project 4, Project 5"
+],
+"ans": 2,
+"sol": "",
+"sub": "DILR"
+},
+{
+"n": 20,
+"c": 7,
+"type": "mcq",
+"q": "The list of employees in decreasing order of annual completion index is:",
+"opts": [
+"Danni, Tinni, Abani, Bahni",
+"Bahni, Abani, Tinni, Danni",
+"Danni, Tinni, Bahni, Abani",
+"Tinni, Danni, Abani, Bahni"
+],
+"ans": 0,
+"sol": "",
+"sub": "DILR"
+}
+]
+},
+{
+"name": "QA",
+"qs": [
+{
+"n": 1,
+"c": null,
+"type": "mcq",
+"q": "In a triangle ABC, ∠BCA = 50°. D and E are points on AB and AC, respectively, such that AD = DE. If F is a point on BC such that BD = DF, then ∠FDE, in degrees, is equal to",
+"opts": [
+"100",
+"72",
+"80",
+"96"
+],
+"ans": 2,
+"sol": "",
+"sub": "Geometry"
+},
+{
+"n": 2,
+"c": null,
+"type": "mcq",
+"q": "For a real number a, if (log<sub>15</sub>a + log<sub>32</sub>a) / ((log<sub>15</sub>a)(log<sub>32</sub>a)) = 4 then a must lie in the range",
+"opts": [
+"a &gt; 5",
+"4 &lt; a &lt; 5",
+"3 &lt; a &lt; 4",
+"2 &lt; a &lt; 3"
+],
+"ans": 1,
+"sol": "",
+"sub": "Algebra"
+},
+{
+"n": 3,
+"c": null,
+"type": "mcq",
+"q": "A shop owner bought a total of 64 shirts from a wholesale market that came in two sizes, small and large. The price of a small shirt was INR 50 less than that of a large shirt. She paid a total of INR 5000 for the large shirts, and a total of INR 1800 for the small shirts. Then, the price of a large shirt and a small shirt together, in INR, is",
+"opts": [
+"175",
+"200",
+"225",
+"150"
+],
+"ans": 1,
+"sol": "",
+"sub": "Algebra"
+},
+{
+"n": 4,
+"c": null,
+"type": "mcq",
+"q": "If 3x + 2|y| + y = 7 and x + |x| + 3y = 1, then x + 2y is",
+"opts": [
+"8/3",
+"1",
+"0",
+"−4/3"
+],
+"ans": 2,
+"sol": "",
+"sub": "Algebra"
+},
+{
+"n": 5,
+"c": null,
+"type": "mcq",
+"q": "The total of male and female populations in a city increased by 25% from 1970 to 1980. During the same period, the male population increased by 40% while the female population increased by 20%. From 1980 to 1990, the female population increased by 25%. In 1990, if the female population is twice the male population, then the percentage increase in the total of male and female populations in the city from 1970 to 1990 is",
+"opts": [
+"68.25",
+"68.75",
+"68.50",
+"69.25"
+],
+"ans": 1,
+"sol": "",
+"sub": "Arithmetic"
+},
+{
+"n": 6,
+"c": null,
+"type": "tita",
+"q": "The arithmetic mean of scores of 25 students in an examination is 50. Five of these students top the examination with the same score. If the scores of the other students are distinct integers with the lowest being 30, then the maximum possible score of the toppers is",
+"opts": [],
+"ans": "92",
+"sol": "",
+"sub": "Arithmetic"
+},
+{
+"n": 7,
+"c": null,
+"type": "tita",
+"q": "A four-digit number is formed by using only the digits 1, 2 and 3 such that both 2 and 3 appear at least once. The number of all such four-digit numbers is",
+"opts": [],
+"ans": "50",
+"sol": "",
+"sub": "Modern Math"
+},
+{
+"n": 8,
+"c": null,
+"type": "mcq",
+"q": "One part of a hostel's monthly expenses is fixed, and the other part is proportional to the number of its boarders. The hostel collects ₹ 1600 per month from each boarder. When the number of boarders is 50, the profit of the hostel is ₹ 200 per boarder, and when the number of boarders is 75, the profit of the hostel is ₹ 250 per boarder. When the number of boarders is 80, the total profit of the hostel, in INR, will be",
+"opts": [
+"20000",
+"20500",
+"20800",
+"20200"
+],
+"ans": 1,
+"sol": "",
+"sub": "Algebra"
+},
+{
+"n": 9,
+"c": null,
+"type": "mcq",
+"q": "If f(x) = x² − 7x and g(x) = x + 3, then the minimum value of f(g(x)) − 3x is",
+"opts": [
+"−12",
+"−20",
+"−15",
+"−16"
+],
+"ans": 3,
+"sol": "",
+"sub": "Algebra"
+},
+{
+"n": 10,
+"c": null,
+"type": "mcq",
+"q": "In a tournament, a team has played 40 matches so far and won 30% of them. If they win 60% of the remaining matches, their overall win percentage will be 50%. Suppose they win 90% of the remaining matches, then the total number of matches won by the team in the tournament will be",
+"opts": [
+"86",
+"80",
+"78",
+"84"
+],
+"ans": 3,
+"sol": "",
+"sub": "Arithmetic"
+},
+{
+"n": 11,
+"c": null,
+"type": "mcq",
+"q": "The cost of fencing a rectangular plot is ₹ 200 per ft along one side, and ₹ 100 per ft along the three other sides. If the area of the rectangular plot is 60000 sq. ft, then the lowest possible cost of fencing all four sides, in INR, is",
+"opts": [
+"120000",
+"90000",
+"100000",
+"160000"
+],
+"ans": 0,
+"sol": "",
+"sub": "Geometry"
+},
+{
+"n": 12,
+"c": null,
+"type": "mcq",
+"q": "One day, Rahul started a work at 9 AM and Gautam joined him two hours later. They then worked together and completed the work at 5 PM the same day. If both had started at 9 AM and worked together, the work would have been completed 30 minutes earlier. Working alone, the time Rahul would have taken, in hours, to complete the work is",
+"opts": [
+"10",
+"12",
+"11.5",
+"12.5"
+],
+"ans": 0,
+"sol": "",
+"sub": "Arithmetic"
+},
+{
+"n": 13,
+"c": null,
+"type": "tita",
+"q": "Mira and Amal walk along a circular track, starting from the same point at the same time. If they walk in the same direction, then in 45 minutes, Amal completes exactly 3 more rounds than Mira. If they walk in opposite directions, then they meet for the first time exactly after 3 minutes. The number of rounds Mira walks in one hour is",
+"opts": [],
+"ans": "8",
+"sol": "",
+"sub": "Arithmetic"
+},
+{
+"n": 14,
+"c": null,
+"type": "tita",
+"q": "A tea shop offers tea in cups of three different sizes. The product of the prices, in INR, of three different sizes is equal to 800. The prices of the smallest size and the medium size are in the ratio 2 : 5. If the shop owner decides to increase the prices of the smallest and the medium ones by INR 6 keeping the price of the largest size unchanged, the product then changes to 3200. The sum of the original prices of three different sizes, in INR, is",
+"opts": [],
+"ans": "34",
+"sol": "",
+"sub": "Algebra"
+},
+{
+"n": 15,
+"c": null,
+"type": "mcq",
+"q": "Consider a sequence of real numbers x<sub>1</sub>, x<sub>2</sub>, x<sub>3</sub>, … such that x<sub>n+1</sub> = x<sub>n</sub> + n − 1 for all n ≥ 1. If x<sub>1</sub> = −1 then x<sub>100</sub> is equal to",
+"opts": [
+"4949",
+"4950",
+"4849",
+"4850"
+],
+"ans": 3,
+"sol": "",
+"sub": "Algebra"
+},
+{
+"n": 16,
+"c": null,
+"type": "mcq",
+"q": "Bank A offers 6% interest rate per annum compounded half yearly. Bank B and Bank C offer simple interest but the annual interest rate offered by Bank C is twice that of Bank B. Raju invests a certain amount in Bank B for a certain period and Rupa invests ₹ 10,000 in Bank C for twice that period. The interest that would accrue to Raju during that period is equal to the interest that would have accrued had he invested the same amount in Bank A for one year. The interest accrued, in INR, to Rupa is",
+"opts": [
+"3436",
+"2346",
+"2436",
+"1436"
+],
+"ans": 2,
+"sol": "",
+"sub": "Arithmetic"
+},
+{
+"n": 17,
+"c": null,
+"type": "tita",
+"q": "Anil can paint a house in 12 days while Barun can paint it in 16 days. Anil, Barun, and Chandu undertake to paint the house for ₹ 24000 and the three of them together complete the painting in 6 days. If Chandu is paid in proportion to the work done by him, then the amount in INR received by him is",
+"opts": [],
+"ans": "3000",
+"sol": "",
+"sub": "Arithmetic"
+},
+{
+"n": 18,
+"c": null,
+"type": "mcq",
+"q": "Let ABCD be a parallelogram. The lengths of the side AD and the diagonal AC are 10 cm and 20 cm, respectively. If the angle ∠ADC is equal to 30° then the area of the parallelogram, in sq. cm, is",
+"opts": [
+"25(√5 + √15)",
+"25(√5 + √15) / 2",
+"25(√3 + √15)",
+"25(√3 + √15) / 2"
+],
+"ans": 2,
+"sol": "",
+"sub": "Geometry"
+},
+{
+"n": 19,
+"c": null,
+"type": "mcq",
+"q": "If a certain weight of an alloy of silver and copper is mixed with 3 kg of pure silver, the resulting alloy will have 90% silver by weight. If the same weight of the initial alloy is mixed with 2 kg of another alloy which has 90% silver by weight, the resulting alloy will have 84% silver by weight. Then, the weight of the initial alloy, in kg, is",
+"opts": [
+"3",
+"4",
+"2.5",
+"3.5"
+],
+"ans": 0,
+"sol": "",
+"sub": "Arithmetic"
+},
+{
+"n": 20,
+"c": null,
+"type": "tita",
+"q": "The number of distinct pairs of integers (m, n) satisfying |1 + mn| &lt; |m + n| &lt; 5 is",
+"opts": [],
+"ans": "12",
+"sol": "",
+"sub": "Algebra"
+},
+{
+"n": 21,
+"c": null,
+"type": "tita",
+"q": "A park is shaped like a rhombus and has area 96 sq m. If 40 m of fencing is needed to enclose the park, the cost, in INR, of laying electric wires along its two diagonals, at the rate of ₹ 125 per m, is",
+"opts": [],
+"ans": "3500",
+"sol": "",
+"sub": "Geometry"
+},
+{
+"n": 22,
+"c": null,
+"type": "tita",
+"q": "If n is a positive integer such that (<sup>10</sup>√10)(<sup>10</sup>√10)<sup>2</sup> … (<sup>10</sup>√10)<sup>n</sup> &gt; 999, then the smallest value of n is",
+"opts": [],
+"ans": "6",
 "sol": "",
 "sub": "Algebra"
 }
