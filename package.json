@@ -1,0 +1,10 @@
+{
+  "name": "percentile99",
+  "private": true,
+  "description": "CAT prep OS — static app + paper-ingestion tooling",
+  "scripts": {
+    "validate": "python3 tools/validate.py",
+    "smoke": "node tools/smoke_test.js"
+  },
+  "devDependencies": { "jsdom": "^24.0.0" }
+}
