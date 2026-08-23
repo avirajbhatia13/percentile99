@@ -81,11 +81,31 @@ def process_page(doc, pno, dpi=150):
     # (dropped entirely if we only slice from the boundary onward)
     preamble = '\n'.join(c['text'] for c in lines[:bounds[0]]).strip()
 
-    records = []
+    # some pages split a 2-digit "Q.11" into a "Q.1" span plus a lone "1" span that
+    # drifts a line or two down (still left-margin, before "Ans"/the first option) —
+    # detect and stitch the digit back on, else everything after Q.10 silently
+    # misnumbers as Q.1, Q.1, Q.1 ...
+    qno_of = {}
+    skip_as_digit_tail = set()
     for bi, li in enumerate(bounds):
         qno = int(re.match(r'^Q\.(\d+)', lines[li]['text'].strip()).group(1))
+        scan_end = bounds[bi + 1] if bi + 1 < len(bounds) else len(lines)
+        for j in range(li + 1, min(scan_end, li + 6)):
+            t = lines[j]['text'].strip()
+            if t in ('Ans',) or re.match(r'^[1-4]\.', t):
+                break
+            m = re.match(r'^(\d{1,2})$', t)
+            if m and abs(lines[j]['bbox'][0] - lines[li]['bbox'][0]) < 20:
+                qno = int(str(qno) + m.group(1))
+                skip_as_digit_tail.add(j)
+                break
+        qno_of[li] = qno
+
+    records = []
+    for bi, li in enumerate(bounds):
+        qno = qno_of[li]
         end = bounds[bi + 1] if bi + 1 < len(bounds) else len(lines)
-        chunk = lines[li:end]
+        chunk = [ln for i, ln in enumerate(lines[li:end], start=li) if i not in skip_as_digit_tail]
         text = '\n'.join(c['text'] for c in chunk)
 
         qtype = re.search(r'Question Type\s*:\s*(\w+)', text)
@@ -96,23 +116,31 @@ def process_page(doc, pno, dpi=150):
         META_KEYS = ('Question Type', 'Question ID', 'Option', 'Status',
                      'Chosen Option', 'Case Sensitivity', 'Answer Type',
                      'Possible Answer', 'Given', 'Answer :', 'Page ')
-        starts = [(i, int(m.group(1)), m.group(2))
+        # option x0 drifts a few points between PDFs from this vendor (seen: ~80 in
+        # one export, ~88 in another) — widen the band and sample the tick icon
+        # relative to each option's OWN x0 rather than an absolute page x-coordinate.
+        # SA/TITA questions never have real MCQ options — a stray "N. ..."-shaped
+        # line inside a numbered-sentence stem (para-jumble etc.) can otherwise be
+        # mistaken for one, which then wrongly disables the possible_answer path.
+        is_sa = qtype and qtype.group(1) == 'SA'
+        starts = [] if is_sa else [(i, int(m.group(1)), m.group(2))
                   for i, ln in enumerate(chunk)
                   if (m := re.match(r'^\s*([1-4])\.\s?(.*)', ln['text']))
-                  and 78 <= ln['bbox'][0] <= 86]
+                  and 70 <= ln['bbox'][0] <= 100]
         opts = {}
         for si, (i, n, first_text) in enumerate(starts):
             y = (chunk[i]['bbox'][1] + chunk[i]['bbox'][3]) / 2
+            x_icon = chunk[i]['bbox'][0] - 11
             end = starts[si + 1][0] if si + 1 < len(starts) else len(chunk)
             parts = [first_text]
             for ln in chunk[i + 1:end]:
                 if ln['bbox'][0] >= 370 or ln['text'].startswith(META_KEYS):
                     continue
                 parts.append(ln['text'])
-            opts[n] = {'text': ' '.join(p for p in parts if p.strip()).strip(), 'y': y}
+            opts[n] = {'text': ' '.join(p for p in parts if p.strip()).strip(), 'x': x_icon, 'y': y}
         for n, o in opts.items():
-            o['color'] = option_color(im, zoom, 70, o['y'])
-            del o['y']
+            o['color'] = option_color(im, zoom, o['x'], o['y'])
+            del o['x']; del o['y']
 
         possible_answer = re.search(r'Possible Answer:\s*(.*)', text)
         greens = [n for n, o in opts.items() if o['color'] == 'G']
