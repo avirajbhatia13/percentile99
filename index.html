@@ -142,6 +142,7 @@ h2.ph{font-size:19px;margin:20px 0 4px;letter-spacing:-.3px}
 .pill:hover{transform:translateY(-1px);color:var(--ink)}
 .pill.primary{background:var(--brand);border:none;color:#fff}
 .pill.go{background:var(--ok);border-color:var(--ok);color:#fff}
+.pill:disabled{opacity:.4;cursor:not-allowed;transform:none;box-shadow:none}
 /* cards & days */
 .pcard{background:var(--card);border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow);padding:18px 20px;margin-bottom:12px}
 .pcard h3{margin:0 0 10px;font-size:13.5px}
@@ -244,10 +245,6 @@ h2.ph{font-size:19px;margin:20px 0 4px;letter-spacing:-.3px}
 .tchip.on{background:var(--qa);border-color:var(--qa);color:#fff}
 .tchip .n{opacity:.7;font-size:10.5px}
 textarea.imp{width:100%;min-height:90px;border:1px solid var(--line);border-radius:10px;background:var(--card2);color:var(--ink);font:11.5px/1.5 ui-monospace,monospace;padding:8px 10px}
-.histrow{display:flex;gap:12px;align-items:center;padding:8px 4px;border-top:1px solid var(--line2);font-size:12.5px;flex-wrap:wrap}
-.histrow:first-child{border-top:none}
-.histrow .sc{font-weight:800;min-width:54px}
-.histrow .mu{color:var(--mut);font-size:11.5px}
 /* profile */
 .frow{display:flex;align-items:center;gap:12px;margin:10px 0;flex-wrap:wrap}
 .frow label{font-size:12.5px;color:var(--mut);font-weight:600;min-width:160px}
@@ -295,12 +292,12 @@ textarea.imp{width:100%;min-height:90px;border:1px solid var(--line);border-radi
 .qtype{font-size:10.5px;color:var(--mut)}
 .qtext{font-size:15px;line-height:1.65;margin-bottom:18px}
 .qfig{margin:4px 0 16px}
-.qtext img,.ctxbox img,.opt img,.arbody img,.qfig img{max-width:100%;height:auto;display:block;margin:8px 0;border-radius:10px;background:#fff;border:1px solid var(--line2);padding:6px}
+.qtext img,.ctxbox img,.opt img,.aq img,.qfig img{max-width:100%;height:auto;display:block;margin:8px 0;border-radius:10px;background:#fff;border:1px solid var(--line2);padding:6px}
 .opt img{margin:0}.qfig img{margin:0}
-.ctxbox table,.arbody table,.qtext table{border-collapse:collapse;margin:12px 0;font-size:12.5px;max-width:100%}
-.ctxbox td,.ctxbox th,.arbody td,.arbox th,.arbody th,.qtext td,.qtext th{border:1px solid var(--line);padding:5px 9px;text-align:center;font-variant-numeric:tabular-nums}
-.ctxbox th,.arbody th,.qtext th{background:var(--card2);font-weight:700}
-.ctxbox table td:first-child,.ctxbox table th:first-child,.arbody table td:first-child,.qtext table td:first-child{text-align:left;font-weight:600}
+.ctxbox table,.aq table,.qtext table{border-collapse:collapse;margin:12px 0;font-size:12.5px;max-width:100%}
+.ctxbox td,.ctxbox th,.aq td,.aq th,.qtext td,.qtext th{border:1px solid var(--line);padding:5px 9px;text-align:center;font-variant-numeric:tabular-nums}
+.ctxbox th,.aq th,.qtext th{background:var(--card2);font-weight:700}
+.ctxbox table td:first-child,.ctxbox table th:first-child,.aq table td:first-child,.qtext table td:first-child{text-align:left;font-weight:600}
 .ctxbox{overflow-x:auto}
 .ctxbox{max-height:40vh;overflow-y:auto;background:var(--card2);border:1px solid var(--line);border-radius:14px;padding:14px 16px;font-size:13px;line-height:1.6;margin-bottom:14px}
 .opt{display:flex;gap:10px;align-items:flex-start;border:1.5px solid var(--line);border-radius:12px;padding:11px 14px;margin-bottom:8px;cursor:pointer;transition:.12s;font-size:14px}
@@ -330,18 +327,7 @@ textarea.imp{width:100%;min-height:90px;border:1px solid var(--line);border-radi
 #calc button:hover{background:var(--card2)}
 #calc button.op{color:var(--qa);font-weight:800}
 #calc button.eq{background:var(--qa);color:#fff}
-.sumgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(110px,1fr));gap:10px;margin-bottom:12px}
-.secsum{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:10px 0}
-.ares{border:1px solid var(--line);border-radius:13px;margin-bottom:8px;overflow:hidden}
-.arhead{display:flex;gap:10px;align-items:center;padding:10px 14px;cursor:pointer;font-size:13px}
-.arhead:hover{background:var(--card2)}
-.arhead .ic{font-weight:900;flex:none;width:20px;text-align:center}
 .ok2{color:var(--ok)}.bad2{color:var(--bad)}.skip2{color:var(--faint)}
-.arhead .tt{flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.arhead .tm{font-variant-numeric:tabular-nums;color:var(--mut);font-size:12px;flex:none}
-.arbody{display:none;border-top:1px solid var(--line2);padding:12px 16px;font-size:13.5px}
-.ares.open .arbody{display:block}
-.arbody .sol{background:var(--ok-soft);border-radius:11px;padding:10px 12px;margin-top:8px}
 .foot{color:var(--faint);font-size:11.5px;margin-top:20px;text-align:center;line-height:1.7}
 .toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(180px);opacity:0;visibility:hidden;background:var(--ink);color:var(--card);padding:10px 20px;border-radius:13px;font:600 13px inherit;transition:transform .3s,opacity .3s,visibility .3s;z-index:300;box-shadow:var(--shadow-lg)}
 .toast.show{transform:translateX(-50%) translateY(0);opacity:1;visibility:visible}
@@ -402,27 +388,206 @@ textarea.imp{width:100%;min-height:90px;border:1px solid var(--line);border-radi
 .ctstart{margin-left:auto;border:none;background:var(--ok);color:#fff;border-radius:13px;padding:13px 22px;font:800 14px inherit;cursor:pointer;box-shadow:var(--shadow);transition:transform .15s}
 .ctstart:hover{transform:translateY(-1px)}
 .ctstart:disabled{opacity:.45;cursor:not-allowed;box-shadow:none;transform:none}
-/* ===== attempt-history cards ===== */
-.hcard{display:flex;align-items:center;gap:12px;border:1px solid var(--line);background:var(--card2);border-radius:14px;
-  padding:12px 14px;margin-bottom:8px;cursor:pointer;transition:.15s;text-align:left;width:100%;font:inherit}
+/* ===== attempt history — stats, filters, cards ===== */
+.hwrap{margin-top:2px}
+/* summary stat strip */
+.hstats{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin:12px 0 4px}
+.hstat{background:var(--card2);border:1px solid var(--line);border-radius:14px;padding:11px 12px;min-width:0}
+.hstat b{display:block;font-size:19px;font-weight:800;letter-spacing:-.5px;font-variant-numeric:tabular-nums;line-height:1.15}
+.hstat span{display:block;font-size:10px;color:var(--mut);font-weight:600;margin-top:3px;letter-spacing:.2px;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.hstat.ok b{color:var(--ok)}.hstat.bad b{color:var(--bad)}.hstat.acc b{color:var(--qa)}
+/* accuracy trend sparkline */
+.htrend{display:flex;align-items:center;gap:12px;background:var(--card2);border:1px solid var(--line);
+  border-radius:14px;padding:12px 14px;margin:8px 0 4px}
+.htrend .tl{font-size:11px;color:var(--mut);font-weight:700;flex:none;line-height:1.5}
+.htrend .tl b{display:block;font-size:15px;color:var(--ink);font-variant-numeric:tabular-nums}
+.htrend svg{flex:1;min-width:0;height:44px;overflow:visible}
+.htrend .delta{font-size:11px;font-weight:800;padding:3px 8px;border-radius:8px;flex:none}
+.delta.up{background:var(--ok-soft);color:var(--ok)}.delta.dn{background:var(--bad-soft);color:var(--bad)}
+.delta.fl{background:var(--line2);color:var(--mut)}
+/* toolbar: filter + sort + search */
+.htools{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:14px 0 10px}
+.hsearch{flex:1;min-width:150px;position:relative}
+.hsearch input{width:100%;border:1px solid var(--line);background:var(--card2);color:var(--ink);border-radius:11px;
+  padding:9px 12px 9px 32px;font:600 12.5px inherit;outline:none;transition:.15s}
+.hsearch input:focus{border-color:var(--qa);background:var(--card)}
+.hsearch input::placeholder{color:var(--faint);font-weight:500}
+.hsearch .mag{position:absolute;left:11px;top:50%;transform:translateY(-50%);font-size:12px;opacity:.55;pointer-events:none}
+.hsort{border:1px solid var(--line);background:var(--card2);color:var(--mut);border-radius:11px;padding:9px 10px;
+  font:700 12px inherit;cursor:pointer;outline:none}
+.hsort:focus{border-color:var(--qa)}
+/* date group heading */
+.hgrp{display:flex;align-items:center;gap:9px;margin:16px 0 8px;font-size:11px;font-weight:800;
+  letter-spacing:.6px;text-transform:uppercase;color:var(--faint)}
+.hgrp:first-child{margin-top:6px}
+.hgrp::after{content:"";flex:1;height:1px;background:var(--line)}
+.hgrp em{font-style:normal;background:var(--line2);color:var(--mut);padding:2px 7px;border-radius:7px;
+  font-size:10px;letter-spacing:0}
+/* attempt row */
+.hcard{position:relative;display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:13px;
+  border:1px solid var(--line);background:var(--card2);border-radius:15px;padding:12px 13px;margin-bottom:8px;
+  transition:border-color .15s,transform .15s,box-shadow .15s}
 .hcard:hover{border-color:var(--qa);transform:translateY(-1px);box-shadow:var(--shadow)}
-.hbadge{width:52px;height:52px;border-radius:13px;display:grid;place-items:center;flex:none;font-weight:800;font-size:16px;line-height:1;
+.hcard.gone{opacity:0;transform:scale(.97);transition:.2s;pointer-events:none}
+/* the whole row is one big button; delete sits above it */
+.hopen{position:absolute;inset:0;border:0;background:none;cursor:pointer;border-radius:15px;z-index:1;font:inherit}
+.hopen:focus-visible{outline:2px solid var(--qa);outline-offset:2px}
+.hcard>*:not(.hopen){position:relative;z-index:2;pointer-events:none}
+.hcard .hdel{pointer-events:auto}
+/* accuracy donut */
+.hring{width:48px;height:48px;flex:none;display:block}
+.hring circle{fill:none;stroke-width:5;stroke-linecap:round}
+.hring .trk{stroke:var(--ring-track)}
+.hring text{font:800 14px -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,sans-serif;fill:var(--ink);
   font-variant-numeric:tabular-nums}
-.hbadge.pos{background:var(--ok-soft);color:var(--ok)}.hbadge.neg{background:var(--bad-soft);color:var(--bad)}
-.hbadge small{display:block;font-size:8px;font-weight:700;letter-spacing:.4px;opacity:.75;text-transform:uppercase}
-.hmeta{flex:1;min-width:0}
-.hmeta .ht{font-weight:700;font-size:13px;margin-bottom:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.hmeta .hpills{display:flex;flex-wrap:wrap;gap:5px;font-size:11px}
-.hmeta .hp{padding:2px 7px;border-radius:7px;font-weight:700;font-variant-numeric:tabular-nums}
-.hp.c{background:var(--ok-soft);color:var(--ok)}.hp.w{background:var(--bad-soft);color:var(--bad)}
-.hp.s{background:var(--line2);color:var(--mut)}.hp.m{background:var(--card);border:1px solid var(--line);color:var(--mut)}
-.hcard .hgo{color:var(--faint);font-size:18px;flex:none}
-.hkind{font-size:9px;font-weight:800;letter-spacing:.5px;text-transform:uppercase;padding:2px 7px;border-radius:6px;flex:none}
+.hring text.sm{font-size:8px;fill:var(--faint);font-weight:700;letter-spacing:.3px}
+/* middle column */
+.hbody{min-width:0}
+.htop{display:flex;align-items:center;gap:6px;margin-bottom:5px;min-width:0}
+.htop .ht{font-weight:700;font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
+.hkind{font-size:9px;font-weight:800;letter-spacing:.5px;text-transform:uppercase;padding:2px 6px;border-radius:6px;flex:none}
 .hkind.mock{background:var(--lr-soft);color:var(--lr)}.hkind.drill{background:var(--qa-soft);color:var(--qa)}
-/* analysis view */
-.abar{display:flex;align-items:center;gap:12px;margin:16px 0 8px}
+/* stacked correct / wrong / skipped bar */
+.hbar{display:flex;height:5px;border-radius:99px;overflow:hidden;background:var(--line2);margin-bottom:6px}
+.hbar i{display:block;height:100%}
+.hbar .c{background:var(--ok)}.hbar .w{background:var(--bad)}.hbar .s{background:var(--faint);opacity:.45}
+/* meta line */
+.hmeta{display:flex;flex-wrap:wrap;align-items:center;gap:4px 7px;font-size:11px;color:var(--mut);
+  font-variant-numeric:tabular-nums}
+.hmeta b{font-weight:800}
+.hmeta .c{color:var(--ok)}.hmeta .w{color:var(--bad)}
+.hmeta .dot{color:var(--faint);opacity:.6}
+/* right column */
+.hend{display:flex;align-items:center;gap:8px;flex:none}
+.hscore{text-align:right;line-height:1.1}
+.hscore b{font-size:16px;font-weight:800;font-variant-numeric:tabular-nums;letter-spacing:-.3px}
+.hscore.pos b{color:var(--ok)}.hscore.neg b{color:var(--bad)}
+.hscore span{display:block;font-size:8.5px;color:var(--faint);font-weight:700;letter-spacing:.4px;text-transform:uppercase}
+.hdel{border:1px solid transparent;background:transparent;color:var(--faint);width:30px;height:30px;border-radius:9px;
+  display:grid;place-items:center;cursor:pointer;font-size:14px;flex:none;opacity:0;transition:.15s;line-height:1}
+.hcard:hover .hdel,.hdel:focus-visible{opacity:1}
+.hdel:hover{background:var(--bad-soft);color:var(--bad);border-color:var(--bad-soft)}
+.hgo{color:var(--faint);font-size:17px;flex:none}
+/* footer / empty */
+.hmore{width:100%;border:1px dashed var(--line);background:transparent;color:var(--mut);border-radius:13px;
+  padding:11px;font:700 12px inherit;cursor:pointer;margin-top:4px;transition:.15s}
+.hmore:hover{border-color:var(--qa);color:var(--qa);border-style:solid}
+.hnone{text-align:center;color:var(--mut);padding:34px 14px;font-size:12.5px;line-height:1.7;
+  border:1px dashed var(--line);border-radius:15px;margin-top:10px}
+.hnone .big{display:block;font-size:26px;margin-bottom:8px;opacity:.75}
+.hnone b{color:var(--ink);font-size:13.5px}
+/* undo toast action */
+.toast .tundo{margin-left:12px;border:0;background:rgba(127,127,127,.32);color:inherit;border-radius:8px;
+  padding:5px 11px;font:800 12px inherit;cursor:pointer;letter-spacing:.3px}
+.toast .tundo:hover{background:rgba(127,127,127,.5)}
+/* ===== analysis view — mirrors the test interface ===== */
+.abar{display:flex;align-items:center;gap:12px;margin:16px 0 10px;flex-wrap:wrap}
 .abar .back{border:1px solid var(--line);background:var(--card);border-radius:11px;padding:8px 14px;font:700 12.5px inherit;color:var(--mut);cursor:pointer}
 .abar .back:hover{color:var(--ink)}
+.abar .atitle{font-weight:800;font-size:14px;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.abar .adate{font-size:12px;color:var(--mut);font-weight:600;flex:none}
+/* headline score */
+.ahero{display:flex;align-items:center;gap:16px;flex-wrap:wrap;padding-bottom:14px;margin-bottom:14px;border-bottom:1px solid var(--line2)}
+.ahero .big{font-size:38px;font-weight:800;letter-spacing:-1.5px;line-height:1;font-variant-numeric:tabular-nums}
+.ahero .big.pos{color:var(--ok)}.ahero .big.neg{color:var(--bad)}
+.ahero .of{font-size:13px;color:var(--mut);font-weight:700}
+.ahero .hbarwrap{flex:1;min-width:180px}
+.ahero .hbarwrap .lb{display:flex;justify-content:space-between;font-size:10.5px;color:var(--mut);font-weight:700;margin-bottom:5px}
+/* stat tiles (shared by the overall card and each section panel) */
+.astats{display:grid;grid-template-columns:repeat(auto-fit,minmax(96px,1fr));gap:8px}
+.astat{background:var(--card2);border:1px solid var(--line);border-radius:13px;padding:10px 11px;min-width:0}
+.astat b{display:block;font-size:17px;font-weight:800;letter-spacing:-.4px;line-height:1.15;font-variant-numeric:tabular-nums}
+.astat span{display:block;font-size:10px;color:var(--mut);font-weight:600;margin-top:3px;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.astat.ok b{color:var(--ok)}.astat.bad b{color:var(--bad)}.astat.acc b{color:var(--qa)}.astat.mut b{color:var(--faint)}
+/* sectional bifurcation */
+.asecs{display:grid;gap:8px;margin-top:6px}
+.asecrow{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:13px;width:100%;text-align:left;
+  border:1px solid var(--line);background:var(--card2);border-radius:14px;padding:11px 13px;cursor:pointer;
+  font:inherit;color:inherit;transition:border-color .15s,transform .15s}
+.asecrow:hover{border-color:var(--qa);transform:translateY(-1px)}
+.asecrow .sname{font-weight:800;font-size:13px;width:52px;flex:none}
+.asecrow .sname small{display:block;font-size:9.5px;color:var(--mut);font-weight:700;margin-top:2px}
+.asecrow .sbar{display:flex;height:7px;border-radius:99px;overflow:hidden;background:var(--line2);margin-bottom:6px}
+.asecrow .sbar i{display:block;height:100%}
+.asecrow .sbar .c{background:var(--ok)}.asecrow .sbar .w{background:var(--bad)}.asecrow .sbar .s{background:var(--faint);opacity:.4}
+.asecrow .smeta{display:flex;flex-wrap:wrap;gap:4px 8px;font-size:11px;color:var(--mut);font-variant-numeric:tabular-nums}
+.asecrow .smeta b{font-weight:800}
+.asecrow .smeta .c{color:var(--ok)}.asecrow .smeta .w{color:var(--bad)}
+.asecrow .smeta .dot{color:var(--faint);opacity:.6}
+.asecrow .sscore{text-align:right;flex:none;line-height:1.1}
+.asecrow .sscore b{font-size:16px;font-weight:800;font-variant-numeric:tabular-nums}
+.asecrow .sscore.pos b{color:var(--ok)}.asecrow .sscore.neg b{color:var(--bad)}
+.asecrow .sscore span{display:block;font-size:8.5px;color:var(--faint);font-weight:700;letter-spacing:.4px;text-transform:uppercase}
+/* section tabs */
+.atabs{display:flex;gap:6px;flex-wrap:wrap;background:var(--card);border:1px solid var(--line);border-radius:14px;
+  padding:4px;box-shadow:var(--shadow);margin-bottom:12px}
+.atabs button{flex:1;min-width:96px;border:0;background:transparent;border-radius:10px;padding:9px 12px;cursor:pointer;
+  font:800 12.5px inherit;color:var(--mut);transition:.15s;line-height:1.35}
+.atabs button small{display:block;font-size:10px;font-weight:700;opacity:.8;margin-top:2px}
+.atabs button.act{background:var(--ink);color:var(--card)}
+/* two-column: question on the left, palette + section stats on the right */
+.alayout{display:grid;grid-template-columns:1fr 236px;gap:12px;align-items:start}
+.apal{position:sticky;top:78px;background:var(--card);border:1px solid var(--line);border-radius:18px;
+  box-shadow:var(--shadow);padding:14px}
+.apal h4{margin:0 0 9px;font-size:10.5px;color:var(--mut);text-transform:uppercase;letter-spacing:.5px;font-weight:800}
+.apgrid{display:grid;grid-template-columns:repeat(5,1fr);gap:6px}
+.apbtn{aspect-ratio:1;border-radius:9px;border:1px solid var(--line);background:var(--card2);color:var(--mut);
+  font:800 11.5px inherit;cursor:pointer;display:grid;place-items:center;transition:.12s;font-variant-numeric:tabular-nums}
+.apbtn:hover{transform:scale(1.08)}
+.apbtn.ok{background:var(--ok);border-color:var(--ok);color:#fff}
+.apbtn.bad{background:var(--bad);border-color:var(--bad);color:#fff}
+.apbtn.skip{background:var(--card2);border-style:dashed;color:var(--faint)}
+.apbtn.cur{outline:2.5px solid var(--qa);outline-offset:1.5px}
+.aplegend{display:grid;gap:5px;margin-top:11px;font-size:10.5px;color:var(--mut);font-weight:600}
+.aplegend span{display:flex;align-items:center;gap:7px}
+.aplegend i{width:11px;height:11px;border-radius:4px;flex:none;display:block}
+.aplegend i.ok{background:var(--ok)}.aplegend i.bad{background:var(--bad)}
+.aplegend i.skip{background:var(--card2);border:1px dashed var(--line)}
+.apalsec{margin-top:13px;padding-top:12px;border-top:1px solid var(--line2)}
+.apalsec .astats{grid-template-columns:1fr 1fr;gap:6px}
+.apalsec .astat{padding:8px 9px}
+.apalsec .astat b{font-size:14.5px}
+/* question detail pane */
+.aq{background:var(--card);border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow);padding:18px 20px}
+.aqhd{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin-bottom:12px;padding-bottom:12px;border-bottom:1px solid var(--line2)}
+.aqno{font-weight:800;font-size:15px;flex:none}
+.aqverdict{font-size:10px;font-weight:800;letter-spacing:.5px;text-transform:uppercase;padding:3px 9px;border-radius:7px;flex:none}
+.aqverdict.ok{background:var(--ok-soft);color:var(--ok)}
+.aqverdict.bad{background:var(--bad-soft);color:var(--bad)}
+.aqverdict.skip{background:var(--line2);color:var(--mut)}
+.atag{font-size:10.5px;font-weight:700;padding:3px 9px;border-radius:7px;background:var(--qa-soft);color:var(--qa);flex:none}
+.aqhd .atime{margin-left:auto;font-size:11.5px;color:var(--mut);font-weight:700;font-variant-numeric:tabular-nums;flex:none}
+.aqhd .atime em{font-style:normal;color:var(--faint);font-weight:600}
+.aqtext{font-size:14px;line-height:1.65}
+.aopt{display:flex;gap:10px;align-items:flex-start;border:1.5px solid var(--line);border-radius:12px;
+  padding:10px 13px;margin-top:8px;font-size:13.5px;line-height:1.55}
+.aopt .ol{font-weight:800;color:var(--mut);flex:none}
+.aopt .otag{margin-left:auto;font-size:10px;font-weight:800;letter-spacing:.4px;text-transform:uppercase;flex:none;padding-top:2px}
+.aopt.right{border-color:var(--ok);background:var(--ok-soft)}
+.aopt.right .ol,.aopt.right .otag{color:var(--ok)}
+.aopt.mine{border-color:var(--bad);background:var(--bad-soft)}
+.aopt.mine .ol,.aopt.mine .otag{color:var(--bad)}
+.atita{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.atita .tb{flex:1;min-width:130px;border:1.5px solid var(--line);border-radius:12px;padding:9px 12px;font-size:13px}
+.atita .tb span{display:block;font-size:10px;color:var(--mut);font-weight:700;text-transform:uppercase;letter-spacing:.4px;margin-bottom:3px}
+.atita .tb.right{border-color:var(--ok);background:var(--ok-soft)}
+.atita .tb.mine{border-color:var(--bad);background:var(--bad-soft)}
+.asol{background:var(--ok-soft);border-radius:12px;padding:12px 14px;margin-top:14px;font-size:13px;line-height:1.65}
+.asol b{display:block;margin-bottom:4px;color:var(--ok);font-size:11px;text-transform:uppercase;letter-spacing:.5px}
+.aqnav{display:flex;gap:8px;align-items:center;margin-top:16px;padding-top:14px;border-top:1px solid var(--line2)}
+.aqnav .sp{flex:1}
+.aqsrc{font-size:11px;color:var(--faint);margin-top:10px}
+/* topic breakdown */
+.atrow{display:grid;grid-template-columns:1fr auto;align-items:center;gap:12px;padding:9px 2px;
+  border-top:1px solid var(--line2);font-size:12.5px}
+.atrow:first-of-type{border-top:none}
+.atrow .tn{font-weight:700;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.atrow .tn i{display:block;font-style:normal;font-size:10.5px;color:var(--mut);font-weight:600;margin-top:2px}
+.atrow .tv{display:flex;align-items:center;gap:8px;font-variant-numeric:tabular-nums;font-size:11.5px;color:var(--mut);flex:none}
+.atrow .tv b{font-weight:800}
+.atrow .tacc{font-weight:800;font-size:12.5px;min-width:38px;text-align:right}
 
 /* ===== mock tests: year → slot → section picker ===== */
 .yearrow{display:flex;align-items:center;gap:10px;padding:12px 14px;border:1px solid var(--line);border-radius:13px;background:var(--card2);cursor:pointer;margin-top:8px;transition:.15s;user-select:none}
@@ -464,6 +629,12 @@ textarea.imp{width:100%;min-height:90px;border:1px solid var(--line);border-radi
 /* ============ RESPONSIVE ============ */
 @media(max-width:900px){
   .wrap,.topin{padding-left:16px;padding-right:16px}
+  /* analysis: palette moves above the question and stops being sticky */
+  .alayout{grid-template-columns:1fr}
+  .apal{position:static;order:-1}
+  .apgrid{grid-template-columns:repeat(10,1fr)}
+  .aplegend{grid-template-columns:repeat(3,auto);justify-content:start;gap:5px 16px}
+  .apalsec .astats{grid-template-columns:repeat(4,1fr)}
 }
 @media(max-width:680px){
   body{padding-bottom:78px}
@@ -528,6 +699,28 @@ textarea.imp{width:100%;min-height:90px;border:1px solid var(--line);border-radi
 }
 @media(max-width:680px){
   .toast{bottom:92px}
+  /* attempt history: 3 stat tiles per row, delete always visible (no hover on touch) */
+  .hstats{grid-template-columns:repeat(3,1fr)}
+  .hstat b{font-size:17px}
+  .hdel{opacity:1}
+  .hgo{display:none}
+  .htrend{flex-wrap:wrap}
+  .htrend svg{order:3;flex:1 1 100%;height:38px;margin-top:2px}
+  .hsearch{flex:1 1 100%;order:-1}
+  /* analysis on phones */
+  .ahero .big{font-size:31px}
+  .apgrid{grid-template-columns:repeat(6,1fr)}
+  .apalsec .astats{grid-template-columns:repeat(2,1fr)}
+  .aq{padding:15px 15px}
+  .asecrow{gap:10px;padding:10px 11px}
+  .asecrow .sname{width:auto;min-width:42px}
+  .atabs button{min-width:0;padding:8px 6px;font-size:11.5px}
+}
+@media(max-width:430px){
+  .hstats{grid-template-columns:repeat(2,1fr)}
+  .hcard{gap:10px;padding:11px}
+  .hring{width:42px;height:42px}
+  .hscore b{font-size:14.5px}
 }
 @media(max-width:380px){
   .botnav button{font-size:9px}
@@ -757,8 +950,11 @@ async function __pullCloud(){
       localStorage.setItem('cat26_profile',JSON.stringify(prof));}
   }
   const hist=J('cat26_tests',[]);
-  const cloudHist=(at.data||[]).map(r=>r.detail).filter(Boolean);
   const key=h=>[h.date,h.n,h.score,h.secs].join('|');
+  /* attempts the user deleted on this device — tombstoned so a cloud pull can't resurrect them */
+  const tomb=new Set(J('cat26_tests_del',[]));
+  const rawHist=(at.data||[]).map(r=>r.detail).filter(Boolean);
+  const cloudHist=rawHist.filter(h=>!tomb.has(key(h)));
   const seen=new Set(hist.map(key));
   cloudHist.forEach(h=>{if(!seen.has(key(h)))hist.push(h)});
   hist.sort((a,b)=>(a.date||'').localeCompare(b.date||''));
@@ -771,7 +967,7 @@ async function __pullCloud(){
   window.__cloud={done:Object.fromEntries((pg.data||[]).map(r=>[r.item_id,r.done_on])),
     stars:Object.fromEntries((st.data||[]).map(r=>[r.item_id,true])),
     notes:Object.fromEntries((nt.data||[]).map(r=>[r.item_id,r.body])),
-    attempts:cloudHist.length? new Set(cloudHist.map(key)) : new Set(),
+    attempts:new Set(rawHist.map(key)),
     imported:new Set((ip.data||[]).map(r=>r.q&&r.q.id).filter(Boolean))};
 }
 async function __boot(){
@@ -792,11 +988,17 @@ const BANK0 = [];
 let MOCKS = window.__MOCKS || [];
 const LIST = {Q:"PLG4bwc5fquzgfMh4YFDnv7fttM0RIKiUQ", L:"PLG4bwc5fquzhDp8eqRym2Ma1ut10YF0Ea"};
 const KEY="cat26_rodha_v1", TKEY="cat26_theme", CKEY="cat26_cfg", NKEY="cat26_notes", RKEY="cat26_rev",
-      HKEY="cat26_tests", PKEY="cat26_pyqs", FKEY="cat26_profile";
+      HKEY="cat26_tests", PKEY="cat26_pyqs", FKEY="cat26_profile", DKEY="cat26_tests_del";
 const DEF = {slotMin:75, mode:2, start:"2026-07-13"};
 const load=(k,f)=>{try{return JSON.parse(localStorage.getItem(k))||f}catch(e){return f}};
 let done=load(KEY,{}), notes=load(NKEY,{}), stars=load(RKEY,{}), cfg={...DEF,...load(CKEY,{})},
-    hist=load(HKEY,[]), imported=load(PKEY,[]), prof=load(FKEY,{});
+    hist=load(HKEY,[]), imported=load(PKEY,[]), prof=load(FKEY,{}), histDel=load(DKEY,[]);
+/* Attempts sync to the cloud on a composite key (date|n|score|secs) — the same key tombstones
+   a deletion so a later pull can't resurrect it. `aid` is a device-local handle used only by
+   the UI, so a row survives filtering/sorting without depending on its array index. */
+const hkeyOf=h=>[h.date,h.n,h.score,h.secs].join('|');
+let __aid=0;const newAid=()=>"a"+(Date.now().toString(36))+(++__aid);
+hist.forEach(h=>{if(!h.aid)h.aid=newAid()});
 prof.planMode=prof.planMode||"daily";
 /* ---- cloud sync (diff push, debounced) ---- */
 let __syncT=null,__syncBusy=false;
@@ -822,6 +1024,14 @@ async function __push(){
     if(nU.length)await sb.from('notes').upsert(nU);
     if(nD.length)await sb.from('notes').delete().eq('user_id',uid).in('item_id',nD);
     const hkey=h=>[h.date,h.n,h.score,h.secs].join('|');
+    /* deleted attempts: drop the matching cloud rows (composite key — the table has no client id) */
+    const live=new Set(hist.map(hkey));
+    for(const k of J('cat26_tests_del',[])){
+      if(!cs.attempts.has(k)||live.has(k))continue;
+      const[d,n,sc,se]=k.split('|');
+      await sb.from('attempts').delete().eq('user_id',uid).eq('taken_on',d)
+        .eq('n',+n).eq('score',+sc).eq('secs',+se);
+    }
     const newA=hist.filter(h=>!cs.attempts.has(hkey(h)));
     if(newA.length)await sb.from('attempts').insert(newA.map(h=>({user_id:uid,kind:h.kind==="mock"?"mock":"drill",
       taken_on:h.date,n:h.n,score:h.score,correct:h.correct,wrong:h.wrong,skipped:h.skip,secs:h.secs,label:h.topics||"",detail:h})));
@@ -852,6 +1062,7 @@ const saveN=()=>{localStorage.setItem(NKEY,JSON.stringify(notes));__sync()};
 const saveR=()=>{localStorage.setItem(RKEY,JSON.stringify(stars));__sync()};
 const saveC=()=>{localStorage.setItem(CKEY,JSON.stringify(cfg));__sync()};
 const saveH=()=>{localStorage.setItem(HKEY,JSON.stringify(hist));__sync()};
+const saveHDel=()=>{histDel=histDel.slice(-300);localStorage.setItem(DKEY,JSON.stringify(histDel))};
 const saveP=()=>{localStorage.setItem(PKEY,JSON.stringify(imported));__sync()};
 const saveF=()=>{localStorage.setItem(FKEY,JSON.stringify(prof));__sync()};
 const fmt=s=>{const h=Math.floor(s/3600),m=Math.round(s%3600/60);return h?h+"h "+m+"m":m+" min"};
@@ -1162,7 +1373,7 @@ function renderStudy(){
 
 /* ---------- PRACTICE ---------- */
 let sel=new Set(), selCount=10, selPace=120;
-let PT={view:"home"};
+let PT={view:"home",tab:"build"};
 const escH=s=>String(s??"").replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 /* Map a studied LRDI lecture sub-topic to the matching PYQ set-bucket (QA subs match by name). */
 const DILR_ALIAS={"Venn Diagrams":"Venn Diagrams & Set Theory","Games & Tournaments":"Games & Tournaments","Tables":"Tables & Data Sets","Pie Charts":"Tables & Data Sets","Routes & Networks":"Networks & Routes","Arrangements (Linear & Circular)":"Grid & Arrangements","Maxima-Minima & Chocolate Distribution":"Selection & Distribution","Maxima-Minima (Advanced)":"Conditional Logic & Puzzles","Calendars":"Sequencing & Scheduling"};
@@ -1176,7 +1387,7 @@ function studiedSubs(){
 function smartTest(){
   const ss=studiedSubs();
   if(!ss.size){toast("Finish a few lectures first — then I'll build a test from what you've studied");return}
-  sel=new Set(ss);PT={view:"home"};renderPracticeHome();openCustomModal();
+  sel=new Set(ss);PT={view:"home",tab:"build"};renderPracticeHome();openCustomModal();
   toast(`${ss.size} studied topic${ss.size>1?'s':''} pre-selected — set length & pace, then start`);
 }
 function renderPracticeHome(){
@@ -1221,29 +1432,198 @@ function renderPracticeHome(){
           </div></div>`}).join('')}</div>`;
     }).join(''):'<div class="hint">Full-paper mocks load on the hosted site (percentile99.vercel.app).</div>'}
   </div>`;
-  /* 3 — attempt history (clickable → full analysis) */
-  const rows=hist.map((s,idx)=>({s,idx})).reverse().slice(0,15).map(({s,idx})=>historyCard(s,idx)).join("");
-  const histCard=`<div class="pcard"><h3>📜 Attempt history</h3>
-    ${hist.length?`<div class="hint" style="margin-top:0">Tap any attempt to reopen its full analysis.</div>${rows}`
-      :'<div class="hint">No attempts yet — your tests and mocks will appear here and on the heatmap.</div>'}</div>`;
-  document.getElementById("practice").innerHTML=customCard+mockCard+histCard;
+  /* 3 — practice home = build view; history lives in its own tab (see historyHtml) */
+  document.getElementById("practice").innerHTML=practiceTabs()+(PT.tab==="history"?historyHtml():customCard+mockCard);
   bindPractice();
 }
-function historyCard(s,idx){
-  const pos=s.score>=0, kind=s.kind==="mock"?"mock":"drill";
+/* ---------- attempt history ---------- */
+let HF={q:"",kind:"all",sort:"new",limit:12};
+function practiceTabs(){
+  return `<div class="seg" id="ptabs" style="margin-bottom:12px">
+    <button data-pt="build" class="${PT.tab==="history"?"":"act"}">🎯 Build a test</button>
+    <button data-pt="history" class="${PT.tab==="history"?"act":""}">📜 History${hist.length?` · ${hist.length}`:""}</button>
+  </div>`;
+}
+function accOf(s){const a=(s.correct||0)+(s.wrong||0);return a?Math.round((s.correct||0)/a*100):0}
+/* Colour band for an accuracy figure — same thresholds everywhere in the history view. */
+const accColor=a=>a>=70?"var(--ok)":a>=45?"var(--lr)":"var(--bad)";
+/* "2026-08-23" → "23 Aug"; the year is appended only when it is not the current one. */
+function shortDate(d){
+  if(!d)return "—";
+  const p=String(d).split("-");if(p.length!==3)return escH(d);
+  const dt=new Date(Date.UTC(+p[0],+p[1]-1,+p[2]));
+  const o={day:"numeric",month:"short",timeZone:"UTC"};
+  if(p[0]!==today().slice(0,4))o.year="numeric";
+  return dt.toLocaleDateString("en-IN",o);
+}
+/* Bucket a date into a scannable group heading. */
+function dateGroup(d){
+  const t=today();
+  if(d===t)return "Today";
+  const days=Math.round((Date.parse(t)-Date.parse(d))/864e5);
+  if(days===1)return "Yesterday";
+  if(days>1&&days<=7)return "Earlier this week";
+  if(days>7&&days<=30)return "Earlier this month";
+  const p=String(d).split("-");
+  if(p.length!==3)return "Earlier";
+  return new Date(Date.UTC(+p[0],+p[1]-1,1)).toLocaleDateString("en-IN",{month:"long",year:"numeric",timeZone:"UTC"});
+}
+/* Accuracy sparkline over the most recent attempts, oldest → newest. */
+function trendHtml(list){
+  const pts=list.slice(-12).map(accOf);
+  if(pts.length<3)return "";
+  const W=300,H=40,n=pts.length,lo=Math.min(...pts,0),hi=Math.max(...pts,100);
+  const x=i=>n===1?W/2:i*(W/(n-1));
+  const y=v=>H-((v-lo)/Math.max(hi-lo,1))*H;
+  const line=pts.map((v,i)=>`${i?"L":"M"}${x(i).toFixed(1)},${y(v).toFixed(1)}`).join(" ");
+  const area=`${line} L${W},${H} L0,${H} Z`;
+  const last=pts[pts.length-1];
+  const half=Math.max(1,Math.min(3,Math.floor(n/2)));
+  const avg=a=>a.reduce((s,v)=>s+v,0)/a.length;
+  const dv=Math.round(avg(pts.slice(-half))-avg(pts.slice(0,half)));
+  const cls=dv>2?"up":dv<-2?"dn":"fl", sign=dv>0?"▲ +":dv<0?"▼ ":"● ";
+  return `<div class="htrend">
+    <div class="tl">Accuracy trend<b>${last}%</b></div>
+    <svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" aria-hidden="true">
+      <defs><linearGradient id="hspark" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="${accColor(last)}" stop-opacity=".28"/>
+        <stop offset="100%" stop-color="${accColor(last)}" stop-opacity="0"/>
+      </linearGradient></defs>
+      <path d="${area}" fill="url(#hspark)"/>
+      <path d="${line}" fill="none" stroke="${accColor(last)}" stroke-width="2"
+        stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke"/>
+      <path d="M${x(n-1).toFixed(1)},${y(last).toFixed(1)} l0,0" stroke="${accColor(last)}" stroke-width="6"
+        stroke-linecap="round" fill="none" vector-effect="non-scaling-stroke"/>
+    </svg>
+    <span class="delta ${cls}">${sign}${Math.abs(dv)}%</span>
+  </div>`;
+}
+function historyHtml(){
+  if(!hist.length)return `<div class="pcard"><h3>📜 Attempt history</h3>
+    <div class="hnone"><span class="big">📭</span><b>No attempts yet</b><br>
+      Every custom test and full mock you finish lands here — with its full question-by-question
+      analysis, and a mark on your heatmap.</div></div>`;
+  /* summary covers everything, not just the filtered slice */
+  const tot=hist.length, qs=hist.reduce((a,h)=>a+(h.n||0),0);
+  const c=hist.reduce((a,h)=>a+(h.correct||0),0), w=hist.reduce((a,h)=>a+(h.wrong||0),0);
+  const avgAcc=c+w?Math.round(c/(c+w)*100):0;
+  const best=Math.max(...hist.map(h=>h.score||0));
+  const secs=hist.reduce((a,h)=>a+(h.secs||0),0);
+  const mocks=hist.filter(h=>h.kind==="mock").length;
+  const stats=`<div class="hstats">
+    <div class="hstat"><b>${tot}</b><span>attempts</span></div>
+    <div class="hstat acc"><b>${avgAcc}%</b><span>avg accuracy</span></div>
+    <div class="hstat ok"><b>${best>0?"+":""}${best}</b><span>best score</span></div>
+    <div class="hstat"><b>${qs}</b><span>questions</span></div>
+    <div class="hstat"><b>${fmt(secs)}</b><span>time in tests</span></div>
+  </div>`;
+  /* filter → sort */
+  const q=HF.q.trim().toLowerCase();
+  let list=hist.filter(h=>{
+    if(HF.kind==="mock"&&h.kind!=="mock")return false;
+    if(HF.kind==="drill"&&h.kind==="mock")return false;
+    if(!q)return true;
+    return `${h.paper||""} ${h.topics||""} ${h.date||""}`.toLowerCase().includes(q);
+  });
+  const trend=trendHtml(hist.filter(h=>HF.kind==="all"||(HF.kind==="mock")===(h.kind==="mock")));
+  const grouped=HF.sort==="new"||HF.sort==="old";
+  if(HF.sort==="new")list=list.slice().reverse();
+  else if(HF.sort==="score")list=list.slice().sort((a,b)=>(b.score||0)-(a.score||0));
+  else if(HF.sort==="acc")list=list.slice().sort((a,b)=>accOf(b)-accOf(a));
+  const tools=`<div class="htools">
+    <div class="seg" id="hkind">
+      ${[["all","All",tot],["mock","🏆 Mocks",mocks],["drill","🎯 Drills",tot-mocks]]
+        .map(([k,l,n])=>`<button data-hk="${k}" class="${HF.kind===k?"act":""}">${l}${n?` ${n}`:""}</button>`).join("")}
+    </div>
+    <select class="hsort" id="hsort">
+      ${[["new","Newest first"],["old","Oldest first"],["score","Highest score"],["acc","Best accuracy"]]
+        .map(([v,l])=>`<option value="${v}" ${HF.sort===v?"selected":""}>${l}</option>`).join("")}
+    </select>
+    <div class="hsearch"><span class="mag">🔍</span>
+      <input id="hq" type="search" placeholder="Search paper or topic…" value="${escH(HF.q)}"></div>
+  </div>`;
+  let body;
+  if(!list.length){
+    body=`<div class="hnone"><span class="big">🔍</span><b>No attempts match that</b><br>
+      Try a different filter, or clear the search.</div>`;
+  }else{
+    const shown=list.slice(0,HF.limit);
+    let rows="",grp=null;
+    shown.forEach(s=>{
+      if(grouped){
+        const g=dateGroup(s.date);
+        if(g!==grp){grp=g;rows+=`<div class="hgrp">${escH(g)}<em>${shown.filter(x=>dateGroup(x.date)===g).length}</em></div>`}
+      }
+      rows+=historyCard(s);
+    });
+    const rest=list.length-shown.length;
+    body=rows+(rest>0?`<button class="hmore" id="hmore">Show ${rest} older attempt${rest>1?"s":""} ↓</button>`
+      :(HF.limit>12&&list.length>12?`<button class="hmore" id="hless">Show less ↑</button>`:""));
+  }
+  return `<div class="pcard hwrap"><h3>📜 Attempt history</h3>
+    <div class="hint" style="margin-top:0">Tap any attempt to reopen its full analysis · 🗑 removes one from your history.</div>
+    ${stats}${trend}${tools}${body}</div>`;
+}
+function historyCard(s){
+  const pos=(s.score||0)>=0, kind=s.kind==="mock"?"mock":"drill";
   const title=s.kind==="mock"?(s.paper||"Full mock"):(s.topics||"Custom test");
-  const acc=(s.correct+s.wrong)?Math.round(s.correct/(s.correct+s.wrong)*100):0;
-  return `<button class="hcard" data-hist="${idx}">
-    <div class="hbadge ${pos?'pos':'neg'}">${pos&&s.score>0?'+':''}${s.score}<small>score</small></div>
-    <div class="hmeta">
-      <div class="ht"><span class="hkind ${kind}">${kind}</span> ${escH(title)}</div>
-      <div class="hpills">
-        <span class="hp c">${s.correct}✓</span><span class="hp w">${s.wrong}✗</span><span class="hp s">${s.skip}−</span>
-        <span class="hp m">${acc}% acc</span><span class="hp m">${s.n} Qs</span><span class="hp m">⏱ ${fmtv(s.secs)}</span><span class="hp m">${s.date}</span>
+  const acc=accOf(s), col=accColor(acc);
+  const n=Math.max(s.n||0,1), pc=v=>((v||0)/n*100).toFixed(1);
+  const R=20, C=2*Math.PI*R;                                   /* donut geometry */
+  const per=Math.round((s.secs||0)/n);
+  const aid=escH(s.aid||"");
+  return `<div class="hcard" data-row="${aid}">
+    <button class="hopen" data-hist="${aid}" aria-label="Open analysis for ${escH(title)}"></button>
+    <svg class="hring" viewBox="0 0 48 48">
+      <circle class="trk" cx="24" cy="24" r="${R}"></circle>
+      <circle cx="24" cy="24" r="${R}" stroke="${col}" stroke-dasharray="${C.toFixed(1)}"
+        stroke-dashoffset="${(C*(1-acc/100)).toFixed(1)}" transform="rotate(-90 24 24)"></circle>
+      <text x="24" y="22" text-anchor="middle" dominant-baseline="central">${acc}</text>
+      <text x="24" y="33" class="sm" text-anchor="middle">ACC</text>
+    </svg>
+    <div class="hbody">
+      <div class="htop"><span class="hkind ${kind}">${kind}</span><span class="ht">${escH(title)}</span></div>
+      <div class="hbar">
+        <i class="c" style="width:${pc(s.correct)}%"></i><i class="w" style="width:${pc(s.wrong)}%"></i><i class="s" style="width:${pc(s.skip)}%"></i>
       </div>
-    </div><span class="hgo">›</span></button>`;
+      <div class="hmeta">
+        <span class="c"><b>${s.correct||0}</b>✓</span><span class="w"><b>${s.wrong||0}</b>✗</span>
+        <span><b>${s.skip||0}</b>−</span><span class="dot">·</span>
+        <span>${s.n||0} Qs</span><span class="dot">·</span>
+        <span>⏱ ${fmt(s.secs||0)}</span><span class="dot">·</span>
+        <span>${fmtv(per)}/Q</span><span class="dot">·</span>
+        <span>${escH(shortDate(s.date))}</span>
+      </div>
+    </div>
+    <div class="hend">
+      <div class="hscore ${pos?"pos":"neg"}"><b>${pos&&s.score>0?"+":""}${s.score||0}</b><span>score</span></div>
+      <button class="hdel" data-del="${aid}" title="Delete this attempt"
+        aria-label="Delete attempt: ${escH(title)}">🗑</button>
+      <span class="hgo">›</span>
+    </div>
+  </div>`;
+}
+/* Remove one attempt — locally, and (via a tombstone) from the cloud too — with a 7s undo. */
+function deleteAttempt(aid){
+  const i=hist.findIndex(h=>h.aid===aid);if(i<0)return;
+  const gone=hist[i], k=hkeyOf(gone);
+  const card=[...document.querySelectorAll(".hcard")].find(c=>c.dataset.row===aid);
+  if(card)card.classList.add("gone");
+  hist.splice(i,1);
+  if(!hist.some(h=>hkeyOf(h)===k)&&!histDel.includes(k)){histDel.push(k);saveHDel()}
+  saveH();
+  const redraw=()=>render();          /* render() repaints the heatmap, home metrics and this list */
+  setTimeout(redraw,card?180:0);
+  const label=gone.kind==="mock"?(gone.paper||"Mock"):(gone.topics||"Custom test");
+  toast(`Deleted "${label.length>26?label.slice(0,26)+"…":label}"`,"Undo",()=>{
+    hist.splice(Math.min(i,hist.length),0,gone);
+    histDel=histDel.filter(x=>x!==k);saveHDel();
+    saveH();redraw();toast("Attempt restored");
+  });
 }
 function bindPractice(){
+  document.querySelectorAll("#ptabs [data-pt]").forEach(b=>b.onclick=()=>{
+    PT.tab=b.dataset.pt;HF.limit=12;renderPracticeHome()});
   document.querySelectorAll(".yearrow").forEach(r=>r.onclick=()=>{
     const yb=document.getElementById("yb-"+r.dataset.year);const open=yb.classList.toggle("open");r.classList.toggle("open",open)});
   document.querySelectorAll(".secchip").forEach(b=>b.onclick=e=>{e.stopPropagation();b.classList.toggle("on")});
@@ -1254,7 +1634,16 @@ function bindPractice(){
     showInstructions(mi,secs)});
   const oc=document.getElementById("opencustom");if(oc)oc.onclick=openCustomModal;
   const stb=document.getElementById("smarttest");if(stb)stb.onclick=smartTest;
-  document.querySelectorAll("[data-hist]").forEach(b=>b.onclick=()=>viewAnalysis(+b.dataset.hist));
+  /* history controls */
+  document.querySelectorAll("#hkind [data-hk]").forEach(b=>b.onclick=()=>{HF.kind=b.dataset.hk;HF.limit=12;renderPracticeHome()});
+  const so=document.getElementById("hsort");if(so)so.onchange=()=>{HF.sort=so.value;HF.limit=12;renderPracticeHome()};
+  const hq=document.getElementById("hq");
+  if(hq)hq.oninput=()=>{HF.q=hq.value;HF.limit=12;renderPracticeHome();
+    const f=document.getElementById("hq");if(f){f.focus();f.setSelectionRange(f.value.length,f.value.length)}};
+  const more=document.getElementById("hmore");if(more)more.onclick=()=>{HF.limit+=20;renderPracticeHome()};
+  const less=document.getElementById("hless");if(less)less.onclick=()=>{HF.limit=12;renderPracticeHome()};
+  document.querySelectorAll("[data-del]").forEach(b=>b.onclick=e=>{e.stopPropagation();deleteAttempt(b.dataset.del)});
+  document.querySelectorAll("[data-hist]").forEach(b=>b.onclick=()=>viewAnalysis(b.dataset.hist));
 }
 /* ===== custom-test modal ===== */
 let ctDropOpen=false, ctSearch="";
@@ -1316,42 +1705,232 @@ function bindCustomModal(){
 }
 /* ===== shared analysis view (used by fresh submits + history reopen) ===== */
 function compactRow(r,cx){return{q:{q:r.q.q,type:r.q.type,opts:r.q.opts,ans:r.q.ans,sub:r.q.sub,sol:r.q.sol,src:r.q.src,img:r.q.img},a:r.a,att:r.att,ok:r.ok,t:r.t,cx:cx||null}}
-function viewAnalysis(idx){
-  const s=hist[idx];if(!s)return;
+function viewAnalysis(aid){
+  const s=hist.find(h=>h.aid===aid);if(!s)return;
   if(s.analysis){renderAnalysisView(s.analysis,true);return}
   renderAnalysisView({kind:s.kind==="mock"?"mock":"drill",title:s.kind==="mock"?(s.paper||"Mock"):(s.topics||"Custom test"),
     date:s.date,score:s.score,correct:s.correct,wrong:s.wrong,skip:s.skip,n:s.n,secs:s.secs,max:s.n*3},true);
 }
+/* ===== analysis view — replays the paper the way it was taken ===== */
+/* "2026-08-23" → "23 Aug 2026" */
+function longDate(d){
+  const p=String(d||"").split("-");if(p.length!==3)return escH(d||"—");
+  return new Date(Date.UTC(+p[0],+p[1]-1,+p[2]))
+    .toLocaleDateString("en-IN",{day:"numeric",month:"short",year:"numeric",timeZone:"UTC"});
+}
+const pctOf=(v,t)=>t?(v/t*100).toFixed(1):0;
+/* Section time: recorded from the section clock where available, else the sum of the
+   per-question timings (older attempts saved before secs was stored). */
+const secSecs=g=>g.secs!=null?g.secs:(g.rows||[]).reduce((a,r)=>a+(r.t||0),0);
+function statTile(v,label,cls){return`<div class="astat ${cls||""}"><b>${v}</b><span>${label}</span></div>`}
+/* Normalise mocks and drills into the same shape: a list of sections with rows. */
+function anaSections(a){
+  if(a.sections)return a.sections;
+  return [{name:a.kind==="mock"?"Paper":"Questions",score:a.score,correct:a.correct,wrong:a.wrong,
+    skip:a.skip,secs:a.secs,rows:a.rows||[]}];
+}
+let AV={a:null,fromHistory:false,si:0,qi:0};
 function renderAnalysisView(a,fromHistory){
   PT.view="result";
-  const acc=(a.correct+a.wrong)?Math.round(a.correct/(a.correct+a.wrong)*100):0;
-  const heading=(a.kind==="mock"?"🏆 "+(a.title||"Mock"):"🎯 "+(a.title||"Custom test"))+" · "+a.date;
-  const bar=`<div class="abar"><button class="back" id="aback">← Back to Practice</button>
-    <div style="font-weight:800;font-size:13.5px;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${escH(heading)}</div></div>`;
-  const summary=`<div class="pcard"><h3>📊 ${a.kind==="mock"?"Mock":"Test"} analysis</h3>
-    <div class="sumgrid">
-      <div class="hs"><b style="color:${a.score>=0?'var(--ok)':'var(--bad)'}">${a.score>0?'+':''}${a.score}</b><span>score (max ${a.max})</span></div>
-      <div class="hs"><b>${a.correct} / ${a.n}</b><span>correct</span></div>
-      <div class="hs"><b>${acc}%</b><span>accuracy</span></div>
-      <div class="hs"><b>${a.wrong}</b><span>wrong</span></div>
-      <div class="hs"><b>${a.skip}</b><span>skipped</span></div>
-      <div class="hs"><b>${fmtv(a.secs)}</b><span>total time</span></div>
-      <div class="hs"><b>${fmtv(Math.round(a.secs/Math.max(a.n,1)))}</b><span>avg / question</span></div>
-    </div>
-    ${a.topics?`<h3 style="margin-top:14px">Topic-wise</h3>${Object.entries(a.topics).map(([k,x])=>`<div class="histrow"><span style="flex:1">${escH(k)}</span>
-      <span class="ok2">${x.c}✓</span><span class="bad2">${x.w}✗</span><span class="skip2">${x.s}−</span><span class="mu">⏱ ${fmtv(x.t)}</span></div>`).join("")}`:""}
-    ${a.sections?`<div class="secsum">${a.sections.map(g=>`<div class="hs"><b>${g.name}: ${g.score}</b><span>${g.correct}✓ ${g.wrong}✗ ${g.skip}−${g.skipQ?` · ${g.skipQ} excl`:""}</span></div>`).join("")}</div>`:""}
-    ${a.ref?`<div class="hint">${a.ref}</div>`:""}</div>`;
-  let qbq;
-  if(a.sections){
-    qbq=a.sections.map(g=>`<div class="pcard"><h3>${g.name} — question by question</h3>${(g.rows||[]).map(r=>qrowHtml(r,r.cx)).join("")||'<div class="hint">Per-question detail wasn\'t saved for this attempt — summary only.</div>'}</div>`).join("");
-  }else{
-    qbq=`<div class="pcard"><h3>Question-by-question <span style="font-weight:500;color:var(--mut)">(tap any to see the solution)</span></h3>${(a.rows||[]).map(r=>qrowHtml(r,r.cx)).join("")||'<div class="hint">Per-question detail wasn\'t saved for this older attempt — summary only.</div>'}</div>`;
-  }
-  document.getElementById("practice").innerHTML=bar+summary+qbq;
-  document.querySelectorAll("[data-ar]").forEach(h=>h.onclick=()=>h.parentElement.classList.toggle("open"));
-  document.getElementById("aback").onclick=()=>{PT={view:"home"};render()};
+  AV={a,fromHistory:!!fromHistory,si:0,qi:0};
+  paintAnalysis();
   go("practice");window.scrollTo({top:0});
+}
+function paintAnalysis(){
+  const a=AV.a, secs=anaSections(a);
+  const att=a.correct+a.wrong, acc=att?Math.round(a.correct/att*100):0;
+  const icon=a.kind==="mock"?"🏆":"🎯";
+  const bar=`<div class="abar"><button class="back" id="aback">← Back to ${AV.fromHistory?"history":"Practice"}</button>
+    <div class="atitle">${icon} ${escH(a.title||(a.kind==="mock"?"Mock":"Custom test"))}</div>
+    <div class="adate">${longDate(a.date)}</div></div>`;
+
+  /* ---- overall performance ---- */
+  const max=a.max||a.n*3;
+  const pctScore=max>0?Math.max(0,Math.min(100,a.score/max*100)):0;
+  const overall=`<div class="pcard"><h3>📊 ${a.kind==="mock"?"Mock":"Test"} analysis</h3>
+    <div class="ahero">
+      <div>
+        <div class="big ${a.score>=0?"pos":"neg"}">${a.score>0?"+":""}${a.score}</div>
+        <div class="of">out of ${max}</div>
+      </div>
+      <div class="hbarwrap">
+        <div class="lb"><span>Score</span><span>${Math.round(pctScore)}% of max</span></div>
+        <div class="track"><div class="fill" style="width:${pctScore.toFixed(1)}%;background:${a.score>=0?"var(--ok)":"var(--bad)"}"></div></div>
+      </div>
+    </div>
+    <div class="astats">
+      ${statTile(acc+"%","accuracy","acc")}
+      ${statTile(a.correct,"correct","ok")}
+      ${statTile(a.wrong,"wrong","bad")}
+      ${statTile(a.skip,"skipped","mut")}
+      ${statTile(att+" / "+a.n,"attempted")}
+      ${statTile(fmt(a.secs),"total time")}
+      ${statTile(fmtv(Math.round(a.secs/Math.max(a.n,1))),"avg / question")}
+    </div>
+    ${a.ref?`<div class="hint">${a.ref}</div>`:""}</div>`;
+
+  /* ---- sectional bifurcation (clearing sectionals matters as much as the total) ---- */
+  const secCard=a.sections?`<div class="pcard"><h3>🧭 Sectional performance</h3>
+    <div class="hint" style="margin-top:0">Tap a section to replay its questions below.</div>
+    <div class="asecs">${a.sections.map((g,i)=>{
+      const n=(g.rows||[]).length||(g.correct+g.wrong+g.skip)||1;
+      const sa=g.correct+g.wrong, sacc=sa?Math.round(g.correct/sa*100):0, st=secSecs(g);
+      return `<button class="asecrow" data-sec="${i}">
+        <div class="sname">${escH(g.name)}<small>${n} Qs</small></div>
+        <div>
+          <div class="sbar"><i class="c" style="width:${pctOf(g.correct,n)}%"></i><i class="w" style="width:${pctOf(g.wrong,n)}%"></i><i class="s" style="width:${pctOf(g.skip,n)}%"></i></div>
+          <div class="smeta">
+            <span class="c"><b>${g.correct}</b>✓</span><span class="w"><b>${g.wrong}</b>✗</span>
+            <span><b>${g.skip}</b>−</span><span class="dot">·</span>
+            <span><b>${sacc}%</b> acc</span><span class="dot">·</span>
+            <span>⏱ ${fmt(st)}</span><span class="dot">·</span>
+            <span>${fmtv(Math.round(st/n))}/Q</span>${g.skipQ?`<span class="dot">·</span><span>${g.skipQ} excl</span>`:""}
+          </div>
+        </div>
+        <div class="sscore ${g.score>=0?"pos":"neg"}"><b>${g.score>0?"+":""}${g.score}</b><span>score</span></div>
+      </button>`}).join("")}</div></div>`:"";
+
+  /* ---- the replay: section tabs → palette + question ---- */
+  const hasRows=secs.some(g=>(g.rows||[]).length);
+  let replay="";
+  if(!hasRows){
+    replay=`<div class="pcard"><h3>🔍 Question-by-question</h3>
+      <div class="hnone"><span class="big">🗂️</span><b>Per-question detail wasn't saved for this attempt</b><br>
+        Only the summary above is available. Newer attempts store every question, your answer and its timing.</div></div>`;
+  }else{
+    AV.si=Math.min(AV.si,secs.length-1);
+    const g=secs[AV.si], rows=g.rows||[];
+    AV.qi=Math.min(AV.qi,Math.max(rows.length-1,0));
+    const tabs=secs.length>1?`<div class="atabs" id="atabs">${secs.map((x,i)=>{
+      const xa=x.correct+x.wrong;
+      return `<button data-tab="${i}" class="${i===AV.si?"act":""}">${escH(x.name)}
+        <small>${x.correct}✓ ${x.wrong}✗ ${x.skip}− · ${x.score>0?"+":""}${x.score}</small></button>`}).join("")}</div>`:"";
+    const st=secSecs(g), avgT=rows.length?st/rows.length:0;
+    replay=`<div class="pcard"><h3>🔍 Replay — ${escH(g.name)}</h3>
+      <div class="hint" style="margin-top:0">Same layout as the test: pick any question from the map to see what you marked, the right answer and your timing.</div>
+      ${tabs}
+      <div class="alayout">
+        <div class="aq" id="aqpane">${anaQuestionHtml(rows[AV.qi],AV.qi,rows.length,avgT)}</div>
+        ${anaPalette(g,rows,st,avgT)}
+      </div>
+      ${anaTopics(rows)}
+    </div>`;
+  }
+  document.getElementById("practice").innerHTML=bar+overall+secCard+replay;
+  bindAnalysis();
+}
+/* palette + the section's own numbers, directly beneath it */
+function anaPalette(g,rows,st,avgT){
+  const n=rows.length, sa=g.correct+g.wrong, sacc=sa?Math.round(g.correct/sa*100):0;
+  const cells=rows.map((r,i)=>{
+    const cls=r.ok?"ok":r.att?"bad":"skip";
+    const tip=`Q${i+1} · ${r.q.sub||"Untagged"} · ${r.ok?"correct":r.att?"wrong":"skipped"} · ${fmtv(r.t||0)}`;
+    return `<button class="apbtn ${cls} ${i===AV.qi?"cur":""}" data-q="${i}" title="${escH(tip)}">${i+1}</button>`}).join("");
+  return `<div class="apal">
+    <h4>Question map</h4>
+    <div class="apgrid" id="apgrid">${cells}</div>
+    <div class="aplegend">
+      <span><i class="ok"></i>Correct ${g.correct}</span>
+      <span><i class="bad"></i>Wrong ${g.wrong}</span>
+      <span><i class="skip"></i>Skipped ${g.skip}</span>
+    </div>
+    <div class="apalsec">
+      <h4>${escH(g.name)} summary</h4>
+      <div class="astats">
+        ${statTile((g.score>0?"+":"")+g.score,"section score",g.score>=0?"ok":"bad")}
+        ${statTile(sacc+"%","accuracy","acc")}
+        ${statTile(fmt(st),"time taken")}
+        ${statTile(fmtv(Math.round(avgT)),"avg / question")}
+        ${statTile(n,"questions")}
+        ${statTile(sa+" / "+n,"attempted")}
+      </div>
+    </div>
+  </div>`;
+}
+/* one question, laid out like the test screen */
+function anaQuestionHtml(r,i,n,avgT){
+  if(!r)return `<div class="hint">Nothing to show for this section.</div>`;
+  const verdict=r.ok?["ok","Correct","+3"]:r.att?["bad","Wrong",r.q.type==="mcq"?"−1":"0"]:["skip","Skipped","0"];
+  const slow=avgT&&r.t>avgT*1.5;
+  const timeNote=r.att||r.t?`${fmtv(r.t||0)} <em>· section avg ${fmtv(Math.round(avgT))}${slow?" · slow":""}</em>`:`<em>not visited</em>`;
+  let answers;
+  if(r.q.type==="mcq"){
+    answers=r.q.opts.map((o,k)=>{
+      const right=k===r.q.ans, mine=r.att&&k===r.a;
+      const tag=right&&mine?"✓ your answer":right?"✓ correct":mine?"your answer":"";
+      return `<div class="aopt ${right?"right":mine?"mine":""}">
+        <span class="ol">${"ABCD"[k]}</span><span>${o}</span>${tag?`<span class="otag">${tag}</span>`:""}</div>`}).join("");
+  }else{
+    const ua=r.att?escH(String(r.a)):"— not attempted";
+    answers=`<div class="atita">
+      <div class="tb ${r.ok?"right":r.att?"mine":""}"><span>Your answer</span>${ua}</div>
+      <div class="tb right"><span>Correct answer</span>${escH(String(r.q.ans))}</div>
+    </div>`;
+  }
+  return `<div class="aqhd">
+      <span class="aqno">Q${i+1}<span style="color:var(--faint);font-weight:600">/${n}</span></span>
+      <span class="aqverdict ${verdict[0]}">${verdict[1]} ${verdict[2]}</span>
+      ${r.q.sub?`<span class="atag">${escH(r.q.sub)}</span>`:""}
+      <span class="atime">⏱ ${timeNote}</span>
+    </div>
+    ${r.cx?`<div class="ctxbox">${r.cx}</div>`:""}
+    <div class="aqtext">${r.q.q}</div>
+    ${r.q.img?`<div class="qfig"><img loading="lazy" src="${r.q.img}" alt="figure"></div>`:""}
+    ${answers}
+    ${r.q.sol?`<div class="asol"><b>Solution</b>${r.q.sol}</div>`
+      :`<div class="asol"><b>Official answer</b>${r.q.type==="mcq"?"ABCD"[r.q.ans]+") "+r.q.opts[r.q.ans]:escH(String(r.q.ans))}</div>`}
+    <div class="aqnav">
+      <button class="pill" id="aprev" ${i<=0?"disabled":""}>← Previous</button>
+      <span class="sp"></span>
+      <button class="pill primary" id="anext" ${i>=n-1?"disabled":""}>Next →</button>
+    </div>
+    <div class="aqsrc">${escH(r.q.src||"")}</div>`;
+}
+/* how each tagged topic went inside this section */
+function anaTopics(rows){
+  if(!rows.length)return "";
+  const by={};
+  rows.forEach(r=>{const k=r.q.sub||"Untagged";
+    (by[k]=by[k]||{c:0,w:0,s:0,t:0,n:0});
+    by[k].n++;by[k].t+=r.t||0;
+    if(!r.att)by[k].s++;else r.ok?by[k].c++:by[k].w++});
+  const list=Object.entries(by).sort((x,y)=>y[1].n-x[1].n);
+  if(list.length<2)return "";
+  return `<div style="margin-top:14px"><h3 style="margin:0 0 4px;font-size:13.5px">🏷️ Topic breakdown</h3>
+    <div class="hint" style="margin-top:0">Every question is tagged, so you can see which topics cost you the section.</div>
+    ${list.map(([k,x])=>{
+      const at=x.c+x.w, acc=at?Math.round(x.c/at*100):0;
+      return `<div class="atrow">
+        <div class="tn">${escH(k)}<i>${x.n} question${x.n>1?"s":""} · ⏱ ${fmt(x.t)} · ${fmtv(Math.round(x.t/x.n))}/Q</i></div>
+        <div class="tv"><span class="ok2"><b>${x.c}</b>✓</span><span class="bad2"><b>${x.w}</b>✗</span>
+          <span class="skip2"><b>${x.s}</b>−</span>
+          <span class="tacc" style="color:${at?accColor(acc):"var(--faint)"}">${at?acc+"%":"—"}</span></div>
+      </div>`}).join("")}</div>`;
+}
+function bindAnalysis(){
+  document.getElementById("aback").onclick=()=>{PT={view:"home",tab:AV.fromHistory?"history":"build"};render()};
+  document.querySelectorAll("[data-sec]").forEach(b=>b.onclick=()=>{
+    AV.si=+b.dataset.sec;AV.qi=0;paintAnalysis();
+    const t=document.getElementById("atabs");
+    if(t&&t.scrollIntoView)t.scrollIntoView({block:"start",behavior:"smooth"})});
+  document.querySelectorAll("#atabs [data-tab]").forEach(b=>b.onclick=()=>{AV.si=+b.dataset.tab;AV.qi=0;paintAnalysis()});
+  document.querySelectorAll("#apgrid [data-q]").forEach(b=>b.onclick=()=>gotoAnaQ(+b.dataset.q));
+  const pv=document.getElementById("aprev");if(pv)pv.onclick=()=>gotoAnaQ(AV.qi-1);
+  const nx=document.getElementById("anext");if(nx)nx.onclick=()=>gotoAnaQ(AV.qi+1);
+}
+/* Repaint just the question pane and the palette highlight — keeps the page from
+   jumping back to the top every time you step through questions. */
+function gotoAnaQ(i){
+  const secs=anaSections(AV.a),g=secs[AV.si],rows=g.rows||[];
+  if(i<0||i>=rows.length)return;
+  AV.qi=i;
+  const st=secSecs(g),avgT=rows.length?st/rows.length:0;
+  const pane=document.getElementById("aqpane");
+  if(!pane)return paintAnalysis();
+  pane.innerHTML=anaQuestionHtml(rows[i],i,rows.length,avgT);
+  document.querySelectorAll("#apgrid [data-q]").forEach(b=>b.classList.toggle("cur",+b.dataset.q===i));
+  const pv=document.getElementById("aprev");if(pv)pv.onclick=()=>gotoAnaQ(AV.qi-1);
+  const nx=document.getElementById("anext");if(nx)nx.onclick=()=>gotoAnaQ(AV.qi+1);
 }
 
 /* test engine */
@@ -1425,6 +2004,7 @@ function gradeCurrent(){
 function endSection(){
   const g=gradeCurrent();
   g.name=PT.secList[PT.si].name;g.skipQ=PT.secList[PT.si].skip;
+  g.secs=Math.max(0,PT.mock.secMin*60-PT.remain);   /* time spent in this section */
   PT.results.push(g);
   if(PT.si+1<PT.secList.length){
     loadSection(PT.si+1);
@@ -1503,21 +2083,6 @@ function closeTest(){
   if(document.fullscreenElement)document.exitFullscreen().catch(()=>{});
   document.getElementById("calc").classList.remove("on");
 }
-function qrowHtml(r,cx){
-  const ua=r.att?(r.q.type==="mcq"?"ABCD"[r.a]+") "+r.q.opts[r.a]:r.a):"—";
-  const ca=r.q.type==="mcq"?"ABCD"[r.q.ans]+") "+r.q.opts[r.q.ans]:r.q.ans;
-  return`<div class="ares"><div class="arhead" data-ar>
-    <span class="ic ${r.ok?'ok2':r.att?'bad2':'skip2'}">${r.ok?"✓":r.att?"✗":"−"}</span>
-    <span class="tt">${r.q.sub?r.q.sub+" — ":""}${r.q.q.replace(/<[^>]+>/g," ").slice(0,70)}…</span>
-    <span class="tm">${fmtv(r.t)}</span><span class="caret">▼</span></div>
-  <div class="arbody">${cx?`<div class="ctxbox">${cx}</div>`:""}<div>${r.q.q}</div>
-    ${r.q.img?`<div class="qfig"><img loading="lazy" src="${r.q.img}" alt="figure"></div>`:""}
-    ${r.q.type==="mcq"?r.q.opts.map((o,k)=>`<div style="padding:3px 0;color:${k===r.q.ans?'var(--ok)':k===r.a?'var(--bad)':'inherit'}">${"ABCD"[k]}) ${o}${k===r.q.ans?" ✓":k===r.a?" (your answer)":""}</div>`).join(""):
-    `<div style="margin-top:6px">Your answer: <b>${ua}</b> · Correct: <b class="ok2">${ca}</b></div>`}
-    ${r.q.sol?`<div class="sol"><b>Solution:</b> ${r.q.sol}</div>`:`<div class="sol"><b>Official answer:</b> ${ca}</div>`}
-    <div style="margin-top:6px;font-size:11.5px;color:var(--mut)">Time: ${fmtv(r.t)} · ${r.q.src||"Practice set"}</div>
-  </div></div>`;
-}
 function submitTest(){
   closeTest();
   const g=gradeCurrent();
@@ -1528,7 +2093,7 @@ function submitTest(){
   const analysis={kind:"drill",title:title||"Custom test",date:today(),
     score:g.score,correct:g.correct,wrong:g.wrong,skip:g.skip,n:PT.qs.length,secs:PT.elapsed,max:PT.qs.length*3,
     topics,rows:g.rows.map(r=>compactRow(r,ctxOf(r.q)))};
-  hist.push({kind:"drill",date:today(),n:PT.qs.length,score:g.score,correct:g.correct,wrong:g.wrong,skip:g.skip,
+  hist.push({aid:newAid(),kind:"drill",date:today(),n:PT.qs.length,score:g.score,correct:g.correct,wrong:g.wrong,skip:g.skip,
     secs:PT.elapsed,topics:title,analysis});
   saveH();
   renderAnalysisView(analysis,false);
@@ -1543,9 +2108,9 @@ function finishMock(){
     m.year===2017?"Reference: CAT 2017 was a 300-mark paper; ~170+ raw ≈ 99th percentile territory (approximate).":"";
   const analysis={kind:"mock",title:PT.mockTitle||m.name,date:today(),
     score:tot.score,correct:tot.correct,wrong:tot.wrong,skip:tot.skip,n:tot.n,secs:PT.elapsed,max:tot.n*3,ref,
-    sections:R.map(g=>({name:g.name,score:g.score,correct:g.correct,wrong:g.wrong,skip:g.skip,skipQ:g.skipQ,
+    sections:R.map(g=>({name:g.name,score:g.score,correct:g.correct,wrong:g.wrong,skip:g.skip,skipQ:g.skipQ,secs:g.secs,
       rows:g.rows.map(r=>compactRow(r,r.q.c!==undefined?m.ctxs[r.q.c]:null))}))};
-  hist.push({kind:"mock",paper:m.name,date:today(),n:tot.n,score:tot.score,
+  hist.push({aid:newAid(),kind:"mock",paper:m.name,date:today(),n:tot.n,score:tot.score,
     correct:tot.correct,wrong:tot.wrong,skip:tot.skip,secs:PT.elapsed,topics:"🏆 "+m.name,analysis});
   saveH();
   renderAnalysisView(analysis,false);
@@ -1604,7 +2169,7 @@ function bind(){
     if(e.target.dataset.pyq!==undefined)return;h.parentElement.classList.toggle('open')});
   document.querySelectorAll('.sec2>.shead').forEach(h=>h.onclick=()=>h.parentElement.classList.toggle('open'));
   document.querySelectorAll('[data-pyq]').forEach(b=>b.onclick=e=>{
-    e.stopPropagation();sel=new Set([b.dataset.pyq]);PT={view:"home"};
+    e.stopPropagation();sel=new Set([b.dataset.pyq]);PT={view:"home",tab:"build"};
     renderPracticeHome();go("practice");toast("Topic loaded — start your drill")});
   document.querySelectorAll("#modeseg button").forEach(b=>b.onclick=()=>{
     prof.planMode=b.dataset.pm;saveF();render()});
@@ -1663,7 +2228,7 @@ document.querySelectorAll("#pg-profile [data-mode]").forEach(b=>b.onclick=()=>{c
 document.getElementById("cfg-reset").onclick=()=>{cfg={...DEF};saveC();syncProfile();keepOpen(render);toast("Plan reset to defaults")};
 document.getElementById("wipe").onclick=()=>{
   if(confirm("Erase ALL progress, notes, stars, history and profile on this device?")){
-    [KEY,NKEY,RKEY,HKEY,PKEY,FKEY,CKEY].forEach(k=>localStorage.removeItem(k));location.reload()}};
+    [KEY,NKEY,RKEY,HKEY,PKEY,FKEY,CKEY,DKEY].forEach(k=>localStorage.removeItem(k));location.reload()}};
 
 /* onboarding */
 const GS=`<svg class="gsvg" viewBox="0 0 48 48"><path fill="#EA4335" d="M24 9.5c3.5 0 6.6 1.2 9 3.5l6.7-6.7C35.6 2.4 30.1 0 24 0 14.6 0 6.5 5.4 2.6 13.2l7.8 6.1C12.3 13.2 17.7 9.5 24 9.5z"/><path fill="#4285F4" d="M46.5 24.5c0-1.6-.1-3.1-.4-4.5H24v9h12.7c-.6 3-2.3 5.5-4.8 7.2l7.5 5.8c4.4-4.1 7.1-10.1 7.1-17.5z"/><path fill="#FBBC05" d="M10.4 28.7a14.5 14.5 0 0 1 0-9.4l-7.8-6.1a24 24 0 0 0 0 21.6l7.8-6.1z"/><path fill="#34A853" d="M24 48c6.1 0 11.2-2 15-5.5l-7.5-5.8c-2.1 1.4-4.7 2.2-7.5 2.2-6.3 0-11.7-3.7-13.6-9.2l-7.8 6.1C6.5 42.6 14.6 48 24 48z"/></svg>`;
@@ -1723,8 +2288,17 @@ function onbStep(n){
 }
 if(!prof.name){document.getElementById("onb").classList.add("on");onbStep(1)}
 
-let toastT;function toast(m){const t=document.getElementById("toast");t.textContent=m;t.classList.add("show");
-  clearTimeout(toastT);toastT=setTimeout(()=>t.classList.remove("show"),2400)}
+let toastT;
+function toast(m,actLabel,onAct){
+  const t=document.getElementById("toast");t.textContent=m;
+  if(actLabel&&onAct){
+    const b=document.createElement("button");b.className="tundo";b.textContent=actLabel;
+    b.onclick=()=>{t.classList.remove("show");clearTimeout(toastT);onAct()};
+    t.appendChild(b);
+  }
+  t.classList.add("show");
+  clearTimeout(toastT);toastT=setTimeout(()=>t.classList.remove("show"),onAct?7000:2400);
+}
 syncProfile();render();
 }
 __boot();
