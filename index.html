@@ -971,7 +971,7 @@ async function __pullCloud(){
     imported:new Set((ip.data||[]).map(r=>r.q&&r.q.id).filter(Boolean))};
 }
 async function __boot(){
-  try{const r=await fetch('mocks.json');if(r.ok)window.__MOCKS=await r.json()}catch(e){}
+  try{const r=await fetch('mocks.json?v='+Date.now());if(r.ok)window.__MOCKS=await r.json()}catch(e){}
   try{
     if(window.supabase){
       window.__sb=supabase.createClient(SUPA_URL,SUPA_KEY);
