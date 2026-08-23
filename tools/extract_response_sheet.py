@@ -123,18 +123,29 @@ def process_page(doc, pno, dpi=150):
         # line inside a numbered-sentence stem (para-jumble etc.) can otherwise be
         # mistaken for one, which then wrongly disables the possible_answer path.
         is_sa = qtype and qtype.group(1) == 'SA'
+        # Real options always sit BETWEEN the stem and the question's metadata block. Some
+        # exports repeat the whole passage/DILR-set context inside every question box, so
+        # the *next* question's context (and its "1. ... 2. ..." clue list) can trail inside
+        # this chunk — scanning the whole chunk lets those clues overwrite the real options.
+        body = chunk[:next((i for i, ln in enumerate(chunk)
+                            if ln['text'].startswith(('Question Type', 'Case Sensitivity'))),
+                           len(chunk))]
         starts = [] if is_sa else [(i, int(m.group(1)), m.group(2))
-                  for i, ln in enumerate(chunk)
+                  for i, ln in enumerate(body)
                   if (m := re.match(r'^\s*([1-4])\.\s?(.*)', ln['text']))
                   and 70 <= ln['bbox'][0] <= 100]
         opts = {}
         for si, (i, n, first_text) in enumerate(starts):
             y = (chunk[i]['bbox'][1] + chunk[i]['bbox'][3]) / 2
             x_icon = chunk[i]['bbox'][0] - 11
-            end = starts[si + 1][0] if si + 1 < len(starts) else len(chunk)
+            end = starts[si + 1][0] if si + 1 < len(starts) else len(body)
             parts = [first_text]
-            for ln in chunk[i + 1:end]:
+            for ln in body[i + 1:end]:
                 if ln['bbox'][0] >= 370 or ln['text'].startswith(META_KEYS):
+                    continue
+                # export footers (link.testbook.com / cdn.digialm.com ...) sometimes land
+                # inside the last option's line range — never part of the option text
+                if 'http://' in ln['text'] or 'https://' in ln['text']:
                     continue
                 parts.append(ln['text'])
             opts[n] = {'text': ' '.join(p for p in parts if p.strip()).strip(), 'x': x_icon, 'y': y}
