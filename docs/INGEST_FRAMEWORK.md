@@ -89,6 +89,15 @@ pdftoppm -png -r 150 -f <first> -l <last> "paper.pdf" pages_
 pdftotext -layout -f <first> -l <last> "paper.pdf" paper.txt
 ```
 
+**No poppler installed (e.g. this Windows box)?** Use the PyMuPDF-based stand-in instead
+— same page-numbering convention, everything else below reads unchanged:
+```bash
+pip install -r tools/requirements.txt      # pillow + pymupdf, once
+python tools/render_pdf.py "paper.pdf" --info                                    # = pdfinfo
+python tools/render_pdf.py "paper.pdf" pages_ --dpi 150 --first <first> --last <last>   # = pdftoppm
+python tools/render_pdf.py "paper.pdf" --first <first> --last <last> --text paper.txt   # = pdftotext -layout
+```
+
 ---
 
 ## 3. Identify the paper format
