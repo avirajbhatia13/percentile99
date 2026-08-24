@@ -208,8 +208,14 @@ def main():
 
     # ---- pass 2: slice per question, and read each DIRECTIONS block's context ----
     recs = []
+    dir_at = sorted(d['at'] for d in dirs)
     for k, mk in enumerate(marks):
         end = marks[k + 1]['at'] if k + 1 < len(marks) else len(cells)
+        # the DIRECTIONS block introducing the NEXT group sits between two question
+        # markers — it belongs to neither, so stop this question short of it
+        nd = next((i for i in dir_at if mk['at'] < i < end), None)
+        if nd is not None:
+            end = nd
         body = cells[mk['at'] + 1:end]
         sec = None
         for i, s in sec_at.items():
@@ -219,9 +225,17 @@ def main():
         stem, opts = split_stem_opts(body, typ == 'mcq')
         if mk['inline']:
             stem = [mk['inline']] + stem
+        # vertical extent of the question, per page — lets an audit ask whether a
+        # drawn rule (a radical overline or a fraction bar, neither of which exists
+        # in the text layer) falls inside this question
+        spans = {}
+        for c in cells[mk['at']:end]:
+            lo, hi = spans.get(c['page'], (c['y'], c['y']))
+            spans[c['page']] = (min(lo, c['y']), max(hi, c['y']))
         recs.append({'n': mk['n'], 'section': sec, 'type': typ or 'tita',
                      'head': '\n'.join(stem).strip(), 'opts': opts,
-                     'ans': ans, 'page': cells[mk['at']]['page']})
+                     'ans': ans, 'page': cells[mk['at']]['page'],
+                     'extent': {str(k): v for k, v in spans.items()}})
 
     at_of = {mk['n']: mk['at'] for mk in marks}
     groups = []

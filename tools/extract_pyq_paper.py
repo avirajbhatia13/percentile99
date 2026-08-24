@@ -42,6 +42,41 @@ def esc(s):
     return s.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
 
 
+# Adobe Symbol font, as used by the 2024/2025 papers for maths operators. The glyphs
+# arrive as private-use codepoints (0xF000 + Symbol code) and would otherwise come out
+# as replacement boxes, so map the ones these papers actually use to real Unicode.
+SYMBOL_MAP = {
+    0x28: '(', 0x29: ')', 0x2B: '+', 0x2D: '−', 0x3D: '=', 0x3E: '>',
+    0x3C: '<', 0x5B: '[', 0x5D: ']', 0x44: 'Δ', 0x61: 'α', 0x62: 'β',
+    0x64: 'δ', 0x70: 'π', 0x71: 'θ', 0x6C: 'λ', 0x6D: 'μ',
+    0x53: 'Σ', 0x57: 'Ω', 0xA3: '≤', 0xA5: '∞', 0xB0: '°',
+    0xB1: '±', 0xB3: '≥', 0xB4: '×', 0xB7: '⋅', 0xB8: '÷',
+    0xB9: '≠', 0xBB: '≈', 0xBC: '…', 0xC7: '∩', 0xC8: '∪',
+    0xCC: '⊂', 0xCE: '∈', 0xD0: '∠', 0xD6: '√', 0x2A: '∗',
+    0x24: '∃', 0x40: '≅', 0xAE: '→',
+}
+# pieces of multi-line (stacked) parentheses and brackets — their presence means the
+# expression is laid out across lines and needs a human look, so mark it visibly
+STACK_CODES = set(range(0xE6, 0xEC)) | set(range(0xF6, 0xFC))
+
+
+def map_symbol(text):
+    out = []
+    for ch in text:
+        o = ord(ch)
+        if 0xF000 <= o <= 0xF0FF:
+            code = o - 0xF000
+            if code in SYMBOL_MAP:
+                out.append(SYMBOL_MAP[code])
+                continue
+            if code in STACK_CODES:
+                continue          # drop the bracket-fragment glyphs themselves
+            out.append('�')  # unmapped: leave a marker so the audit catches it
+            continue
+        out.append(ch)
+    return ''.join(out)
+
+
 def line_html(line):
     """Rebuild a line as HTML, restoring the exponents/indices the plain text layer
     throws away. This PDF sets them as smaller spans on a shifted baseline: raised
@@ -58,15 +93,19 @@ def line_html(line):
         weight[s['size']] = weight.get(s['size'], 0) + len(s['text'])
     base_size = max(weight, key=weight.get)
     base_oy = next(s['origin'][1] for s in spans if s['size'] == base_size)
+    # A raised/dropped baseline is proportional to the type size, not an absolute
+    # number of points: 11pt body text shifts its subscripts by under a point, which
+    # a fixed threshold misses entirely.
+    shift = max(0.35, base_size * 0.04)
     parts = []
     for s in spans:
-        t = esc(s['text'])
+        t = esc(map_symbol(s['text']))
         if s['size'] < base_size * 0.92 and t.strip():
             dy = s['origin'][1] - base_oy
-            if dy < -1.0:
+            if dy < -shift:
                 parts.append('<sup>' + t.strip() + '</sup>')
                 continue
-            if dy > 1.0:
+            if dy > shift:
                 parts.append('<sub>' + t.strip() + '</sub>')
                 continue
         parts.append(t)
