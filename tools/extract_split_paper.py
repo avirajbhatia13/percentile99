@@ -232,7 +232,12 @@ def main():
         for c in cells[mk['at']:end]:
             lo, hi = spans.get(c['page'], (c['y'], c['y']))
             spans[c['page']] = (min(lo, c['y']), max(hi, c['y']))
+        gov = None
+        for d in dirs:
+            if d['at'] < mk['at']:
+                gov = d['text']
         recs.append({'n': mk['n'], 'section': sec, 'type': typ or 'tita',
+                     'directions': gov,
                      'head': '\n'.join(stem).strip(), 'opts': opts,
                      'ans': ans, 'page': cells[mk['at']]['page'],
                      'extent': {str(k): v for k, v in spans.items()}})
