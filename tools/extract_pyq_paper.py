@@ -35,7 +35,8 @@ SEC_RE = re.compile(r'^Section\s*:\s*(.+?)\s*$')
 OPT_RE = re.compile(r'^([A-D])\)\s*(.*)$')
 KEY_RE = re.compile(r'QNo:-\s*(\d+)\s*,\s*Correct Answer:-\s*(.+?)\s*$')
 DIR_RE = re.compile(r'^DIRECTIONS?\s+for\s+the\s+question', re.I)
-DROP_RE = re.compile(r'^(https?://|Page\s*-\s*\d+|Download Testbook App|testbook\.com)')
+DROP_RE = re.compile(r'^(https?://|Page\s*-\s*\d+|Download Testbook App|testbook\.com'
+                     r'|Actual\s+CAT\b|Slot\s*-\s*[IVX]+\s*$)')
 
 
 def esc(s):
