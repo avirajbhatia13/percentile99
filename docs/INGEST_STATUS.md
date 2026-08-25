@@ -20,51 +20,77 @@ Working state for the papers in `papers/` and `papers to ingest/`. Update as pap
 | CAT 2024 Slot 3 | `cat2024slot3` | 68 |
 | CAT 2025 Slot 1 | `cat2025slot1` | 68 |
 | CAT 2025 Slot 2 | `cat2025slot2` | 68 |
+| CAT 2025 Slot 3 | `cat2025slot3` | 68 |
 
-`mocks.json`: **23 mocks / 1724 questions**. `tools/validate.py` and the smoke test
-both clean.
+`mocks.json`: **24 mocks / 1792 questions**. `tools/validate.py` and the smoke test
+both clean. Every paper currently in `papers/` is ingested — 2017 through 2025, all
+slots. Nothing left in the pipeline as of this writing; the sections below are kept
+as a reference for ingesting whatever paper lands next.
 
-## Remaining: CAT 2025 Slot 3
+## How to ingest the next paper
 
-Already extracted cleanly — **68 questions and 68 keys, correct 24/22/22 section
-split**. Draft regenerates in seconds:
+The scratch build harness (`build_split.py` + `ov_<tag>.py` for the 2024/2025 split
+paper+key format) lives in `scratchpad/ingest/new/` and is mirrored into
+`tools/_ingest_*.py` so it survives a scratchpad wipe. Broad shape of the workflow —
+see the six defect write-ups below for the traps that recur:
 
 ```
-python tools/extract_split_paper.py "papers/Actual-CAT-2024-Slot-II.pdf" \
-       "papers/Actual-CAT-2024-Slot-II-(Answer-Keys).pdf" --out draft.json
+python tools/extract_split_paper.py "papers/<paper>.pdf" \
+       "papers/<paper>-(Answer-Keys).pdf" --out draft.json
+python tools/suggest_topics.py draft.json      # propose topic tags
+python scratchpad/ingest/new/audit.py          # find vector-drawn-maths questions
+python tools/find_figures.py <paper> --pages N --save <path>   # crop charts
+python scratchpad/ingest/new/build_split.py <tag> <mockid> "<name>" <year>
+python tools/validate.py && "/c/Program Files/nodejs/node.exe" tools/smoke_test.js
 ```
 
-Per paper, three things remain. The scratch build harness
-(`build_split.py` + `ov_<tag>.py`) mirrors what `cat2024slot1`/`2`/`3` used.
-`build_split.py` also supports a per-group `GROUP_RANGE_FIX` override (widens
-which question numbers pick up a shared context/figure, independent of the
-FIGS/CTX_FIX lookup key) — needed once already, see the 2024 Slot 3 defect below.
+`build_split.py` supports a per-group `GROUP_RANGE_FIX` override (widens which
+question numbers pick up a shared context/figure, independent of the FIGS/CTX_FIX
+lookup key) — needed four times across these five papers, see below.
 
-**1. Topic tags** — `python tools/suggest_topics.py draft.json` proposes all of them,
-but it runs against the *raw* (pre-override) extracted text, so a stem the extractor
-mangled can throw the keyword match off even when unresolved count is 0 — cross-check
-tags for every flagged question, not just the literal unresolved list. Unresolved after
-the auto-pass: 2025s3 `[47,50,65]`. DILR must additionally be named one bucket per SET
-(INGEST_NOTES.md) — the keyword pass spreads them across a set otherwise.
+**1. Topic tags** — `suggest_topics.py` runs against the *raw* (pre-override) extracted
+text, so a stem the extractor mangled can throw the keyword match off even when the
+unresolved count is 0 — cross-check tags for every flagged question, not just the
+literal unresolved list. DILR must additionally be named one bucket per SET
+(INGEST_NOTES.md) — the keyword pass spreads them across a set otherwise. When a
+question's content doesn't map cleanly onto any existing QA/DILR bucket (a polygon
+that isn't a triangle/quadrilateral/circle, a puzzle that isn't quite any of the eight
+DILR categories), pick the closest existing bucket rather than inventing a new one —
+the taxonomy is fixed by `DATA.subs` in `index.html`.
 
-**2. Figures** — `python tools/find_figures.py <paper> --pages N --save <path>` crops
-from the PDF's own geometry, no coordinate guessing. For a diagram built from vector
-lines + text labels (not a raster chart) the auto-detected cluster can be too tight
-(only the rules, not the labels) — pass `--pad 60` or so, then trim the padded PNG with
-PIL to the true diagram bounds. A DILR set can carry two charts on two different pages
-(2025s1's tariff radar + bar) or two charts stacked on one page that
-`find_figures.py` merges into a single cluster (2025s2's research-paper bar charts,
-cropped as one tall image) — `FIGS` only wires one image per group key, so append a
-second image via `CTX_FIX = {key: lambda body: body + FIG2_HTML}` (CTX_FIX runs after
-FIGS, so it receives the body with the first image already appended). Pages with
-charts: 2025s3 `10,12,13,14`.
+**2. Figures** — `find_figures.py` crops from the PDF's own drawing geometry, no
+coordinate guessing. For a diagram built from vector lines + text labels (not a raster
+chart) the auto-detected cluster can be too tight (only the rules, not the labels) —
+pass `--pad 60` or so, then trim the padded PNG with PIL to the true diagram bounds. A
+DILR set can carry two charts on two different pages (2025s1's tariff radar + bar) or
+two charts stacked on one page that `find_figures.py` merges into a single cluster
+(2025s2's research-paper bar charts, cropped as one tall image) — `FIGS` only wires one
+image per group key, so append a second image via
+`CTX_FIX = {key: lambda body: body + FIG2_HTML}` (CTX_FIX runs after FIGS, so it
+receives the body with the first image already appended).
 
-**3. Questions whose maths is vector-drawn** (radical overlines and fraction bars have
-no text-layer presence, so they vanish). Audit that finds them precisely:
-`scratchpad/ingest/new/audit.py`. Lists:
-2025s3 `[47,48,54,68]`.
+**3. Questions whose maths is vector-drawn** — radical overlines and fraction bars have
+no text-layer presence, so they vanish from extraction. `scratchpad/ingest/new/audit.py`
+finds them precisely by checking each question's page/extent against the PDF's own thin
+horizontal-rule drawings.
 
-### CAT 2025 Slot 2 defects worked around (for reference — this paper is done)
+### CAT 2025 Slot 3 defects worked around
+- **Ampersand DIRECTION range**: the RC direction for Q21-24 prints "questions 21 & 24"
+  (ampersand, not "to"/"-"), which the range parser reads as a single endpoint (21),
+  leaving Q21-24's shared passage attached only to Q21. Fixed with
+  `GROUP_RANGE_FIX = {(21, 21): (21, 24)}`.
+- **Off-by-one DIRECTION range self-corrects**: Q25-28's direction line prints "25-29"
+  (one past its real end); Q29 actually belongs to the next set ("questions 29-33"),
+  which is correctly ranged and — being processed after, in `first`-ascending order —
+  naturally overwrites Q29's context assignment. No fix needed for Q29's context; only
+  `DILR_SETS`/`TAGS` need to use the real `(25, 28)` range rather than the raw `(25, 29)`
+  group key that `FIGS`/`CTX_FIX` still key off of.
+- **Two tables with dropped numeric cells**: the friend call-minutes table (Q25-28, a
+  2-row header with rowspan/colspan) and the Passing-the-Buck round table (Q43-46,
+  losing its round-number column entirely though row order is still sequential) both
+  needed hand-rebuilding via `CTX_FIX`, same pattern as 2024 Slot 3's foodgrain table.
+
+### CAT 2025 Slot 2 defects worked around
 - **TITA question keyed as MCQ**: Q63 ("number of divisors ... of the form 3r+1") is
   printed as an open TITA answer box with no lettered options, but the key gives it a
   bare option number ("4", no TITA tag) — third occurrence of this exact pattern (see
