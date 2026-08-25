@@ -19,14 +19,15 @@ Working state for the papers in `papers/` and `papers to ingest/`. Update as pap
 | CAT 2024 Slot 2 | `cat2024slot2` | 68 |
 | CAT 2024 Slot 3 | `cat2024slot3` | 68 |
 | CAT 2025 Slot 1 | `cat2025slot1` | 68 |
+| CAT 2025 Slot 2 | `cat2025slot2` | 68 |
 
-`mocks.json`: **22 mocks / 1656 questions**. `tools/validate.py` and the smoke test
+`mocks.json`: **23 mocks / 1724 questions**. `tools/validate.py` and the smoke test
 both clean.
 
-## Remaining: CAT 2025 Slots 2-3
+## Remaining: CAT 2025 Slot 3
 
-Both are already extracted cleanly — **68 questions and 68 keys each, correct
-24/22/22 section split**. Drafts regenerate in seconds:
+Already extracted cleanly — **68 questions and 68 keys, correct 24/22/22 section
+split**. Draft regenerates in seconds:
 
 ```
 python tools/extract_split_paper.py "papers/Actual-CAT-2024-Slot-II.pdf" \
@@ -43,23 +44,32 @@ FIGS/CTX_FIX lookup key) — needed once already, see the 2024 Slot 3 defect bel
 but it runs against the *raw* (pre-override) extracted text, so a stem the extractor
 mangled can throw the keyword match off even when unresolved count is 0 — cross-check
 tags for every flagged question, not just the literal unresolved list. Unresolved after
-the auto-pass: 2025s2 `[60,62]`, 2025s3 `[47,50,65]`. DILR must additionally be named one
-bucket per SET (INGEST_NOTES.md) — the keyword pass spreads them across a set otherwise.
+the auto-pass: 2025s3 `[47,50,65]`. DILR must additionally be named one bucket per SET
+(INGEST_NOTES.md) — the keyword pass spreads them across a set otherwise.
 
 **2. Figures** — `python tools/find_figures.py <paper> --pages N --save <path>` crops
 from the PDF's own geometry, no coordinate guessing. For a diagram built from vector
 lines + text labels (not a raster chart) the auto-detected cluster can be too tight
 (only the rules, not the labels) — pass `--pad 60` or so, then trim the padded PNG with
 PIL to the true diagram bounds. A DILR set can carry two charts on two different pages
-(2025s1's tariff radar + bar) — `FIGS` only wires one image per group key, so append the
-second via `CTX_FIX = {key: lambda body: body + FIG2_HTML}` (CTX_FIX runs after FIGS, so
-it receives the body with the first image already appended). Pages with charts:
-2025s2 `13,14,15`; 2025s3 `10,12,13,14`.
+(2025s1's tariff radar + bar) or two charts stacked on one page that
+`find_figures.py` merges into a single cluster (2025s2's research-paper bar charts,
+cropped as one tall image) — `FIGS` only wires one image per group key, so append a
+second image via `CTX_FIX = {key: lambda body: body + FIG2_HTML}` (CTX_FIX runs after
+FIGS, so it receives the body with the first image already appended). Pages with
+charts: 2025s3 `10,12,13,14`.
 
 **3. Questions whose maths is vector-drawn** (radical overlines and fraction bars have
 no text-layer presence, so they vanish). Audit that finds them precisely:
 `scratchpad/ingest/new/audit.py`. Lists:
-2025s2 `[45,47,48,49,54,63]`, 2025s3 `[47,48,54,68]`.
+2025s3 `[47,48,54,68]`.
+
+### CAT 2025 Slot 2 defects worked around (for reference — this paper is done)
+- **TITA question keyed as MCQ**: Q63 ("number of divisors ... of the form 3r+1") is
+  printed as an open TITA answer box with no lettered options, but the key gives it a
+  bare option number ("4", no TITA tag) — third occurrence of this exact pattern (see
+  2025 Slot 1 Q40, 2024 Slot 1 Q35). The key's own worked solution ends "Final Answer =
+  42", so it's stored as TITA with that number.
 
 ### CAT 2025 Slot 1 defects worked around (for reference — this paper is done)
 - **TITA question keyed as MCQ**: Q40 ("Which two people tapped an equal number of
