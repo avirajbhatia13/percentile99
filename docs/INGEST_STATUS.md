@@ -17,13 +17,14 @@ Working state for the papers in `papers/` and `papers to ingest/`. Update as pap
 | CAT 2019 Slot 2 | `cat2019slot2` | 100 |
 | CAT 2024 Slot 1 | `cat2024slot1` | 68 |
 | CAT 2024 Slot 2 | `cat2024slot2` | 68 |
+| CAT 2024 Slot 3 | `cat2024slot3` | 68 |
 
-`mocks.json`: **20 mocks / 1520 questions**. `tools/validate.py` and the smoke test
+`mocks.json`: **21 mocks / 1588 questions**. `tools/validate.py` and the smoke test
 both clean.
 
-## Remaining: CAT 2024 Slot 3, CAT 2025 Slots 1-3
+## Remaining: CAT 2025 Slots 1-3
 
-All four are already extracted cleanly — **68 questions and 68 keys each, correct
+All three are already extracted cleanly — **68 questions and 68 keys each, correct
 24/22/22 section split**. Drafts regenerate in seconds:
 
 ```
@@ -32,23 +33,42 @@ python tools/extract_split_paper.py "papers/Actual-CAT-2024-Slot-II.pdf" \
 ```
 
 Per paper, three things remain. The scratch build harness
-(`build_split.py` + `ov_<tag>.py`) mirrors what `cat2024slot1`/`cat2024slot2` used.
+(`build_split.py` + `ov_<tag>.py`) mirrors what `cat2024slot1`/`2`/`3` used.
+`build_split.py` also supports a per-group `GROUP_RANGE_FIX` override (widens
+which question numbers pick up a shared context/figure, independent of the
+FIGS/CTX_FIX lookup key) — needed once already, see the 2024 Slot 3 defect below.
 
-**1. Topic tags** — `python tools/suggest_topics.py draft.json` proposes all of them.
-Unresolved after that: 2024s3 `[57]`, 2025s1 `[56,61,62,64]`,
-2025s2 `[60,62]`, 2025s3 `[47,50,65]`. DILR must additionally be named one bucket
-per SET (INGEST_NOTES.md) — the keyword pass spreads them across a set otherwise.
+**1. Topic tags** — `python tools/suggest_topics.py draft.json` proposes all of them,
+but it runs against the *raw* (pre-override) extracted text, so a stem the extractor
+mangled can throw the keyword match off even when unresolved count is 0 — cross-check
+tags for every flagged question, not just the literal unresolved list. Unresolved after
+the auto-pass: 2025s1 `[56,61,62,64]`, 2025s2 `[60,62]`, 2025s3 `[47,50,65]`. DILR must
+additionally be named one bucket per SET (INGEST_NOTES.md) — the keyword pass spreads
+them across a set otherwise.
 
 **2. Figures** — `python tools/find_figures.py <paper> --pages N --save <path>` crops
-from the PDF's own geometry, no coordinate guessing. Pages with charts:
-2024s3 `12,13,14,15`; 2025s1 `12,13,15,16`; 2025s2 `13,14,15`;
-2025s3 `10,12,13,14`.
+from the PDF's own geometry, no coordinate guessing. For a diagram built from vector
+lines + text labels (not a raster chart) the auto-detected cluster can be too tight
+(only the rules, not the labels) — pass `--pad 60` or so, then trim the padded PNG with
+PIL to the true diagram bounds. Pages with charts:
+2025s1 `12,13,15,16`; 2025s2 `13,14,15`; 2025s3 `10,12,13,14`.
 
 **3. Questions whose maths is vector-drawn** (radical overlines and fraction bars have
 no text-layer presence, so they vanish). Audit that finds them precisely:
 `scratchpad/ingest/new/audit.py`. Lists:
-2024s3 `[28,49,55,56,58,60,61,63,66,67]`,
 2025s1 `[40,49,53,59,63]`, 2025s2 `[45,47,48,49,54,63]`, 2025s3 `[47,48,54,68]`.
+
+### CAT 2024 Slot 3 defects worked around (for reference — this paper is done)
+- **Misprinted DIRECTION range**: the source's own direction line for the GDP-table DILR
+  set reads "for the question 37 to 37" (should say "34 to 37"), so the extractor's
+  context grouping only attached Q37 to the passage and left Q34-36 without a shared
+  context. Fixed with `GROUP_RANGE_FIX = {(37, 37): (34, 37)}` in `ov_2024s3.py` — the
+  four questions already extracted correctly on their own, only the context link needed
+  widening.
+- **Table with dropped numeric cells**: the foodgrain-nutrient DILR table (Q43-46) has
+  its header/label text extracted fine but every numeric data cell vanished from the
+  text layer. Rebuilt by hand from the rendered page image (`CTX_FIX` in `ov_2024s3.py`),
+  blanks shown as "—" to match the source's own "table has some missing values" framing.
 
 ## Known source defects (recorded, not worked around)
 

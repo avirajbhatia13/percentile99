@@ -40,7 +40,8 @@ for g in groups:
     if key in getattr(ov, 'CTX_FIX', {}):
         body = ov.CTX_FIX[key](body)
     ctxs.append(body)
-    for n in range(g['first'], g['last'] + 1):
+    lo, hi = getattr(ov, 'GROUP_RANGE_FIX', {}).get(key, key)
+    for n in range(lo, hi + 1):
         ctx_of[n] = len(ctxs) - 1
 
 buckets = {'VARC': [], 'DILR': [], 'QA': []}
